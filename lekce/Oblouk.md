@@ -4,11 +4,11 @@
 
 ### Konstrukce motoru
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9YROyMsm9U0/0.jpg)](https://www.youtube.com/watch?v=9YROyMsm9U0)
+[![](https://img.youtube.com/vi/YZMAHz5SB6w/0.jpg)](https://www.youtube.com/watch?v=YZMAHz5SB6w)
 
 ### Vyroba motoru
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9YROyMsm9U0/0.jpg)](https://www.youtube.com/watch?v=9YROyMsm9U0)
+[![](https://img.youtube.com/vi/9YROyMsm9U0/0.jpg)](https://www.youtube.com/watch?v=9YROyMsm9U0)
 
 ## Otázky
 
