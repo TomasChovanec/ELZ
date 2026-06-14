@@ -14,11 +14,12 @@
 
 **Proč transformátor nefunguje na stejnosměrný proud?**
 
-    <details>
-    <summary>Odpověď</summary>
-    
-    Viz sešit
-    </details>
+<details>
+<summary>Odpověď</summary>
+
+Viz sešit
+
+</details>
     
 ---
 **Proč se jádro skládá z plechů?**
