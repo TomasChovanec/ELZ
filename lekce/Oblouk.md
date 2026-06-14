@@ -13,6 +13,7 @@
 ## Otázky
 
 **Proč transformátor nefunguje na stejnosměrný proud?**
+
     <details>
     <summary>Odpověď</summary>
     Viz sešit
