@@ -1,0 +1,60 @@
+# Praxe - Arduino
+
+<img src="img/README_1.png" width="300"/>
+
+Tato stránka slouží k předmětu Praxe, části Arduino vyučovaném ve 3. ročníku na Gymnáziu a Střední průmyslové škole elektrotechniky a informatiky ve Frenštátě pod Radhoštěm.
+
+Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [tomas.chovanec@frengp.cz](mailto:tomas.chovanec@frengp.cz).
+
+## Obecné informace
+- [Hodnocení v předmětu](Hodnoceni_predmetu.md)
+- [Tahák k Arduinu](/files/Arduino_tahak.pdf)
+- [Oficiální dokumentace Arduino funkcí](https://docs.arduino.cc/language-reference/)
+
+## Projekty E3A, E3B
+- [Informace k samostatnému projektu pro E3A a E3B](/projekty/Projekt.md)
+- [Zadání E3B](/projekty/Zadani_projektu_E3B_sk_3.md)
+- [Zadání E3A](/projekty/Zadani_projektu_E3A_sk_3.md)
+
+## Projekty T3A
+- [Informace k závěrečnému projektu T3A sk. 1](/projekty/Zaverecny_projekt_T3A_sk_1.md)
+- [Informace k závěrečnému projektu T3A sk. 2](/projekty/Zaverecny_projekt_T3A_sk_2.md)
+
+
+<!---
+- [Zadání E3A](/projekty/Zadani_projektu_E3A_sk_2.md)
+- [Zadání E3B](/projekty/Zadani_projektu_E3B_sk_2.md)
+- [Zadání T3A sk. 1](/projekty/Zadani_projektu_T3A_sk_1.md)
+- [Zadání T3A sk. 2](/projekty/Zadani_projektu_T3A_sk_2.md)
+--->
+
+## Materiály k výuce
+1. [Úvod do Arduina, blikání LEDkou, Serial monitor](/lekce/1_lekce.md)
+1. [Tlačítka, analogový vstup](/lekce/2_lekce.md)
+1. [Servo](/lekce/Servo.md)
+1. [PWM, RGB LEDka](/lekce/PWM.md)
+1. [LCD displej](/lekce/LCD.md)
+1. [Teplotní čidlo](/lekce/DHT.md)
+1. [Fotorezistor](/lekce/Fotorezistor.md)
+1. [Ultrazvukový sensor](/lekce/Ultrasonic.md)
+1. [Logický analyzer](/lekce/Logicky_analyzer.md)
+1. [Krokový motor](/lekce/Krokovy_motor.md)
+1. [Multitasking s Arduinem](/lekce/Millis.md)
+1. [Stejnosměrný motor](/lekce/DC_motor.md)
+1. [Sériová komunikace](/lekce/Serial_input.md)
+1. [Bluetooth](/lekce/Bluetooth.md)
+1. [Arduino jako měřící přístroj](/lekce/Serial_plotter.md)
+1. [Ovládání ventilátoru](/lekce/Tranzistor.md)
+1. [WiFi a IoT](/lekce/Firebase_Nano_IoT.md)
+1. [Arduino a přímá práce s registry](/lekce/Arduino_pod_kapotou.md)
+1. [Závěr](/lekce/zaver.md)
+
+<!---
+
+--->
+
+<!---
+## Testy
+1. [Test 1](Test_1.md)
+2. [Test 2](Test_2.md)
+--->
