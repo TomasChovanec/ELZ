@@ -1,9 +1,8 @@
 # ELZ - Elektrická zařízení
 
-Tato stránka slouží k předmětu Elektrická zařízení vyučovaném ve 3. ročníku na SPŠEI ve Frenštátě pod Radhoštěm.
-
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9YROyMsm9U0/0.jpg)](https://www.youtube.com/watch?v=9YROyMsm9U0)
 
+Tato stránka slouží k předmětu Elektrická zařízení vyučovaném ve 3. ročníku na SPŠEI ve Frenštátě pod Radhoštěm.
 Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [tomas.chovanec@frengp.cz](mailto:tomas.chovanec@frengp.cz).
 
 ## Obecné informace
