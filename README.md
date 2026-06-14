@@ -10,7 +10,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 - [Hodnocení v předmětu](Hodnoceni_predmetu.md)
 
 ## Materiály k výuce
-1. [Elektrický oblouk](/lekce/1_lekce.md)
+1. [Elektrický oblouk](/lekce/oblouk.md)
 1. [Pojistky](/lekce/2_lekce.md)
 1. [Jističe](/lekce/Servo.md)
 1. [Relé, stykače](/lekce/PWM.md)
