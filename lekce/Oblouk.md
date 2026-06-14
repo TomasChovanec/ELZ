@@ -16,6 +16,7 @@
 
     <details>
     <summary>Odpověď</summary>
+    
     Viz sešit
     </details>
     
