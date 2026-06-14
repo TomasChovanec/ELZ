@@ -5,10 +5,12 @@ Arduino je platforma pro výuku a vývoj elektronických projektů. Z hardwarov�
 
 ## Video
 
-Konstrukce motoru
+### Konstrukce motoru
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9YROyMsm9U0/0.jpg)](https://www.youtube.com/watch?v=9YROyMsm9U0)
 
-Vyroba motoru
+### Vyroba motoru
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9YROyMsm9U0/0.jpg)](https://www.youtube.com/watch?v=9YROyMsm9U0)
 
 ## Otázky
