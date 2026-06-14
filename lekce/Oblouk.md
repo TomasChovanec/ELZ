@@ -4,8 +4,12 @@
 Arduino je platforma pro výuku a vývoj elektronických projektů. Z hardwarového pohledu je to deska s mikrokontrolerem, ke které můžete připojit různé senzory, motory, světla a další komponenty, a poté je ovládat pomocí kódu. Programování probíhá v jazyce C++ a jsou k dispozici spousty hotových funkcí a knihoven, což Arduino činí ideálním nástrojem pro začátečníky i pokročilé, kteří se chtějí naučit základy elektroniky a programování. Arduino se používá ve spoustě projektů, od domácí automatizace po robotiku.
 
 ## Video
-Existuje mnoho typů Arduino desek s různými mikrokontrolery - liší se výkonem, počtem pinů, možnostmi WiFi, Bluetooth atd. V našich hodinách budeme používat Arduino UNO s procesorem ATmega 328, který běží na 16MHz a má celkem 32 KB flash paměti, 2 KB SRAM
-a 1 KB EEPROM.
+
+Konstrukce motoru
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9YROyMsm9U0/0.jpg)](https://www.youtube.com/watch?v=9YROyMsm9U0)
+
+Vyroba motoru
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9YROyMsm9U0/0.jpg)](https://www.youtube.com/watch?v=9YROyMsm9U0)
 
 ## Otázky
 
