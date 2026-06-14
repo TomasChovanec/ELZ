@@ -17,21 +17,25 @@
     Transformátor na stejnosměrný proud „nefunguje“ proto, že jeho princip stojí na změně magnetického toku. Transformátor funguje jen tehdy, když se v čase mění proud v primáru → tím se mění magnetický tok v jádře → a ten indukuje napětí v sekundáru.
     </details>
     
+---
 **Proč se jádro skládá z plechů?**
     <details>
     Transformátor na stejnosměrný proud „nefunguje“ proto, že jeho princip stojí na změně magnetického toku. Transformátor funguje jen tehdy, když se v čase mění proud v primáru → tím se mění magnetický tok v jádře → a ten indukuje napětí v sekundáru.
     </details>
-
+    
+---
 **:warning: Proč má transformátor naprázdno malý proud?**
     <details>
     Transformátor na stejnosměrný proud „nefunguje“ proto, že jeho princip stojí na změně magnetického toku. Transformátor funguje jen tehdy, když se v čase mění proud v primáru → tím se mění magnetický tok v jádře → a ten indukuje napětí v sekundáru.
     </details>
-
+    
+---
 **Proč se jádro skládá z plechů?**
     <details>
     Transformátor na stejnosměrný proud „nefunguje“ proto, že jeho princip stojí na změně magnetického toku. Transformátor funguje jen tehdy, když se v čase mění proud v primáru → tím se mění magnetický tok v jádře → a ten indukuje napětí v sekundáru.
     </details>
-
+    
+---
 **:brain: Proč má transformátor naprázdno malý proud?**
     <details>
     Transformátor na stejnosměrný proud „nefunguje“ proto, že jeho princip stojí na změně magnetického toku. Transformátor funguje jen tehdy, když se v čase mění proud v primáru → tím se mění magnetický tok v jádře → a ten indukuje napětí v sekundáru.
