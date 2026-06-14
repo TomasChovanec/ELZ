@@ -1,8 +1,5 @@
 # Elektrický oblouk
 
-## Co je to oblouk?
-Arduino je platforma pro výuku a vývoj elektronických projektů. Z hardwarového pohledu je to deska s mikrokontrolerem, ke které můžete připojit různé senzory, motory, světla a další komponenty, a poté je ovládat pomocí kódu. Programování probíhá v jazyce C++ a jsou k dispozici spousty hotových funkcí a knihoven, což Arduino činí ideálním nástrojem pro začátečníky i pokročilé, kteří se chtějí naučit základy elektroniky a programování. Arduino se používá ve spoustě projektů, od domácí automatizace po robotiku.
-
 ## Video
 
 ### Konstrukce motoru
