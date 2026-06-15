@@ -5,9 +5,6 @@
 Tato stránka slouží k předmětu Elektrická zařízení vyučovaném ve 3. ročníku na SPŠEI ve Frenštátě pod Radhoštěm.
 Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [tomas.chovanec@frengp.cz](mailto:tomas.chovanec@frengp.cz).
 
-## Obecné informace
-- [Hodnocení v předmětu](Hodnoceni_predmetu.md)
-
 ## Materiály k výuce
 1. [Elektrický oblouk](/lekce/Oblouk.md)
 1. [Pojistky](/lekce/2_lekce.md)
