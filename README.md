@@ -8,6 +8,8 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 # Materiály k výuce
 
 ## Vstupní znalosti
+Co už znáte ze Základů elektrotechniky a bez čeho se v tomto předmětu neobejdeme.
+
 [Ohmův zákon](/lekce/Oblouk.md)
 
 [Elektrotechnická schémata](/lekce/2_lekce.md)
