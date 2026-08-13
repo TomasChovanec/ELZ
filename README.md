@@ -10,23 +10,21 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 ## Vstupní znalosti
 Co už znáte ze Základů elektrotechniky a bez čeho se v tomto předmětu neobejdeme.
 
-[Ohmův zákon](/lekce/Oblouk.md)
-
 [Elektrotechnická schémata](/lekce/2_lekce.md)
 
 [Základní elektrotechnické pojmy](/lekce/Servo.md)
 
-[Střídaý proud, fázory](/lekce/Servo.md)
-
 ## Oblouk, Přístroje NN
 [Elektrický oblouk](/lekce/Oblouk.md)
 
-[Pojistky](/lekce/2_lekce.md)
+[Stykače, relé](/lekce/PWM.md)
 
 [Jističe](/lekce/Servo.md)
 
-[Relé, stykače](/lekce/PWM.md)
+[Pojistky](/lekce/2_lekce.md)
 
+
+<!---
 ## Přístroje VN, VVN
 [Přístroje pro VN a VVN](/lekce/LCD.md)
 
@@ -56,7 +54,7 @@ Co už znáte ze Základů elektrotechniky a bez čeho se v tomto předmětu neo
 [Asynchronní motor](/lekce/DHT.md)
 
 
-<!---
+
 
 --->
 
