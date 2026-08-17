@@ -12,7 +12,7 @@ Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [t
 
 
 ## Vstupní znalosti
-Co už znáte ze Základů elektrotechniky a bez čeho se v tomto předmětu neobejdeme.
+Co už znáte ze Základů elektrotechniky a Praxe a bez čeho se v tomto předmětu neobejdeme.
 
 [Elektrotechnická schémata](/lekce/2_lekce.md)
 
