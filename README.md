@@ -8,7 +8,7 @@ Najdete zde doplňkové materiály k předmětu – videa, fotografie a otázky 
 
 Základní informace k učivu si zapisujeme do sešitu, proto je zde znovu neopakuji. Při přípravě na testy proto doporučuji využívat jak materiály na webu, tak i zápisky v sešitě.
 
-Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [tomas.chovanec@frengp.cz](mailto:tomas.chovanec@frengp.cz).
+S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz](mailto:tomas.chovanec@frengp.cz).
 
 
 ## Vstupní znalosti
