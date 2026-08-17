@@ -1,11 +1,15 @@
 # ELZ - Elektrická zařízení
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9YROyMsm9U0/0.jpg)](https://www.youtube.com/watch?v=9YROyMsm9U0)
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/1a84b674-f386-4ba2-a954-3e9929202f09" />
 
-Tato stránka slouží k předmětu Elektrická zařízení vyučovaném ve 3. ročníku na SPŠEI ve Frenštátě pod Radhoštěm.
-Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [tomas.chovanec@frengp.cz](mailto:tomas.chovanec@frengp.cz).
 
 # Materiály k výuce
+Najdete zde doplňkové materiály k předmětu – videa, fotografie a otázky k procvičení. 
+
+Základní informace k učivu si zapisujeme do sešitu, proto je zde znovu neopakuji. Při přípravě na testy proto doporučuji využívat jak materiály na webu, tak i zápisky v sešitě.
+
+Pokud máte dotaz k materiálům či výuce, kontaktujte mě prosím na mailu [tomas.chovanec@frengp.cz](mailto:tomas.chovanec@frengp.cz).
+
 
 ## Vstupní znalosti
 Co už znáte ze Základů elektrotechniky a bez čeho se v tomto předmětu neobejdeme.
