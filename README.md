@@ -17,12 +17,13 @@ Co už znáte ze Základů elektrotechniky a Praxe a bez čeho se v tomto předm
 [Základní elektrotechnické pojmy](/lekce/Prerekvizity.md)
 
 
-<!---
+
 ## Oblouk, Elektrické přístroje
 [Elektrický oblouk](/lekce/Oblouk.md)
 
 [Stykače, relé](/lekce/PWM.md)
 
+<!---
 [Jističe](/lekce/Servo.md)
 
 [Pojistky](/lekce/2_lekce.md)
