@@ -14,11 +14,9 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 ## Vstupní znalosti
 Co už znáte ze Základů elektrotechniky a Praxe a bez čeho se v tomto předmětu neobejdeme.
 
-[Elektrotechnická schémata](/lekce/2_lekce.md)
-
 [Základní elektrotechnické pojmy](/lekce/Servo.md)
 
-## Oblouk, Přístroje NN
+## Oblouk, Elektrické přístroje
 [Elektrický oblouk](/lekce/Oblouk.md)
 
 [Stykače, relé](/lekce/PWM.md)
