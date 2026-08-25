@@ -16,6 +16,8 @@ Co už znáte ze Základů elektrotechniky a Praxe a bez čeho se v tomto předm
 
 [Základní elektrotechnické pojmy](/lekce/Servo.md)
 
+
+<!---
 ## Oblouk, Elektrické přístroje
 [Elektrický oblouk](/lekce/Oblouk.md)
 
@@ -26,7 +28,7 @@ Co už znáte ze Základů elektrotechniky a Praxe a bez čeho se v tomto předm
 [Pojistky](/lekce/2_lekce.md)
 
 
-<!---
+
 ## Přístroje VN, VVN
 [Přístroje pro VN a VVN](/lekce/LCD.md)
 
