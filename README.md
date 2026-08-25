@@ -14,7 +14,7 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 ## Vstupní znalosti
 Co už znáte ze Základů elektrotechniky a Praxe a bez čeho se v tomto předmětu neobejdeme.
 
-[Základní elektrotechnické pojmy](/lekce/Servo.md)
+[Základní elektrotechnické pojmy](/lekce/Prerekvizity.md)
 
 
 <!---
