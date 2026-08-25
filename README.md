@@ -6,7 +6,7 @@
 # Materiály k výuce
 Najdete zde doplňkové materiály k předmětu – videa, fotografie a otázky k procvičení. 
 
-Základní informace k učivu si zapisujeme do sešitu, proto je zde znovu neopakuji. Při přípravě na testy proto doporučuji využívat jak materiály na webu, tak i zápisky v sešitě.
+Základní informace k učivu si zapisujeme do sešitu, proto je zde znovu neopakuji. Při přípravě na testy doporučuji využívat jak materiály na webu, tak i zápisky v sešitě.
 
 S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz](mailto:tomas.chovanec@frengp.cz).
 
