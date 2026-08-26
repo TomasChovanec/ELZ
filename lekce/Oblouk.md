@@ -5,6 +5,9 @@ Při rozpojování elektrického obvodu pod zatížením vzniká mezi rozpojují
 ## Opalování kontaktů
 Vysoká teplota oblouku způsobuje tepelné a elektroerozivní opotřebení kontaktů – dochází k tavení a odpařování materiálu kontaktů (opalování). To zkracuje jejich životnost, zvyšuje přechodový odpor a při opakovaném spínání může vést až ke svaření kontaktů. Proto se kontakty vyrábí ze speciálních slitin (např. AgCdO, AgNi) odolných proti opalu a přístroje se navrhují s dostatečnou spínací rychlostí a zhášecím systémem.
 
+## Vypínání induktivních zátěží
+Zvýšené problémy s obloukem nastávají při vypínání induktivních zátěží, jako jsou motory, transformátory nebo cívky. Induktivita se brání náhlé změně proudu a při přerušení obvodu generuje vysoké přepětí (podle vztahu u = -L·di/dt), které se snaží proud udržet i přes rozpojující se kontakty. To vede k intenzivnějšímu a hůře zhasitelnému oblouku i k namáhání izolace přepětím. Proto se u spínání motorů a podobných zátěží používají přístroje s vyšší zhášecí schopností a často i doplňková ochranná opatření (např. RC členy, varistory nebo zhášecí diody u stejnosměrných obvodů).
+
 ## Rozdíl mezi zhášením DC a AC oblouku
 
 - AC oblouk – proud přirozeně prochází nulou dvakrát za periodu (100× za sekundu při 50 Hz). V tomto okamžiku oblouk zaniká sám a stačí zabránit jeho opětovnému zapálení (dostatečná izolační pevnost mezery, ochlazení plazmatu). Zhášení je proto relativně snazší.
