@@ -17,9 +17,12 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 ## Oblouk, Elektrické přístroje
 [Elektrický oblouk](/lekce/Oblouk.md)
 
-[Stykače, relé](/lekce/PWM.md)
+
 
 <!---
+
+[Stykače, relé](/lekce/PWM.md)
+
 [Jističe](/lekce/Servo.md)
 
 [Pojistky](/lekce/2_lekce.md)
