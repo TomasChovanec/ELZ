@@ -14,7 +14,7 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 
 
 
-## Oblouk, Elektrické přístroje
+## Elektrické přístroje
 [Elektrický oblouk](/lekce/Oblouk.md)
 
 
