@@ -1,6 +1,6 @@
 # ELZ - Elektrická zařízení
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/1a84b674-f386-4ba2-a954-3e9929202f09" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/1e42bd92-7f30-48a3-8fa7-6c74a007420f" />
 
 
 # Materiály k výuce
