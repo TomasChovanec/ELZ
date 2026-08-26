@@ -11,10 +11,6 @@ Při přípravě na testy doporučuji využívat jak materiály na webu, tak i z
 S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz](mailto:tomas.chovanec@frengp.cz).
 
 
-## Vstupní znalosti
-Co už znáte ze Základů elektrotechniky a Praxe a bez čeho se v tomto předmětu neobejdeme.
-
-[Základní elektrotechnické pojmy](/lekce/Prerekvizity.md)
 
 
 
@@ -58,6 +54,10 @@ Co už znáte ze Základů elektrotechniky a Praxe a bez čeho se v tomto předm
 
 [Asynchronní motor](/lekce/DHT.md)
 
+## Vstupní znalosti
+Co už znáte ze Základů elektrotechniky a Praxe a bez čeho se v tomto předmětu neobejdeme.
+
+[Základní elektrotechnické pojmy](/lekce/Prerekvizity.md)
 
 
 
