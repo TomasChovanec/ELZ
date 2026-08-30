@@ -1,9 +1,13 @@
 # Elektrický oblouk v elektrických zařízeních
 
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/319102af-b460-4b4f-a656-fd2b21d60460" />
+
 Při rozpojování elektrického obvodu, ktrým protéká proud, vzniká mezi rozpojujícími se kontakty elektrický oblouk. Jde o vodivý ionizovaný kanál plynu s teplotou až několik tisíc °C, kterým prochází proud i po fyzickém oddálení kontaktů. Právě proto musí být spínací a jisticí přístroje (stykače, jističe, pojistky, odpojovače) konstruovány tak, aby oblouk co nejrychleji a bezpečně uhasily.
 
 ## Opalování kontaktů
 Vysoká teplota oblouku způsobuje tepelné a elektroerozivní opotřebení kontaktů – dochází k tavení a odpařování materiálu kontaktů (opalování). To zkracuje jejich životnost, zvyšuje přechodový odpor a při opakovaném spínání může vést až ke svaření kontaktů. Proto se kontakty vyrábí ze speciálních slitin (např. AgCdO, AgNi) odolných proti opalu a přístroje se navrhují s dostatečnou spínací rychlostí a zhášecím systémem.
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/8d3bfe9c-0e03-41f3-9bb1-d0fa704edc22" />
 
 ## Vypínání induktivních zátěží
 Zvýšené problémy s obloukem nastávají při vypínání induktivních zátěží, jako jsou motory, transformátory nebo cívky. Indukčnost se brání náhlé změně proudu a při přerušení obvodu generuje vysoké přepětí (podle vztahu u = -L·di/dt), které se snaží proud udržet i přes rozpojující se kontakty. To vede k intenzivnějšímu a hůře zhasitelnému oblouku i k namáhání izolace přepětím. Proto se u spínání motorů a podobných zátěží používají přístroje s vyšší zhášecí schopností a často i doplňková ochranná opatření (např. RC členy, varistory nebo zhášecí diody u stejnosměrných obvodů).
@@ -23,6 +27,10 @@ Používá se u vypínačů do 40 A.
 
 **b) Zhášecí hřebeny**
 
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/6755c59a-8066-4ab9-99da-9e2b476e2b67" />
+
+<img width="461" alt="image" src="https://github.com/user-attachments/assets/387ec243-d8d6-449c-ac77-68cba427ddf5" />
+
 Oblouk je vháněn vlastním magnetickým polem do zhášecí komory, kde se na zhášecím hřebeni (celu) rozdělí na několik dílčích oblouků – obdobně jako u můstkových kontaktů se tím sníží napětí na jednotlivých částech a oblouk zhasne.
 Komora je vyrobena z izolačního (odolného) materiálu. Pro zvýšení účinku se v praxi doplňuje pomocné magnetické pole v příčném směru, vytvářené např. elektromagnetem nebo permanentními magnety.
 
@@ -36,14 +44,23 @@ Používají se u elektrických přístrojů na vysoké napětí (VN), velmi vys
 
 V současnosti se využívají u máloolejových výkonových vypínačů.
 
+<img width="325" height="400" alt="image" src="https://github.com/user-attachments/assets/bf4403d3-a27f-4507-a7b2-cc7e3cf6ea51" />
+
+<img width="450" height="361" alt="image" src="https://github.com/user-attachments/assets/e11bcb09-aa72-49db-bdc5-ed3fd6ee0977" />
+
+---
+
 **b) Stlačený vzduch**
 
 Vypínače vypínají tlakem vzduchu cca 30 MPa. Jsou velmi rychlé a výkonné, avšak hlučné a energeticky náročné.
 
 **c) Fluorid sírový (SF₆)**
 
+<img width="512" alt="image" src="https://github.com/user-attachments/assets/48f528c9-a449-4088-a3dc-f2d31dea4194" />
+
 Elektronegativní plyn s vysokou dielektrickou pevností a schopností rychle zachytávat volné elektrony, čímž urychluje deionizaci a zhášení oblouku. Má přibližně 3× lepší elektrickou pevnost než vzduch. 
 
+---
 **d) Vakuum (p ≈ 10⁻¹⁰ Pa)**
 
 Vakuová komora – kontakty jsou umístěny ve vysokém vakuu, kde chybí médium schopné oblouk udržet; oblouk (tvořený parami kovu z kontaktů) zhasíná velmi rychle při průchodu proudu nulou.
@@ -54,7 +71,7 @@ Vakuová komora – kontakty jsou umístěny ve vysokém vakuu, kde chybí médi
 
 # Elektrický oblouk – vznik, rizika a zhášení
 
----
+
 **Jak vzniká elektrický oblouk mezi rozpojujícími se kontakty?**
 <details>
 <summary>Odpověď</summary>
