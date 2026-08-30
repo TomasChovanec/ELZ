@@ -27,8 +27,6 @@ Používá se u vypínačů do 40 A.
 
 **b) Zhášecí hřebeny**
 
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/6755c59a-8066-4ab9-99da-9e2b476e2b67" />
-
 <img width="461" alt="image" src="https://github.com/user-attachments/assets/387ec243-d8d6-449c-ac77-68cba427ddf5" />
 
 Oblouk je vháněn vlastním magnetickým polem do zhášecí komory, kde se na zhášecím hřebeni (celu) rozdělí na několik dílčích oblouků – obdobně jako u můstkových kontaktů se tím sníží napětí na jednotlivých částech a oblouk zhasne.
