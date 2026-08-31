@@ -55,7 +55,7 @@ Používají se u elektrických přístrojů na vysoké napětí (VN), velmi vys
 
 **a) Minerální oleje**
 
-V současnosti se využívají u máloolejových výkonových vypínačů.
+Olej se při působení elektrického oblouku prudce zahřívá a rozkládá, čímž vzniká plynné prostředí, které pomáhá oblouk zhasnout.
 
 <img width="325" height="400" alt="image" src="https://github.com/user-attachments/assets/bf4403d3-a27f-4507-a7b2-cc7e3cf6ea51" />
 
