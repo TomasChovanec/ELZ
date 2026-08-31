@@ -101,14 +101,14 @@ U AC prochází proud přirozeně nulou dvakrát za periodu (100× za sekundu p�
 **Jaké metody se používají ke zhášení DC oblouku?**
 <details>
 <summary>Odpověď</summary>
-Protože DC oblouk nemá přirozený průchod nulou, musí se uměle protáhnout a ochladit pod hodnotu potřebnou k jeho udržení. Používají se např. zhášecí komory s dělicími můstky nebo magnetické vyfukování obloukem.
+Protože DC oblouk nemá přirozený průchod nulou, musí se uměle protáhnout a ochladit pod hodnotu potřebnou k jeho udržení. Používají se např. zhášecí komory s dělicími můstky, magnetické vyfukování oblouku nebo zhášení cizím médiem - olejem, stlačeným vzduchem SF6 či zhášení ve vakuu..
 </details>
 
 ---
 **Proč je vypínání induktivních zátěží (motorů, transformátorů) náročnější na zhášení oblouku?**
 <details>
 <summary>Odpověď</summary>
-Induktivita se brání náhlé změně proudu a při přerušení obvodu generuje vysoké přepětí (u = -L·di/dt), které se snaží proud udržet i přes rozpojující se kontakty. To vede k intenzivnějšímu a hůře zhasitelnému oblouku i k namáhání izolace přepětím.
+Indukčnost se brání náhlé změně proudu a při přerušení obvodu generuje vysoké přepětí (u = -L·di/dt), které se snaží proud udržet i přes rozpojující se kontakty. To vede k intenzivnějšímu a hůře zhasitelnému oblouku i k namáhání izolace přepětím.
 </details>
 
 ---
