@@ -144,3 +144,6 @@ Ve vysokém vakuu chybí médium schopné oblouk udržet. Oblouk, tvořený para
 </details>
 
 ---
+
+
+### [Zpět na obsah](../README.md)
