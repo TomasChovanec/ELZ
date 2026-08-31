@@ -21,6 +21,8 @@ Zvýšené problémy s obloukem nastávají při vypínání induktivních zát�
 
 ## Rozdíl mezi zhášením DC a AC oblouku
 - AC oblouk – proud přirozeně prochází nulou dvakrát za periodu (100× za sekundu při 50 Hz). V tomto okamžiku oblouk zaniká sám a stačí zabránit jeho opětovnému zapálení (dostatečná izolační pevnost mezery, ochlazení plazmatu). Zhášení je proto relativně snazší.
+<img width="409" height="235" alt="image" src="https://github.com/user-attachments/assets/bd647264-9b88-4962-9394-33e62eb75558" />
+
 - DC oblouk – proud nemá přirozený průchod nulou, takže oblouk hoří trvale, dokud se uměle neprotáhne a neochladí natolik, že klesne pod hodnotu potřebnou k jeho udržení. Vyžaduje účinnější zhášecí opatření (např. zhášecí komory s dělicími můstky, magnetické vyfukování obloukem) a obecně je obtížnější a nebezpečnější než zhášení AC oblouku.
 
 ## Způsoby zhášení oblouku
