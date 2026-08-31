@@ -1,8 +1,15 @@
 # Elektrický oblouk v elektrických zařízeních
 
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/319102af-b460-4b4f-a656-fd2b21d60460" />
-
 Při rozpojování elektrického obvodu, ktrým protéká proud, vzniká mezi rozpojujícími se kontakty elektrický oblouk. Jde o vodivý ionizovaný kanál plynu s teplotou až několik tisíc °C, kterým prochází proud i po fyzickém oddálení kontaktů. Právě proto musí být spínací a jisticí přístroje (stykače, jističe, pojistky, odpojovače) konstruovány tak, aby oblouk co nejrychleji a bezpečně uhasily.
+
+
+### Ilustrační video
+
+[![](https://img.youtube.com/vi/qE8W10z76zs/0.jpg)](https://www.youtube.com/shorts/qE8W10z76zs)
+
+[![](https://img.youtube.com/vi/W4oydQ4afJA/0.jpg)](https://www.youtube.com/shorts/W4oydQ4afJA)
+
+
 
 ## Opalování kontaktů
 Vysoká teplota oblouku způsobuje tepelné a elektroerozivní opotřebení kontaktů – dochází k tavení a odpařování materiálu kontaktů (opalování). To zkracuje jejich životnost, zvyšuje přechodový odpor a při opakovaném spínání může vést až ke svaření kontaktů. Proto se kontakty vyrábí ze speciálních slitin (např. AgCdO, AgNi) odolných proti opalu a přístroje se navrhují s dostatečnou spínací rychlostí a zhášecím systémem.
