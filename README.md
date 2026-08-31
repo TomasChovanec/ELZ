@@ -2,6 +2,8 @@
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/1e42bd92-7f30-48a3-8fa7-6c74a007420f" />
 
+# Obecné informace
+- [Hodnocení v předmětu](Hodnoceni_predmetu.md)
 
 # Materiály k výuce
 Najdete zde doplňkové materiály k předmětu – videa, fotografie a otázky k procvičení. 
