@@ -22,6 +22,8 @@ Zvýšené problémy s obloukem nastávají při vypínání induktivních zát�
 
 **a) Můstkové kontakty**
 
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/39fdefac-2753-43eb-80be-f760e8a3bbd7" />
+
 Můstkový kontakt (pohyblivý) rozdělí oblouk na dvě poloviny, čímž se napětí na oblouku rozdělí na polovinu. Tím vzniká výhodnější charakteristika hoření a dochází k rychlejšímu uhašení oblouku.
 Používá se u vypínačů do 40 A.
 
