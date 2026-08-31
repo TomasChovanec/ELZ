@@ -31,6 +31,8 @@ Používá se u vypínačů do 40 A.
 
 <img width="461" alt="image" src="https://github.com/user-attachments/assets/387ec243-d8d6-449c-ac77-68cba427ddf5" />
 
+*Zdroj obrázku: https://switchgearcontent.com/2019/09/05/853/arc-chutes-principles-in-air-at-lv-circuit-breaker/*
+
 Oblouk je vháněn vlastním magnetickým polem do zhášecí komory, kde se na zhášecím hřebeni (celu) rozdělí na několik dílčích oblouků – obdobně jako u můstkových kontaktů se tím sníží napětí na jednotlivých částech a oblouk zhasne.
 Komora je vyrobena z izolačního (odolného) materiálu. Pro zvýšení účinku se v praxi doplňuje pomocné magnetické pole v příčném směru, vytvářené např. elektromagnetem nebo permanentními magnety.
 
@@ -48,6 +50,7 @@ V současnosti se využívají u máloolejových výkonových vypínačů.
 
 <img width="450" height="361" alt="image" src="https://github.com/user-attachments/assets/e11bcb09-aa72-49db-bdc5-ed3fd6ee0977" />
 
+
 ---
 
 **b) Stlačený vzduch**
@@ -57,6 +60,8 @@ Vypínače vypínají tlakem vzduchu cca 30 MPa. Jsou velmi rychlé a výkonné,
 **c) Fluorid sírový (SF₆)**
 
 <img width="512" alt="image" src="https://github.com/user-attachments/assets/48f528c9-a449-4088-a3dc-f2d31dea4194" />
+
+*Zdroj obrázku: https://okmarts.com/news/how-do-circuit-breakers-extinguish-electric-arc.html*
 
 Elektronegativní plyn s vysokou dielektrickou pevností a schopností rychle zachytávat volné elektrony, čímž urychluje deionizaci a zhášení oblouku. Má přibližně 3× lepší elektrickou pevnost než vzduch. 
 
