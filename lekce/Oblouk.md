@@ -85,7 +85,7 @@ Vakuová komora – kontakty jsou umístěny ve vysokém vakuu, kde chybí médi
 
 
 
-# Elektrický oblouk – vznik, rizika a zhášení
+# Otázky k opakování
 
 
 **Jak vzniká elektrický oblouk mezi rozpojujícími se kontakty?**
