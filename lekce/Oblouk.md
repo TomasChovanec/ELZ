@@ -84,6 +84,17 @@ Ionizací plynu v mezeře mezi kontakty. Volné elektrony jsou urychlovány elek
 </details>
 
 ---
+**Jaká rizika pro elektrické přístroje přináší elektrický oblopuk?**
+<details>
+<summary>Odpověď</summary>
+- pokračující průtok proudu i po vypnutí – dokud oblouk hoří, obvodem stále protéká proud, takže samotné rozpojení kontaktů ještě neznamená přerušení obvodu; teprve zhasnutí oblouku skutečně přeruší tok proudu.
+- přehřátí a poškození kontaktů – kontakty se opalují, taví a mohou se svařit,
+- poškození izolace – vysoká teplota může roztavit nebo zuhelnatět izolační materiál,
+- elektromagnetické rušení – oblouk vytváří vysokofrekvenční rušení,
+- požár – vysoká teplota oblouku může zapálit okolní materiály,
+</details>
+
+---
 **Co je hlavní příčinou opalování kontaktů?**
 <details>
 <summary>Odpověď</summary>
