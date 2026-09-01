@@ -18,3 +18,17 @@ Z toho důvodu jsou jističe vybaveny dvěma základními druhy spouští:
         
 Mimo tyto dva základní druhy spouští může být jistič vybaven 
      i dalšímí druhy, například podpěťovou spouští.
+
+
+# Pojistky 
+    Jejich hlavní funkční části je tavný vodič. Jeho průřez i 
+    tvar zajistí přetavení při při přesně definovaném proudu.
+    Je uložen v hasivu, což bývá nejčastěji křemičitý písek,
+    u menších proudů pak vzduch. Nosnou konstrukční části
+    je buď porcelánová, nebo i skleněná patrona. Tato  pak
+    bývá zasunuta do pojistkového soklu. 
+    
+Rozdělujeme je na: - pojistky vn a vvn
+                                    - pojistky nn(nožové nebo patrony)
+                                    - přístrojové pojistky
+Stejně jako jističe mají svou vypínací charakteristiku podle které se dělí do tříd g nebo a.
