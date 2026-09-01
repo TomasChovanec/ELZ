@@ -24,9 +24,11 @@ Po odpojení napětí od cívky (vypnutí, výpadek napájení) se kontakty vliv
 
 Podle normy ČSN EN 60947-4-1 se stykače dělí do kategorií užití podle charakteru spínané zátěže, např.:
 
-AC-1 – nesloučené nebo mírně induktivní zátěže (odporová zátěž, topení)
-AC-3 – asynchronní motory nakrátko, spínání za chodu, vypínání za chodu (nejběžnější kategorie pro motory)
-AC-4 – spínání motorů s častým reverzováním a brzděním (nejnamáhavější režim)
+**AC-1** – nesloučené nebo mírně induktivní zátěže (odporová zátěž, topení)
+
+**AC-3 **– asynchronní motory nakrátko, spínání za chodu, vypínání za chodu (nejběžnější kategorie pro motory)
+
+**AC-4** – spínání motorů s častým reverzováním a brzděním (nejnamáhavější režim)
 
 Vyšší kategorie znamenají náročnější spínací podmínky – tedy vyšší zapínací/vypínací proudy a intenzivnější namáhání kontaktů obloukem.
 
