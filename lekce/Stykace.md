@@ -53,6 +53,14 @@ Stykače se používají zejména:
 *Zdroj obrázku: https://www.petanovo.cz/jak-zapojit-stykac/*
 
 
+<img width="400" height="291" alt="image" src="https://github.com/user-attachments/assets/9e4ad4f6-0771-458e-bdce-4e183ba42ce5" />
+
+
+<img width="222" height="400" alt="image" src="https://github.com/user-attachments/assets/582f10aa-f342-4d86-940f-534c7257912c" />
+
+
+
+
 
 ## Další zajímavé materiály
 
