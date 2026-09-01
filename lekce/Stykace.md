@@ -1,6 +1,7 @@
 # Stykače
 
 <img width="800"  alt="image" src="https://github.com/user-attachments/assets/5c344942-4d0e-4ac1-be05-71383c91118a" />
+
 *Zdroj obrázku: https://www.petanovo.cz/jak-zapojit-stykac/*
 
 
@@ -10,6 +11,7 @@ Stykač je elektromagnetický spínací přístroj určený k častému spínán
 
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/30d62d1b-5a15-42f2-8c9e-8f60ffe7e091" />
+
 *Zdroj obrázku: https://www.electrical4u.net/siemens-contactor-disassembly/*
 
 Stykač se skládá ze tří základních částí:
