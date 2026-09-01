@@ -42,3 +42,10 @@ Stykače se používají zejména:
 - k dálkovému a automatizovanému ovládání motorů (přímé spouštění, hvězda-trojúhelník)
 - v rozvaděčích pro spínání topných okruhů, osvětlení, kompenzace jalového výkonu
 - v kombinaci s tepelným relé jako tzv. motorový spouštěč, který zajišťuje i ochranu proti přetížení
+
+
+## Schématické značení stykačů
+
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/4542d6ce-95ea-40ab-890d-6f4a4fa9a5d2" />
+*Zdroj obrázku: https://www.petanovo.cz/jak-zapojit-stykac/*
+
