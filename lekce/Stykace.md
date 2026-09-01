@@ -4,7 +4,6 @@
 
 *Zdroj obrázku: https://www.petanovo.cz/jak-zapojit-stykac/*
 
-
 Stykač je elektromagnetický spínací přístroj určený k častému spínání a vypínání elektrických obvodů pod zatížením, ovládaný na dálku (elektricky, nejčastěji cívkou). Na rozdíl od jističe není určen k jištění proti zkratu nebo přetížení, ale k provoznímu spínání – typicky motorů, topných těles, osvětlení nebo jiných spotřebičů.
 
 ## Konstrukce a princip činnosti
