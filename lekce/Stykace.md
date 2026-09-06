@@ -15,9 +15,11 @@ Stykač je elektromagnetický spínací přístroj určený k častému spínán
 
 Stykač se skládá ze tří základních částí:
 
-Elektromagnetický pohon (cívka) – po přivedení napětí na cívku vznikne magnetické pole, které přitáhne kotvu a sepne kontakty.
-Hlavní kontakty – slouží k sepnutí/rozepnutí hlavního (silového) obvodu, jsou dimenzované na jmenovitý proud zátěže.
-Pomocné kontakty – slouží k ovládání a signalizaci (např. blokování, indikace stavu, propojení do řídicího obvodu).
+**Elektromagnetický pohon (cívka)** – po přivedení napětí na cívku vznikne magnetické pole, které přitáhne kotvu a sepne kontakty.
+
+**Hlavní kontakty –** slouží k sepnutí/rozepnutí hlavního (silového) obvodu, jsou dimenzované na jmenovitý proud zátěže.
+
+**Pomocné kontakty –** slouží k ovládání a signalizaci (např. blokování, indikace stavu, propojení do řídicího obvodu).
 
 Po odpojení napětí od cívky (vypnutí, výpadek napájení) se kontakty vlivem pružiny vrátí do klidové polohy – stykač je tedy v klidovém stavu rozepnutý (bezpečnostní vlastnost).
 
@@ -25,11 +27,51 @@ Po odpojení napětí od cívky (vypnutí, výpadek napájení) se kontakty vliv
 
 Podle normy ČSN EN 60947-4-1 se stykače dělí do kategorií užití podle charakteru spínané zátěže, např.:
 
-**AC-1** – nesloučené nebo mírně induktivní zátěže (odporová zátěž, topení)
+**AC-1** – neinduktivní nebo mírně induktivní zátěže (odporová zátěž, topení)
 
 **AC-3**– asynchronní motory nakrátko, spínání za chodu, vypínání za chodu (nejběžnější kategorie pro motory)
 
 **AC-4** – spínání motorů s častým reverzováním a brzděním (nejnamáhavější režim)
+
+**DC-1 -** Neinduktivní nebo mírně induktivní zátěže, odporové pece
+
+**DC-2 -** Derivační motory, spouštění, reverzace, krátkodobý chod, dynamické brzdění motorů
+
+**DC-3 -** Sériové motory, spouštění, reverzace, krátkodobý chod, dynamické brzdění motorů
+
+<table>
+<tr>
+  <th>Druh proudu</th>
+  <th>Kategorie užití</th>
+  <th>Popis</th>
+</tr>
+<tr>
+  <td rowspan="3">Střídavý proud</td>
+  <td><b>AC-1</b></td>
+  <td>Neinduktivní nebo mírně induktivní zátěže, odporové pece</td>
+</tr>
+<tr>
+  <td><b>AC-3</b></td>
+  <td>Motory s kotvou nakrátko, spouštění, vypínání motorů v chodu</td>
+</tr>
+<tr>
+  <td><b>AC-4</b></td>
+  <td>Motory s kotvou nakrátko, spouštění, reverzace, krátkodobý chod</td>
+</tr>
+<tr>
+  <td rowspan="3">Stejnosměrný proud</td>
+  <td><b>DC-1</b></td>
+  <td>Neinduktivní nebo mírně induktivní zátěže, odporové pece</td>
+</tr>
+<tr>
+  <td><b>DC-2</b></td>
+  <td>Derivační motory, spouštění, reverzace, krátkodobý chod, dynamické brzdění motorů</td>
+</tr>
+<tr>
+  <td><b>DC-3</b></td>
+  <td>Sériové motory, spouštění, reverzace, krátkodobý chod, dynamické brzdění motorů</td>
+</tr>
+</table>
 
 Vyšší kategorie znamenají náročnější spínací podmínky – tedy vyšší zapínací/vypínací proudy a intenzivnější namáhání kontaktů obloukem.
 
