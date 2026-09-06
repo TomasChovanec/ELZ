@@ -23,6 +23,44 @@ Stykač se skládá ze tří základních částí:
 
 Po odpojení napětí od cívky (vypnutí, výpadek napájení) se kontakty vlivem pružiny vrátí do klidové polohy – stykač je tedy v klidovém stavu rozepnutý (bezpečnostní vlastnost).
 
+## Důležité parametry stykače
+
+Při výběru stykače nestačí sledovat pouze jeho jmenovitý proud. Stykač musí být vhodný pro druh proudu, napětí, charakter zátěže, velikost proudu a způsob ovládání.
+
+### Jmenovitý proud \(I_e\)
+
+Jmenovitý provozní proud udává proud, který může stykač spínat v dané kategorii užití a za stanovených provozních podmínek.
+
+Například na stykači může být uvedeno:
+
+AC-3: 18 A
+
+To znamená, že stykač je při použití v kategorii AC-3 určen pro spínání zátěže do 18 A.
+
+⚠️ Stejný stykač tedy nemusí mít stejný přípustný proud pro všechny druhy zátěže. Například proud pro AC-1 může být výrazně vyšší než proud pro AC-3.
+
+### Jmenovité pracovní napětí \(U_e\)
+
+Udává napětí hlavního obvodu, pro které je stykač určen.
+
+Například:
+
+230 V AC
+400 V AC
+690 V AC
+u některých stykačů také stejnosměrné napětí.
+
+Napětí musí odpovídat napětí spínaného obvodu.
+
+### Druh proudu – AC / DC
+
+U stykače je nutné rozlišovat, zda jsou jeho kontakty určeny pro:
+
+AC – střídavý proud,
+DC – stejnosměrný proud.
+
+Stejnosměrný proud je z hlediska zhášení elektrického oblouku náročnější než střídavý proud. Proto je důležité použít stykač určený přímo pro daný druh proudu a napětí.
+
 ## Rozdělení podle zátěže
 
 Podle normy ČSN EN 60947-4-1 se stykače dělí do kategorií užití podle charakteru spínané zátěže, např.:
@@ -74,6 +112,23 @@ Podle normy ČSN EN 60947-4-1 se stykače dělí do kategorií užití podle cha
 </table>
 
 Vyšší kategorie znamenají náročnější spínací podmínky – tedy vyšší zapínací/vypínací proudy a intenzivnější namáhání kontaktů obloukem.
+
+
+## Co musí technik při výběru stykače znát?
+
+Pro správný výběr je potřeba znát především:
+
+- co bude stykač spínat – motor, topení, osvětlení…,
+- druh proudu – AC nebo DC,
+- napětí hlavního obvodu,
+- proud zátěže,
+- kategorii užití – například AC-1 nebo AC-3,
+- napětí a druh proudu cívky,
+- počet hlavních a pomocných kontaktů,
+- případně četnost spínání.
+
+**Příklad**: Pro třífázový motor 4 kW / 400 V tedy nestačí koupit „stykač 10 A“. Je nutné ověřit, že jeho AC-3 parametry odpovídají motoru a že má například správnou cívku 24 V DC nebo 230 V AC podle použitého ovládacího obvodu.
+
 
 ## Zhášení oblouku u stykačů
 
