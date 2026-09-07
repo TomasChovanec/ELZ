@@ -6,8 +6,17 @@
 
 Stykač je elektromagnetický spínací přístroj určený k častému spínání a vypínání elektrických obvodů pod zatížením, ovládaný na dálku (elektricky, nejčastěji cívkou). Na rozdíl od jističe není určen k jištění proti zkratu nebo přetížení, ale k provoznímu spínání – typicky motorů, topných těles, osvětlení nebo jiných spotřebičů.
 
-## Konstrukce a princip činnosti
+## Použití
 
+Stykače se používají zejména:
+- k dálkovému a automatizovanému ovládání motorů (přímé spouštění, hvězda-trojúhelník)
+- v rozvaděčích pro spínání topných okruhů, osvětlení, kompenzace jalového výkonu
+- v kombinaci s tepelným relé jako tzv. motorový spouštěč, který zajišťuje i ochranu proti přetížení
+
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/75e689a2-367e-4dd4-bebd-56de6858cffa" />
+
+
+## Konstrukce a princip činnosti
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/30d62d1b-5a15-42f2-8c9e-8f60ffe7e091" />
 
@@ -105,14 +114,6 @@ Vyšší kategorie znamenají náročnější spínací podmínky – tedy vyš�
 
 Protože stykač často spíná induktivní zátěže (motory), vzniká při rozpojování kontaktů elektrický oblouk. Ten je řešen podobně jako u jiných spínacích přístrojů – zhášecími komorami s dělicími můstky nebo hřebeny, případně magnetickým vyfukováním. Vyšší kategorie užití (AC-3, AC-4) proto vyžadují robustnější zhášecí systém a odolnější kontaktní materiály.
 
-## Použití
-
-Stykače se používají zejména:
-- k dálkovému a automatizovanému ovládání motorů (přímé spouštění, hvězda-trojúhelník)
-- v rozvaděčích pro spínání topných okruhů, osvětlení, kompenzace jalového výkonu
-- v kombinaci s tepelným relé jako tzv. motorový spouštěč, který zajišťuje i ochranu proti přetížení
-
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/75e689a2-367e-4dd4-bebd-56de6858cffa" />
 
 ## Schématické značení stykačů
 
