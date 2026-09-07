@@ -115,7 +115,8 @@ Protože stykač často spíná induktivní zátěže (motory), vzniká při roz
 
 <img width="222" height="400" alt="image" src="https://github.com/user-attachments/assets/582f10aa-f342-4d86-940f-534c7257912c" />
 
-<img width="325" height="294" alt="image" src="https://github.com/user-attachments/assets/f304baeb-666e-4da5-b394-e107b3be167a" />
+<img width="406" height="294" alt="image" src="https://github.com/user-attachments/assets/30de5afc-57e0-42ae-b4c1-21cccc3ed497" />
+
 
 
 ## Pomocné kontakty a jejich využití
