@@ -37,9 +37,12 @@ Po odpojení napětí od cívky (vypnutí, výpadek napájení) se kontakty vliv
 Při výběru stykače nestačí sledovat pouze jeho jmenovitý proud. Stykač musí být vhodný pro druh proudu, napětí, charakter zátěže, velikost proudu a způsob ovládání.
 
 ### Jmenovitý proud \(I_e\)
-### Jmenovité pracovní napětí \(U_e\)
-### Druh proudu – AC / DC
+Jmenovitý pracovní proud je největší proud, který může stykač spínat za stanovených podmínek, aniž by došlo k jeho nepřípustnému zahřívání nebo poškození.
 
+### Jmenovité pracovní napětí \(U_e\)
+Jmenovité pracovní napětí je napětí, pro které je stykač určen při spínání dané zátěže. Stykač musí být pro použité napětí vhodný z hlediska izolace i vypínání elektrického oblouku.
+
+### Druh proudu – AC / DC
 U stykače je nutné rozlišovat, zda jsou jeho kontakty určeny pro:
 
 AC – střídavý proud,
