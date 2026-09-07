@@ -111,12 +111,9 @@ Protože stykač často spíná induktivní zátěže (motory), vzniká při roz
 
 *Zdroj obrázku: https://www.petanovo.cz/jak-zapojit-stykac/*
 
-
 <img width="400" height="291" alt="image" src="https://github.com/user-attachments/assets/9e4ad4f6-0771-458e-bdce-4e183ba42ce5" />
 
-
 <img width="222" height="400" alt="image" src="https://github.com/user-attachments/assets/582f10aa-f342-4d86-940f-534c7257912c" />
-
 
 <img width="325" height="294" alt="image" src="https://github.com/user-attachments/assets/f304baeb-666e-4da5-b394-e107b3be167a" />
 
@@ -128,9 +125,11 @@ Protože stykač často spíná induktivní zátěže (motory), vzniká při roz
 <img width="500" height="281" alt="image" src="https://github.com/user-attachments/assets/a9e8ca73-7d90-444c-84d4-d5307e91b3ac" />
 
 ### Samodrž
+
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/933234aa-35db-455b-b2be-baebc2b6706b" />
 
 ### Reverzace otáček motoru s blokováním
+
 <img width="795" height="292" alt="image" src="https://github.com/user-attachments/assets/63eb9517-e309-4da5-91d2-d564ba82accf" />
 
 <img width="786" height="729" alt="image" src="https://github.com/user-attachments/assets/578a65e0-b193-49fe-a041-2cce7f315ed0" />
