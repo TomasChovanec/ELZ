@@ -131,9 +131,9 @@ Protože stykač často spíná induktivní zátěže (motory), vzniká při roz
 ### Reverzace otáček motoru s blokováním
 
 <img width="795" height="292" alt="image" src="https://github.com/user-attachments/assets/63eb9517-e309-4da5-91d2-d564ba82accf" />
-
+  
 <img width="786" height="729" alt="image" src="https://github.com/user-attachments/assets/578a65e0-b193-49fe-a041-2cce7f315ed0" />
-
+ 
 <img width="800" height="764" alt="image" src="https://github.com/user-attachments/assets/77bb1caa-898e-42d6-8101-52c2329fca45" />
 
 
