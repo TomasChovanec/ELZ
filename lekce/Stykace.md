@@ -13,7 +13,7 @@ Stykače se používají zejména:
 - v rozvaděčích pro spínání topných okruhů, osvětlení, kompenzace jalového výkonu
 - v kombinaci s tepelným relé jako tzv. motorový spouštěč, který zajišťuje i ochranu proti přetížení
 
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/75e689a2-367e-4dd4-bebd-56de6858cffa" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/75e689a2-367e-4dd4-bebd-56de6858cffa" />
 
 
 ## Konstrukce a princip činnosti
