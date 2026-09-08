@@ -41,7 +41,7 @@ Z toho důvodu jsou jističe vybaveny dvěma základními druhy spouští:
 (dvojkovovým) páskem, který se při průchodu vyššího proudu
 ohřeje a prohne, čímž opět působí na vybavení .
         
-<img width="440" height="442" alt="image" src="https://github.com/user-attachments/assets/76df3e2b-f848-411c-8af3-ca11069e69e8" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/2da0db19-616b-408d-960c-fa177ee2d7f6" />
 
 
 ## Charakteristiky jističů
