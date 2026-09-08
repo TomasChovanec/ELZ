@@ -36,10 +36,10 @@ Po odpojení napětí od cívky (vypnutí, výpadek napájení) se kontakty vliv
 
 Při výběru stykače nestačí sledovat pouze jeho jmenovitý proud. Stykač musí být vhodný pro druh proudu, napětí, charakter zátěže, velikost proudu a způsob ovládání.
 
-### Jmenovitý proud \(I_e\)
+### Jmenovitý proud 
 Jmenovitý pracovní proud je největší proud, který může stykač spínat za stanovených podmínek, aniž by došlo k jeho nepřípustnému zahřívání nebo poškození.
 
-### Jmenovité pracovní napětí \(U_e\)
+### Jmenovité napětí 
 Jmenovité pracovní napětí je napětí, pro které je stykač určen při spínání dané zátěže. Stykač musí být pro použité napětí vhodný z hlediska izolace i vypínání elektrického oblouku.
 
 ### Druh proudu – AC / DC
@@ -49,6 +49,14 @@ AC – střídavý proud,
 DC – stejnosměrný proud.
 
 Stejnosměrný proud je z hlediska zhášení elektrického oblouku náročnější než střídavý proud. Proto je důležité použít stykač určený přímo pro daný druh proudu a napětí.
+
+### Napájecí napětí cívky
+Napájecí napětí cívky je napětí, které musí být přivedeno na ovládací cívku stykače, aby se stykač sepnul.
+- 24 V DC 
+- 24 V AC
+- 230 V AC
+
+Napětí cívky nesouvisí přímo s napětím spínaným kontakty. Například stykač může mít cívku 24 V AC, ale jeho hlavní kontakty mohou spínat 400 V AC.
 
 ### Rozdělení podle zátěže
 Podle normy ČSN EN 60947-4-1 se stykače dělí do kategorií užití podle charakteru spínané zátěže, např.:
