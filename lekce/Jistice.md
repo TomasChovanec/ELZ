@@ -53,4 +53,4 @@ ohřeje a prohne, čímž opět působí na vybavení .
 
 
 ## Selektivita jističů
-<img width="661" alt="image" src="https://github.com/user-attachments/assets/8b980907-cf39-4314-ab43-c2489a00f4a2" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/8b980907-cf39-4314-ab43-c2489a00f4a2" />
