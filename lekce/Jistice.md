@@ -25,6 +25,9 @@ Velmi rychlé - označení FF, používají se pro jištění polovodičových z
 Jističe jsou samočinné vypínače, které mají v obvodu stejnou funkci jako pojistka. Mají oproti ní některé výhody: při přerušení proudu a následném odstranění závady je možné jistič znovu zapnout překlopením páčky či stlačením tlačítka, stejně tak je možné jistič i vypínat.
 jsou zpravidla vybaveny dvěma typy spouští - tepelná, která chrání proti přetížení a elektromagnetická, která chrání proti zkratům.
 
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/9f55ec93-54c7-4ee9-b61c-ea7c628b566f" />
+
+
 ## Přetížení
 Déletrvající proud, jehož hodnota se pohybuje nad hodnotou proudu jnenovitého (1-2 násobek In ). Nemusí být vypnut okamžitě, ale déletrvajícími účinky způsobuje degradaci izolace.
 
