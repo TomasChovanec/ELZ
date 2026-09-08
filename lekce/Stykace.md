@@ -100,33 +100,19 @@ Podle normy ČSN EN 60947-4-1 se stykače dělí do kategorií užití podle cha
 
 Vyšší kategorie znamenají náročnější spínací podmínky – tedy vyšší zapínací/vypínací proudy a intenzivnější namáhání kontaktů obloukem.
 
-
-## Co musí technik při výběru stykače znát?
-- co bude stykač spínat – motor, topení, osvětlení…,
-- četnost spínání
-- druh proudu – AC nebo DC,
-- napětí hlavního obvodu,
-- proud zátěže,
-- napětí a druh proudu cívky,
-- počet hlavních a pomocných kontaktů,
-
-
 ## Zhášení oblouku u stykačů
 Protože stykač často spíná induktivní zátěže (motory), vzniká při rozpojování kontaktů elektrický oblouk. Ten je řešen podobně jako u jiných spínacích přístrojů – zhášecími komorami s dělicími můstky nebo hřebeny, případně magnetickým vyfukováním. Vyšší kategorie užití (AC-3, AC-4) proto vyžadují robustnější zhášecí systém a odolnější kontaktní materiály.
-
 
 ## Schématické značení stykačů
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/4542d6ce-95ea-40ab-890d-6f4a4fa9a5d2" />
 
 *Zdroj obrázku: https://www.petanovo.cz/jak-zapojit-stykac/*
 
-  
 <img width="400" height="291" alt="image" src="https://github.com/user-attachments/assets/9e4ad4f6-0771-458e-bdce-4e183ba42ce5" />
 
 <img width="222" height="400" alt="image" src="https://github.com/user-attachments/assets/582f10aa-f342-4d86-940f-534c7257912c" />
 
 <img width="406" height="294" alt="image" src="https://github.com/user-attachments/assets/30de5afc-57e0-42ae-b4c1-21cccc3ed497" />
-
 
 
 ## Pomocné kontakty a jejich využití
@@ -210,11 +196,17 @@ Mezi základní části patří:
 
 ---
 
-**Jaké je typické označení hlavních a pomocných kontaktů stykače?**
+**Co musí technik při výběru stykače zohlednit?**
 
 <details>
 <summary>Odpověď</summary>
-Hlavní kontakty třípólového stykače se typicky označují **1–2, 3–4, 5–6**. Pomocný spínací kontakt bývá označen **13–14** a pomocný rozpínací kontakt **21–22**. Cívka se označuje **A1 a A2**.
+- co bude stykač spínat – motor, topení, osvětlení…,
+- četnost spínání
+- druh proudu – AC nebo DC,
+- napětí hlavního obvodu,
+- proud zátěže,
+- napětí a druh proudu cívky,
+- počet hlavních a pomocných kontaktů
 </details>
 
 ---
