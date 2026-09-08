@@ -61,7 +61,7 @@ Napětí cívky nesouvisí přímo s napětím spínaným kontakty. Například 
 Hlavní kontakty slouží ke spínání vlastní zátěže, například motoru. Běžný třífázový stykač má 3 hlavní kontakty (L1–T1, L2–T2, L3–T3).
 Pomocné kontakty slouží k ovládání a signalizaci – například k vytvoření samodržného obvodu, blokování jiného stykače nebo signalizaci sepnutí. Mohou být:
 
-### Rozdělení podle zátěže
+### Rozdělení podle druhu zátěže a četnosti spínání
 Podle normy ČSN EN 60947-4-1 se stykače dělí do kategorií užití podle charakteru spínané zátěže, např.:
 
 <table>
