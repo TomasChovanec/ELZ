@@ -109,8 +109,9 @@ Kromě hlavních (silových) kontaktů, které spínají zátěž, má stykač i
 
 Rozlišujeme:
 
-**Spínací (NO) kontakty** – v klidové poloze rozepnuté, sepnou při přitažení kotvy stykače.
-**Rozpínací (NC) kontakty** – v klidové poloze sepnuté, při aktivaci stykače se rozepnou.
+**Spínací (NO - Normally open) kontakty** – v klidové poloze rozepnuté, sepnou při přitažení kotvy stykače.
+
+**Rozpínací (NC - Normally closed) kontakty** – v klidové poloze sepnuté, při aktivaci stykače se rozepnou.
 
 Pomocné kontakty se využívají zejména pro:
 - samodržení (pomocný kontakt udržuje stykač sepnutý i po uvolnění tlačítka Start),
