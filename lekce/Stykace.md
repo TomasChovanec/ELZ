@@ -127,6 +127,7 @@ Zapojení se samodržením – tlačítko Start je přemostěno pomocným kontak
 
 ### Reverzace otáček motoru s blokováním
 Změna směru otáčení (reverzace) trojfázového asynchronního motoru se provede záměnou dvou fází napájejících motor. Proto jsou v zapojení dva stykače, přičemž stykač K2 zaměňuje fázi L1 a L3. Oba stykače ale nesmějí sepnout současně (viz vzájemné blokování), neboť by nastal zkrat. Blokování provádí rozpínací kontakty K1.2 a K2.2. Je-li sepnut stykač K1, kontakt K1.2 je rozpojen, a proto stykač K2 nelze sepnout, a obráceně.
+
 <img width="795" height="292" alt="image" src="https://github.com/user-attachments/assets/63eb9517-e309-4da5-91d2-d564ba82accf" />
 
 
