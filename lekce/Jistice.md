@@ -8,7 +8,14 @@ Jejich hlavní funkční části je tavný vodič. Jeho průřez i tvar zajistí
     
 Stejně jako jističe mají svou vypínací charakteristiku podle které se dělí do tříd g nebo a.
 
-<img width="1365" height="768" alt="image" src="https://github.com/user-attachments/assets/61e9f7d3-4488-4e49-a589-9c8a9b786e6f" />
+## Konstrukce pojistky
+<img width="417" height="379" alt="image" src="https://github.com/user-attachments/assets/ea898da7-ef2c-4e41-b1d3-222161adb184" />
+
+## Rozdělení pojistek podle doby vypnutí
+Rychlé (normální) - označují se F.
+Pomalé (se zpožděním) - označení T - používají se často pro jištění motorů, protože při rozběhu motoru proud prudce stoupne.
+Velmi rychlé - označení FF, používají se pro jištění polovodičových zařízení.
+
 
 ### Video o tom, proč se u pojistek kromě proudu udává i jmenovité napětí:
 
@@ -25,13 +32,14 @@ Déletrvající proud, jehož hodnota se pohybuje nad hodnotou proudu jnenovité
 Proudy převyšující jmenovitý proud v jeho násobcích (až 20- ti násobky). Negativně v obvodu působí jak jeho tepelné účinky, tak i vlivy elektrodynamických sil.
 
 Z toho důvodu jsou jističe vybaveny dvěma základními druhy spouští:
-      - zkratová spoušť – je to cívka elektromagnetu, která v   
-         případě zkratu přitáhne kotvičku, působící na vybavovací
-         mechanismus.
+
+- zkratová spoušť – je to cívka elektromagnetu, která v   
+ případě zkratu přitáhne kotvičku, působící na vybavovací
+ mechanismus.
          
-      - nadproudová spoušť – je tvořena bimetalovým
-        (dvojkovovým) páskem, který se při průchodu vyššího proudu
-        ohřeje a prohne, čímž opět působí na vybavení .
+- nadproudová spoušť – je tvořena bimetalovým
+(dvojkovovým) páskem, který se při průchodu vyššího proudu
+ohřeje a prohne, čímž opět působí na vybavení .
         
 <img width="440" height="442" alt="image" src="https://github.com/user-attachments/assets/76df3e2b-f848-411c-8af3-ca11069e69e8" />
 
