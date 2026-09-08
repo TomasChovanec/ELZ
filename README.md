@@ -13,6 +13,7 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 
 [Stykače](/lekce/Stykače.md)
 
+[Jističe](/lekce/Jistice.md)
 
 <!---
 
