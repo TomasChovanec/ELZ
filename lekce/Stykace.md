@@ -104,9 +104,11 @@ Vyšší kategorie znamenají náročnější spínací podmínky – tedy vyš�
 Protože stykač často spíná induktivní zátěže (motory), vzniká při rozpojování kontaktů elektrický oblouk. Ten je řešen podobně jako u jiných spínacích přístrojů – zhášecími komorami s dělicími můstky nebo hřebeny, případně magnetickým vyfukováním. Vyšší kategorie užití (AC-3, AC-4) proto vyžadují robustnější zhášecí systém a odolnější kontaktní materiály.
 
 ## Schématické značení stykačů
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/4542d6ce-95ea-40ab-890d-6f4a4fa9a5d2" />
+<img width="588" alt="image" src="https://github.com/user-attachments/assets/a9edf979-51c7-471d-a09e-9dd6b74e804b" />
 
 *Zdroj obrázku: https://www.petanovo.cz/jak-zapojit-stykac/*
+
+Silové a ovládací obvody stykačového zapojení se ve schématech kreslí odděleně, protože plní odlišné funkce a pracují s odlišnými parametry. Silové schéma znázorňuje cestu výkonu od napájení přes stykač k zátěži (např. motoru) a pracuje s velkými proudy a napětími, proto obsahuje prvky jako jističe nebo tepelné ochrany. Ovládací schéma naopak zobrazuje logiku spínání – tedy kdy a za jakých podmínek se stykač sepne či rozepne – a pracuje s malým proudem procházejícím cívkou stykače, tlačítky a pomocnými kontakty (např. zapojení se samodržením).
 
 <img width="406" height="294" alt="image" src="https://github.com/user-attachments/assets/30de5afc-57e0-42ae-b4c1-21cccc3ed497" />
 
