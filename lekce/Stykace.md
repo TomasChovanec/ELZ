@@ -106,19 +106,22 @@ Protože stykač často spíná induktivní zátěže (motory), vzniká při roz
 ## Schématické značení stykačů
 <img width="588" alt="image" src="https://github.com/user-attachments/assets/a9edf979-51c7-471d-a09e-9dd6b74e804b" />
 
+- **NC** (rozpínací - **N**ormally **C**losed) – při sepnutí stykače kontakt rozepne
+- **NO** (spínací - **N**ormally **O**pen) – při sepnutí stykače kontakt sepne
+- 
 *Zdroj obrázku: https://www.petanovo.cz/jak-zapojit-stykac/*
 
+
+## Silové a ovládací schéma
 Silové a ovládací obvody stykačového zapojení se ve schématech kreslí odděleně, protože plní odlišné funkce a pracují s odlišnými parametry. Silové schéma znázorňuje cestu výkonu od napájení přes stykač k zátěži (např. motoru) a pracuje s velkými proudy a napětími, proto obsahuje prvky jako jističe nebo tepelné ochrany. Ovládací schéma naopak zobrazuje logiku spínání – tedy kdy a za jakých podmínek se stykač sepne či rozepne – a pracuje s malým proudem procházejícím cívkou stykače, tlačítky a pomocnými kontakty (např. zapojení se samodržením).
 
 <img width="406" height="294" alt="image" src="https://github.com/user-attachments/assets/30de5afc-57e0-42ae-b4c1-21cccc3ed497" />
 
+
 ## Pomocné kontakty a jejich využití
 <img width="800" height="480" alt="image" src="https://github.com/user-attachments/assets/72e1390f-8839-431f-add2-7e9cb3e9efea" />
 
-<img width="500" height="281" alt="image" src="https://github.com/user-attachments/assets/a9e8ca73-7d90-444c-84d4-d5307e91b3ac" />
 
-- **NO** (spínací - **N**ormally **O**pen) – při sepnutí stykače kontakt sepne,
-- **NC** (rozpínací - **N**ormally **C**losed) – při sepnutí stykače kontakt rozepne.
 
 ### Samodržné zapojení stykače
 Zapojení se samodržením – tlačítko Start je přemostěno pomocným kontaktem stykače, takže po jeho sepnutí zůstává cívka pod napětím i po uvolnění tlačítka.
