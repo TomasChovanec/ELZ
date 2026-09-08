@@ -10,6 +10,9 @@ Stejně jako jističe mají svou vypínací charakteristiku podle které se děl
 
 <img width="1365" height="768" alt="image" src="https://github.com/user-attachments/assets/61e9f7d3-4488-4e49-a589-9c8a9b786e6f" />
 
+### Video o tom, proč se u pojistek kromě proudu udává i jmenovité napětí:
+
+[![](https://img.youtube.com/vi/2DCukI3IZTc/0.jpg)](https://www.youtube.com/watch?v=2DCukI3IZTc)
 
 # Jističe
 Jističe jsou samočinné vypínače, které mají v obvodu stejnou funkci jako pojistka. Mají oproti ní některé výhody: při přerušení proudu a následném odstranění závady je možné jistič znovu zapnout překlopením páčky či stlačením tlačítka, stejně tak je možné jistič i vypínat.
