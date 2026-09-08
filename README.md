@@ -11,7 +11,7 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 ## Elektrické přístroje
 [Elektrický oblouk](/lekce/Oblouk.md)
 
-[Stykače](/lekce/Stykače.md)
+[Stykače](/lekce/Stykace.md)
 
 [Jističe](/lekce/Jistice.md)
 
