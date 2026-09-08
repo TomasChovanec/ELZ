@@ -137,7 +137,9 @@ Protože stykač často spíná induktivní zátěže (motory), vzniká při roz
 - **NO** (spínací - **N**ormally **O**pen) – při sepnutí stykače kontakt sepne,
 - **NC** (rozpínací - **N**ormally **C**losed) – při sepnutí stykače kontakt rozepne.
 
-### Samodrž
+### Ssamodržné zapojení stykače
+Zapojení se samodržením – tlačítko Start je přemostěno pomocným kontaktem stykače, takže po jeho sepnutí zůstává cívka pod napětím i po uvolnění tlačítka.
+
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/933234aa-35db-455b-b2be-baebc2b6706b" />
 
 ### Reverzace otáček motoru s blokováním
