@@ -123,17 +123,14 @@ Protože stykač často spíná induktivní zátěže (motory), vzniká při roz
 - **NO** (spínací - **N**ormally **O**pen) – při sepnutí stykače kontakt sepne,
 - **NC** (rozpínací - **N**ormally **C**losed) – při sepnutí stykače kontakt rozepne.
 
-### Ssamodržné zapojení stykače
+### Samodržné zapojení stykače
 Zapojení se samodržením – tlačítko Start je přemostěno pomocným kontaktem stykače, takže po jeho sepnutí zůstává cívka pod napětím i po uvolnění tlačítka.
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/933234aa-35db-455b-b2be-baebc2b6706b" />
 
 ### Reverzace otáček motoru s blokováním
+Změna směru otáčení (reverzace) trojfázového asynchronního motoru se provede záměnou dvou fází napájejících motor. Proto jsou v zapojení dva stykače, přičemž stykač K2 zaměňuje fázi L1 a L3. Oba stykače ale nesmějí sepnout současně (viz vzájemné blokování), neboť by nastal zkrat. Blokování provádí rozpínací kontakty K1.2 a K2.2. Je-li sepnut stykač K1, kontakt K1.2 je rozpojen, a proto stykač K2 nelze sepnout, a obráceně.
 <img width="795" height="292" alt="image" src="https://github.com/user-attachments/assets/63eb9517-e309-4da5-91d2-d564ba82accf" />
-  
-<img width="786" height="729" alt="image" src="https://github.com/user-attachments/assets/578a65e0-b193-49fe-a041-2cce7f315ed0" />
- 
-<img width="800" height="764" alt="image" src="https://github.com/user-attachments/assets/77bb1caa-898e-42d6-8101-52c2329fca45" />
 
 
 ## Další zajímavé materiály
