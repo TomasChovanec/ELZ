@@ -45,7 +45,6 @@ ohřeje a prohne, čímž opět působí na vybavení .
 
 
 ## Charakteristiky jističů
-<img width="800"  alt="image" src="https://github.com/user-attachments/assets/88e91ebd-71f5-4ddb-b761-c12a8d3ba525" />
 
 <img width="370" alt="image" src="https://github.com/user-attachments/assets/91b9f738-474d-457f-9afa-b6dd24b820e3" />
 
