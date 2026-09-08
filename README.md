@@ -16,7 +16,7 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 
 <!---
 
-[Stykače](/lekce/PWM.md)
+[Jističe](/lekce/Jistice.md)
 
 
 
