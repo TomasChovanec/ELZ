@@ -103,12 +103,27 @@ Vyšší kategorie znamenají náročnější spínací podmínky – tedy vyš�
 ## Zhášení oblouku u stykačů
 Protože stykač často spíná induktivní zátěže (motory), vzniká při rozpojování kontaktů elektrický oblouk. Ten je řešen podobně jako u jiných spínacích přístrojů – zhášecími komorami s dělicími můstky nebo hřebeny, případně magnetickým vyfukováním. Vyšší kategorie užití (AC-3, AC-4) proto vyžadují robustnější zhášecí systém a odolnější kontaktní materiály.
 
+
+## Pomocné kontakty a jejich využití
+Kromě hlavních (silových) kontaktů, které spínají zátěž, má stykač i pomocné kontakty určené pro ovládací a signalizační obvody. Ty jsou dimenzované na nízké proudy (řádově jednotky ampér) a nepřenášejí výkon zátěže.
+
+Rozlišujeme:
+
+**Spínací (NO) kontakty** – v klidové poloze rozepnuté, sepnou při přitažení kotvy stykače.
+**Rozpínací (NC) kontakty** – v klidové poloze sepnuté, při aktivaci stykače se rozepnou.
+
+Pomocné kontakty se využívají zejména pro:
+- samodržení (pomocný kontakt udržuje stykač sepnutý i po uvolnění tlačítka Start),
+- vzájemné blokování dvou stykačů (např. u reverzace motoru, aby nemohly sepnout současně),
+- signalizaci stavu (kontrolky, hlášení do řídicího systému),
+- ovládání dalších prvků v obvodu (např. spouštění časového relé).
+
+<img width="600"  alt="image" src="https://github.com/user-attachments/assets/72e1390f-8839-431f-add2-7e9cb3e9efea" />
+
+
 ## Schématické značení stykačů
 <img width="588" alt="image" src="https://github.com/user-attachments/assets/a9edf979-51c7-471d-a09e-9dd6b74e804b" />
 
-- **NC** (rozpínací - **N**ormally **C**losed) – při sepnutí stykače kontakt rozepne
-- **NO** (spínací - **N**ormally **O**pen) – při sepnutí stykače kontakt sepne
-- 
 *Zdroj obrázku: https://www.petanovo.cz/jak-zapojit-stykac/*
 
 
@@ -116,11 +131,6 @@ Protože stykač často spíná induktivní zátěže (motory), vzniká při roz
 Silové a ovládací obvody stykačového zapojení se ve schématech kreslí odděleně, protože plní odlišné funkce a pracují s odlišnými parametry. Silové schéma znázorňuje cestu výkonu od napájení přes stykač k zátěži (např. motoru) a pracuje s velkými proudy a napětími, proto obsahuje prvky jako jističe nebo tepelné ochrany. Ovládací schéma naopak zobrazuje logiku spínání – tedy kdy a za jakých podmínek se stykač sepne či rozepne – a pracuje s malým proudem procházejícím cívkou stykače, tlačítky a pomocnými kontakty (např. zapojení se samodržením).
 
 <img width="406" height="294" alt="image" src="https://github.com/user-attachments/assets/30de5afc-57e0-42ae-b4c1-21cccc3ed497" />
-
-
-## Pomocné kontakty a jejich využití
-<img width="800" height="480" alt="image" src="https://github.com/user-attachments/assets/72e1390f-8839-431f-add2-7e9cb3e9efea" />
-
 
 
 ### Samodržné zapojení stykače
