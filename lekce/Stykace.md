@@ -151,8 +151,6 @@ Změna směru otáčení (reverzace) trojfázového asynchronního motoru se pro
 ## Další zajímavé materiály
 [![](https://img.youtube.com/vi/FCsgUXPRew8/0.jpg)](https://www.youtube.com/watch?v=FCsgUXPRew8)
 
-[![](https://img.youtube.com/vi/eKI1LF5q3JE/0.jpg)](https://www.youtube.com/watch?v=eKI1LF5q3JE)
-
 
 # Otázky k opakování
 
