@@ -80,6 +80,13 @@ Selektivita jištění je princip, kdy při poruše (zkratu nebo přetížení) 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/8b980907-cf39-4314-ab43-c2489a00f4a2" />
 
 
+# Videa
+
+[![](https://img.youtube.com/vi/qvNatsgsRBM/0.jpg)](https://www.youtube.com/watch?v=qvNatsgsRBM)
+
+[![](https://img.youtube.com/vi/gqEu9t8HwW0/0.jpg)](https://www.youtube.com/watch?v=gqEu9t8HwW0)
+
+
 # Otázky k opakování
 
 **Co je pojistka a k čemu se používá?**
