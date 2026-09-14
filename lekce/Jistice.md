@@ -5,17 +5,37 @@
 Pojistky jsou přístroje sloužící k jištění elektrického obvodu tím, že tepelným účinkem nadproudu nebo zkratového proudu přetaví tavný drátek ve vložce a tak přeruší elektrický obvod. Pojistky rozdělujeme na závitové a zásuvné neboli nožové
 
 Jejich hlavní funkční části je tavný vodič. Jeho průřez i tvar zajistí přetavení při při přesně definovaném proudu. Je uložen v hasivu, což bývá nejčastěji křemičitý písek, u menších proudů pak vzduch. Nosnou konstrukční části je buď porcelánová, nebo i skleněná patrona. Tato  pak bývá zasunuta do pojistkového soklu. 
-    
-Stejně jako jističe mají svou vypínací charakteristiku podle které se dělí do tříd g nebo a.
+  
 
 ## Konstrukce pojistky
 <img width="417" height="379" alt="image" src="https://github.com/user-attachments/assets/ea898da7-ef2c-4e41-b1d3-222161adb184" />
 
+### Závitové
+Závitové pojistky mají následující části, viz obr. 4.5:
+		○ bezpečnostní patice,
+		○ vymezovací kroužek,
+		○ tavná pojistková vložka (patrona),
+		○ šroubovací hlavice.
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/55fd9347-f9f0-4d1b-b3a4-56c4f6a8d6e2" />
+
+### Nožové
+Nožové pojistky se skládají z pojistkového spodku a pojistkové vložky, která má kontakty ve tvaru nožů. Vyrábějí se pro větší vypínací výkony a větší jmenovité proudy. Jejich velikosti jsou normalizované. Nejsou odlišeny barvami. Tyto pojistky se vyměňují pomocí izolovaného pojistkového držáku (tzv. "žehlička").
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/646cc446-0577-4dc5-a9b5-c277a975a030" />
+
+### Přístrojové
+Přístrojové pojistky se používají především pro jištění elektronických obvodů.
+V automobilech se používají pojistky s plastovým tělem a nožovými kontakty (barva plastu odpovídá jmenovité hodnotě pojistky). Plast je průhledný, takže umožňuje optickou kontrolu stavu pojistky. Pro jištění spotřební elektroniky slouží skleněné trubičkové pojistky (proudové rozsahy jsou od několika desetin do několika ampérů).
+
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/735e86d5-c009-492e-8179-ddc96bc6335c" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/170cee25-1bb3-4581-802f-d92d096cbcf5" />
+
 ## Rozdělení pojistek podle doby vypnutí
 
-**Rychlé (normální)** - označují se F.
+**Rychlé (normální)** - označují se F (**F**ast acting)
 
-**Pomalé (se zpožděním)** - označení T - používají se často pro jištění motorů, protože při rozběhu motoru proud prudce stoupne.
+**Pomalé (se spožděním)** - označení T (**T**ime delayed) - používají se často pro jištění motorů, protože při rozběhu motoru proud prudce stoupne.
 
 **Velmi rychlé** - označení FF, používají se pro jištění polovodičových zařízení.
 
