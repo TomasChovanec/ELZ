@@ -12,12 +12,15 @@ Stejně jako jističe mají svou vypínací charakteristiku podle které se děl
 <img width="417" height="379" alt="image" src="https://github.com/user-attachments/assets/ea898da7-ef2c-4e41-b1d3-222161adb184" />
 
 ## Rozdělení pojistek podle doby vypnutí
-Rychlé (normální) - označují se F.
-Pomalé (se zpožděním) - označení T - používají se často pro jištění motorů, protože při rozběhu motoru proud prudce stoupne.
-Velmi rychlé - označení FF, používají se pro jištění polovodičových zařízení.
+
+**Rychlé (normální)** - označují se F.
+
+**Pomalé (se zpožděním)** - označení T - používají se často pro jištění motorů, protože při rozběhu motoru proud prudce stoupne.
+
+**Velmi rychlé** - označení FF, používají se pro jištění polovodičových zařízení.
 
 
-### Video o tom, proč se u pojistek kromě proudu udává i jmenovité napětí:
+## Video o tom, proč se u pojistek kromě proudu udává i jmenovité napětí:
 
 [![](https://img.youtube.com/vi/2DCukI3IZTc/0.jpg)](https://www.youtube.com/watch?v=2DCukI3IZTc)
 
@@ -53,4 +56,6 @@ ohřeje a prohne, čímž opět působí na vybavení .
 
 
 ## Selektivita jističů
+Selektivita jištění je princip, kdy při poruše (zkratu nebo přetížení) v elektrické instalaci odpojí pouze ten nejbližší jistící prvek, který poruchu přímo chrání, zatímco nadřazené jističe (například hlavní jistič) zůstanou zapnuté.
+
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/8b980907-cf39-4314-ab43-c2489a00f4a2" />
