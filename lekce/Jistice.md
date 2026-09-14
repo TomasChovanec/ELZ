@@ -49,27 +49,27 @@ jsou zpravidla vybaveny dvěma typy spouští - tepelná, která chrání proti 
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/9f55ec93-54c7-4ee9-b61c-ea7c628b566f" />
 
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/2da0db19-616b-408d-960c-fa177ee2d7f6" />
 
 ## Přetížení
 Déletrvající proud, jehož hodnota se pohybuje nad hodnotou proudu jnenovitého (1-2 násobek In ). Nemusí být vypnut okamžitě, ale déletrvajícími účinky způsobuje degradaci izolace.
 
+**Nadproudová (tepelná)spoušť** – je tvořena bimetalovým (dvojkovovým) páskem, který se při průchodu vyššího proudu ohřeje a prohne, čímž opět působí na vybavení.
+
 ## Zkraty 
 Proudy převyšující jmenovitý proud v jeho násobcích (až 20- ti násobky). Negativně v obvodu působí jak jeho tepelné účinky, tak i vlivy elektrodynamických sil.
 
-Z toho důvodu jsou jističe vybaveny dvěma základními druhy spouští:
-
-- zkratová spoušť – je to cívka elektromagnetu, která v   
- případě zkratu přitáhne kotvičku, působící na vybavovací
- mechanismus.
-         
-- nadproudová spoušť – je tvořena bimetalovým
-(dvojkovovým) páskem, který se při průchodu vyššího proudu
-ohřeje a prohne, čímž opět působí na vybavení .
+**Zkratová (elektromagnetická) spoušť** – je to cívka elektromagnetu, která v případě zkratu přitáhne kotvičku, působící na vybavovací mechanismus.       
         
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/2da0db19-616b-408d-960c-fa177ee2d7f6" />
-
 
 ## Charakteristiky jističů
+Některá zařízení mají při zapnutí krátkodobě velký rozběhový proud. Jistič s charakteristikou B by mohl tento proud vyhodnotit jako zkrat a zbytečně vypnout. Proto se u takových zařízení používá C nebo D, které vyšší krátkodobý proud tolerují.
+
+Charakteristika určuje, při jakém násobku jmenovitého proudu jistič rychle vypne při zkratu:
+
+B – 3–5 × In → běžné zásuvkové a světelné obvody
+C – 5–10 × In → obvody s vyšším rozběhovým proudem, např. motory, transformátory
+D – 10–20 × In → zařízení s velmi vysokým rozběhovým proudem, např. velké motory a transformátory
 
 <img width="370" alt="image" src="https://github.com/user-attachments/assets/91b9f738-474d-457f-9afa-b6dd24b820e3" />
 
