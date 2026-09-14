@@ -2,10 +2,9 @@
 
 <img width="981" height="352" alt="image" src="https://github.com/user-attachments/assets/a2aa5c7f-09d8-4aa7-9013-08a4d370583c" />
 
-Pojistky jsou přístroje sloužící k jištění elektrického obvodu tím, že tepelným účinkem nadproudu nebo zkratového proudu přetaví tavný drátek ve vložce a tak přeruší elektrický obvod. Pojistky rozdělujeme na závitové a zásuvné neboli nožové
+Pojistky jsou přístroje sloužící k jištění elektrického obvodu tím, že tepelným účinkem nadproudu nebo zkratového proudu přetaví tavný drátek ve vložce a tak přeruší elektrický obvod. Pro opětovné uvedení do provozu se musí pojistka vyměnit za novou.
 
-Jejich hlavní funkční části je tavný vodič. Jeho průřez i tvar zajistí přetavení při při přesně definovaném proudu. Je uložen v hasivu, což bývá nejčastěji křemičitý písek, u menších proudů pak vzduch. Nosnou konstrukční části je buď porcelánová, nebo i skleněná patrona. Tato  pak bývá zasunuta do pojistkového soklu. 
-  
+Jejich hlavní funkční části je tavný vodič. Jeho průřez i tvar zajistí přetavení při při přesně definovaném proudu. Je uložen v hasivu, což bývá nejčastěji křemičitý písek, u menších proudů pak vzduch. Nosnou konstrukční části je buď porcelánová, nebo i skleněná patrona. Ta pak bývá zasunuta do pojistkového soklu. 
 
 ## Konstrukce pojistky
 <img width="417" height="379" alt="image" src="https://github.com/user-attachments/assets/ea898da7-ef2c-4e41-b1d3-222161adb184" />
