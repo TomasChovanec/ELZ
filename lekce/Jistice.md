@@ -67,9 +67,9 @@ Některá zařízení mají při zapnutí krátkodobě velký rozběhový proud.
 
 Charakteristika určuje, při jakém násobku jmenovitého proudu jistič rychle vypne při zkratu:
 
-B – 3–5 × In → běžné zásuvkové a světelné obvody
-C – 5–10 × In → obvody s vyšším rozběhovým proudem, např. motory, transformátory
-D – 10–20 × In → zařízení s velmi vysokým rozběhovým proudem, např. velké motory a transformátory
+- **B** – 3–5 × In → běžné zásuvkové a světelné obvody
+- **C** – 5–10 × In → obvody s vyšším rozběhovým proudem, např. motory, transformátory
+- **D** – 10–20 × In → zařízení s velmi vysokým rozběhovým proudem, např. velké motory a transformátory
 
 <img width="370" alt="image" src="https://github.com/user-attachments/assets/91b9f738-474d-457f-9afa-b6dd24b820e3" />
 
