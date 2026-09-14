@@ -78,3 +78,224 @@ D – 10–20 × In → zařízení s velmi vysokým rozběhovým proudem, např
 Selektivita jištění je princip, kdy při poruše (zkratu nebo přetížení) v elektrické instalaci odpojí pouze ten nejbližší jistící prvek, který poruchu přímo chrání, zatímco nadřazené jističe (například hlavní jistič) zůstanou zapnuté.
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/8b980907-cf39-4314-ab43-c2489a00f4a2" />
+
+
+# Otázky k opakování
+
+**Co je pojistka a k čemu se používá?**
+
+<details>
+<summary>Odpověď</summary>
+Pojistka je **jistící elektrický přístroj**, který chrání elektrický obvod před nadproudem a zkratem. Při průchodu příliš velkého proudu se tavný vodič vlivem tepla přetaví a **přeruší elektrický obvod**. Po přetavení je nutné pojistku vyměnit.
+</details>
+
+---
+
+**K čemu slouží hasivo v pojistce?**
+
+<details>
+<summary>Odpověď</summary>
+Hasivo pomáhá **zhášet elektrický oblouk**, který může vzniknout při přetavení tavného vodiče. U výkonových pojistek se jako hasivo často používá **křemičitý písek**.
+</details>
+
+---
+
+**Kde se používají nožové pojistky?**
+
+<details>
+<summary>Odpověď</summary>
+Nožové pojistky se používají především pro **větší jmenovité proudy a větší vypínací výkony**, například v průmyslových elektrických instalacích. Jejich kontakty mají tvar nožů a při výměně se používá izolovaný pojistkový držák.
+</details>
+
+---
+
+**Kde se používají přístrojové pojistky?**
+
+<details>
+<summary>Odpověď</summary>
+Přístrojové pojistky se používají především pro **jištění elektronických a elektrických zařízení**. Patří sem například skleněné trubičkové pojistky nebo automobilové nožové pojistky.
+</details>
+
+---
+
+**Co znamenají označení F, T a FF u pojistek?**
+
+<details>
+<summary>Odpověď</summary>
+
+- **F (Fast)** – rychlá pojistka,
+- **T (Time delayed)** – pomalá pojistka se zpožděním,
+- **FF** – velmi rychlá pojistka.
+
+Jednotlivé typy se volí podle charakteru chráněného zařízení a průběhu proudu při jeho provozu.
+
+</details>
+
+---
+
+**Proč se pro některé motory používají pomalé pojistky T?**
+
+<details>
+<summary>Odpověď</summary>
+Motor může při spuštění krátkodobě odebírat **několikanásobně větší proud než při běžném provozu**. Pomalá pojistka tento krátkodobý rozběhový proud toleruje, takže zbytečně nepřeruší obvod při každém spuštění motoru.
+</details>
+
+---
+
+**Proč je u pojistky kromě jmenovitého proudu důležité znát také jmenovité napětí?**
+
+<details>
+<summary>Odpověď</summary>
+Po přetavení pojistky může mezi jejími kontakty vzniknout **elektrický oblouk**. Pojistka musí být schopna tento oblouk bezpečně zhasit při daném napětí. Proto musí její jmenovité napětí odpovídat napětí elektrického obvodu.
+</details>
+
+---
+
+**Co je přetížení elektrického obvodu?**
+
+<details>
+<summary>Odpověď</summary>
+Přetížení je stav, kdy obvodem protéká **větší proud, než je jeho jmenovitý proud**, ale nejedná se o zkrat. Pokud přetížení trvá delší dobu, může dojít k nadměrnému zahřívání vodičů a poškození jejich izolace.
+</details>
+
+---
+
+**Co je elektrický zkrat?**
+
+<details>
+<summary>Odpověď</summary>
+Zkrat je nežádoucí spojení míst elektrického obvodu s **velmi malým elektrickým odporem**. Zkratový proud může být mnohonásobně větší než jmenovitý proud obvodu a způsobuje silné tepelné a elektrodynamické účinky.
+</details>
+
+---
+
+**Jaký je rozdíl mezi přetížením a zkratem?**
+
+<details>
+<summary>Odpověď</summary>
+Při **přetížení** proud překračuje jmenovitou hodnotu, ale obvod stále pracuje se svou běžnou zátěží. Při **zkratu** vznikne spojení s velmi malým odporem a proud obvykle prudce vzroste na mnohonásobek jmenovité hodnoty.
+</details>
+
+---
+
+**Co může způsobit dlouhodobé přetížení vodiče?**
+
+<details>
+<summary>Odpověď</summary>
+Vodič se vlivem zvýšeného proudu nadměrně zahřívá. Dlouhodobé přehřívání může způsobit **degradaci nebo poškození izolace** a v krajním případě vznik požáru.
+</details>
+
+---
+
+**Co je jistič a k čemu se používá?**
+
+<details>
+<summary>Odpověď</summary>
+Jistič je **samočinný vypínač**, který chrání elektrický obvod před přetížením a zkratem. Při poruše obvod automaticky vypne. Po odstranění závady je možné jistič opět zapnout bez nutnosti jeho výměny.
+</details>
+
+---
+
+**Jaká je hlavní výhoda jističe oproti pojistce?**
+
+<details>
+<summary>Odpověď</summary>
+Po vypnutí jističe není nutné vyměňovat žádnou součást. Po odstranění závady lze jistič **znovu zapnout**. Jistič lze také ručně vypínat a zapínat.
+</details>
+
+---
+
+**Jaké dvě základní spouště má běžný jistič?**
+
+<details>
+<summary>Odpověď</summary>
+
+Běžný jistič má:
+
+- **tepelnou spoušť** – chrání především před přetížením,
+- **elektromagnetickou spoušť** – reaguje na vysoký zkratový proud.
+
+</details>
+
+---
+
+**Jak funguje tepelná spoušť jističe?**
+
+<details>
+<summary>Odpověď</summary>
+Tepelnou spoušť tvoří **bimetalový pásek**. Při průchodu nadproudu se zahřívá, ohne se a mechanicky uvede do činnosti vypínací mechanismus jističe. Čím větší je přetížení, tím rychleji se bimetal zahřeje a jistič vypne.
+</details>
+
+---
+
+**Jak funguje elektromagnetická spoušť jističe?**
+
+<details>
+<summary>Odpověď</summary>
+Elektromagnetickou spoušť tvoří **cívka elektromagnetu**. Při průchodu velmi vysokého proudu, například při zkratu, vznikne silné magnetické pole, které okamžitě pohne kotvičkou a uvede do činnosti vypínací mechanismus.
+</details>
+
+---
+
+**Která spoušť jističe chrání před přetížením a která před zkratem?**
+
+<details>
+<summary>Odpověď</summary>
+
+- **Tepelná spoušť** chrání před dlouhodobým přetížením.
+- **Elektromagnetická spoušť** chrání před velmi vysokými proudy, zejména před zkratem.
+
+</details>
+
+---
+
+**Co znamená charakteristika jističe B, C nebo D?**
+
+<details>
+<summary>Odpověď</summary>
+Charakteristika určuje, při jak velkém násobku jmenovitého proudu jistič **rychle vypne pomocí elektromagnetické spouště**.
+
+- **B:** přibližně 3–5 × In
+- **C:** přibližně 5–10 × In
+- **D:** přibližně 10–20 × In
+
+</details>
+
+---
+
+**Proč se používají různé charakteristiky jističů B, C a D?**
+
+<details>
+<summary>Odpověď</summary>
+Některá zařízení mají při zapnutí krátkodobě **velký rozběhový proud**. Jistič s charakteristikou B by mohl takový proud vyhodnotit jako zkrat a vypnout. Charakteristiky C a D umožňují tolerovat větší krátkodobé proudové špičky.
+</details>
+
+---
+
+**Jaký jistič bychom typicky použili pro běžný zásuvkový nebo světelný obvod?**
+
+<details>
+<summary>Odpověď</summary>
+Typicky jistič s charakteristikou **B**, protože běžné zásuvkové a světelné obvody obvykle nemají velmi vysoké rozběhové proudy.
+</details>
+
+---
+
+**Proč může být pro elektromotor vhodnější jistič C než B?**
+
+<details>
+<summary>Odpověď</summary>
+Elektromotor při rozběhu odebírá krátkodobě **výrazně vyšší proud** než při běžném provozu. Charakteristika C umožňuje větší krátkodobý proud, takže jistič při správně navrženém obvodu zbytečně nevypne během rozběhu motoru.
+</details>
+
+---
+
+**Co je selektivita jištění?**
+
+<details>
+<summary>Odpověď</summary>
+Selektivita znamená, že při poruše vypne **přednostně nejbližší jistící prvek**, který poruchu chrání, zatímco nadřazené jistící prvky zůstanou zapnuté.
+</details>
+
+
+### [Zpět na obsah](../README.md)
