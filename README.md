@@ -13,13 +13,11 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 
 [Stykače](/lekce/Stykace.md)
 
-[Pojistky, jističe](/lekce/Jistice.md)
-
-<!---
+[Pojistky](/lekce/Pojistky.md)
 
 [Jističe](/lekce/Jistice.md)
 
-
+<!---
 
 
 --->
