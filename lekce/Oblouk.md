@@ -96,7 +96,7 @@ Ionizací plynu v mezeře mezi kontakty. Volné elektrony jsou urychlovány elek
 
 ---
 **Jaká rizika pro elektrické přístroje přináší elektrický oblouk?**
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
   
 - pokračující průtok proudu i po vypnutí – dokud oblouk hoří, obvodem stále protéká proud, takže samotné rozpojení kontaktů ještě neznamená přerušení obvodu; teprve zhasnutí oblouku skutečně přeruší tok proudu.
