@@ -156,7 +156,7 @@ Změna směru otáčení (reverzace) trojfázového asynchronního motoru se pro
 
 **Co je stykač a k čemu se používá?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Stykač je elektromechanický spínací přístroj určený především k **častému spínání výkonových elektrických obvodů**. Typicky se používá ke spínání elektromotorů, topných zařízení nebo osvětlení. Výkonový obvod je ovládán elektrickým signálem přivedeným na cívku stykače.
 </details>
@@ -174,7 +174,7 @@ Po přivedení napětí na cívku stykače začne cívkou procházet proud a vzn
 
 **Jaké jsou hlavní části stykače?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Mezi základní části patří:
 - **cívka** – vytváří magnetické pole,
@@ -189,7 +189,7 @@ Mezi základní části patří:
 
 **Jaký je rozdíl mezi hlavními a pomocnými kontakty stykače?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 **Hlavní kontakty** jsou určeny k přenosu většího proudu a spínají výkonový obvod, například elektromotor. **Pomocné kontakty** jsou určeny především pro řídicí, signalizační a blokovací obvody a obvykle spínají výrazně menší proud.
 </details>
@@ -198,7 +198,7 @@ Mezi základní části patří:
 
 **Co znamená označení NO a NC u kontaktů stykače?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 - **NO (Normally Open)** – spínací kontakt, který je při vypnutém stykači rozepnutý a po sepnutí stykače se uzavře.
 - **NC (Normally Closed)** – rozpínací kontakt, který je při vypnutém stykači sepnutý a po sepnutí stykače se rozepne.
@@ -208,7 +208,7 @@ Mezi základní části patří:
 
 **Co musí technik při výběru stykače zohlednit?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 - co bude stykač spínat – motor, topení, osvětlení…,
 - četnost spínání
@@ -223,7 +223,7 @@ Mezi základní části patří:
 
 **Proč se pro ovládání výkonového obvodu používá stykač místo běžného vypínače?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Stykač umožňuje ovládat **velký elektrický výkon pomocí malého ovládacího obvodu**. Umožňuje také časté a dálkové spínání, automatické ovládání a snadné propojení s tlačítky, senzory, PLC nebo jinými řídicími prvky.
 </details>
@@ -232,7 +232,7 @@ Stykač umožňuje ovládat **velký elektrický výkon pomocí malého ovládac
 
 **Jak funguje samodržné zapojení stykače?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Po stisknutí tlačítka **START** se sepne cívka stykače. Současně se sepne jeho pomocný kontakt NO, který je zapojen paralelně k tlačítku START. Po uvolnění tlačítka proto proud stále prochází pomocným kontaktem a stykač zůstane sepnutý. Stisknutím tlačítka **STOP**, které je v sérii s cívkou, se obvod přeruší a stykač odpadne.
 </details>
@@ -241,7 +241,7 @@ Po stisknutí tlačítka **START** se sepne cívka stykače. Současně se sepne
 
 **Proč je ve stykači zhášecí komora?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Při rozepnutí kontaktů vzniká elektrický oblouk. Zhášecí komora oblouk **prodlužuje, rozděluje, ochlazuje a deionizuje**, čímž usnadňuje jeho zhasnutí. Zároveň omezuje opalování a poškozování kontaktů.
 </details>
@@ -250,7 +250,7 @@ Při rozepnutí kontaktů vzniká elektrický oblouk. Zhášecí komora oblouk *
 
 **Proč jsou kontakty stykače při spínání elektromotoru namáhány více než při spínání odporové zátěže?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Elektromotor je **induktivní zátěž**. Při vypínání se indukčnost snaží zachovat protékající proud a může vytvořit vysoké přepětí. To podporuje vznik a udržování elektrického oblouku mezi rozpojujícími se kontakty a způsobuje jejich větší opotřebení.
 </details>
@@ -259,7 +259,7 @@ Elektromotor je **induktivní zátěž**. Při vypínání se indukčnost snaž�
 
 **Jaký je rozdíl mezi stykačem a relé?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Oba přístroje pracují na principu elektromagnetického ovládání kontaktů. **Stykač** je konstrukčně určen především pro spínání výkonových obvodů, zejména motorů, a je konstruován pro větší proudy a časté spínání. **Relé** se častěji používá v řídicích, signalizačních a elektronických obvodech s menšími proudy.
 </details>
@@ -268,7 +268,7 @@ Oba přístroje pracují na principu elektromagnetického ovládání kontaktů.
 
 **Jaký je rozdíl mezi stykačem s AC a DC cívkou?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Cívka stykače musí být napájena **správným druhem a jmenovitým napětím**. AC a DC cívky mají odlišnou konstrukci a způsob omezení proudu. Stykač s cívkou 24 V DC proto nelze jednoduše připojit na 24 V AC a naopak.
 </details>
@@ -277,7 +277,7 @@ Cívka stykače musí být napájena **správným druhem a jmenovitým napětím
 
 **Co se stane se stykačem při výpadku napětí na jeho cívce?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Magnetické pole cívky zanikne, kotva se pomocí pružiny vrátí do výchozí polohy a **hlavní i pomocné kontakty se vrátí do klidového stavu**. Výkonový obvod se tak obvykle automaticky odpojí.
 </details>
@@ -286,7 +286,7 @@ Magnetické pole cívky zanikne, kotva se pomocí pružiny vrátí do výchozí 
 
 **Proč se stykač používá například pro přímé spouštění třífázového motoru?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Stykač umožňuje současně spínat všechny tři fáze motoru pomocí jediného elektromagnetického mechanismu. Cívka stykače může být ovládána tlačítky nebo automatizačním systémem, zatímco hlavní kontakty vedou proud motoru.
 </details>
@@ -295,7 +295,7 @@ Stykač umožňuje současně spínat všechny tři fáze motoru pomocí jediné
 
 **Proč musí být stykač správně dimenzován pro spínanou zátěž?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Při spínání a vypínání vzniká elektrický oblouk a kontakty jsou tepelně i elektricky namáhány. Stykač proto musí být vhodný pro **napětí, proud, druh zátěže a četnost spínání**. Například stykač určený pro odporovou zátěž nemusí být vhodný pro stejně velký výkon elektromotoru.
 </details>
