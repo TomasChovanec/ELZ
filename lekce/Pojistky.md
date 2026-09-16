@@ -10,7 +10,7 @@ Jejich hlavní funkční části je tavný vodič. Jeho průřez i tvar zajistí
 <img width="417" height="379" alt="image" src="https://github.com/user-attachments/assets/ea898da7-ef2c-4e41-b1d3-222161adb184" />
 
 ### Závitové
-Závitové pojistky mají následující části:
+Závitové pojistky mají následující části (na obrázku zprava doleva):
 - bezpečnostní patice,
 - vymezovací kroužek,
 - tavná pojistková vložka (patrona),
