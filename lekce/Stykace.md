@@ -148,6 +148,18 @@ Změna směru otáčení (reverzace) trojfázového asynchronního motoru se pro
 <img width="795" height="292" alt="image" src="https://github.com/user-attachments/assets/63eb9517-e309-4da5-91d2-d564ba82accf" />
 
 
+# Relé
+
+Relé je elektromechanický spínací prvek, který pracuje na stejném principu jako stykač. Z hlediska pracovního principu mezi relé a stykačem není zásadní rozdíl. Oba prvky využívají elektromagnet k mechanickému ovládání kontaktů.
+
+Hlavní rozdíl je v jejich konstrukci a především ve velikosti proudu a výkonu, který jsou schopny spínat:
+
+- **Relé** se používá především pro spínání menších proudů, například pro ovládání elektronických obvodů, signalizace, ventilů nebo menších motorů.
+- **Stykač** je určen pro spínání větších proudů a výkonů, například motorů, topných zařízení nebo jiných výkonových spotřebičů.
+
+Relé bývá obvykle menší a jeho kontakty jsou konstruovány pro menší zatížení. Stykač má robustnější kontakty a konstrukci přizpůsobenou častému spínání větších proudů.
+
+
 ## Další zajímavé materiály
 [![](https://img.youtube.com/vi/FCsgUXPRew8/0.jpg)](https://www.youtube.com/watch?v=FCsgUXPRew8)
 
