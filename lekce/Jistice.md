@@ -8,16 +8,11 @@ jsou zpravidla vybaveny dvěma typy spouští - tepelná, která chrání proti 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/2da0db19-616b-408d-960c-fa177ee2d7f6" />
 
 ## Přetížení
-Déletrvající proud, jehož hodnota se pohybuje nad hodnotou proudu jnenovitého (1-2 násobek In ). Nemusí být vypnut okamžitě, ale déletrvajícími účinky způsobuje degradaci izolace.
-
-**Nadproudová (tepelná)spoušť** – je tvořena bimetalovým (dvojkovovým) páskem, který se při průchodu vyššího proudu ohřeje a prohne, čímž opět působí na vybavení.
+Déletrvající proud, jehož hodnota se pohybuje nad hodnotou proudu jnenovitého (1-2 násobek In ). Nemusí být vypnut okamžitě, ale déletrvajícími účinky způsobuje degradaci izolace. Pro vypínání přetížení je jistič vybaven nadproudovou (tepelnou) spoušťí. Je tvořena bimetalovým (dvojkovovým) páskem, který se při průchodu vyššího proudu ohřeje a prohne, čímž opět působí na vybavení.
 
 ## Zkraty 
-Proudy převyšující jmenovitý proud v jeho násobcích (až 20- ti násobky). Negativně v obvodu působí jak jeho tepelné účinky, tak i vlivy elektrodynamických sil.
-
-**Zkratová (elektromagnetická) spoušť** – je to cívka elektromagnetu, která v případě zkratu přitáhne kotvičku, působící na vybavovací mechanismus.       
+Proudy převyšující jmenovitý proud v jeho násobcích (až 20- ti násobky). Negativně v obvodu působí jak jeho tepelné účinky, tak i vlivy elektrodynamických sil. Pro vypínání zkratů má jistič zkratovou (elektromagnetickou) spoušť. Je to cívka elektromagnetu, která v případě zkratu přitáhne kotvičku, působící na vybavovací mechanismus.       
         
-
 ## Charakteristiky jističů
 Některá zařízení mají při zapnutí krátkodobě velký rozběhový proud. Jistič s charakteristikou B by mohl tento proud vyhodnotit jako zkrat a zbytečně vypnout. Proto se u takových zařízení používá C nebo D, které vyšší krátkodobý proud tolerují.
 
