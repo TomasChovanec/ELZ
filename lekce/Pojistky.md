@@ -48,7 +48,7 @@ V automobilech se používají pojistky s plastovým tělem a nožovými kontakt
 
 **Co je pojistka a k čemu se používá?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Pojistka je **jistící elektrický přístroj**, který chrání elektrický obvod před nadproudem a zkratem. Při průchodu příliš velkého proudu se tavný vodič vlivem tepla přetaví a **přeruší elektrický obvod**. Po přetavení je nutné pojistku vyměnit.
 </details>
@@ -57,7 +57,7 @@ Pojistka je **jistící elektrický přístroj**, který chrání elektrický ob
 
 **K čemu slouží hasivo v pojistce?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Hasivo pomáhá **zhášet elektrický oblouk**, který může vzniknout při přetavení tavného vodiče. U výkonových pojistek se jako hasivo často používá **křemičitý písek**.
 </details>
@@ -66,7 +66,7 @@ Hasivo pomáhá **zhášet elektrický oblouk**, který může vzniknout při p�
 
 **Kde se používají nožové pojistky?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Nožové pojistky se používají především pro **větší jmenovité proudy a větší vypínací výkony**, například v průmyslových elektrických instalacích. Jejich kontakty mají tvar nožů a při výměně se používá izolovaný pojistkový držák.
 </details>
@@ -75,7 +75,7 @@ Nožové pojistky se používají především pro **větší jmenovité proudy 
 
 **Kde se používají přístrojové pojistky?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Přístrojové pojistky se používají především pro **jištění elektronických a elektrických zařízení**. Patří sem například skleněné trubičkové pojistky nebo automobilové nožové pojistky.
 </details>
@@ -84,7 +84,7 @@ Přístrojové pojistky se používají především pro **jištění elektronic
 
 **Co znamenají označení F, T a FF u pojistek?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 
 - **F (Fast)** – rychlá pojistka,
@@ -99,7 +99,7 @@ Jednotlivé typy se volí podle charakteru chráněného zařízení a průběhu
 
 **Proč se pro některé motory používají pomalé pojistky T?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Motor může při spuštění krátkodobě odebírat **několikanásobně větší proud než při běžném provozu**. Pomalá pojistka tento krátkodobý rozběhový proud toleruje, takže zbytečně nepřeruší obvod při každém spuštění motoru.
 </details>
@@ -108,7 +108,7 @@ Motor může při spuštění krátkodobě odebírat **několikanásobně větš
 
 **Proč je u pojistky kromě jmenovitého proudu důležité znát také jmenovité napětí?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Po přetavení pojistky může mezi jejími kontakty vzniknout **elektrický oblouk**. Pojistka musí být schopna tento oblouk bezpečně zhasit při daném napětí. Proto musí její jmenovité napětí odpovídat napětí elektrického obvodu.
 </details>
