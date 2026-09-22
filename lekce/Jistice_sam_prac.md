@@ -3,7 +3,7 @@
 # Zadání 1
 
 Prozkoumejte rozebraný jistič.
-Naučte se (bude součástí zkoušení):
+Naučte se (bude součástí zkoušení a testů):
 - Ukázat dráhu kudy teče proud, za normálních okolností (když je jistič zapnutý)
 - Zkuste spustit nadproudovou spoušť pomocí šroubováku
 - Zkuste spustit zkratovou spoušť pomocí šroubováku
