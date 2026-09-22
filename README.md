@@ -18,7 +18,7 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 [Jističe](/lekce/Jistice.md)
 
 <!---
-
+[Stykače - samostatná práce](/lekce/Stykace_sam_prac.md)
 
 --->
 
