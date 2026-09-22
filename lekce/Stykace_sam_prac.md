@@ -1,13 +1,15 @@
 # Samostatná práce stykače
 
-## Zadání 1 - Ovládání motoru pomocíé stykače
-
-Nakreslete schéma (silové i ovládací) stykačového zapojení k ovládání  motoru. Po schválení schématu učitelem jej zapojte.
+## Zadání 1 - Ovládání motoru pomocí stykače
 
 **Požadavky:**
 1. Motor se roztočí, pokud je obdélníkové přepínací tlačítko v poloze 1 a zároveň je krátce stisknuto kulaté zapínací tlačítko.
 2. Motor zůstane v chodu i po uvolnění tlačítka.
 
+**Požadovaný výstup**
+1. Nakreslete společně schéma (silové i ovládací) stykačového zapojení k ovládání  motoru.
+2. Po schválení schématu učitelem jej zapojte.
+3. Po schválení zapojení připojte napětí a ověřte činnost zapojení.
 
 
 ## Zadání 2 - Dopravníková linka
@@ -25,5 +27,8 @@ Oba dopravníky jsou ovládány samostatnými tlačítky START a STOP.
 2. Po stisknutí START se příslušný stykač sepne a zůstane sepnutý i po uvolnění tlačítka.
 3. Dopravníky nesmí běžet současně. Pokud běží M1, stisknutí START pro M2 nesmí způsobit jeho spuštění a naopak. Zajištění nesoučasného chodu proveďte vzájemným elektrickým blokováním pomocí rozpínacích pomocných kontaktů stykačů. 
 
+**Požadovaný výstup**
+1. Nakreslete společně ve skupině schéma (silové i ovládací) stykačového zapojení k ovládání  motorů
+2. Po schválení schématu učitelem si jej nakreslete každý do svého sešitu, doplňte si k němu poznámky, pokud potřebujete
 
 ### [Zpět na obsah](../README.md)
