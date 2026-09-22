@@ -12,7 +12,7 @@ Naučte se (bude součástí zkoušení a testů):
 <img width="440" height="442" alt="image" src="https://github.com/user-attachments/assets/936dd8e1-213b-4d3a-841c-0528dbd668fd" />
 
 # Zadání 2
-Pomocí vypínací charakteristiky jističe (graf níže) zodpovězte na otázky. Využijte čas k tomu, abyste si byli jistí, že všichni ve skupině odpovědi rozumějí.
+Pomocí vypínací charakteristiky jističe (graf níže) zodpovězte na otázky. Využijte čas k tomu, abyste si byli jistí, že všichni ve skupině odpovědi rozumějí (bude součástí zkoušení a testů).
 
 1. Přetížení vs. zkrat
   Na charakteristice najděte oblast, která odpovídá:
