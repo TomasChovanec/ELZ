@@ -15,8 +15,8 @@ Naučte se (bude součástí zkoušení a testů):
 Pomocí vypínací charakteristiky jističe (graf níže) zodpovězte na otázky. Využijte čas k tomu, abyste si byli jistí, že všichni ve skupině odpovědi rozumějí (bude součástí zkoušení a testů).
 
 1. Na charakteristice najděte oblast, která odpovídá:
-  	• dlouhodobému přetížení, 
-  	• krátkodobému velkému nadproudu / zkratu. 
+    - dlouhodobému přetížení, 
+    - krátkodobému velkému nadproudu / zkratu. 
   Vysvětlete, proč jistič při malém přetížení nevypne okamžitě.
 
 1. Pro obvod zvažujete  buď jistič B16, nebo C16. Při poruše vzroste proud na 80 A.
@@ -24,8 +24,8 @@ Pomocí vypínací charakteristiky jističe (graf níže) zodpovězte na otázky
   Který jistič vypne rychleji a proč?
 
 1. Najděte na charakteristice B16 proud, při kterém je doba vypnutí přibližně:
-  	• 1 s, 
-  	• 0,1 s, 
+    -  1 s, 
+    -  0,1 s, 
 
 1. Jistič B10 je zatížen proudem 30 A.
   Z charakteristiky odhadněte maximální a minimální dobu vypnutí.
