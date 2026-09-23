@@ -8,9 +8,9 @@
 
 
 
-```mermaid
+<div class="mermaid">
 flowchart LR
     A[Student] --> B[Test]
     B --> C[Oprava]
     C --> D[Archiv]
-```
+</div>
