@@ -35,5 +35,24 @@ sequenceDiagram
     Alice->John: Yes... John, how are you?
 </div>
 
+
+<div class="mermaid">
+  stateDiagram
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+</div>
+
 <div class="mermaid">
 </div>
+
+<div class="mermaid">
+</div>
+
+
+
+
