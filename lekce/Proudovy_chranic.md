@@ -14,3 +14,10 @@ flowchart LR
     B --> C[Oprava]
     C --> D[Archiv]
 </div>
+
+<div class="mermaid">
+pie title What Voldemort doesn't have?
+         "FRIENDS" : 2
+         "FAMILY" : 3
+         "NOSE" : 45
+</div>
