@@ -9,12 +9,12 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 
 
 ## Elektrické přístroje
-1. [Elektrický oblouk](/lekce/Oblouk.md)
-1. [Stykače](/lekce/Stykace.md)
-1. [Stykače - samostatná práce](/lekce/Stykace_sam_prac.md)
-1. [Pojistky](/lekce/Pojistky.md)
-1. [Jističe](/lekce/Jistice.md)
-1. [Jističe - samostatná práce](/lekce/Jistice_sam_prac.md)
+- [Elektrický oblouk](/lekce/Oblouk.md)
+- [Stykače](/lekce/Stykace.md)
+- [Stykače - samostatná práce](/lekce/Stykace_sam_prac.md)
+- [Pojistky](/lekce/Pojistky.md)
+- [Jističe](/lekce/Jistice.md)
+- [Jističe - samostatná práce](/lekce/Jistice_sam_prac.md)
 
 <!---
 
