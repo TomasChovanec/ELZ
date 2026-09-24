@@ -24,8 +24,9 @@ Pomocí vypínací charakteristiky jističe (graf níže) zodpovězte na otázky
   Který jistič vypne rychleji a proč?
 
 1. Najděte na charakteristice B16 proud, při kterém je doba vypnutí přibližně:
-    -  1 s, 
-    -  0,1 s, 
+    - 10 min
+    - 10 s, 
+    - 0,1 s, 
 
 1. Jistič B10 je zatížen proudem 30 A.
   Z charakteristiky odhadněte maximální a minimální dobu vypnutí.
