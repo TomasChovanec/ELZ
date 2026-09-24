@@ -19,7 +19,7 @@ Pomocí vypínací charakteristiky jističe (graf níže) zodpovězte na otázky
     - krátkodobému velkému nadproudu / zkratu. 
   Vysvětlete, proč jistič při malém přetížení nevypne okamžitě.
 
-1. Pro obvod zvažujete  buď jistič B16, nebo C16. Při poruše vzroste proud na 80 A.
+1. Pro obvod zvažujete  buď jistič B16, nebo C16. Při poruše vzroste proud na 65 A.
   Z charakteristik určete, jak se budou oba jističe chovat.
   Který jistič vypne rychleji a proč?
 
