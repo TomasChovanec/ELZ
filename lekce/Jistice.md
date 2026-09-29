@@ -128,7 +128,7 @@ Elektromagnetickou spoušť tvoří **cívka elektromagnetu**. Při průchodu ve
 
 **Která spoušť jističe chrání před přetížením a která před zkratem?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 
 - **Tepelná spoušť** chrání před dlouhodobým přetížením.
@@ -140,7 +140,7 @@ Elektromagnetickou spoušť tvoří **cívka elektromagnetu**. Při průchodu ve
 
 **Co znamená charakteristika jističe B, C nebo D?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Charakteristika určuje, při jak velkém násobku jmenovitého proudu jistič **rychle vypne pomocí elektromagnetické spouště**.
 
@@ -154,7 +154,7 @@ Charakteristika určuje, při jak velkém násobku jmenovitého proudu jistič *
 
 **Proč se používají různé charakteristiky jističů B, C a D?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Některá zařízení mají při zapnutí krátkodobě **velký rozběhový proud**. Jistič s charakteristikou B by mohl takový proud vyhodnotit jako zkrat a vypnout. Charakteristiky C a D umožňují tolerovat větší krátkodobé proudové špičky.
 </details>
@@ -163,7 +163,7 @@ Některá zařízení mají při zapnutí krátkodobě **velký rozběhový prou
 
 **Jaký jistič bychom typicky použili pro běžný zásuvkový nebo světelný obvod?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Typicky jistič s charakteristikou **B**, protože běžné zásuvkové a světelné obvody obvykle nemají velmi vysoké rozběhové proudy.
 </details>
@@ -172,7 +172,7 @@ Typicky jistič s charakteristikou **B**, protože běžné zásuvkové a světe
 
 **Proč může být pro elektromotor vhodnější jistič C než B?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Elektromotor při rozběhu odebírá krátkodobě **výrazně vyšší proud** než při běžném provozu. Charakteristika C umožňuje větší krátkodobý proud, takže jistič při správně navrženém obvodu zbytečně nevypne během rozběhu motoru.
 </details>
@@ -181,7 +181,7 @@ Elektromotor při rozběhu odebírá krátkodobě **výrazně vyšší proud** n
 
 **Co je selektivita jištění?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Selektivita znamená, že při poruše vypne **přednostně nejbližší jistící prvek**, který poruchu chrání, zatímco nadřazené jistící prvky zůstanou zapnuté.
 </details>
