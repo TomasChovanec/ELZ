@@ -42,7 +42,7 @@ Selektivita jištění je princip, kdy při poruše (zkratu nebo přetížení) 
 
 **Co je přetížení elektrického obvodu?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Přetížení je stav, kdy obvodem protéká **větší proud, než je jeho jmenovitý proud**, ale nejedná se o zkrat. Pokud přetížení trvá delší dobu, může dojít k nadměrnému zahřívání vodičů a poškození jejich izolace.
 </details>
@@ -51,7 +51,7 @@ Přetížení je stav, kdy obvodem protéká **větší proud, než je jeho jmen
 
 **Co je elektrický zkrat?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Zkrat je nežádoucí spojení míst elektrického obvodu s **velmi malým elektrickým odporem**. Zkratový proud může být mnohonásobně větší než jmenovitý proud obvodu a způsobuje silné tepelné a elektrodynamické účinky.
 </details>
@@ -60,7 +60,7 @@ Zkrat je nežádoucí spojení míst elektrického obvodu s **velmi malým elekt
 
 **Jaký je rozdíl mezi přetížením a zkratem?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Při **přetížení** proud překračuje jmenovitou hodnotu, ale obvod stále pracuje se svou běžnou zátěží. Při **zkratu** vznikne spojení s velmi malým odporem a proud obvykle prudce vzroste na mnohonásobek jmenovité hodnoty.
 </details>
@@ -69,7 +69,7 @@ Při **přetížení** proud překračuje jmenovitou hodnotu, ale obvod stále p
 
 **Co může způsobit dlouhodobé přetížení vodiče?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Vodič se vlivem zvýšeného proudu nadměrně zahřívá. Dlouhodobé přehřívání může způsobit **degradaci nebo poškození izolace** a v krajním případě vznik požáru.
 </details>
@@ -78,7 +78,7 @@ Vodič se vlivem zvýšeného proudu nadměrně zahřívá. Dlouhodobé přehř�
 
 **Co je jistič a k čemu se používá?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Jistič je **samočinný vypínač**, který chrání elektrický obvod před přetížením a zkratem. Při poruše obvod automaticky vypne. Po odstranění závady je možné jistič opět zapnout bez nutnosti jeho výměny.
 </details>
@@ -87,7 +87,7 @@ Jistič je **samočinný vypínač**, který chrání elektrický obvod před p�
 
 **Jaká je hlavní výhoda jističe oproti pojistce?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Po vypnutí jističe není nutné vyměňovat žádnou součást. Po odstranění závady lze jistič **znovu zapnout**. Jistič lze také ručně vypínat a zapínat.
 </details>
@@ -96,7 +96,7 @@ Po vypnutí jističe není nutné vyměňovat žádnou součást. Po odstraněn�
 
 **Jaké dvě základní spouště má běžný jistič?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 
 Běžný jistič má:
@@ -110,7 +110,7 @@ Běžný jistič má:
 
 **Jak funguje tepelná spoušť jističe?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Tepelnou spoušť tvoří **bimetalový pásek**. Při průchodu nadproudu se zahřívá, ohne se a mechanicky uvede do činnosti vypínací mechanismus jističe. Čím větší je přetížení, tím rychleji se bimetal zahřeje a jistič vypne.
 </details>
@@ -119,7 +119,7 @@ Tepelnou spoušť tvoří **bimetalový pásek**. Při průchodu nadproudu se za
 
 **Jak funguje elektromagnetická spoušť jističe?**
 
-<details>
+<details markdown="1">
 <summary>Odpověď</summary>
 Elektromagnetickou spoušť tvoří **cívka elektromagnetu**. Při průchodu velmi vysokého proudu, například při zkratu, vznikne silné magnetické pole, které okamžitě pohne kotvičkou a uvede do činnosti vypínací mechanismus.
 </details>
