@@ -2,7 +2,7 @@
 
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/4e4e9210-a037-4a2c-94dd-f74d736c3b71" />
 
-Proudový chránič (RCD – Residual Current Device, lidově „chránič“, mezi elektrikáři hovorově "fíčko") je elektrický přístroj, který v okamžiku, kdy zjistí únik proudu mimo běžný obvod, rychle odpojí napájení. Chrání především **osoby před úrazem elektrickým proudem** a také objekty před požárem způsobeným zemními svody.
+Proudový chránič (RCD – Residual Current Device, lidově „chránič“, mezi elektrikáři hovorově "fíčko") je elektrický přístroj, který v okamžiku, kdy zjistí únik proudu mimo běžný obvod (např. při poruše izolace nebo i tělem člověka), rychle odpojí napájení. Chrání především **osoby před úrazem elektrickým proudem** a také objekty před požárem způsobeným zemními svody.
 
 ## Princip činnosti
 Uvnitř chrániče je **součtový transformátor**, kterým procházejí všechny pracovní vodiče (fáze a nulový vodič).
