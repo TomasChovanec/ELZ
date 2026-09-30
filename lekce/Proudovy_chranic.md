@@ -24,13 +24,8 @@ Vybavení je velmi rychlé, obvykle do 30 ms.
 | **Jmenovitý vybavovací rozdílový proud IΔn** | Proud, při kterém chránič vypíná. Nejčastěji 30 mA, 100 mA, 300 mA |
 | **Jmenovitý proud In** | Největší trvalý proud, který smí chráničem procházet (např. 25 A, 40 A, 63 A) |
 | **Počet pólů** | 2pólové (1fázové obvody), 4pólové (3fázové obvody) |
-| **Typ (charakteristika)** | Určuje, na jaký druh rozdílového proudu chránič reaguje |
+| **Typ (charakteristika)** | Určuje, na jaký druh rozdílového proudu chránič reaguje. Typ AC – reaguje pouze na sinusový střídavý rozdílový proud; Typ A – reaguje i na pulzující stejnosměrný proud a je běžnou volbou pro domácnosti; typ B navíc reaguje na hladký stejnosměrný proud a používá se např. u FVE, elektromobilů a některých průmyslových pohonů. |
 
-## Typy chráničů
-- **Typ AC** – reaguje na střídavý sinusový rozdílový proud. Dnes už se pro nové instalace nedoporučuje.
-- **Typ A** – reaguje i na pulzující stejnosměrný proud. Standard pro domácnosti (pračky, elektronika).
-- **Typ F** – rozšířený typ A, vhodný např. pro spotřebiče s frekvenčními měniči.
-- **Typ B** – reaguje i na hladký stejnosměrný proud (fotovoltaika, nabíjení elektromobilů, průmyslové pohony).
 
 ## Kde se používá
 Ve **30mA provedení** je chránič povinný jako **doplňková ochrana** například v:
@@ -128,20 +123,6 @@ IΔn je proud, **při kterém chránič vypíná**. Nejčastěji se používají
 
 - **2pólový** chránič se používá pro **jednofázové** obvody (1 fáze a vodič N).
 - **4pólový** chránič se používá pro **třífázové** obvody (3 fáze a vodič N).
-
-</details>
-
----
-
-**Jaké typy proudových chráničů rozlišujeme a na jaký proud reagují?**
-
-<details markdown="1">
-<summary>Odpověď</summary>
-
-- **Typ AC** – reaguje na střídavý sinusový rozdílový proud, pro nové instalace se již nedoporučuje.
-- **Typ A** – reaguje i na pulzující stejnosměrný proud.
-- **Typ F** – rozšířený typ A, vhodný např. pro spotřebiče s frekvenčními měniči.
-- **Typ B** – reaguje i na hladký stejnosměrný proud - kromě součtového transformátoru obsahuje navíc i další složitější elektroniku pro vyhodnocení úniku stejnosměrného proudu.
 
 </details>
 
