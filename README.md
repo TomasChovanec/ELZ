@@ -15,6 +15,7 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 - [Pojistky](/lekce/Pojistky.md)
 - [Jističe](/lekce/Jistice.md)
 - [Jističe - samostatná práce](/lekce/Jistice_sam_prac.md)
+- [Proudový chránič](/lekce/Proudovy_chranic.md)
 
 <!---
 
