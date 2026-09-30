@@ -1,15 +1,21 @@
 # Proudový chránič
 
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/4e4e9210-a037-4a2c-94dd-f74d736c3b71" />
+
 ## Co to je
-Proudový chránič (RCD – Residual Current Device, lidově „chránič“) je elektrický přístroj, který v okamžiku, kdy zjistí únik proudu mimo běžný obvod, rychle odpojí napájení. Chrání především **osoby před úrazem elektrickým proudem** a také objekty před požárem způsobeným zemními svody.
+Proudový chránič (RCD – Residual Current Device, lidově „chránič“, mezi elektrikáři hovorově "fíčko") je elektrický přístroj, který v okamžiku, kdy zjistí únik proudu mimo běžný obvod, rychle odpojí napájení. Chrání především **osoby před úrazem elektrickým proudem** a také objekty před požárem způsobeným zemními svody.
 
 ## Princip činnosti
-Uvnitř chrániče je **součtový (sumační) transformátor**, kterým procházejí všechny pracovní vodiče (fáze a nulový vodič).
+Uvnitř chrániče je **součtový transformátor**, kterým procházejí všechny pracovní vodiče (fáze a nulový vodič).
 
 - **Za normálního stavu** proud, který teče do spotřebiče fázovým vodičem, se vrací nulovým vodičem. Součet proudů je nulový, magnetické toky se ruší a v transformátoru se nic neindukuje.
-- **Při poruše** (např. dotyk osoby s živou částí nebo poškozená izolace) část proudu odteče jinou cestou, typicky přes zem nebo tělo člověka. Vzniká rozdíl proudů, tzv. **rozdílový (reziduální) proud**. Ten vyvolá magnetický tok, indukuje se napětí a spustí se vybavovací cívka, která přístroj vypne.
+- **Při poruše** (např. dotyk osoby s živou částí nebo poškozená izolace) část proudu odteče jinou cestou, typicky přes zem nebo tělo člověka. Vzniká rozdíl proudů, tzv. **rozdílový proud**. Ten vyvolá magnetický tok, indukuje se napětí a spustí se vybavovací cívka, která přístroj vypne.
 
 Vybavení je velmi rychlé, obvykle do 30 ms.
+
+<img width="631" alt="image" src="https://github.com/user-attachments/assets/ed5f6a6a-b799-4251-9f92-827b8b8ff8bf" />
+
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/89a82867-a40a-45d2-92fa-b6f9e68bc2fd" />
 
 ## Základní parametry
 | Parametr | Význam |
@@ -34,15 +40,18 @@ Ve **30mA provedení** je chránič povinný jako **doplňková ochrana** např�
 
 Chrániče s vyšším vybavovacím proudem (100–300 mA) se používají spíše pro **požární ochranu** nebo jako nadřazená ochrana.
 
+## Kombinovaný jistič s chráničem
+
+Vyrábějí se také přístroje které kombinují chránič i jistič v jednom. Označují se RCBO (Residual Current Breaker with Overcurrent protection), hovorově také jako jističochránič/chráničojistič. Výhodou je, že při poruše jednoho obvodu obvykle vypne pouze jeho vlastní RCBO, zatímco ostatní obvody mohou zůstat v provozu. Nevýhodou je vyšší cena oproti řešení, kdy je jeden chránič sdílený pro více obvodů.
+
+
 ## Co chránič nedělá
 - **Nechrání před přetížením a zkratem** – k tomu slouží jistič. Proto se chránič kombinuje s jističem (nebo se používá kombinovaný přístroj **proudový chránič s nadproudovou ochranou, RCBO**).
 - **Nechrání před dotykem dvou živých vodičů zároveň** (např. fáze a nulový vodič), protože tehdy proud protéká celým obvodem a rozdíl nevzniká.
 
 ## Kontrola funkce
-Chránič má **testovací tlačítko (T)**. Po jeho stisknutí se uměle vytvoří rozdílový proud a chránič musí vypnout. Doporučuje se test provádět **jednou za 3 měsíce**. Pokud chránič nevypne, je nutné ho nechat vyměnit a zkontrolovat.
+Chránič má **testovací tlačítko (T)**. Po jeho stisknutí se uměle vytvoří rozdílový proud a chránič musí vypnout. Výrobce předepisuje, jak často se má testovat (např. 1x za 6 měsíců). Pokud chránič nevypne, je nutné ho nechat vyměnit a zkontrolovat.
 
-## Shrnutí
-Proudový chránič sleduje rovnováhu proudů ve vodičích, a když zjistí únik, během zlomku sekundu obvod odpojí. Je nejdůležitější doplňkovou ochranou před úrazem elektrickým proudem, ale nenahrazuje jistič.
 
 ---
 
@@ -84,20 +93,11 @@ Proud, který teče do spotřebiče fázovým vodičem, se vrací nulovým vodi�
 
 ---
 
-**Co je rozdílový (reziduální) proud?**
+**Co je rozdílový proud?**
 
 <details markdown="1">
 <summary>Odpověď</summary>
 Rozdílový proud je **rozdíl mezi proudem, který do obvodu vstupuje, a proudem, který se vrací**. Vzniká, když část proudu odteče jinou cestou, například přes tělo člověka nebo přes poškozenou izolaci do země.
-</details>
-
----
-
-**Do jaké doby chránič obvykle vypne?**
-
-<details markdown="1">
-<summary>Odpověď</summary>
-Vybavení chrániče je velmi rychlé, obvykle **do 30 ms**.
 </details>
 
 ---
@@ -125,8 +125,8 @@ IΔn je proud, **při kterém chránič vypíná**. Nejčastěji se používají
 <details markdown="1">
 <summary>Odpověď</summary>
 
-- **2pólový** chránič se používá pro **jednofázové** obvody.
-- **4pólový** chránič se používá pro **třífázové** obvody.
+- **2pólový** chránič se používá pro **jednofázové** obvody (1 fáze a vodič N).
+- **4pólový** chránič se používá pro **třífázové** obvody (3 fáze a vodič N).
 
 </details>
 
@@ -140,7 +140,7 @@ IΔn je proud, **při kterém chránič vypíná**. Nejčastěji se používají
 - **Typ AC** – reaguje na střídavý sinusový rozdílový proud, pro nové instalace se již nedoporučuje.
 - **Typ A** – reaguje i na pulzující stejnosměrný proud.
 - **Typ F** – rozšířený typ A, vhodný např. pro spotřebiče s frekvenčními měniči.
-- **Typ B** – reaguje i na hladký stejnosměrný proud.
+- **Typ B** – reaguje i na hladký stejnosměrný proud - kromě součtového transformátoru obsahuje navíc i další složitější elektroniku pro vyhodnocení úniku stejnosměrného proudu.
 
 </details>
 
@@ -151,15 +151,6 @@ IΔn je proud, **při kterém chránič vypíná**. Nejčastěji se používají
 <details markdown="1">
 <summary>Odpověď</summary>
 Vhodný je **typ A**. Moderní pračky obsahují elektroniku, která může vytvářet **pulzující stejnosměrné rozdílové proudy**. Typ AC by na ně nemusel spolehlivě reagovat. Typ A je standard pro domácnosti.
-</details>
-
----
-
-**Kdy je vhodné použít chránič typu B?**
-
-<details markdown="1">
-<summary>Odpověď</summary>
-Typ B reaguje i na **hladký stejnosměrný rozdílový proud**. Používá se například u **fotovoltaiky**, **nabíjení elektromobilů** a **průmyslových pohonů**.
 </details>
 
 ---
