@@ -15,7 +15,7 @@ Vybavení je velmi rychlé, obvykle do 30 ms.
 
 <img width="631" alt="image" src="https://github.com/user-attachments/assets/ed5f6a6a-b799-4251-9f92-827b8b8ff8bf" />
 
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/89a82867-a40a-45d2-92fa-b6f9e68bc2fd" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/89a82867-a40a-45d2-92fa-b6f9e68bc2fd" />
 
 ## Základní parametry
 | Parametr | Význam |
