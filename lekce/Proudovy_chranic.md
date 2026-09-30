@@ -24,7 +24,7 @@ Vybavení je velmi rychlé, obvykle do 30 ms.
 | **Jmenovitý vybavovací rozdílový proud IΔn** | Proud, při kterém chránič vypíná. Nejčastěji 30 mA, 100 mA, 300 mA |
 | **Jmenovitý proud In** | Největší trvalý proud, který smí chráničem procházet (např. 25 A, 40 A, 63 A) |
 | **Počet pólů** | 2pólové (1fázové obvody), 4pólové (3fázové obvody) |
-| **Typ (charakteristika)** | Určuje, na jaký druh rozdílového proudu chránič reaguje. Typ AC – reaguje pouze na sinusový střídavý rozdílový proud; Typ A – reaguje i na pulzující stejnosměrný proud a je běžnou volbou pro domácnosti; typ B navíc reaguje na hladký stejnosměrný proud a používá se např. u FVE, elektromobilů a některých průmyslových pohonů. |
+| **Typ proudu** | Určuje, na jaký druh rozdílového proudu chránič reaguje. Typ AC – reaguje pouze na sinusový střídavý rozdílový proud; Typ A – reaguje i na pulzující stejnosměrný proud a je běžnou volbou pro domácnosti; typ B navíc reaguje na hladký stejnosměrný proud a používá se např. u FVE, elektromobilů a některých průmyslových pohonů. |
 
 
 ## Kde se používá
