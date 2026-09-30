@@ -18,7 +18,7 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 - [Proudový chránič](/lekce/Proudovy_chranic.md)
 
 <!---
-
+- [Spínací přístroje pro vysoké napětí](/lekce/Spinani_vysokeho_napeti.md)
 
 --->
 
