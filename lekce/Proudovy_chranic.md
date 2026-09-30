@@ -18,6 +18,7 @@ Vybavení je velmi rychlé, obvykle do 30 ms.
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/89a82867-a40a-45d2-92fa-b6f9e68bc2fd" />
 
 ## Základní parametry
+
 | Parametr | Význam |
 |---|---|
 | **Jmenovitý vybavovací rozdílový proud IΔn** | Proud, při kterém chránič vypíná. Nejčastěji 30 mA, 100 mA, 300 mA |
