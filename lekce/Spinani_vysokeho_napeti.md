@@ -144,24 +144,10 @@ Při vypínání velkého proudu vzniká mezi kontakty velmi intenzivní elektri
 </details>
 
 ---
-**Jaké jsou hlavní výhody vakuových zhášedel?**
-<details>
-<summary>Odpověď</summary>
-Jsou nehořlavá, při provozu tichá, nevypouštějí ionizované plyny ani plameny, mají malé opotřebení a malý potřebný zdvih kontaktů.
-</details>
-
----
 **Proč má vakuum vysokou elektrickou pevnost?**
 <details>
 <summary>Odpověď</summary>
 Při velmi nízkém tlaku je mezi kontakty jen velmi málo částic. Střední volná dráha elektronů je proto mnohem delší než vzdálenost kontaktů a nemůže docházet k běžné nárazové ionizaci plynu. Elektrický výboj se proto po oddálení kontaktů obtížně udržuje.
-</details>
-
----
-**Co se děje mezi kontakty vakuového zhášedla při rozpojení kontaktů?**
-<details>
-<summary>Odpověď</summary>
-Proud se při zmenšování kontaktní plochy soustředí do posledních míst dotyku. Ta se Jouleovým teplem silně zahřejí a část kontaktního materiálu se vypaří. Vzniklé kovové páry se ionizují a umožní krátkodobý přenos proudu ve formě plazmatu.
 </details>
 
 ---
@@ -197,27 +183,6 @@ Umožňuje pohyb pohyblivého kontaktu při zachování dokonalé těsnosti vaku
 <details>
 <summary>Odpověď</summary>
 Chrání vnitřní povrch vakuové nádoby před napařováním kontaktního materiálu, který se při vzniku oblouku odpařuje z kontaktů.
-</details>
-
----
-**Jaká je přibližná mechanická životnost kovového vlnovce vakuového zhášedla uvedená v textu?**
-<details>
-<summary>Odpověď</summary>
-Přibližně 10⁶ pracovních cyklů.
-</details>
-
----
-**Jaké jsou hlavní konstrukční části vakuového zhášedla?**
-<details>
-<summary>Odpověď</summary>
-Vakuové zhášedlo tvoří dva kontakty, vakuová nádoba, kovová víka, kovový vlnovec umožňující pohyb jednoho kontaktu a kovové stínění chránící vnitřní povrch nádoby.
-</details>
-
----
-**Proč je konstrukce vakuového zhášedla technologicky náročná?**
-<details>
-<summary>Odpověď</summary>
-Je nutné vytvořit mechanicky pevnou a dlouhodobě vakuově těsnou nádobu a současně zvolit a technologicky zpracovat kontaktní materiály tak, aby zhášedlo mělo požadované elektrické i mechanické vlastnosti.
 </details>
 
 
