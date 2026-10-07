@@ -16,9 +16,10 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 - [Jističe](/lekce/Jistice.md)
 - [Jističe - samostatná práce](/lekce/Jistice_sam_prac.md)
 - [Proudový chránič](/lekce/Proudovy_chranic.md)
-
-<!---
 - [Spínací přístroje pro vysoké napětí](/lekce/Spinani_vysokeho_napeti.md)
+ 
+<!---
+- [Transformátory - úvod](/lekce/Transformatory_uvod.md)
 
 --->
 
