@@ -56,3 +56,169 @@ Kovový vlnovec umožňující pohyb kontaktu při zachování vakua
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/261ed760-12b6-4484-b884-f0d1313aa4d6" />
 
 *Zdroj obrázku: https://dribo.cz/vyrobni-program/vypinace-osm-magvatech/#gallery-7*
+
+# Videa
+
+[![](https://img.youtube.com/vi/B0LsVtur4WE/0.jpg)](https://www.youtube.com/watch?v=B0LsVtur4WE)
+
+**Electrical Substation, 3D Virtual reality, Operation processes**
+
+[![](https://img.youtube.com/vi/8xZVsckRgYw/0.jpg)](https://www.youtube.com/watch?v=8xZVsckRgYw)
+
+**From 440kV to 440V: How Substations Deliver Electricity to Our Homes**
+
+[![](https://img.youtube.com/vi/A1oLSBq3BAE/0.jpg)](https://www.youtube.com/watch?v=A1oLSBq3BAE)
+
+**Vše, co jste chtěli vědět o distribuční soustavě - O distribuci elektřiny**
+
+
+# Otázky k opakování
+---
+**Jaké napěťové hladiny označujeme jako VN, VVN a ZVN a jaké jsou jejich typické hodnoty v ČR?**
+<details>
+<summary>Odpověď</summary>
+VN je 1–52 kV, typicky 6, 10, 22 a 35 kV. VVN je 52–300 kV, typicky 110 a 220 kV. ZVN je nad 300 kV, v ČR především 400 kV.
+</details>
+
+---
+**K čemu slouží sítě VN, VVN a ZVN?**
+<details>
+<summary>Odpověď</summary>
+VN slouží především k distribuci elektrické energie, VVN k regionálnímu rozvodu a ZVN k přenosu elektrické energie na velké vzdálenosti v přenosové soustavě.
+</details>
+
+---
+**Jaký je hlavní rozdíl mezi odpojovačem, odpínačem a výkonovým vypínačem?**
+<details>
+<summary>Odpověď</summary>
+Odpojovač je určen k rozpojení obvodu bez proudu. Odpínač umožňuje vypínat jmenovité proudy, ale ne zkratové proudy. Výkonový vypínač musí být schopen vypnout i zkratové proudy.
+</details>
+
+---
+**Proč se odpojovač nesmí běžně ovládat při zatíženém obvodu?**
+<details>
+<summary>Odpověď</summary>
+Odpojovač zpravidla nemá účinné zhášecí zařízení. Při rozpojení obvodu pod zatížením by proto mohl vzniknout nebezpečný elektrický oblouk, který by se nepodařilo bezpečně uhasit.
+</details>
+
+---
+**Co musí odpojovač zvládnout v případě zkratu?**
+<details>
+<summary>Odpověď</summary>
+Odpojovač musí být schopen přenášet zkratový proud, ale není určen k jeho vypínání.
+</details>
+
+---
+**K čemu slouží odpojovač v elektrické stanici?**
+<details>
+<summary>Odpověď</summary>
+Slouží především k bezpečnému galvanickému oddělení části elektrického zařízení od zbytku sítě, například před údržbou. Jeho rozpojená poloha umožňuje jednoznačně ověřit oddělení zařízení.
+</details>
+
+---
+**Jaký proud může vypínat odpínač?**
+<details>
+<summary>Odpověď</summary>
+Odpínač je schopen vypínat svůj jmenovitý proud, případně proudy stanovené výrobcem, ale není určen k vypínání zkratových proudů.
+</details>
+
+---
+**Proč má odpínač zhášecí zařízení, i když není určen k vypínání zkratů?**
+<details>
+<summary>Odpověď</summary>
+Při vypínání jmenovitého proudu vzniká mezi kontakty elektrický oblouk. Zhášecí zařízení jej musí bezpečně uhasit. Odpínač proto může vypínat provozní proudy, ale jeho zhášecí zařízení není určeno pro vypnutí velkého zkratového proudu.
+</details>
+
+---
+**Co musí být schopen vypnout výkonový vypínač?**
+<details>
+<summary>Odpověď</summary>
+Výkonový vypínač musí být schopen bezpečně vypnout všechny proudy, pro které je určen, včetně vysokých zkratových proudů.
+</details>
+
+---
+**Proč je výkonový vypínač vybaven výkonným zhášecím zařízením?**
+<details>
+<summary>Odpověď</summary>
+Při vypínání velkého proudu vzniká mezi kontakty velmi intenzivní elektrický oblouk. Výkonné zhášecí zařízení zajistí jeho bezpečné uhašení a dostatečně rychlé obnovení elektrické pevnosti mezi kontakty.
+</details>
+
+---
+**Jaké jsou hlavní výhody vakuových zhášedel?**
+<details>
+<summary>Odpověď</summary>
+Jsou nehořlavá, při provozu tichá, nevypouštějí ionizované plyny ani plameny, mají malé opotřebení a malý potřebný zdvih kontaktů.
+</details>
+
+---
+**Proč má vakuum vysokou elektrickou pevnost?**
+<details>
+<summary>Odpověď</summary>
+Při velmi nízkém tlaku je mezi kontakty jen velmi málo částic. Střední volná dráha elektronů je proto mnohem delší než vzdálenost kontaktů a nemůže docházet k běžné nárazové ionizaci plynu. Elektrický výboj se proto po oddálení kontaktů obtížně udržuje.
+</details>
+
+---
+**Co se děje mezi kontakty vakuového zhášedla při rozpojení kontaktů?**
+<details>
+<summary>Odpověď</summary>
+Proud se při zmenšování kontaktní plochy soustředí do posledních míst dotyku. Ta se Jouleovým teplem silně zahřejí a část kontaktního materiálu se vypaří. Vzniklé kovové páry se ionizují a umožní krátkodobý přenos proudu ve formě plazmatu.
+</details>
+
+---
+**Co způsobuje vznik oblouku ve vakuovém zhášedle?**
+<details>
+<summary>Odpověď</summary>
+Po oddálení kontaktů se z jejich povrchu uvolní kovové páry. Ty se ionizují a vytvoří plazma, které umožní další průchod proudu mezi kontakty.
+</details>
+
+---
+**Proč vakuový oblouk zhasne při průchodu střídavého proudu nulou?**
+<details>
+<summary>Odpověď</summary>
+Při průchodu proudu nulou zanikne plazma tvořená kovovými parami. Ve vakuu se následně velmi rychle obnoví vysoká elektrická pevnost mezikontaktního prostoru, takže se oblouk znovu nezapálí.
+</details>
+
+---
+**Jak je ve vakuovém zhášedle umožněn pohyb jednoho z kontaktů při zachování vakua?**
+<details>
+<summary>Odpověď</summary>
+Pohyblivý kontakt je spojen s vnějším mechanismem pomocí kovového vlnovce. Ten umožňuje axiální pohyb kontaktu a současně zachovává vakuovou těsnost zhášedla.
+</details>
+
+---
+**K čemu slouží kovový vlnovec ve vakuovém zhášedle?**
+<details>
+<summary>Odpověď</summary>
+Umožňuje pohyb pohyblivého kontaktu při zachování dokonalé těsnosti vakuové nádoby.
+</details>
+
+---
+**K čemu slouží kovové stínění kolem kontaktů vakuového zhášedla?**
+<details>
+<summary>Odpověď</summary>
+Chrání vnitřní povrch vakuové nádoby před napařováním kontaktního materiálu, který se při vzniku oblouku odpařuje z kontaktů.
+</details>
+
+---
+**Jaká je přibližná mechanická životnost kovového vlnovce vakuového zhášedla uvedená v textu?**
+<details>
+<summary>Odpověď</summary>
+Přibližně 10⁶ pracovních cyklů.
+</details>
+
+---
+**Jaké jsou hlavní konstrukční části vakuového zhášedla?**
+<details>
+<summary>Odpověď</summary>
+Vakuové zhášedlo tvoří dva kontakty, vakuová nádoba, kovová víka, kovový vlnovec umožňující pohyb jednoho kontaktu a kovové stínění chránící vnitřní povrch nádoby.
+</details>
+
+---
+**Proč je konstrukce vakuového zhášedla technologicky náročná?**
+<details>
+<summary>Odpověď</summary>
+Je nutné vytvořit mechanicky pevnou a dlouhodobě vakuově těsnou nádobu a současně zvolit a technologicky zpracovat kontaktní materiály tak, aby zhášedlo mělo požadované elektrické i mechanické vlastnosti.
+</details>
+
+
+### [Zpět na obsah](../README.md)
