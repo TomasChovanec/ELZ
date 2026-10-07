@@ -50,3 +50,5 @@ Reálné provedení vakuového vypínače
 Kovový vlnovec umožňující pohyb kontaktu při zachování vakua
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/261ed760-12b6-4484-b884-f0d1313aa4d6" />
+
+*Zdroj obrázku: https://dribo.cz/vyrobni-program/vypinace-osm-magvatech/#gallery-7*
