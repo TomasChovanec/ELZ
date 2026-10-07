@@ -44,9 +44,15 @@ Vyrábějí se také přístroje které kombinují chránič i jistič v jednom.
 - **Nechrání před přetížením a zkratem** – k tomu slouží jistič. Proto se chránič kombinuje s jističem (nebo se používá kombinovaný přístroj **proudový chránič s nadproudovou ochranou, RCBO**).
 - **Nechrání před dotykem dvou živých vodičů zároveň** (např. fáze a nulový vodič), protože tehdy proud protéká celým obvodem a rozdíl nevzniká.
 
+
 ## Kontrola funkce
 Chránič má **testovací tlačítko (T)**. Po jeho stisknutí se uměle vytvoří rozdílový proud a chránič musí vypnout. Výrobce předepisuje, jak často se má testovat (např. 1x za 6 měsíců). Pokud chránič nevypne, je nutné ho nechat vyměnit a zkontrolovat.
 
+# Videa
+
+[![](https://img.youtube.com/vi/TUno2IT-KZY/0.jpg)](https://www.youtube.com/watch?v=TUno2IT-KZY&t=905s)
+
+**Why RCDs Fail: The Hidden Danger in Your Consumer Unit**
 
 ---
 
