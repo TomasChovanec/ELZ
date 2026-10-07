@@ -23,10 +23,13 @@ Mají nouzové zhášecí zařízení, jsou schopny vypnout jmenovité (nikoli z
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/9890409c-295d-4ebe-899e-b8de43d35acb" />
 
+*Zdroj obrázku: https://dribo.cz/*
+
 ## Výkonové vypínače 
 Musí být schopny zajistit vypnutí všech proudů v obvodu, i zkratů. Jsou proto vybaveny výkonným zhášecím zařízením, které zabezpečí uhašení elektrického oblouku.
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/27e6e80a-ccb7-4232-9143-c5971a1e128d" />
+
 *Zdroj obrázku: https://dribo.cz/*
 
 ### Vakuová zhášedla
