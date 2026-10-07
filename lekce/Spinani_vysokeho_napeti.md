@@ -10,16 +10,38 @@
 
 Sítě VN slouží k distribuci, VVN k regionálnímu rozvodu a ZVN k přenosu na velké vzdálenosti (přenosová soustava).
 
-##  Spínací přístroje
+## Odpojovače
+Jsou to bezpečnostní prvky, které rozpojují obvod bez zatížení(bez proudu). Musí být schopny přenášet (nikoli vypínat) zkratové proudy v obvodu. Zpravidla nemají prvky pro zhášení oblouku
 
-**Vypínač** je jediný přístroj, který spolehlivě zapíná i vypíná provozní i zkratové proudy. Hlavním problémem je zhášení elektrického oblouku.
-- **VN:** vakuové vypínače (dnes nejběžnější) a vypínače SF6. Starší olejové a maloolejové vypínače se postupně nahrazují.
-- **VVN a ZVN:** vypínače SF6 (autopneumatické, s pružinovým nebo hydraulickým pohonem). 
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/a389c8e1-8051-4bff-804b-eb73c75d299c" />
+<img width="400"  alt="image" src="https://github.com/user-attachments/assets/2fcf5313-e07f-4a10-b0de-4b67d689d391" />
 
-**Odpojovač** vytváří viditelné oddělení části zařízení pro práci a údržbu. Nesmí spínat zátěž, spíná jen zanedbatelné proudy, a proto se manipuluje až po vypnutí vypínačem. Na VVN a ZVN se používají provedení otočné, nůžkové a pantografové.
 
-**Uzemňovač** spojuje odpojenou část zařízení se zemí a zajišťuje bezpečnost pracovníků. Často bývá součástí odpojovače.
+## Odpínače
+Mají nouzové zhášecí zařízení, jsou schopny vypnout jmenovité (nikoli zkratové) proudy v obvodu, musí přenášet zkratové proudy.
 
-**Odpínač** spíná provozní proudy (ne zkratové), používá se hlavně na VN, např. v distribučních trafostanicích. Často se kombinuje s pojistkami.
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/9890409c-295d-4ebe-899e-b8de43d35acb" />
 
-**Pojistky** chrání proti zkratu. Na VN se používají omezovací pojistky (HRC), na VVN a ZVN se nepoužívají, tam přebírá ochranu vypínač s ochranami.
+## Výkonové vypínače 
+Musí být schopny zajistit vypnutí všech proudů v obvodu, i zkratů. Jsou proto vybaveny výkonným zhášecím zařízením, které zabezpečí uhašení elektrického oblouku.
+
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/27e6e80a-ccb7-4232-9143-c5971a1e128d" />
+
+
+### Vakuová zhášedla
+Vakuová zhášedla se dnes stále více používají pro své velké výhody: jsou nehořlavá, při funkci tichá, nevyfukují ionizované plyny nebo plameny, mají minimální opotřebení a malý potřebný zdvih.
+
+### Izolační vlastnosti vakua
+Při tlaku nižším než 10⁻³ Pa je střední volná dráha elektronů ve zbytkovém plynu značně delší než vzdálenost kontaktů a proto po přiložení napětí ke kontaktům nemůže dojít k nárazové ionizaci volnými elektrony a samovolný elektrický výboj nenastane. Elektrická pevnost mezikontaktního prostoru ve vakuu je mnohokrát větší než pevnost tohoto prostoru při atmosférickém tlaku.
+
+Při vypínacím pochodu nejprve zaniká kontaktní síla, tím se zmenšuje počet stykových bodů a proud se přesouvá do posledního místa dotyku kontaktů. Toto místo se Jouleovým teplem značně zahřívá, až dojde k vypaření části kontaktního kovu. Mezi kontakty se tak tedy objeví mrak kovových par a dochází k jejich ionizaci a k přenosu proudu vzniklým plazmatem.
+
+
+### Zhášení oblouku ve vakuu
+Největším problémem vakuového vypínání spočívá v konstrukci mechanicky pevné a přitom vakuově těsné nádoby a ve volbě a technologickém zpracování kontaktních materiálů. Jak je patrné z obrázku jsou vakuová zhášedla celkem jednoduchá. Jedná se vždy o dva masivní kontakty 1. a 2. umístěné čelně proti sobě ve vakuové nádobě 4. Nádoba je ze skla nebo vakuové keramiky s kovovými víky 3. Jeden z kontaktů je pevně připojen k víku a druhý má možnost osového pohybu několika milimetrů při zachování dokonalé těsnosti pružného členu - vlnovce 5. Vlnovec se většinou vyrábí z titanové oceli a určuje mechanickou životnost zhášedla (ta je asi 10⁶ cyklů). Aby nedocházelo k napařování kovových par na vnitřní straně vakuové nádoby, je kolem kontaktů kovové stínění 6. Po oddálení kontaktů tedy dojde za pomoci kovových par k zapálení oblouku. Při průchodu proudu nulou dojde ke zhasnutí oblouku a k jeho dalšímu zapálení už nedojde.
+
+<img width="383" alt="image" src="https://github.com/user-attachments/assets/742d2d6b-abe7-4039-a036-9f520e46767a" />
+
+<img width="611" alt="image" src="https://github.com/user-attachments/assets/52068d73-826b-4e65-8b78-1a55b567d752" />
+
+<img width="781" alt="image" src="https://github.com/user-attachments/assets/261ed760-12b6-4484-b884-f0d1313aa4d6" />
