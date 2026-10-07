@@ -59,6 +59,10 @@ Kovový vlnovec umožňující pohyb kontaktu při zachování vakua
 
 # Videa
 
+[![](https://img.youtube.com/vi/A1oLSBq3BAE/0.jpg)](https://www.youtube.com/watch?v=A1oLSBq3BAE)
+
+**Vše, co jste chtěli vědět o distribuční soustavě - O distribuci elektřiny**
+
 [![](https://img.youtube.com/vi/B0LsVtur4WE/0.jpg)](https://www.youtube.com/watch?v=B0LsVtur4WE)
 
 **Electrical Substation, 3D Virtual reality, Operation processes**
@@ -66,10 +70,6 @@ Kovový vlnovec umožňující pohyb kontaktu při zachování vakua
 [![](https://img.youtube.com/vi/8xZVsckRgYw/0.jpg)](https://www.youtube.com/watch?v=8xZVsckRgYw)
 
 **From 440kV to 440V: How Substations Deliver Electricity to Our Homes**
-
-[![](https://img.youtube.com/vi/A1oLSBq3BAE/0.jpg)](https://www.youtube.com/watch?v=A1oLSBq3BAE)
-
-**Vše, co jste chtěli vědět o distribuční soustavě - O distribuci elektřiny**
 
 
 # Otázky k opakování
