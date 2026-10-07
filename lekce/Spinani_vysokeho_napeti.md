@@ -40,8 +40,13 @@ Při vypínacím pochodu nejprve zaniká kontaktní síla, tím se zmenšuje po�
 ### Zhášení oblouku ve vakuu
 Největším problémem vakuového vypínání spočívá v konstrukci mechanicky pevné a přitom vakuově těsné nádoby a ve volbě a technologickém zpracování kontaktních materiálů. Jak je patrné z obrázku jsou vakuová zhášedla celkem jednoduchá. Jedná se vždy o dva masivní kontakty 1. a 2. umístěné čelně proti sobě ve vakuové nádobě 4. Nádoba je ze skla nebo vakuové keramiky s kovovými víky 3. Jeden z kontaktů je pevně připojen k víku a druhý má možnost osového pohybu několika milimetrů při zachování dokonalé těsnosti pružného členu - vlnovce 5. Vlnovec se většinou vyrábí z titanové oceli a určuje mechanickou životnost zhášedla (ta je asi 10⁶ cyklů). Aby nedocházelo k napařování kovových par na vnitřní straně vakuové nádoby, je kolem kontaktů kovové stínění 6. Po oddálení kontaktů tedy dojde za pomoci kovových par k zapálení oblouku. Při průchodu proudu nulou dojde ke zhasnutí oblouku a k jeho dalšímu zapálení už nedojde.
 
-<img width="383" alt="image" src="https://github.com/user-attachments/assets/742d2d6b-abe7-4039-a036-9f520e46767a" />
+<img width="693" alt="image" src="https://github.com/user-attachments/assets/32a512b5-db2a-41d9-9ea6-8f97b7b275f5" />
 
-<img width="611" alt="image" src="https://github.com/user-attachments/assets/52068d73-826b-4e65-8b78-1a55b567d752" />
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/43832c0e-fee3-4591-b836-9919e8961b28" />
 
-<img width="781" alt="image" src="https://github.com/user-attachments/assets/261ed760-12b6-4484-b884-f0d1313aa4d6" />
+Reálné provedení vakuového vypínače
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/52068d73-826b-4e65-8b78-1a55b567d752" />
+
+
+Kovový vlnovec umožňující pohyb kontaktu při zachování vakua
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/261ed760-12b6-4484-b884-f0d1313aa4d6" />
