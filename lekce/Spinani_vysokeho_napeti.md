@@ -16,6 +16,7 @@ Jsou to bezpečnostní prvky, které rozpojují obvod bez zatížení(bez proudu
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/a389c8e1-8051-4bff-804b-eb73c75d299c" />
 <img width="400"  alt="image" src="https://github.com/user-attachments/assets/2fcf5313-e07f-4a10-b0de-4b67d689d391" />
 
+*Zdroj obrázku: https://dribo.cz/*
 
 ## Odpínače
 Mají nouzové zhášecí zařízení, jsou schopny vypnout jmenovité (nikoli zkratové) proudy v obvodu, musí přenášet zkratové proudy.
@@ -26,7 +27,7 @@ Mají nouzové zhášecí zařízení, jsou schopny vypnout jmenovité (nikoli z
 Musí být schopny zajistit vypnutí všech proudů v obvodu, i zkratů. Jsou proto vybaveny výkonným zhášecím zařízením, které zabezpečí uhašení elektrického oblouku.
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/27e6e80a-ccb7-4232-9143-c5971a1e128d" />
-
+*Zdroj obrázku: https://dribo.cz/*
 
 ### Vakuová zhášedla
 Vakuová zhášedla se dnes stále více používají pro své velké výhody: jsou nehořlavá, při funkci tichá, nevyfukují ionizované plyny nebo plameny, mají minimální opotřebení a malý potřebný zdvih.
