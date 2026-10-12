@@ -39,7 +39,7 @@ U vypínačů pro vysoká napětí si už nevystačíme s jednoduchými způsoby
 
 **Máloolejové vypínače**
 
-Olej se při působení elektrického oblouku prudce zahřívá a rozkládá, čímž vzniká plynné prostředí, které pomáhá oblouk zhasnout. Od jejich použití se ustupuje ve prospěch vakuových vypínačů.
+Olej se při působení elektrického oblouku prudce zahřívá a rozkládá, čímž vzniká plynné prostředí, které pomáhá oblouk zhasnout. Od jejich použití se ustoupilo ve prospěch SF6 a vakuových vypínačů.
 
 <img width="325" height="400" alt="image" src="https://github.com/user-attachments/assets/bf4403d3-a27f-4507-a7b2-cc7e3cf6ea51" />
 
