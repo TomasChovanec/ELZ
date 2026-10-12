@@ -102,6 +102,9 @@ Kovový vlnovec umožňující pohyb kontaktu při zachování vakua
 
 [![](https://img.youtube.com/vi/8xZVsckRgYw/0.jpg)](https://www.youtube.com/watch?v=8xZVsckRgYw)
 
+**Inside the Relay Controlled SF6 Circuit Breaker**
+
+[![](https://img.youtube.com/vi/oWJk5avZ4jI/0.jpg)](https://www.youtube.com/watch?v=oWJk5avZ4jI)
 
 # Otázky k opakování
 ---
