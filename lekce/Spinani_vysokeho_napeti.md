@@ -12,7 +12,9 @@ Sítě VN slouží k distribuci, VVN k regionálnímu rozvodu a ZVN k přenosu n
 
 ## Vysokonapěťové pojistky
 
-<img width="261" height="196" alt="image" src="https://github.com/user-attachments/assets/9ecf0f63-4f94-473d-b439-ac0d194a6d01" />
+<img width="379" alt="image" src="https://github.com/user-attachments/assets/99c3ec83-9a2b-49ec-bc5b-47842e7e8c60" />
+
+<img width="261" alt="image" src="https://github.com/user-attachments/assets/9ecf0f63-4f94-473d-b439-ac0d194a6d01" />
 
 Vysokonapěťové pojistky chrání elektrická zařízení před nadproudy, zejména před zkratovými proudy. Používají se například při ochraně distribučních transformátorů a dalších zařízení VN. Vyrábějí se pro různá jmenovitá napětí, běžně až do 40 kV, a v širokém rozsahu jmenovitých proudů.
 
@@ -84,10 +86,10 @@ Při tlaku nižším než 10⁻³ Pa je střední volná dráha elektronů ve zb
 
 Při vypínacím pochodu nejprve zaniká kontaktní síla, tím se zmenšuje počet stykových bodů a proud se přesouvá do posledního místa dotyku kontaktů. Toto místo se Jouleovým teplem značně zahřívá, až dojde k vypaření části kontaktního kovu. Mezi kontakty se tak tedy objeví mrak kovových par a dochází k jejich ionizaci a k přenosu proudu vzniklým plazmatem.
 
-Největším problémem vakuového vypínání spočívá v konstrukci mechanicky pevné a přitom vakuově těsné nádoby a ve volbě a technologickém zpracování kontaktních materiálů. Jak je patrné z obrázku jsou vakuová zhášedla celkem jednoduchá. Jedná se vždy o dva masivní kontakty 1. a 2. umístěné čelně proti sobě ve vakuové nádobě 4. Nádoba je ze skla nebo vakuové keramiky s kovovými víky 3. Jeden z kontaktů je pevně připojen k víku a druhý má možnost osového pohybu několika milimetrů při zachování dokonalé těsnosti pružného členu - vlnovce 5. Vlnovec se většinou vyrábí z titanové oceli a určuje mechanickou životnost zhášedla (ta je asi 10⁶ cyklů). Aby nedocházelo k napařování kovových par na vnitřní straně vakuové nádoby, je kolem kontaktů kovové stínění 6. Po oddálení kontaktů tedy dojde za pomoci kovových par k zapálení oblouku. Při průchodu proudu nulou dojde ke zhasnutí oblouku a k jeho dalšímu zapálení už nedojde.
+Největším problémem vakuového vypínání spočívá v konstrukci mechanicky pevné a přitom vakuově těsné nádoby a ve volbě a technologickém zpracování kontaktních materiálů. Jak je patrné z obrázku jsou vakuová zhášedla celkem jednoduchá. Jedná se vždy o dva masivní kontakty umístěné čelně proti sobě ve vakuové nádobě. Nádoba je ze skla nebo vakuové keramiky s kovovými víky. Jeden z kontaktů je pevně připojen k víku a druhý má možnost osového pohybu několika milimetrů při zachování dokonalé těsnosti pružného členu - vlnovce. Vlnovec se většinou vyrábí z titanové oceli a určuje mechanickou životnost zhášedla (ta je asi 10⁶ cyklů). Aby nedocházelo k napařování kovových par na vnitřní straně vakuové nádoby, je kolem kontaktů kovové stínění. Po oddálení kontaktů tedy dojde za pomoci kovových par k zapálení oblouku. Při průchodu proudu nulou dojde ke zhasnutí oblouku a k jeho dalšímu zapálení už nedojde.
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/32a512b5-db2a-41d9-9ea6-8f97b7b275f5" />
-<img width="200" alt="image" src="https://github.com/user-attachments/assets/43832c0e-fee3-4591-b836-9919e8961b28" />
+<img width="1796" height="1646" alt="image" src="https://github.com/user-attachments/assets/c1fa33a4-8393-43ef-978c-d2920ed736c3" />
+
 
 Reálné provedení vakuového vypínače
 
