@@ -54,9 +54,8 @@ Vypínače vypínají tlakem vzduchu cca 30 MPa. Jsou velmi rychlé a výkonné,
 
 **Fluorid sírový (SF₆)**
 
-<img width="512" alt="image" src="https://github.com/user-attachments/assets/48f528c9-a449-4088-a3dc-f2d31dea4194" />
+<img width="563" alt="image" src="https://github.com/user-attachments/assets/434215f0-7949-4d4f-87f4-19f462bd7072" />
 
-*Zdroj obrázku: https://okmarts.com/news/how-do-circuit-breakers-extinguish-electric-arc.html*
 
 <img width="625"  alt="image" src="https://github.com/user-attachments/assets/791ba34c-7b40-4354-8a51-09fe70f3c8fe" />
 
