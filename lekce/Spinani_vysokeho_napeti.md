@@ -41,10 +41,7 @@ U vypínačů pro vysoká napětí si už nevystačíme s jednoduchými způsoby
 
 Olej se při působení elektrického oblouku prudce zahřívá a rozkládá, čímž vzniká plynné prostředí, které pomáhá oblouk zhasnout. Od jejich použití se ustoupilo ve prospěch SF6 a vakuových vypínačů.
 
-<img width="325" height="400" alt="image" src="https://github.com/user-attachments/assets/bf4403d3-a27f-4507-a7b2-cc7e3cf6ea51" />
-
-<img width="450" height="361" alt="image" src="https://github.com/user-attachments/assets/e11bcb09-aa72-49db-bdc5-ed3fd6ee0977" />
-
+<img width="800"  alt="image" src="https://github.com/user-attachments/assets/4b2d4bf6-555b-4a8e-bd72-a5287b722519" />
 
 ---
 
