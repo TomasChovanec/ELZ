@@ -88,7 +88,7 @@ Při vypínacím pochodu nejprve zaniká kontaktní síla, tím se zmenšuje po�
 
 Největším problémem vakuového vypínání spočívá v konstrukci mechanicky pevné a přitom vakuově těsné nádoby a ve volbě a technologickém zpracování kontaktních materiálů. Jak je patrné z obrázku jsou vakuová zhášedla celkem jednoduchá. Jedná se vždy o dva masivní kontakty umístěné čelně proti sobě ve vakuové nádobě. Nádoba je ze skla nebo vakuové keramiky s kovovými víky. Jeden z kontaktů je pevně připojen k víku a druhý má možnost osového pohybu několika milimetrů při zachování dokonalé těsnosti pružného členu - vlnovce. Vlnovec se většinou vyrábí z titanové oceli a určuje mechanickou životnost zhášedla (ta je asi 10⁶ cyklů). Aby nedocházelo k napařování kovových par na vnitřní straně vakuové nádoby, je kolem kontaktů kovové stínění. Po oddálení kontaktů tedy dojde za pomoci kovových par k zapálení oblouku. Při průchodu proudu nulou dojde ke zhasnutí oblouku a k jeho dalšímu zapálení už nedojde.
 
-<img width="1796" height="1646" alt="image" src="https://github.com/user-attachments/assets/c1fa33a4-8393-43ef-978c-d2920ed736c3" />
+<img width="800"  alt="image" src="https://github.com/user-attachments/assets/c1fa33a4-8393-43ef-978c-d2920ed736c3" />
 
 
 Reálné provedení vakuového vypínače
