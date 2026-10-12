@@ -10,6 +10,23 @@
 
 Sítě VN slouží k distribuci, VVN k regionálnímu rozvodu a ZVN k přenosu na velké vzdálenosti (přenosová soustava).
 
+## Vysokonapěťové pojistky
+
+<img width="261" height="196" alt="image" src="https://github.com/user-attachments/assets/9ecf0f63-4f94-473d-b439-ac0d194a6d01" />
+
+Vysokonapěťové pojistky chrání elektrická zařízení před nadproudy, zejména před zkratovými proudy. Používají se například při ochraně distribučních transformátorů a dalších zařízení VN. Vyrábějí se pro různá jmenovitá napětí, běžně až do 40 kV, a v širokém rozsahu jmenovitých proudů.
+
+Základními částmi pojistkové vložky jsou keramické pouzdro, tavný vodič, keramický nosič a zhášecí náplň, obvykle z křemenného písku. Na koncích vložky jsou kontaktní víčka. Některé vložky jsou vybaveny také ukazatelem stavu nebo pružinovým úderníkem.
+
+<img width="605" alt="image" src="https://github.com/user-attachments/assets/9e244def-ccc8-42bf-8110-441b8062b028" />
+
+*Zdroj obrázku: https://projekty.osu.cz/irp2016/pojistky.html*
+
+Při nadproudu se tavný vodič zahřívá a přetaví. Vzniklý elektrický oblouk je zhášecí náplní uhašen a proud se přeruší. Pojistka tak omezuje účinky zkratového proudu.
+
+Úderník může po přetavení pojistky mechanicky aktivovat další přístroj. V pojistkové kombinaci s odpínačem tak může zajistit odpojení všech tří fází, i když se přetavila pouze jedna pojistková vložka.
+
+
 ## Odpojovače
 Jsou to bezpečnostní prvky, které rozpojují obvod bez zatížení(bez proudu). Musí být schopny přenášet (nikoli vypínat) zkratové proudy v obvodu. Zpravidla nemají prvky pro zhášení oblouku
 
