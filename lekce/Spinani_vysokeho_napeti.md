@@ -50,7 +50,7 @@ Olej se při působení elektrického oblouku prudce zahřívá a rozkládá, č
 
 **Stlačený vzduch**
 
-Vypínače vypínají tlakem vzduchu cca 30 MPa. Jsou velmi rychlé a výkonné, avšak hlučné a energeticky náročné, vyžadují vlastní kompresorovou stanici.
+Vypínače vypínají tlakem vzduchu cca 30 MPa. Jsou velmi rychlé a výkonné, avšak hlučné a energeticky náročné, vyžadují vlastní kompresorovou stanici. V současné době už se nepoužívají.
 
 **Fluorid sírový (SF₆)**
 
