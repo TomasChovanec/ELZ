@@ -139,21 +139,7 @@ Protože DC oblouk nemá přirozený průchod nulou, musí se uměle protáhnout
 Indukčnost se brání náhlé změně proudu a při přerušení obvodu generuje vysoké přepětí (u = -L·di/dt), které se snaží proud udržet i přes rozpojující se kontakty. To vede k intenzivnějšímu a hůře zhasitelnému oblouku i k namáhání izolace přepětím.
 </details>
 
----
-**Jak funguje zhášení oblouku pomocí SF6 ve VN technice?**
-<details>
-<summary>Odpověď</summary>
-SF6 (fluorid sírový) je elektronegativní plyn s vysokou dielektrickou pevností, který rychle zachytává volné elektrony, čímž urychluje deionizaci prostoru mezi kontakty a zhášení oblouku.
-</details>
 
----
-**Proč vakuová komora umožňuje velmi rychlé zhášení oblouku?**
-<details>
-<summary>Odpověď</summary>
-Ve vysokém vakuu chybí médium schopné oblouk udržet. Oblouk, tvořený parami kovu z kontaktů, proto zhasíná velmi rychle při průchodu proudu nulou.
-</details>
-
----
 
 
 ### [Zpět na obsah](../README.md)
