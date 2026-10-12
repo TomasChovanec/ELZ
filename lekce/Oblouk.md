@@ -27,9 +27,7 @@ Zvýšené problémy s obloukem nastávají při vypínání induktivních zát�
 
 - DC oblouk – proud nemá přirozený průchod nulou, takže oblouk hoří trvale, dokud se uměle neprotáhne a neochladí natolik, že klesne pod hodnotu potřebnou k jeho udržení. Vyžaduje účinnější zhášecí opatření (např. zhášecí komory s dělicími můstky, magnetické vyfukování obloukem) a obecně je obtížnější a nebezpečnější než zhášení AC oblouku.
 
-## Způsoby zhášení oblouku
-
-### A. Dělením oblouku (vlastní zhášecí prostředky)
+## Způsoby zhášení oblouku v přístrojích NN
 
 **a) Můstkové kontakty**
 
@@ -46,43 +44,6 @@ Používá se u vypínačů do 40 A.
 
 Oblouk je vháněn vlastním magnetickým polem do zhášecí komory, kde se na zhášecím hřebeni (celu) rozdělí na několik dílčích oblouků – obdobně jako u můstkových kontaktů se tím sníží napětí na jednotlivých částech a oblouk zhasne.
 Komora je vyrobena z izolačního (odolného) materiálu. Pro zvýšení účinku se v praxi doplňuje pomocné magnetické pole v příčném směru, vytvářené např. elektromagnetem nebo permanentními magnety.
-
----
-
-### B. Cizí zhášecí prostředky
-
-Používají se u elektrických přístrojů na vysoké napětí (VN), velmi vysoké napětí (VVN) a zvlášť vysoké napětí (ZVN).
-
-**a) Minerální oleje**
-
-Olej se při působení elektrického oblouku prudce zahřívá a rozkládá, čímž vzniká plynné prostředí, které pomáhá oblouk zhasnout.
-
-<img width="325" height="400" alt="image" src="https://github.com/user-attachments/assets/bf4403d3-a27f-4507-a7b2-cc7e3cf6ea51" />
-
-<img width="450" height="361" alt="image" src="https://github.com/user-attachments/assets/e11bcb09-aa72-49db-bdc5-ed3fd6ee0977" />
-
-
----
-
-**b) Stlačený vzduch**
-
-Vypínače vypínají tlakem vzduchu cca 30 MPa. Jsou velmi rychlé a výkonné, avšak hlučné a energeticky náročné.
-
-**c) Fluorid sírový (SF₆)**
-
-<img width="512" alt="image" src="https://github.com/user-attachments/assets/48f528c9-a449-4088-a3dc-f2d31dea4194" />
-
-*Zdroj obrázku: https://okmarts.com/news/how-do-circuit-breakers-extinguish-electric-arc.html*
-
-Elektronegativní plyn s vysokou dielektrickou pevností a schopností rychle zachytávat volné elektrony, čímž urychluje deionizaci a zhášení oblouku. Má přibližně 3× lepší elektrickou pevnost než vzduch. 
-
----
-**d) Vakuum (p ≈ 10⁻¹⁰ Pa)**
-
-Vakuová komora – kontakty jsou umístěny ve vysokém vakuu, kde chybí médium schopné oblouk udržet; oblouk (tvořený parami kovu z kontaktů) zhasíná velmi rychle při průchodu proudu nulou.
-
-<img width="200" height="803" alt="image" src="https://github.com/user-attachments/assets/ae939d27-0b62-433c-a31c-54376bb6504b" />
-
 
 
 # Otázky k opakování
