@@ -32,14 +32,45 @@ Musí být schopny zajistit vypnutí všech proudů v obvodu, i zkratů. Jsou pr
 
 *Zdroj obrázku: https://dribo.cz/*
 
-### Vakuová zhášedla
+
+## Zhášení oblouku ve VN, VVN a ZVN
+U vypínačů pro vysoká napětí si už nevystačíme s jednoduchými způsoby zhášení oblouků jeko například u instalačních jističů. Pro zvýšení zhášecího účinku se používají různá média (olej, vzduch, elektronegativní plyn), která jsou vháněna do prostoru hoření oblouku a hasí jej. Též mohou být použity elektromagnetické zhášecí cívky společně se zhášecími komorami,ve kterých dojde ke chlazení a přerušení oblouku.
+
+
+**Máloolejové vypínače**
+
+Olej se při působení elektrického oblouku prudce zahřívá a rozkládá, čímž vzniká plynné prostředí, které pomáhá oblouk zhasnout. Od jejich použití se ustupuje ve prospěch vakuových vypínačů.
+
+<img width="325" height="400" alt="image" src="https://github.com/user-attachments/assets/bf4403d3-a27f-4507-a7b2-cc7e3cf6ea51" />
+
+<img width="450" height="361" alt="image" src="https://github.com/user-attachments/assets/e11bcb09-aa72-49db-bdc5-ed3fd6ee0977" />
+
+
+---
+
+**Stlačený vzduch**
+
+Vypínače vypínají tlakem vzduchu cca 30 MPa. Jsou velmi rychlé a výkonné, avšak hlučné a energeticky náročné, vyžadují vlastní kompresorovou stanici.
+
+**Fluorid sírový (SF₆)**
+
+<img width="512" alt="image" src="https://github.com/user-attachments/assets/48f528c9-a449-4088-a3dc-f2d31dea4194" />
+
+*Zdroj obrázku: https://okmarts.com/news/how-do-circuit-breakers-extinguish-electric-arc.html*
+
+Elektronegativní plyn s vysokou dielektrickou pevností a schopností rychle zachytávat volné elektrony, čímž urychluje deionizaci a zhášení oblouku. Má přibližně 3× lepší elektrickou pevnost než vzduch. SF₆ je skleníkový plyn, proto se od jeho použití postupně upouští, od roku 2032 už jej nebude možné používat v **nových** zařízeních (již fungující zařízení se měnit nemusí).
+
+---
+**Vakuum (p ≈ 10⁻¹⁰ Pa)**
+
 Vakuová zhášedla se dnes stále více používají pro své velké výhody: jsou nehořlavá, při funkci tichá, nevyfukují ionizované plyny nebo plameny, mají minimální opotřebení a malý potřebný zdvih.
+
+<img width="200" height="803" alt="image" src="https://github.com/user-attachments/assets/ae939d27-0b62-433c-a31c-54376bb6504b" />
 
 ### Izolační vlastnosti vakua
 Při tlaku nižším než 10⁻³ Pa je střední volná dráha elektronů ve zbytkovém plynu značně delší než vzdálenost kontaktů a proto po přiložení napětí ke kontaktům nemůže dojít k nárazové ionizaci volnými elektrony a samovolný elektrický výboj nenastane. Elektrická pevnost mezikontaktního prostoru ve vakuu je mnohokrát větší než pevnost tohoto prostoru při atmosférickém tlaku.
 
 Při vypínacím pochodu nejprve zaniká kontaktní síla, tím se zmenšuje počet stykových bodů a proud se přesouvá do posledního místa dotyku kontaktů. Toto místo se Jouleovým teplem značně zahřívá, až dojde k vypaření části kontaktního kovu. Mezi kontakty se tak tedy objeví mrak kovových par a dochází k jejich ionizaci a k přenosu proudu vzniklým plazmatem.
-
 
 ### Zhášení oblouku ve vakuu
 Největším problémem vakuového vypínání spočívá v konstrukci mechanicky pevné a přitom vakuově těsné nádoby a ve volbě a technologickém zpracování kontaktních materiálů. Jak je patrné z obrázku jsou vakuová zhášedla celkem jednoduchá. Jedná se vždy o dva masivní kontakty 1. a 2. umístěné čelně proti sobě ve vakuové nádobě 4. Nádoba je ze skla nebo vakuové keramiky s kovovými víky 3. Jeden z kontaktů je pevně připojen k víku a druhý má možnost osového pohybu několika milimetrů při zachování dokonalé těsnosti pružného členu - vlnovce 5. Vlnovec se většinou vyrábí z titanové oceli a určuje mechanickou životnost zhášedla (ta je asi 10⁶ cyklů). Aby nedocházelo k napařování kovových par na vnitřní straně vakuové nádoby, je kolem kontaktů kovové stínění 6. Po oddálení kontaktů tedy dojde za pomoci kovových par k zapálení oblouku. Při průchodu proudu nulou dojde ke zhasnutí oblouku a k jeho dalšímu zapálení už nedojde.
@@ -135,8 +166,22 @@ Při vypínání jmenovitého proudu vzniká mezi kontakty elektrický oblouk. Z
 <summary>Odpověď</summary>
 Výkonový vypínač musí být schopen bezpečně vypnout všechny proudy, pro které je určen, včetně vysokých zkratových proudů.
 </details>
+---
+**Jak funguje zhášení oblouku pomocí SF6 ve VN technice?**
+<details>
+<summary>Odpověď</summary>
+SF6 (fluorid sírový) je elektronegativní plyn s vysokou dielektrickou pevností, který rychle zachytává volné elektrony, čímž urychluje deionizaci prostoru mezi kontakty a zhášení oblouku.
+</details>
 
 ---
+**Proč vakuová komora umožňuje velmi rychlé zhášení oblouku?**
+<details>
+<summary>Odpověď</summary>
+Ve vysokém vakuu chybí médium schopné oblouk udržet. Oblouk, tvořený parami kovu z kontaktů, proto zhasíná velmi rychle při průchodu proudu nulou.
+</details>
+
+---
+
 **Proč je výkonový vypínač vybaven výkonným zhášecím zařízením?**
 <details>
 <summary>Odpověď</summary>
