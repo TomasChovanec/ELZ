@@ -58,6 +58,10 @@ Vypínače vypínají tlakem vzduchu cca 30 MPa. Jsou velmi rychlé a výkonné,
 
 *Zdroj obrázku: https://okmarts.com/news/how-do-circuit-breakers-extinguish-electric-arc.html*
 
+<img width="625"  alt="image" src="https://github.com/user-attachments/assets/791ba34c-7b40-4354-8a51-09fe70f3c8fe" />
+
+*Zdroj obrázku: https://savree.com/en/encyclopedia/sf6-circuit-breaker*
+
 Elektronegativní plyn s vysokou dielektrickou pevností a schopností rychle zachytávat volné elektrony, čímž urychluje deionizaci a zhášení oblouku. Má přibližně 3× lepší elektrickou pevnost než vzduch. SF₆ je skleníkový plyn, proto se od jeho použití postupně upouští, od roku 2032 už jej nebude možné používat v **nových** zařízeních (již fungující zařízení se měnit nemusí).
 
 ---
@@ -65,14 +69,10 @@ Elektronegativní plyn s vysokou dielektrickou pevností a schopností rychle za
 
 Vakuová zhášedla se dnes stále více používají pro své velké výhody: jsou nehořlavá, při funkci tichá, nevyfukují ionizované plyny nebo plameny, mají minimální opotřebení a malý potřebný zdvih.
 
-<img width="200" height="803" alt="image" src="https://github.com/user-attachments/assets/ae939d27-0b62-433c-a31c-54376bb6504b" />
-
-### Izolační vlastnosti vakua
 Při tlaku nižším než 10⁻³ Pa je střední volná dráha elektronů ve zbytkovém plynu značně delší než vzdálenost kontaktů a proto po přiložení napětí ke kontaktům nemůže dojít k nárazové ionizaci volnými elektrony a samovolný elektrický výboj nenastane. Elektrická pevnost mezikontaktního prostoru ve vakuu je mnohokrát větší než pevnost tohoto prostoru při atmosférickém tlaku.
 
 Při vypínacím pochodu nejprve zaniká kontaktní síla, tím se zmenšuje počet stykových bodů a proud se přesouvá do posledního místa dotyku kontaktů. Toto místo se Jouleovým teplem značně zahřívá, až dojde k vypaření části kontaktního kovu. Mezi kontakty se tak tedy objeví mrak kovových par a dochází k jejich ionizaci a k přenosu proudu vzniklým plazmatem.
 
-### Zhášení oblouku ve vakuu
 Největším problémem vakuového vypínání spočívá v konstrukci mechanicky pevné a přitom vakuově těsné nádoby a ve volbě a technologickém zpracování kontaktních materiálů. Jak je patrné z obrázku jsou vakuová zhášedla celkem jednoduchá. Jedná se vždy o dva masivní kontakty 1. a 2. umístěné čelně proti sobě ve vakuové nádobě 4. Nádoba je ze skla nebo vakuové keramiky s kovovými víky 3. Jeden z kontaktů je pevně připojen k víku a druhý má možnost osového pohybu několika milimetrů při zachování dokonalé těsnosti pružného členu - vlnovce 5. Vlnovec se většinou vyrábí z titanové oceli a určuje mechanickou životnost zhášedla (ta je asi 10⁶ cyklů). Aby nedocházelo k napařování kovových par na vnitřní straně vakuové nádoby, je kolem kontaktů kovové stínění 6. Po oddálení kontaktů tedy dojde za pomoci kovových par k zapálení oblouku. Při průchodu proudu nulou dojde ke zhasnutí oblouku a k jeho dalšímu zapálení už nedojde.
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/32a512b5-db2a-41d9-9ea6-8f97b7b275f5" />
