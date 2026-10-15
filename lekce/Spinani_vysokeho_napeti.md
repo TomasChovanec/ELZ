@@ -62,11 +62,11 @@ Olej se při působení elektrického oblouku prudce zahřívá a rozkládá, č
 
 <img width="800"  alt="image" src="https://github.com/user-attachments/assets/4b2d4bf6-555b-4a8e-bd72-a5287b722519" />
 
----
 
 ### Vypínače se stlačeným vzduchem
 
 Vypínače vypínají tlakem vzduchu cca 30 MPa. Jsou velmi rychlé a výkonné, avšak hlučné a energeticky náročné, vyžadují vlastní kompresorovou stanici. V současné době už se nepoužívají.
+
 
 ### Vypínače s fluoridem sírový (SF₆)
 Elektronegativní plyn s vysokou dielektrickou pevností a schopností rychle zachytávat volné elektrony, čímž urychluje deionizaci a zhášení oblouku. Má přibližně 3× lepší elektrickou pevnost než vzduch. SF₆ je skleníkový plyn, proto se od jeho použití postupně upouští, od roku 2032 už jej nebude možné používat v **nových** zařízeních (již fungující zařízení se měnit nemusí).
@@ -77,7 +77,7 @@ Elektronegativní plyn s vysokou dielektrickou pevností a schopností rychle za
 
 *Zdroj obrázku: https://savree.com/en/encyclopedia/sf6-circuit-breaker*
 
----
+
 ### Vakuové vypínače (p ≈ 10⁻¹⁰ Pa)
 
 Vakuová zhášedla se dnes stále více používají pro své velké výhody: jsou nehořlavá, při funkci tichá, nevyfukují ionizované plyny nebo plameny, mají minimální opotřebení a malý potřebný zdvih.
@@ -90,7 +90,6 @@ Největším problémem vakuového vypínání spočívá v konstrukci mechanick
 
 <img width="800"  alt="image" src="https://github.com/user-attachments/assets/c1fa33a4-8393-43ef-978c-d2920ed736c3" />
 
-
 Reálné provedení vakuového vypínače
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/52068d73-826b-4e65-8b78-1a55b567d752" />
@@ -100,6 +99,7 @@ Kovový vlnovec umožňující pohyb kontaktu při zachování vakua
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/261ed760-12b6-4484-b884-f0d1313aa4d6" />
 
 *Zdroj obrázku: https://dribo.cz/vyrobni-program/vypinace-osm-magvatech/#gallery-7*
+
 
 # Videa
 
