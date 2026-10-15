@@ -30,7 +30,7 @@ Při nadproudu se tavný vodič zahřívá a přetaví. Vzniklý elektrický obl
 
 
 ## Odpojovače
-Jsou to bezpečnostní prvky, které rozpojují obvod bez zatížení(bez proudu). Slouží k viditelnému rozpojení obvodu například v případě práce na vedení. Musí být schopny přenášet (nikoli vypínat) zkratové proudy v obvodu. Zpravidla nemají prvky pro zhášení oblouku
+Jsou to bezpečnostní prvky, které rozpojují obvod bez zatížení (bez proudu). Slouží k viditelnému rozpojení obvodu například v případě práce na vedení. Musí být schopny přenášet (nikoli vypínat) zkratové proudy v obvodu. Zpravidla nemají prvky pro zhášení oblouku
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/a389c8e1-8051-4bff-804b-eb73c75d299c" />
 <img width="400"  alt="image" src="https://github.com/user-attachments/assets/2fcf5313-e07f-4a10-b0de-4b67d689d391" />
@@ -65,7 +65,7 @@ Olej se při působení elektrického oblouku prudce zahřívá a rozkládá, č
 
 ## Vypínače se stlačeným vzduchem
 
-Vypínače vypínají tlakem vzduchu cca 30 MPa. Jsou velmi rychlé a výkonné, avšak hlučné a energeticky náročné, vyžadují vlastní kompresorovou stanici. V současné době už se nepoužívají.
+Vypínače vypínají tlakem vzduchu cca 30 MPa. Jsou velmi rychlé a výkonné, avšak hlučné a energeticky náročné, vyžadují vlastní kompresorovou stanici. V současné době se od jejich používání upouští.
 
 
 ## Vypínače s fluoridem sírový (SF₆)
