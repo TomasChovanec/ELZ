@@ -20,6 +20,6 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
  
 <!---
 - [Transformátory - úvod](/lekce/Transformatory_uvod.md)
-
+- [Svodiče přepětí pro vysoké napětí](/lekce/Svodice_prepeti.md)
 --->
 
