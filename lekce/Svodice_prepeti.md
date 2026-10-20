@@ -12,21 +12,11 @@ Svodič se zapojuje **paralelně** k chráněnému obvodu. V běžném provozu j
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/36dec0c7-9f24-429a-8421-df41b1480c78" />
 
 ## Jiskřiště - růžková bleskojistka
-Princip: dvě elektrody (tyče nebo rohy) oddělené vzduchovou mezerou. Při překročení přeskokového napětí vznikne mezi elektrodami oblouk a přepětí se svede do země. Pro nová zařízení se už dnes nepoužívá, uvádíme jej hlavně kvůli principu jiskřiště, které se v jiných přístrojích stále používá.
+Svodič tvoří dvě elektrody (tyče nebo rohy) oddělené vzduchovou mezerou. Při překročení přeskokového napětí vznikne mezi elektrodami oblouk a přepětí se svede do země. Pro nová zařízení se už dnes nepoužívá, uvádíme jej hlavně kvůli principu jiskřiště, které se v jiných přístrojích stále používá. Mezi výhody patří jednoduchá konstrukce, nízká cena a žádné stárnutí za provozu. Nevýhody pak to, že po přeskoku oblouk sám nezhasne, vedení obvykle vypne ochrana, přeskokové napětí závisí na strmosti vlny, vlhkosti a znečištění, nelze přesně nastavit ochrannou úroveň.
 
 <img width="500"  alt="image" src="https://github.com/user-attachments/assets/7baad06f-8afe-4beb-8dcf-945ca5a5c4e7" />
 
 *Zdroj obrázku: https://www.sse-najizdarne.cz/dokumenty/studijni_materialy/elektricke_stroje_a_pristroje.pdf*
-
-**Výhody**: 
-- jednoduchá konstrukce
-- nízká cena
-- žádné stárnutí za provozu.
-
-**Nevýhody**:
-- po přeskoku oblouk sám nezhasne, vedení obvykle vypne ochrana (případně následuje opětovné zapnutí),
-- přeskokové napětí závisí na strmosti vlny, vlhkosti a znečištění,
-- nelze přesně nastavit ochrannou úroveň.
 
 
 ## Metaloxidové (ZnO) svodiče bez jiskřišť
