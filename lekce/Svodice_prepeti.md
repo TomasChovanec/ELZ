@@ -16,6 +16,8 @@ Princip: dvě elektrody (tyče nebo rohy) oddělené vzduchovou mezerou. Při p�
 
 <img width="500"  alt="image" src="https://github.com/user-attachments/assets/7baad06f-8afe-4beb-8dcf-945ca5a5c4e7" />
 
+*Zdroj obrázku: https://www.sse-najizdarne.cz/dokumenty/studijni_materialy/elektricke_stroje_a_pristroje.pdf*
+
 ### Použití na VN a VVN:
 - ochranné (zhášecí) rohy na izolátorových řetězcích a na průchodkách transformátorů,
 - záložní ochrana nebo ochrana na starších zařízeních.
