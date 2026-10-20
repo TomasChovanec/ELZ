@@ -35,6 +35,9 @@ Princip: dvě elektrody (tyče nebo rohy) oddělené vzduchovou mezerou. Při p�
 ## Metaloxidové (ZnO) svodiče bez jiskřišť
 Princip: svodič tvoří sloupec varistorových bloků z oxidu zinečnatého v izolačním pouzdru. Bloky mají silně nelineární charakteristiku: při provozním napětí je jejich odpor velmi vysoký a protéká jen zanedbatelný proud (desítky až stovky µA). Při přepětí odpor prudce klesne, svodič proud svede a napětí na něm zůstane na nízké hodnotě. Po odeznění přepětí se odpor vrátí na původní velikost, takže žádné jiskřiště není potřeba.
 
+<img width="620" height="349" alt="image" src="https://github.com/user-attachments/assets/5ad92dc0-5f48-42a2-905a-a647ed8e8cc5" />
+
+
 ## Varistor a jeho VA charakteristika
 Varistor (z anglického variable resistor) je součástka, jejíž odpor se silně mění s napětím: při nízkém napětí je velmi vysoký, při vyšším napětí prudce klesá. Ve svodičích se používá keramika z oxidu zinečnatého (ZnO) s přídavky dalších oxidů. Slinutá keramika je složena ze zrn ZnO oddělených tenkými izolačními vrstvami.
 
