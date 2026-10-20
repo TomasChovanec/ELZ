@@ -39,3 +39,11 @@ Princip: svodič tvoří sloupec varistorových bloků z oxidu zinečnatého v i
 Varistor (z anglického variable resistor) je součástka, jejíž odpor se silně mění s napětím: při nízkém napětí je velmi vysoký, při vyšším napětí prudce klesá. Ve svodičích se používá keramika z oxidu zinečnatého (ZnO) s přídavky dalších oxidů. Slinutá keramika je složena ze zrn ZnO oddělených tenkými izolačními vrstvami.
 
 <img width="294" height="300" alt="image" src="https://github.com/user-attachments/assets/a7e5cedb-1862-4c58-9faa-729e4ba9360e" />
+
+
+## Videa
+
+[![Surge arrester for transmission line in power grid](https://img.youtube.com/vi/jYhtlePxMbw/hqdefault.jpg)](https://www.youtube.com/watch?v=jYhtlePxMbw)
+
+[![When Lightning Hit an Electrical Substation? | Detailed 3D Animation](https://img.youtube.com/vi/wv404bUl9TE/hqdefault.jpg)](https://www.youtube.com/watch?v=wv404bUl9TE)
+
