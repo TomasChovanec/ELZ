@@ -53,3 +53,5 @@ Varistor (z anglického variable resistor) je součástka, jejíž odpor se siln
 
 [![When Lightning Hit an Electrical Substation? | Detailed 3D Animation](https://img.youtube.com/vi/wv404bUl9TE/hqdefault.jpg)](https://www.youtube.com/watch?v=wv404bUl9TE)
 
+
+### [Zpět na obsah](../README.md)
