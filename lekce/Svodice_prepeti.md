@@ -12,15 +12,11 @@ Svodič se zapojuje **paralelně** k chráněnému obvodu. V běžném provozu j
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/36dec0c7-9f24-429a-8421-df41b1480c78" />
 
 ## Jiskřiště - růžková bleskojistka
-Princip: dvě elektrody (tyče nebo rohy) oddělené vzduchovou mezerou. Při překročení přeskokového napětí vznikne mezi elektrodami oblouk a přepětí se svede do země.
+Princip: dvě elektrody (tyče nebo rohy) oddělené vzduchovou mezerou. Při překročení přeskokového napětí vznikne mezi elektrodami oblouk a přepětí se svede do země. Pro nová zařízení se už dnes nepoužívá, uvádíme jej hlavně kvůli principu jiskřiště, které se v jiných přístrojích stále používá.
 
 <img width="500"  alt="image" src="https://github.com/user-attachments/assets/7baad06f-8afe-4beb-8dcf-945ca5a5c4e7" />
 
 *Zdroj obrázku: https://www.sse-najizdarne.cz/dokumenty/studijni_materialy/elektricke_stroje_a_pristroje.pdf*
-
-### Použití na VN a VVN:
-- ochranné (zhášecí) rohy na izolátorových řetězcích a na průchodkách transformátorů,
-- záložní ochrana nebo ochrana na starších zařízeních.
 
 **Výhody**: 
 - jednoduchá konstrukce
@@ -34,14 +30,11 @@ Princip: dvě elektrody (tyče nebo rohy) oddělené vzduchovou mezerou. Při p�
 
 
 ## Metaloxidové (ZnO) svodiče bez jiskřišť
-Princip: svodič tvoří sloupec varistorových bloků z oxidu zinečnatého v izolačním pouzdru. Bloky mají silně nelineární charakteristiku: při provozním napětí je jejich odpor velmi vysoký a protéká jen zanedbatelný proud (desítky až stovky µA). Při přepětí odpor prudce klesne, svodič proud svede a napětí na něm zůstane na nízké hodnotě. Po odeznění přepětí se odpor vrátí na původní velikost, takže žádné jiskřiště není potřeba.
+Svodič tvoří sloupec varistorových bloků z oxidu zinečnatého v izolačním pouzdru. Bloky mají silně nelineární charakteristiku: při provozním napětí je jejich odpor velmi vysoký a protéká jen zanedbatelný proud (desítky až stovky µA). Při přepětí odpor prudce klesne, svodič proud svede a napětí na něm zůstane na nízké hodnotě. Po odeznění přepětí se odpor vrátí na původní velikost, takže žádné jiskřiště není potřeba.
 
 <img width="620" height="349" alt="image" src="https://github.com/user-attachments/assets/5ad92dc0-5f48-42a2-905a-a647ed8e8cc5" />
 
 *Zdroj obrázku: https://www.crown.co.za/sparks-electrical-news/contractors-corner/17933-the-working-principles-of-surge-arresters*
-
-## Varistor a jeho VA charakteristika
-Varistor (z anglického variable resistor) je součástka, jejíž odpor se silně mění s napětím: při nízkém napětí je velmi vysoký, při vyšším napětí prudce klesá. Ve svodičích se používá keramika z oxidu zinečnatého (ZnO) s přídavky dalších oxidů. Slinutá keramika je složena ze zrn ZnO oddělených tenkými izolačními vrstvami.
 
 <img width="294" height="300" alt="image" src="https://github.com/user-attachments/assets/a7e5cedb-1862-4c58-9faa-729e4ba9360e" />
 
