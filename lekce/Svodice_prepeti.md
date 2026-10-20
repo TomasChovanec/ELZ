@@ -5,7 +5,7 @@ Přepětí vzniká zejména:
 - Atmosférickými vlivy – přímým nebo nepřímým účinkem bleskového výboje. Blesková přepětí mají zpravidla velmi strmý průběh a vysokou amplitudu.
 - Spínacími pochody – například při spínání transformátorů, motorů nebo jiných induktivních zátěží. Jejich průběh a velikost závisí na konkrétních podmínkách v síti.
 	
-## Svodič přepětí (angl. Surge arrester) omezuje přepětí na úroveň, která pomáhá chráněné zařízení ochránit, a odvádí přebytečnou energii obvykle do uzemňovací soustavy.
+Svodič přepětí (angl. Surge arrester) omezuje přepětí na úroveň, která pomáhá chráněné zařízení ochránit, a odvádí přebytečnou energii obvykle do uzemňovací soustavy.
 
 Svodič se zapojuje **paralelně** k chráněnému obvodu. V běžném provozu jím protéká pouze malý svodový proud, případně prakticky žádný, podle použité technologie. Při přepětí začne vést výrazně větší proud a omezí napětí na svých svorkách. Po odeznění přepětí se vrátí do stavu s vysokým odporem, pokud nedošlo k jeho poškození nebo odpojení.
 
@@ -33,7 +33,6 @@ Princip: dvě elektrody (tyče nebo rohy) oddělené vzduchovou mezerou. Při p�
 - nelze přesně nastavit ochrannou úroveň.
 
 
-
 ## Metaloxidové (ZnO) svodiče bez jiskřišť
 Princip: svodič tvoří sloupec varistorových bloků z oxidu zinečnatého v izolačním pouzdru. Bloky mají silně nelineární charakteristiku: při provozním napětí je jejich odpor velmi vysoký a protéká jen zanedbatelný proud (desítky až stovky µA). Při přepětí odpor prudce klesne, svodič proud svede a napětí na něm zůstane na nízké hodnotě. Po odeznění přepětí se odpor vrátí na původní velikost, takže žádné jiskřiště není potřeba.
 
@@ -51,7 +50,7 @@ Varistor (z anglického variable resistor) je součástka, jejíž odpor se siln
 
 [![Surge arrester for transmission line in power grid](https://img.youtube.com/vi/jYhtlePxMbw/hqdefault.jpg)](https://www.youtube.com/watch?v=jYhtlePxMbw)
 
-[![When Lightning Hit an Electrical Substation? | Detailed 3D Animation](https://img.youtube.com/vi/wv404bUl9TE/hqdefault.jpg)](https://www.youtube.com/watch?v=wv404bUl9TE)
+[![When Lightning Hit an Electrical Substation? Detailed 3D Animation](https://img.youtube.com/vi/wv404bUl9TE/hqdefault.jpg)](https://www.youtube.com/watch?v=wv404bUl9TE)
 
 
 ### [Zpět na obsah](../README.md)
