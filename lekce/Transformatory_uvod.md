@@ -77,5 +77,97 @@ Podle převodu rozlišujeme tři druhy transformátorů:
 
 [![Pokusničení – Jak funguje transformátor?](https://img.youtube.com/vi/vdDFAl66rNg/hqdefault.jpg)](https://www.youtube.com/watch?v=vdDFAl66rNg)
 
+## Otázky k opakování
+
+### Teorie
+
+**1. Která veličina se při transformaci nemění?**
+
+- A) napětí
+- B) proud
+- C) frekvence
+- D) počet závitů
+
+<details>
+<summary>Zobrazit odpověď</summary>
+<p><b>C)</b> Frekvence se nemění. Napětí a proud se mění podle převodu a výkon se zmenší jen o ztráty.</p>
+</details>
+
+**2. Na čem závisí velikost indukovaného napětí?**
+
+<details>
+<summary>Zobrazit odpověď</summary>
+<p>Na velikosti změny magnetického pole (toku) a na rychlosti této změny. Čím rychleji se tok mění, tím větší napětí se indukuje.</p>
+</details>
+
+**3. Jaké je napětí ve chvíli, kdy má magnetický tok maximum? Proč?**
+
+<details>
+<summary>Zobrazit odpověď</summary>
+<p>Napětí je v tu chvíli nulové. Indukované napětí je derivací toku, takže je oproti toku posunuté o 90°. V maximu se tok na okamžik přestává měnit, a proto se neindukuje žádné napětí. Největší je napětí tam, kde tok prochází nulou a mění se nejrychleji.</p>
+</details>
+
+**4. Odkud se ve vzorci Ui = 4,44 · f · N · Φmax bere konstanta 4,44?**
+
+<details>
+<summary>Zobrazit odpověď</summary>
+<p>Amplituda napětí je Um = 2π · f · N · Φmax. Efektivní hodnotu dostaneme dělením √2, takže konstanta je 2π / √2 ≈ 4,44.</p>
+</details>
+
+**5. Jaké tři druhy transformátorů rozlišujeme podle převodu?**
+
+<details>
+<summary>Zobrazit odpověď</summary>
+<p>Snižující (p &gt; 1), zvyšující (p &lt; 1) a oddělovací (p = 1).</p>
+</details>
+
+**6. Proč má snižující transformátor na sekundární straně větší proud než na primární?**
+
+<details>
+<summary>Zobrazit odpověď</summary>
+<p>Výkon se (u ideálního transformátoru) nemění, platí U₁ · I₁ = U₂ · I₂. Pokud se napětí sníží, musí se proud o stejný poměr zvýšit.</p>
+</details>
+
+### Výpočty
+
+**7. Transformátor má N₁ = 500 závitů a N₂ = 50 závitů. Primární vinutí je připojeno na U₁ = 230 V. Urči převod p a sekundární napětí U₂.**
+
+<details>
+<summary>Zobrazit odpověď</summary>
+<p>p = N₁ / N₂ = 500 / 50 = <b>10</b><br>
+U₂ = U₁ / p = 230 / 10 = <b>23 V</b><br>
+Jde o snižující transformátor.</p>
+</details>
+
+**8. Zvyšující transformátor má N₁ = 200 závitů a N₂ = 1000 závitů. Na primár přivedeme U₁ = 24 V. Urči převod a napětí U₂.**
+
+<details>
+<summary>Zobrazit odpověď</summary>
+<p>p = 200 / 1000 = <b>0,2</b><br>
+U₂ = U₁ / p = 24 / 0,2 = <b>120 V</b></p>
+</details>
+
+**9. Ideální transformátor má převod p = 5 a sekundárním vinutím protéká proud I₂ = 2 A. Jaký proud teče primárním vinutím?**
+
+<details>
+<summary>Zobrazit odpověď</summary>
+<p>Ze vztahu p = I₂ / I₁ plyne I₁ = I₂ / p = 2 / 5 = <b>0,4 A</b>.</p>
+</details>
+
+**10. Primární vinutí má N₁ = 500 závitů a je připojeno na U₁ = 230 V, f = 50 Hz. Jaký je maximální magnetický tok v jádře?**
+
+<details>
+<summary>Zobrazit odpověď</summary>
+<p>Ze vzorce U = 4,44 · f · N · Φmax plyne<br>
+Φmax = U₁ / (4,44 · f · N₁) = 230 / (4,44 · 50 · 500) = 230 / 111 000 ≈ 0,00207 Wb = <b>2,07 mWb</b>.</p>
+</details>
+
+**11. Ideální transformátor 230 V / 23 V odebírá z primáru proud 0,5 A. Jaký výkon přenáší a jaký proud poteče spotřebičem na sekundáru?**
+
+<details>
+<summary>Zobrazit odpověď</summary>
+<p>Výkon: S = U₁ · I₁ = 230 · 0,5 = <b>115 VA</b><br>
+Proud na sekundáru: I₂ = S / U₂ = 115 / 23 = <b>5 A</b></p>
+</details>
 
 ### [Zpět na obsah](../README.md)
