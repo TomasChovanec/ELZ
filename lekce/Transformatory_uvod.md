@@ -3,7 +3,7 @@
 Transformátor je elektrický, netočivý stroj. Pomocí elektromagnetické indukce mění elektrickou energii jedněch parametrů na el. energii druhých parametrů - těmito parametry je napětí a proud, frekvence se nemění. Výkon se také nemění, jen se zmenší o ztráty transformátoru
 
 <iframe
-  src="lekce/trafo_applet.html"
+  src="https://tomaschovanec.github.io/ELZ/lekce/trafo_applet.html"
   width="100%" height="620"
   style="border:0; max-width:900px;"
   loading="lazy"
