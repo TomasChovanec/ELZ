@@ -7,6 +7,8 @@
 S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz](mailto:tomas.chovanec@frengp.cz).
 - [Hodnocení v předmětu](Hodnoceni_predmetu.md)
 
+## Úvod do předmětu
+- [Rozdělení elektrických strojů a přístrojů](/lekce/Stroje_a_pristroje.md)
 
 ## Elektrické přístroje
 - [Elektrický oblouk](/lekce/Oblouk.md)
