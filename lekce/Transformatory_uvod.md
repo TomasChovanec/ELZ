@@ -2,9 +2,9 @@
 
 Transformátor je elektrický, netočivý stroj. Pomocí elektromagnetické indukce mění elektrickou energii jedněch parametrů na el. energii druhých parametrů - těmito parametry je napětí a proud, frekvence se nemění. Výkon se také nemění, jen se zmenší o ztráty transformátoru.
 
-Používají se nejčastěji pro přeměnu střídavého napětí nebo na galvanické oddělení obvodů 
+Používají se nejčastěji pro přeměnu střídavého napětí nebo na galvanické oddělení obvodů.
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/de6c71e7-bba1-4593-98a1-b12cb36a7810" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/de6c71e7-bba1-4593-98a1-b12cb36a7810" />
 
 ## Elektromagnetická indukce
 Elektromagnetická indukce je jev, při kterém ve vodiči dochází ke vzniku indukovaného elektromotorického napětí Ui a v důsledku časové změny magnetického indukčního toku, tj. důsledkem umístění vodiče v měnícím se magnetickém poli.
