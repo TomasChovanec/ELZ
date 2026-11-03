@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ideální transformátor</title>
+<style>
+:root{
+  --bg:#ffffff; --panel:#ffffff; --text:#1c1f26; --muted:#6b7280; --line:#e5e7eb; --track:#eceef1;
+  --pri:#3b82f6; --sec:#2fa866; --pow:#a78bfa; --core:#dcdde0; --coreline:#c4b5fd;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#15171c; --panel:#1b1e25; --text:#eceef2; --muted:#9aa1ad; --line:#2c303a; --track:#2b2f39;
+    --pri:#60a5fa; --sec:#4ade80; --pow:#c4b5fd; --core:#3a3e49; --coreline:#7c6bd6; }
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--text);font-family:"Segoe UI",system-ui,-apple-system,Roboto,sans-serif;line-height:1.5;padding:24px 16px 48px}
+main{max-width:900px;margin:0 auto}
+h1{font-size:1.5rem;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 20px}
+.card{display:grid;grid-template-columns:minmax(260px,5fr) 6fr;border:1px solid var(--line);border-radius:16px;background:var(--panel);overflow:hidden}
+@media(max-width:700px){.card{grid-template-columns:1fr}.left{border-right:0!important;border-bottom:1px solid var(--line)}}
+.left{padding:20px;border-right:1px solid var(--line);display:flex;flex-direction:column;justify-content:space-between;gap:20px}
+.formula{display:flex;align-items:center;justify-content:center;gap:10px;font-family:"Cambria Math",Cambria,"Times New Roman",serif;font-size:1.5rem;min-height:130px;font-style:italic}
+.frac{display:inline-flex;flex-direction:column;align-items:center;line-height:1.2}
+.frac span:first-child{border-bottom:1.5px solid currentColor;padding:0 6px 2px}
+.frac span:last-child{padding:2px 6px 0}
+sub{font-size:.65em;font-style:italic}
+.ctrl{display:grid;grid-template-columns:90px 44px 1fr;align-items:center;gap:10px;font-size:.9rem;margin-top:10px}
+.ctrl output{color:var(--muted);font-size:.8rem;text-align:right;font-variant-numeric:tabular-nums}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:22px;background:var(--track);border-radius:11px;outline-offset:3px;cursor:pointer}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:20px;height:20px;border-radius:50%;background:var(--panel);border:1px solid var(--line);box-shadow:0 1px 3px rgba(0,0,0,.3)}
+input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;background:var(--panel);border:1px solid var(--line);box-shadow:0 1px 3px rgba(0,0,0,.3)}
+.right{padding:18px 14px 12px}
+.meters{display:grid;grid-template-columns:repeat(3,1fr);text-align:center;gap:6px}
+.meters small{display:block;font-size:.78rem;color:var(--muted)}
+.meters small i{display:block;height:2px;width:26px;margin:0 auto 2px;border-radius:2px}
+.meters b{font-size:.9rem;font-variant-numeric:tabular-nums}
+svg{width:100%;height:auto;display:block;margin-top:4px}
+svg text{font-family:inherit;fill:var(--text)}
+.mode{text-align:center;font-weight:600;font-size:.85rem}
+h2{font-size:1rem;margin:22px 0 6px}
+ul.q{margin:0;padding-left:22px}
+details{margin:6px 0 0 22px;color:var(--muted);font-size:.92rem}
+summary{cursor:pointer;color:var(--text)}
+.note{color:var(--muted);font-size:.8rem;margin-top:16px}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<main>
+  <h1>Ideální transformátor</h1>
+  <p class="sub">Převod napětí, proudu a výkonu.</p>
+
+  <div class="card">
+    <div class="left">
+      <div class="formula" aria-label="Vs lomeno Vp se rovná Ns lomeno Np">
+        <span class="frac"><span>V<sub>s</sub></span><span>V<sub>p</sub></span></span>
+        <span>=</span>
+        <span class="frac"><span>N<sub>s</sub></span><span>N<sub>p</sub></span></span>
+      </div>
+      <div>
+        <label class="ctrl"><span>Primární napětí</span><output id="oVp"></output><input id="vp" type="range" min="10" max="400" step="1" value="230"></label>
+        <label class="ctrl"><span>Poměr závitů</span><output id="oN"></output><input id="n" type="range" min="0.1" max="5" step="0.05" value="2.0"></label>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="meters">
+        <div><small><i style="background:var(--pri)"></i>V<sub>p</sub> (RMS)</small><b id="mVp"></b></div>
+        <div><small><i style="background:var(--pow)"></i>Výkon</small><b id="mP"></b></div>
+        <div><small><i style="background:var(--sec)"></i>V<sub>s</sub> (RMS)</small><b id="mVs"></b></div>
+      </div>
+
+      <svg viewBox="0 0 460 300" role="img" aria-label="Schéma transformátoru">
+        <text x="147" y="44" text-anchor="middle" font-size="12" fill="var(--pri)" style="fill:var(--pri)">N<tspan font-size="9" dy="3">p</tspan></text>
+        <text x="313" y="44" text-anchor="middle" font-size="12" style="fill:var(--sec)">N<tspan font-size="9" dy="3">s</tspan></text>
+
+        <!-- wires -->
+        <path id="loopP" d="M147 85 H50 V205 H147" fill="none" stroke="var(--pri)" stroke-width="3" stroke-linejoin="round"/>
+        <path id="loopS" d="M313 85 H410 V205 H313" fill="none" stroke="var(--sec)" stroke-width="3" stroke-linejoin="round"/>
+        <path id="flowP" d="M147 85 H50 V205 H147" fill="none" stroke="var(--bg)" stroke-opacity=".75" stroke-width="3" stroke-dasharray="3 13" stroke-linecap="round"/>
+        <path id="flowS" d="M313 85 H410 V205 H313" fill="none" stroke="var(--bg)" stroke-opacity=".75" stroke-width="3" stroke-dasharray="3 13" stroke-linecap="round"/>
+
+        <!-- source -->
+        <circle cx="50" cy="145" r="19" fill="var(--bg)" stroke="var(--pri)" stroke-width="2.5"/>
+        <path d="M38 145 q6 -12 12 0 t12 0" fill="none" stroke="var(--pri)" stroke-width="2"/>
+
+        <!-- load -->
+        <rect x="396" y="110" width="28" height="70" fill="var(--bg)"/>
+        <path d="M410 110 v6 l-10 6 l20 12 l-20 12 l20 12 l-10 6 v6" transform="translate(0,0)" fill="none" stroke="var(--sec)" stroke-width="2.5" stroke-linejoin="round"/>
+
+        <!-- core -->
+        <path fill-rule="evenodd" fill="var(--core)" d="M150 60H310a22 22 0 0 1 22 22V208a22 22 0 0 1-22 22H150a22 22 0 0 1-22-22V82a22 22 0 0 1 22-22ZM178 95H282a12 12 0 0 1 12 12V183a12 12 0 0 1-12 12H178a12 12 0 0 1-12-12V107a12 12 0 0 1 12-12Z" transform="translate(0,0)"/>
+        <rect x="153" y="82" width="154" height="126" rx="14" fill="none" stroke="var(--coreline)" stroke-width="1.5" stroke-dasharray="5 4" opacity=".7"/>
+        <text x="230" y="140" text-anchor="middle" font-size="11" font-weight="600">N<tspan font-size="8" dy="2">s</tspan><tspan dy="-2"> : N</tspan><tspan font-size="8" dy="2">p</tspan></text>
+        <text id="ratioTxt" x="230" y="158" text-anchor="middle" font-size="12" font-weight="700"></text>
+
+        <!-- coils -->
+        <path id="coilP" fill="none" stroke="var(--pri)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path id="coilS" fill="none" stroke="var(--sec)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+        <!-- labels -->
+        <text id="iP" x="48" y="72" font-size="12" font-weight="700" style="fill:var(--pri)"></text>
+        <text id="iS" x="412" y="72" font-size="12" font-weight="700" text-anchor="end" style="fill:var(--sec)"></text>
+        <text id="rL" x="428" y="148" font-size="11" style="fill:var(--sec)"></text>
+        <text x="230" y="262" text-anchor="middle" font-size="12" id="modeTxt" font-weight="600"></text>
+      </svg>
+    </div>
+  </div>
+</main>
+
+<script>
+(function(){
+  const $ = id => document.getElementById(id);
+  const fmt = (x, d=2) => x.toLocaleString('cs-CZ',{minimumFractionDigits:d,maximumFractionDigits:d});
+  const coilPath = (cx, top, h, loops, amp) => {
+    const steps = loops*24, pts = [];
+    for(let i=0;i<=steps;i++){
+      const t = i/steps;
+      pts.push((i?'L':'M') + (cx + amp*Math.sin(2*Math.PI*loops*t)).toFixed(1) + ' ' + (top + h*t).toFixed(1));
+    }
+    return pts.join(' ');
+  };
+  const NP = 8;
+  let speedP = 0, speedS = 0, offP = 0, offS = 0;
+
+  function update(){
+    const P = 1000; // konstantní výkon (W)
+    const vp = +$('vp').value, n = +$('n').value;
+    const vs = vp*n, is = P/vs, ip = P/vp;
+
+    $('oVp').textContent = fmt(vp,0)+' V';
+    $('oN').textContent = fmt(n);
+    $('mVp').textContent = fmt(vp,0)+' V';
+    $('mVs').textContent = fmt(vs,vs<100?1:0)+' V';
+    $('mP').textContent = fmt(P,1)+' W';
+    $('iP').textContent = 'Iₚ '+fmt(ip)+' A RMS';
+    $('iS').textContent = 'Iₛ '+fmt(is)+' A RMS';
+    $('rL').textContent = '';
+    $('ratioTxt').textContent = fmt(n)+' : 1';
+    $('modeTxt').textContent = Math.abs(n-1)<0.025 ? 'Oddělovací (1 : 1)' : (n>1 ? 'Zvyšující' : 'Snižující');
+
+    const ns = Math.max(2, Math.round(NP*n));
+    $('coilP').setAttribute('d', coilPath(147,85,120,NP,10));
+    $('coilS').setAttribute('d', coilPath(313,85,120,Math.min(ns,40),10));
+
+    speedP = Math.min(ip/3,12); speedS = Math.min(is/3,12);
+  }
+  ['vp','n'].forEach(id => $(id).addEventListener('input', update));
+
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function tick(){
+    // proud teče v sekundáru opačným směrem než by naznačovala orientace smyčky → vinutí jsou proti sobě
+    offP -= speedP*0.25; offS += speedS*0.25;
+    $('flowP').style.strokeDashoffset = offP;
+    $('flowS').style.strokeDashoffset = offS;
+    requestAnimationFrame(tick);
+  }
+  update();
+  if(!reduce) requestAnimationFrame(tick);
+})();
+</script>
+</body>
+</html>
