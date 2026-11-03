@@ -10,7 +10,7 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 ## Úvod do předmětu
 - [Rozdělení elektrických strojů a přístrojů](/lekce/Stroje_a_pristroje.md)
 
-## Elektrické přístroje
+## Elektrické přístroje pro nízké napětí
 - [Elektrický oblouk](/lekce/Oblouk.md)
 - [Stykače](/lekce/Stykace.md)
 - [Stykače - samostatná práce](/lekce/Stykace_sam_prac.md)
@@ -18,13 +18,17 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 - [Jističe](/lekce/Jistice.md)
 - [Jističe - samostatná práce](/lekce/Jistice_sam_prac.md)
 - [Proudový chránič](/lekce/Proudovy_chranic.md)
+- 
+## Elektrické přístroje pro vysoké napětí
 - [Spínací přístroje pro vysoké napětí](/lekce/Spinani_vysokeho_napeti.md)
 - [Svodiče přepětí pro vysoké napětí](/lekce/Svodice_prepeti.md)
-- [T](/lekce/Transformatory_uvod.md)
+
+## Elektrické stroje - transformátory
+- [Transformátory - úvod](/lekce/Transformatory_uvod.md)
 
 <!---
 
-- [Transformátory - úvod](/lekce/Transformatory_uvod.md)
+
 
 --->
 
