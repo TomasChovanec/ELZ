@@ -4,8 +4,11 @@ Transformátor je elektrický, netočivý stroj. Pomocí elektromagnetické indu
 
 Používají se nejčastěji pro přeměnu střídavého napětí nebo na galvanické oddělení obvodů.
 
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/de6c71e7-bba1-4593-98a1-b12cb36a7810" />
+## Princip činnosti
 
+Transformátor má dvě cívky (vinutí) na společném železném jádru. Primární vinutí s N₁ závity se připojí ke střídavému napětí u₁. Protéká jím magnetizační proud, který v jádru vytvoří střídavý magnetický tok Φ. Tento tok prochází i sekundárním vinutím s N₂ závity a indukuje v něm napětí u₂.
+
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/de6c71e7-bba1-4593-98a1-b12cb36a7810" />
 
 ## Elektromagnetická indukce
 
@@ -25,11 +28,6 @@ Napětí a proud, které vznikají při elektromagnetické indukci, nazýváme i
 
 <img width="800"  alt="image" src="https://github.com/user-attachments/assets/7463cbc2-b387-4ae7-8715-50b014ffa5a4" />
 
-
-## Princip činnosti
-
-Transformátor má dvě cívky (vinutí) na společném železném jádru. Primární vinutí s N₁ závity se připojí ke střídavému napětí u₁. Protéká jím magnetizační proud, který v jádru vytvoří střídavý magnetický tok Φ. Tento tok prochází i sekundárním vinutím s N₂ závity a indukuje v něm napětí u₂.
-
 ## Indukované napětí
 
 Při sinusovém průběhu toku platí:
@@ -38,13 +36,13 @@ Při sinusovém průběhu toku platí:
 
 Podle Faradayova zákona se ve vinutí o N závitech indukuje napětí
 
-e = −N · dΦ/dt = −N · ω · Φmax · cos ωt
+Ui = −N · dΦ/dt = −N · ω · Φmax · cos ωt
 
-Napětí je tedy derivací toku, takže je oproti toku posunuté o 90°. Když má tok maximum, je napětí nulové, a když tok prochází nulou, je napětí největší.
+Indukované napětí je tedy derivací toku, takže je oproti toku posunuté o 90°. Když má tok maximum, je napětí nulové, a když tok prochází nulou, je napětí největší.
 
-Amplituda indukovaného napětí je Emax = ω · N · Φmax = 2π · f · N · Φmax. Efektivní hodnotu dostaneme dělením √2:
+Amplituda indukovaného napětí je Um = ω · N · Φmax = 2π · f · N · Φmax. Efektivní hodnotu dostaneme dělením √2:
 
-**U = 4,44 · f · N · Φmax**
+**Ui = 4,44 · f · N · Φmax**
 
 Konstanta 4,44 vychází z 2π/√2. Vzorec platí pro primární i sekundární vinutí. Při zanedbání odporu vinutí je indukované napětí na primáru přibližně rovno přivedenému napětí (u₁ ≈ −e₁).
 
