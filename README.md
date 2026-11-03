@@ -19,7 +19,9 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 - [Spínací přístroje pro vysoké napětí](/lekce/Spinani_vysokeho_napeti.md)
 - [Svodiče přepětí pro vysoké napětí](/lekce/Svodice_prepeti.md)
 - [T](/lekce/Transformatory_uvod.md)
+
 <!---
+
 - [Transformátory - úvod](/lekce/Transformatory_uvod.md)
 
 --->
