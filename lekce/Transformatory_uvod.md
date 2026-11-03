@@ -154,15 +154,7 @@ U₂ = U₁ / p = 24 / 0,2 = <b>120 V</b></p>
 <p>Ze vztahu p = I₂ / I₁ plyne I₁ = I₂ / p = 2 / 5 = <b>0,4 A</b>.</p>
 </details>
 
-**10. Primární vinutí má N₁ = 500 závitů a je připojeno na U₁ = 230 V, f = 50 Hz. Jaký je maximální magnetický tok v jádře?**
-
-<details>
-<summary>Zobrazit odpověď</summary>
-<p>Ze vzorce U = 4,44 · f · N · Φmax plyne<br>
-Φmax = U₁ / (4,44 · f · N₁) = 230 / (4,44 · 50 · 500) = 230 / 111 000 ≈ 0,00207 Wb = <b>2,07 mWb</b>.</p>
-</details>
-
-**11. Ideální transformátor 230 V / 23 V odebírá z primáru proud 0,5 A. Jaký výkon přenáší a jaký proud poteče spotřebičem na sekundáru?**
+**10. Ideální transformátor 230 V / 23 V odebírá z primáru proud 0,5 A. Jaký výkon přenáší a jaký proud poteče spotřebičem na sekundáru?**
 
 <details>
 <summary>Zobrazit odpověď</summary>
