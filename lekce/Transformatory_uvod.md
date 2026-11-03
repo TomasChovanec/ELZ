@@ -21,7 +21,7 @@ Napětí a proud, které vznikají při elektromagnetické indukci, nazýváme i
 
 
 <iframe
-  src="https://tomaschovanec.github.io/ELZ/lekce/trafo_applet.html"
+  src="https://tomaschovanec.github.io/ELZ/files/trafo_applet.html"
   width="100%" height="620"
   style="border:0; max-width:900px;"
   loading="lazy"
