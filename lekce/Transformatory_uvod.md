@@ -15,11 +15,55 @@ Jev byl objeven roku 1831 Michaelem Faradayem.
 
 Velikost indukovaného napětí závisí na velikosti **změny** magnetického pole a **rychlosti** této změny.
 
+[![Faradayův zákon – PhET](https://phet.colorado.edu/sims/html/faradays-law/latest/faradays-law-600.png)](https://phet.colorado.edu/sims/html/faradays-law/latest/faradays-law_all.html)
+
 Napětí a proud, které vznikají při elektromagnetické indukci, nazýváme indukované. Elektromagnetická indukce se využívá  například:
 - v transformátorech: střídavý proud v primární cívce vytváří proměnný tok v jádře, který indukuje napětí v sekundární cívce; poměr napětí je dán poměrem počtu závitů,
 - v indukčních vařičích: cívka pod sklokeramickou deskou vytváří rychle se měnící magnetické pole, které v dně hrnce indukuje vířivé proudy, a hrnec se ohřívá přímo,
 - v generátorech a alternátorech: v elektrárnách i v automobilech se pohybem cívky v magnetickém poli vyrábí střídavé napětí,
 - v bezdrátovém nabíjení: například u telefonů nebo elektrických zubních kartáčků se energie přenáší bez kontaktu mezi dvěma cívkami,
+
+<img width="800"  alt="image" src="https://github.com/user-attachments/assets/7463cbc2-b387-4ae7-8715-50b014ffa5a4" />
+
+
+## Princip činnosti
+
+Transformátor má dvě cívky (vinutí) na společném železném jádru. Primární vinutí s N₁ závity se připojí ke střídavému napětí u₁. Protéká jím magnetizační proud, který v jádru vytvoří střídavý magnetický tok Φ. Tento tok prochází i sekundárním vinutím s N₂ závity a indukuje v něm napětí u₂.
+
+## Indukované napětí
+
+Při sinusovém průběhu toku platí:
+
+Φ = Φmax · sin ωt
+
+Podle Faradayova zákona se ve vinutí o N závitech indukuje napětí
+
+e = −N · dΦ/dt = −N · ω · Φmax · cos ωt
+
+Napětí je tedy derivací toku, takže je oproti toku posunuté o 90°. Když má tok maximum, je napětí nulové, a když tok prochází nulou, je napětí největší.
+
+Amplituda indukovaného napětí je Emax = ω · N · Φmax = 2π · f · N · Φmax. Efektivní hodnotu dostaneme dělením √2:
+
+**U = 4,44 · f · N · Φmax**
+
+Konstanta 4,44 vychází z 2π/√2. Vzorec platí pro primární i sekundární vinutí. Při zanedbání odporu vinutí je indukované napětí na primáru přibližně rovno přivedenému napětí (u₁ ≈ −e₁).
+
+## Převod transformátoru
+
+Tok Φ je v obou vinutích stejný, liší se jen počet závitů. Po dosazení do vzorce pro U a vydělení obou rovnic dostaneme převod:
+
+**p = N₁ / N₂ = U₁ / U₂**
+
+U ideálního transformátoru se výkon nemění (U₁ · I₁ = U₂ · I₂), proto pro proudy platí opačný poměr:
+
+**p = N₁ / N₂ = U₁ / U₂ = I₂ / I₁**
+
+Podle převodu rozlišujeme tři druhy transformátorů:
+
+- p > 1: snižující transformátor, U₂ < U₁ a I₂ > I₁
+- p < 1: zvyšující transformátor, U₂ > U₁ a I₂ < I₁
+- p = 1: oddělovací transformátor, mění se jen galvanické oddělení obvodů
+
 
 <iframe
   src="https://tomaschovanec.github.io/ELZ/files/trafo_applet.html"
@@ -29,7 +73,3 @@ Napětí a proud, které vznikají při elektromagnetické indukci, nazýváme i
   title="Simulace ideálního transformátoru">
   </iframe>
 
-
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/1c269079-ca9c-41be-b7c3-5f1dfdc6fa58" />
-
-<img width="600"  alt="image" src="https://github.com/user-attachments/assets/91e7df62-05a2-4aa4-a587-baf9101375ed" />
