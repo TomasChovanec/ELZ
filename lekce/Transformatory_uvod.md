@@ -25,13 +25,13 @@ Jev byl objeven roku 1831 Michaelem Faradayem.
 Velikost indukovaného napětí závisí na velikosti **změny** magnetického pole a **rychlosti** této změny.
 
 $$
-\Large U_i = - \frac{d\Phi}{dt}
+\large U_i = - \frac{d\Phi}{dt}
 $$
 
 Pro cívku s N závity pak:
 
 $$
-\Large U_i = -N \cdot \frac{d\Phi}{dt}
+\large U_i = -N \cdot \frac{d\Phi}{dt}
 $$
 
 Napětí a proud, které vznikají při elektromagnetické indukci, nazýváme indukované. Elektromagnetická indukce se využívá  například:
@@ -44,24 +44,41 @@ Napětí a proud, které vznikají při elektromagnetické indukci, nazýváme i
 
 [![Faradayův zákon – PhET](https://phet.colorado.edu/sims/html/faradays-law/latest/faradays-law-600.png)](https://phet.colorado.edu/sims/html/faradays-law/latest/faradays-law_all.html)
 
-
 ## Indukované napětí transformátoru
 
 Při sinusovém průběhu toku platí:
 
-Φ = Φmax · sin ωt
+$$
+\large \Phi = \Phi_{max} \cdot \sin \omega t
+$$
 
-Podle Faradayova zákona se ve vinutí o N závitech indukuje napětí
+Podle Faradayova zákona se ve vinutí o N závitech indukuje napětí úměrné **rychlosti změny toku**, tedy jeho derivaci podle času (derivace říká, jak rychle se veličina mění):
 
-Ui = −N · dΦ/dt = −N · ω · Φmax · cos ωt
+$$
+\large U_i = -N \cdot \frac{\mathrm{d}\Phi}{\mathrm{d}t} = -N \cdot \frac{\mathrm{d}}{\mathrm{d}t}\left(\Phi_{max} \cdot \sin \omega t\right)
+$$
 
-Indukované napětí je tedy derivací toku, takže je oproti toku posunuté o 90°. Když má tok maximum, je napětí nulové, a když tok prochází nulou, je napětí největší.
+Konstanty $N$ a $\Phi_{max}$ derivaci neovlivní. Derivace $\sin \omega t$ je $\omega \cdot \cos \omega t$ (úhlová frekvence se objeví, protože derivujeme i vnitřní část $\omega t$):
 
-Amplituda indukovaného napětí je Um = ω · N · Φmax = 2π · f · N · Φmax. Efektivní hodnotu dostaneme dělením √2:
+$$
+\large U_i = -N \cdot \omega \cdot \Phi_{max} \cdot \cos \omega t
+$$
 
-**Ui = 4,44 · f · N · Φmax**
+Indukované napětí je tedy derivací toku, takže je oproti toku posunuté o 90°. Když má tok maximum, je jeho změna nulová, a tedy i napětí je nulové. Když tok prochází nulou, mění se nejrychleji, a napětí je proto největší.
 
-Konstanta 4,44 vychází z 2π/√2. Vzorec platí pro primární i sekundární vinutí. Při zanedbání odporu vinutí je indukované napětí na primáru přibližně rovno přivedenému napětí (u₁ ≈ −e₁).
+Amplituda indukovaného napětí je
+
+$$
+\large U_m = \omega \cdot N \cdot \Phi_{max} = 2\pi \cdot f \cdot N \cdot \Phi_{max}
+$$
+
+Efektivní hodnotu dostaneme dělením $\sqrt{2}$:
+
+$$
+\large \boxed{U_i = 4{,}44 \cdot f \cdot N \cdot \Phi_{max}}
+$$
+
+Konstanta 4,44 vychází z $2\pi/\sqrt{2}$. Vzorec platí pro primární i sekundární vinutí.
 
 <img width="800"  alt="image" src="https://github.com/user-attachments/assets/7463cbc2-b387-4ae7-8715-50b014ffa5a4" />
 
