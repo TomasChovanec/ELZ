@@ -1,3 +1,12 @@
+<script type="text/javascript" id="MathJax-script" async 
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> 
+</script> 
+
+
+$$
+U_i = -N \cdot \frac{d\Phi}{dt}
+$$
+
 # Transformátor
 
 Transformátor je elektrický, netočivý stroj. Pomocí elektromagnetické indukce mění elektrickou energii jedněch parametrů na el. energii druhých parametrů - těmito parametry je napětí a proud, frekvence se nemění. Výkon se také nemění, jen se zmenší o ztráty transformátoru.
