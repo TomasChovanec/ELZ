@@ -14,7 +14,7 @@ Používají se nejčastěji pro změnu velikosti střídavého napětí nebo na
 
 Transformátor má dvě cívky (vinutí) na společném železném jádru. Primární vinutí s N₁ závity se připojí ke střídavému napětí U₁. Protéká jím magnetizační proud, který v jádru vytvoří střídavý magnetický tok Φ. Tento tok prochází i sekundárním vinutím s N₂ závity a indukuje v něm napětí U₂.
 
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/de6c71e7-bba1-4593-98a1-b12cb36a7810" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/fbc75d53-6866-4a5c-9a10-d0adf7235559" />
 
 ## Elektromagnetická indukce
 
