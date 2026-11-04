@@ -171,6 +171,42 @@ Podle převodu rozlišujeme tři druhy transformátorů:
 
 ---
 
+**Proč se elektrická energie přenáší na vysokém napětí a ne rovnou na 400/230 V?**
+
+<details>
+<summary>Zobrazit odpověď</summary>
+<p>Přenášený výkon je P = U · I, takže při stejném výkonu znamená vyšší napětí menší proud. Ztráty na vedení jsou úměrné druhé mocnině proudu (ΔP = R · I²), a proto malý proud ztráty výrazně sníží. Napětí se pak u spotřebitele transformuje zpět na bezpečnou hodnotu.</p>
+</details>
+
+---
+
+**Funguje transformátor na stejnosměrné napětí?**
+
+<details>
+<summary>Zobrazit odpověď</summary>
+<p>Ne. Stejnosměrný proud vytvoří neměnný magnetický tok, takže dΦ/dt = 0 a v sekundáru se neindukuje žádné napětí. Primární vinutí má navíc malý odpor, takže by jím tekl velký proud a vinutí by se mohlo poškodit.</p>
+</details>
+
+---
+
+**Co znamená převod transformátoru?**
+
+<details>
+<summary>Zobrazit odpověď</summary>
+<p>Převod p udává poměr závitů primáru a sekundáru, p = N₁ / N₂. U ideálního transformátoru je stejný jako poměr napětí a opačný poměr proudů: p = U₁ / U₂ = I₂ / I₁.</p>
+</details>
+
+---
+
+**Jak se změní napětí a proud, když dvojnásobíme počet závitů na sekundáru?**
+
+<details>
+<summary>Zobrazit odpověď</summary>
+<p>Převod se zmenší na polovinu. Napětí na sekundáru U₂ se při stejném U₁ zdvojnásobí, protože je úměrné počtu závitů. Výkon se u ideálního transformátoru nemění, takže proud I₂ klesne na polovinu.</p>
+</details>
+
+---
+
 **Proč má snižující transformátor na sekundární straně větší proud než na primární?**
 
 <details>
