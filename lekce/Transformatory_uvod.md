@@ -34,19 +34,18 @@ $$
 \Large U_i = -N \cdot \frac{d\Phi}{dt}
 $$
 
+Napětí a proud, které vznikají při elektromagnetické indukci, nazýváme indukované. Elektromagnetická indukce se využívá  například:
+- **v transformátorech:** střídavý proud v primární cívce vytváří proměnný tok v jádře, který indukuje napětí v sekundární cívce; poměr napětí je dán poměrem počtu závitů,
+- **v generátorech a alternátorech:** v elektrárnách i v automobilech se pohybem cívky v magnetickém poli vyrábí střídavé napětí,
+- **v indukčních vařičích:** cívka pod sklokeramickou deskou vytváří rychle se měnící magnetické pole, které v dně hrnce indukuje vířivé proudy, a hrnec se ohřívá přímo,
+- **v bezdrátovém nabíjení:** například u telefonů nebo elektrických zubních kartáčků se energie přenáší bez kontaktu mezi dvěma cívkami,
+
 ### Simulace elektromagnetické indukce
 
 [![Faradayův zákon – PhET](https://phet.colorado.edu/sims/html/faradays-law/latest/faradays-law-600.png)](https://phet.colorado.edu/sims/html/faradays-law/latest/faradays-law_all.html)
 
-Napětí a proud, které vznikají při elektromagnetické indukci, nazýváme indukované. Elektromagnetická indukce se využívá  například:
-- v transformátorech: střídavý proud v primární cívce vytváří proměnný tok v jádře, který indukuje napětí v sekundární cívce; poměr napětí je dán poměrem počtu závitů,
-- v indukčních vařičích: cívka pod sklokeramickou deskou vytváří rychle se měnící magnetické pole, které v dně hrnce indukuje vířivé proudy, a hrnec se ohřívá přímo,
-- v generátorech a alternátorech: v elektrárnách i v automobilech se pohybem cívky v magnetickém poli vyrábí střídavé napětí,
-- v bezdrátovém nabíjení: například u telefonů nebo elektrických zubních kartáčků se energie přenáší bez kontaktu mezi dvěma cívkami,
 
-<img width="800"  alt="image" src="https://github.com/user-attachments/assets/7463cbc2-b387-4ae7-8715-50b014ffa5a4" />
-
-## Indukované napětí
+## Indukované napětí transformátoru
 
 Při sinusovém průběhu toku platí:
 
@@ -64,6 +63,10 @@ Amplituda indukovaného napětí je Um = ω · N · Φmax = 2π · f · N · Φm
 
 Konstanta 4,44 vychází z 2π/√2. Vzorec platí pro primární i sekundární vinutí. Při zanedbání odporu vinutí je indukované napětí na primáru přibližně rovno přivedenému napětí (u₁ ≈ −e₁).
 
+<img width="800"  alt="image" src="https://github.com/user-attachments/assets/7463cbc2-b387-4ae7-8715-50b014ffa5a4" />
+
+
+
 ## Převod transformátoru
 
 Tok Φ je v obou vinutích stejný, liší se jen počet závitů. Po dosazení do vzorce pro U a vydělení obou rovnic dostaneme převod:
@@ -79,7 +82,6 @@ Podle převodu rozlišujeme tři druhy transformátorů:
 - p > 1: snižující transformátor, U₂ < U₁ a I₂ > I₁
 - p < 1: zvyšující transformátor, U₂ > U₁ a I₂ < I₁
 - p = 1: oddělovací transformátor, napětí se nemění, ale vstup a výstup jsou galvanicky oddělené
-
 
 <iframe
   src="https://tomaschovanec.github.io/ELZ/files/trafo_applet.html"
