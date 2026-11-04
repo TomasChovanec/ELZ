@@ -62,7 +62,7 @@ Podle převodu rozlišujeme tři druhy transformátorů:
 
 - p > 1: snižující transformátor, U₂ < U₁ a I₂ > I₁
 - p < 1: zvyšující transformátor, U₂ > U₁ a I₂ < I₁
-- p = 1: oddělovací transformátor, mění se jen galvanické oddělení obvodů
+- p = 1: oddělovací transformátor, napětí se nemění, ale vstup a výstup jsou galvanicky oddělené
 
 
 <iframe
