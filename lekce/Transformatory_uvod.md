@@ -4,9 +4,11 @@ Transformátor je elektrický, netočivý stroj. Pomocí elektromagnetické indu
 
 Používají se nejčastěji pro přeměnu střídavého napětí nebo na galvanické oddělení obvodů.
 
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/0ae56e65-800d-4184-9ab1-5f791869f5f1" />
+
 ## Princip činnosti
 
-Transformátor má dvě cívky (vinutí) na společném železném jádru. Primární vinutí s N₁ závity se připojí ke střídavému napětí u₁. Protéká jím magnetizační proud, který v jádru vytvoří střídavý magnetický tok Φ. Tento tok prochází i sekundárním vinutím s N₂ závity a indukuje v něm napětí u₂.
+Transformátor má dvě cívky (vinutí) na společném železném jádru. Primární vinutí s N₁ závity se připojí ke střídavému napětí U₁. Protéká jím magnetizační proud, který v jádru vytvoří střídavý magnetický tok Φ. Tento tok prochází i sekundárním vinutím s N₂ závity a indukuje v něm napětí U₂.
 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/de6c71e7-bba1-4593-98a1-b12cb36a7810" />
 
