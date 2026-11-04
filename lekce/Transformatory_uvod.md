@@ -58,7 +58,7 @@ $$
 \large u_i = -N \cdot \frac{\mathrm{d}\Phi}{\mathrm{d}t} = -N \cdot \frac{\mathrm{d}}{\mathrm{d}t}\left(\Phi_{max} \cdot \sin \omega t\right)
 $$
 
-Konstanty $$N$$ a $$\Phi_{max}$$ derivaci neovlivní. Derivace $$\sin \omega t$$ je $$\omega \cdot \cos \omega t$$ (úhlová frekvence se objeví, protože derivujeme i vnitřní část $$\omega t$$):
+Po derivaci dostaneme:
 
 $$
 \large u_i = -N \cdot \omega \cdot \Phi_{max} \cdot \cos \omega t
@@ -75,13 +75,16 @@ $$
 Efektivní hodnotu dostaneme dělením $$\sqrt{2}$$:
 
 $$
-\large \boxed{U_i = 4{,}44 \cdot f \cdot N \cdot \Phi_{max}}
+\large {U_ief = \frac{U_imax}{{\sqrt{2}}}}
+$$
+
+$$
+\large \boxed{U_ief  = 4{,}44 \cdot f \cdot N \cdot \Phi_{max}}
 $$
 
 Konstanta 4,44 vychází z $$2\pi/\sqrt{2}$$. Vzorec platí pro primární i sekundární vinutí.
 
 <img width="800"  alt="image" src="https://github.com/user-attachments/assets/7463cbc2-b387-4ae7-8715-50b014ffa5a4" />
-
 
 
 ## Převod transformátoru
