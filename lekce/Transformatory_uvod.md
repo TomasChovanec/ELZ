@@ -95,12 +95,16 @@ Podle převodu rozlišujeme tři druhy transformátorů:
 <p><b>C)</b> Frekvence se nemění. Napětí a proud se mění podle převodu a výkon se zmenší jen o ztráty.</p>
 </details>
 
+---
+
 **2. Na čem závisí velikost indukovaného napětí?**
 
 <details>
 <summary>Zobrazit odpověď</summary>
 <p>Na velikosti změny magnetického pole (toku) a na rychlosti této změny. Čím rychleji se tok mění, tím větší napětí se indukuje.</p>
 </details>
+
+---
 
 **3. Jaké je napětí ve chvíli, kdy má magnetický tok maximum? Proč?**
 
@@ -109,12 +113,16 @@ Podle převodu rozlišujeme tři druhy transformátorů:
 <p>Napětí je v tu chvíli nulové. Indukované napětí je derivací toku, takže je oproti toku posunuté o 90°. V maximu se tok na okamžik přestává měnit, a proto se neindukuje žádné napětí. Největší je napětí tam, kde tok prochází nulou a mění se nejrychleji.</p>
 </details>
 
+---
+
 **4. Odkud se ve vzorci Ui = 4,44 · f · N · Φmax bere konstanta 4,44?**
 
 <details>
 <summary>Zobrazit odpověď</summary>
 <p>Amplituda napětí je Um = 2π · f · N · Φmax. Efektivní hodnotu dostaneme dělením √2, takže konstanta je 2π / √2 ≈ 4,44.</p>
 </details>
+
+---
 
 **5. Jaké tři druhy transformátorů rozlišujeme podle převodu?**
 
@@ -123,12 +131,16 @@ Podle převodu rozlišujeme tři druhy transformátorů:
 <p>Snižující (p &gt; 1), zvyšující (p &lt; 1) a oddělovací (p = 1).</p>
 </details>
 
+---
+
 **6. Proč má snižující transformátor na sekundární straně větší proud než na primární?**
 
 <details>
 <summary>Zobrazit odpověď</summary>
 <p>Výkon se (u ideálního transformátoru) nemění, platí U₁ · I₁ = U₂ · I₂. Pokud se napětí sníží, musí se proud o stejný poměr zvýšit.</p>
 </details>
+
+---
 
 ### Výpočty
 
@@ -141,6 +153,8 @@ U₂ = U₁ / p = 230 / 10 = <b>23 V</b><br>
 Jde o snižující transformátor.</p>
 </details>
 
+---
+
 **8. Zvyšující transformátor má N₁ = 200 závitů a N₂ = 1000 závitů. Na primár přivedeme U₁ = 24 V. Urči převod a napětí U₂.**
 
 <details>
@@ -149,12 +163,16 @@ Jde o snižující transformátor.</p>
 U₂ = U₁ / p = 24 / 0,2 = <b>120 V</b></p>
 </details>
 
+---
+
 **9. Ideální transformátor má převod p = 5 a sekundárním vinutím protéká proud I₂ = 2 A. Jaký proud teče primárním vinutím?**
 
 <details>
 <summary>Zobrazit odpověď</summary>
 <p>Ze vztahu p = I₂ / I₁ plyne I₁ = I₂ / p = 2 / 5 = <b>0,4 A</b>.</p>
 </details>
+
+---
 
 **10. Ideální transformátor 230 V / 23 V odebírá z primáru proud 0,5 A. Jaký výkon přenáší a jaký proud poteče spotřebičem na sekundáru?**
 
