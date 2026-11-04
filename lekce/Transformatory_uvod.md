@@ -34,6 +34,7 @@ Pro cívku s N závity pak:
 $$
 \large u_i = -N \cdot \frac{d\Phi}{dt}
 $$
+
 kde:
 
 - $$u_i$$ je okamžitá hodnota indukovaného napětí ve vinutí, jednotka [V],
