@@ -25,8 +25,6 @@ Jev byl objeven roku 1831 Michaelem Faradayem.
 ### Faradayův zákon
 Hodnota indukovaného napětí je rovna časové změně magnetického toku, který prochází elektrickým obvodem. 
 
-Znaménko minus ve Faradayově zákoně vyjadřuje **Lenzův zákon**: Směr indukovaného napětí a proudu je takový, že jejich magnetické pole působí proti změně magnetického toku, která je vyvolala.
-
 $$
 \large u_i = - \frac{d\Phi}{dt}
 $$
@@ -36,6 +34,15 @@ Pro cívku s N závity pak:
 $$
 \large u_i = -N \cdot \frac{d\Phi}{dt}
 $$
+kde:
+
+- $$u_i$$ je okamžitá hodnota indukovaného napětí ve vinutí, jednotka [V],
+- $$N$$ je počet závitů vinutí, bez jednotky,
+- $$\Phi$$ je magnetický tok procházející vinutím, jednotka [Wb],
+- $$t$$ je čas, jednotka [s],
+- $$\frac{\mathrm{d}\Phi}{\mathrm{d}t}$$ je rychlost změny magnetického toku, jednotka [Wb/s].
+
+Znaménko mínus vyjadřuje Lenzův zákon: indukované napětí působí proti změně toku, která ho vyvolala. Jednotky sedí, protože [Wb/s] = [V].
 
 Napětí a proud, které vznikají při elektromagnetické indukci, nazýváme indukované. Elektromagnetická indukce se využívá  například:
 - **v transformátorech:** střídavý proud v primární cívce vytváří proměnný tok v jádře, který indukuje napětí v sekundární cívce; poměr napětí je dán poměrem počtu závitů,
