@@ -22,7 +22,8 @@ Elektromagnetická indukce je jev, při kterém ve vodiči dochází ke vzniku i
 
 Jev byl objeven roku 1831 Michaelem Faradayem.
 
-Velikost indukovaného napětí závisí na velikosti **změny** magnetického pole a **rychlosti** této změny.
+### Faradayův zákon
+Hodnota indukovaného napětí je rovna časové změně magnetického toku, který prochází elektrickým obvodem, což se zapisuje ve tvaru:
 
 $$
 \large u_i = - \frac{d\Phi}{dt}
