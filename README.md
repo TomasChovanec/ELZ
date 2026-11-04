@@ -28,7 +28,10 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 
 <!---
 
-
+- Konstrukce transformátorů, magnetický obvod
+- Náhradní schéma, nakrátko, naprázdno
+- Spojování traf, hodinový úhel, regulace
+- Energetická bilance, chlazení
 
 --->
 
