@@ -41,8 +41,7 @@ kde:
 - $$\Phi$$ je magnetický tok procházející vinutím, jednotka [Wb],
 - $$t$$ je čas, jednotka [s],
 - $$\frac{\mathrm{d}\Phi}{\mathrm{d}t}$$ je rychlost změny magnetického toku, jednotka [Wb/s].
-
-Znaménko mínus vyjadřuje Lenzův zákon: indukované napětí působí proti změně toku, která ho vyvolala. Jednotky sedí, protože [Wb/s] = [V].
+- Znaménko mínus vyjadřuje Lenzův zákon: indukované napětí působí proti změně toku, která ho vyvolala. Jednotky sedí, protože [Wb/s] = [V].
 
 Napětí a proud, které vznikají při elektromagnetické indukci, nazýváme indukované. Elektromagnetická indukce se využívá  například:
 - **v transformátorech:** střídavý proud v primární cívce vytváří proměnný tok v jádře, který indukuje napětí v sekundární cívce; poměr napětí je dán poměrem počtu závitů,
