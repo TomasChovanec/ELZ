@@ -78,7 +78,7 @@ $$
 \large \boxed{U_i = 4{,}44 \cdot f \cdot N \cdot \Phi_{max}}
 $$
 
-Konstanta 4,44 vychází z $2\pi/\sqrt{2}$. Vzorec platí pro primární i sekundární vinutí.
+Konstanta 4,44 vychází z $$2\pi/\sqrt{2}$$. Vzorec platí pro primární i sekundární vinutí.
 
 <img width="800"  alt="image" src="https://github.com/user-attachments/assets/7463cbc2-b387-4ae7-8715-50b014ffa5a4" />
 
