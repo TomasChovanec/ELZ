@@ -58,7 +58,7 @@ $$
 \large u_i = -N \cdot \frac{\mathrm{d}\Phi}{\mathrm{d}t} = -N \cdot \frac{\mathrm{d}}{\mathrm{d}t}\left(\Phi_{max} \cdot \sin \omega t\right)
 $$
 
-Konstanty $N$ a $\Phi_{max}$ derivaci neovlivní. Derivace $\sin \omega t$ je $\omega \cdot \cos \omega t$ (úhlová frekvence se objeví, protože derivujeme i vnitřní část $\omega t$):
+Konstanty $$N$$ a $$\Phi_{max}$$ derivaci neovlivní. Derivace $$\sin \omega t$$ je $$\omega \cdot \cos \omega t$$ (úhlová frekvence se objeví, protože derivujeme i vnitřní část $$\omega t$$):
 
 $$
 \large u_i = -N \cdot \omega \cdot \Phi_{max} \cdot \cos \omega t
@@ -72,7 +72,7 @@ $$
 \large U_imax = \omega \cdot N \cdot \Phi_{max} = 2\pi \cdot f \cdot N \cdot \Phi_{max}
 $$
 
-Efektivní hodnotu dostaneme dělením $\sqrt{2}$:
+Efektivní hodnotu dostaneme dělením $$\sqrt{2}$$:
 
 $$
 \large \boxed{U_i = 4{,}44 \cdot f \cdot N \cdot \Phi_{max}}
@@ -85,14 +85,13 @@ Konstanta 4,44 vychází z $2\pi/\sqrt{2}$. Vzorec platí pro primární i sekun
 
 
 ## Převod transformátoru
-
-Tok $\Phi$ je v obou vinutích stejný, liší se jen počet závitů. Po dosazení do vzorce pro $U$ a vydělení obou rovnic dostaneme převod:
+Tok $$\Phi$$ je v obou vinutích stejný, liší se jen počet závitů. Po dosazení do vzorce pro $$U$$ a vydělení obou rovnic dostaneme převod:
 
 $$
 \large \boxed{p = \frac{N_1}{N_2} = \frac{U_1}{U_2}}
 $$
 
-U ideálního transformátoru se výkon nemění ($U_1 \cdot I_1 = U_2 \cdot I_2$), proto pro proudy platí opačný poměr:
+U ideálního transformátoru se výkon nemění ($$U_1 \cdot I_1 = U_2 \cdot I_2$$), proto pro proudy platí opačný poměr:
 
 $$
 \large \boxed{p = \frac{N_1}{N_2} = \frac{U_1}{U_2} = \frac{I_2}{I_1}}
