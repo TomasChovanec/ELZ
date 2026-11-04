@@ -25,13 +25,13 @@ Jev byl objeven roku 1831 Michaelem Faradayem.
 Velikost indukovaného napětí závisí na velikosti **změny** magnetického pole a **rychlosti** této změny.
 
 $$
-\large U_i = - \frac{d\Phi}{dt}
+\large u_i = - \frac{d\Phi}{dt}
 $$
 
 Pro cívku s N závity pak:
 
 $$
-\large U_i = -N \cdot \frac{d\Phi}{dt}
+\large u_i = -N \cdot \frac{d\Phi}{dt}
 $$
 
 Napětí a proud, které vznikají při elektromagnetické indukci, nazýváme indukované. Elektromagnetická indukce se využívá  například:
@@ -55,13 +55,13 @@ $$
 Podle Faradayova zákona se ve vinutí o N závitech indukuje napětí úměrné **rychlosti změny toku**, tedy jeho derivaci podle času (derivace říká, jak rychle se veličina mění):
 
 $$
-\large U_i = -N \cdot \frac{\mathrm{d}\Phi}{\mathrm{d}t} = -N \cdot \frac{\mathrm{d}}{\mathrm{d}t}\left(\Phi_{max} \cdot \sin \omega t\right)
+\large u_i = -N \cdot \frac{\mathrm{d}\Phi}{\mathrm{d}t} = -N \cdot \frac{\mathrm{d}}{\mathrm{d}t}\left(\Phi_{max} \cdot \sin \omega t\right)
 $$
 
 Konstanty $N$ a $\Phi_{max}$ derivaci neovlivní. Derivace $\sin \omega t$ je $\omega \cdot \cos \omega t$ (úhlová frekvence se objeví, protože derivujeme i vnitřní část $\omega t$):
 
 $$
-\large U_i = -N \cdot \omega \cdot \Phi_{max} \cdot \cos \omega t
+\large u_i = -N \cdot \omega \cdot \Phi_{max} \cdot \cos \omega t
 $$
 
 Indukované napětí je tedy derivací toku, takže je oproti toku posunuté o 90°. Když má tok maximum, je jeho změna nulová, a tedy i napětí je nulové. Když tok prochází nulou, mění se nejrychleji, a napětí je proto největší.
@@ -69,7 +69,7 @@ Indukované napětí je tedy derivací toku, takže je oproti toku posunuté o 9
 Amplituda indukovaného napětí je
 
 $$
-\large U_m = \omega \cdot N \cdot \Phi_{max} = 2\pi \cdot f \cdot N \cdot \Phi_{max}
+\large U_imax = \omega \cdot N \cdot \Phi_{max} = 2\pi \cdot f \cdot N \cdot \Phi_{max}
 $$
 
 Efektivní hodnotu dostaneme dělením $\sqrt{2}$:
@@ -86,13 +86,17 @@ Konstanta 4,44 vychází z $2\pi/\sqrt{2}$. Vzorec platí pro primární i sekun
 
 ## Převod transformátoru
 
-Tok Φ je v obou vinutích stejný, liší se jen počet závitů. Po dosazení do vzorce pro U a vydělení obou rovnic dostaneme převod:
+Tok $\Phi$ je v obou vinutích stejný, liší se jen počet závitů. Po dosazení do vzorce pro $U$ a vydělení obou rovnic dostaneme převod:
 
-**p = N₁ / N₂ = U₁ / U₂**
+$$
+\large \boxed{p = \frac{N_1}{N_2} = \frac{U_1}{U_2}}
+$$
 
-U ideálního transformátoru se výkon nemění (U₁ · I₁ = U₂ · I₂), proto pro proudy platí opačný poměr:
+U ideálního transformátoru se výkon nemění ($U_1 \cdot I_1 = U_2 \cdot I_2$), proto pro proudy platí opačný poměr:
 
-**p = N₁ / N₂ = U₁ / U₂ = I₂ / I₁**
+$$
+\large \boxed{p = \frac{N_1}{N_2} = \frac{U_1}{U_2} = \frac{I_2}{I_1}}
+$$
 
 Podle převodu rozlišujeme tři druhy transformátorů:
 
