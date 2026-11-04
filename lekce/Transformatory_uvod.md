@@ -19,6 +19,36 @@ indukuje v něm napětí U₂.
 
 <img width="700"  alt="image" src="https://github.com/user-attachments/assets/efcce84d-c4b0-4982-a488-c34e140abd88" />
 
+## Převod transformátoru
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/fbc75d53-6866-4a5c-9a10-d0adf7235559" />
+
+Tok $$\Phi$$ je v obou vinutích stejný, liší se jen počet závitů. Po dosazení do vzorce pro $$U$$ a vydělení obou rovnic dostaneme převod:
+
+$$
+\large \boxed{p = \frac{N_1}{N_2} = \frac{U_1}{U_2}}
+$$
+
+U ideálního transformátoru se výkon nemění ($$U_1 \cdot I_1 = U_2 \cdot I_2$$), proto pro proudy platí opačný poměr:
+
+$$
+\large \boxed{p = \frac{N_1}{N_2} = \frac{U_1}{U_2} = \frac{I_2}{I_1}}
+$$
+
+Podle převodu rozlišujeme tři druhy transformátorů:
+
+- p > 1: snižující transformátor, U₂ < U₁ a I₂ > I₁
+- p < 1: zvyšující transformátor, U₂ > U₁ a I₂ < I₁
+- p = 1: oddělovací transformátor, napětí se nemění, ale vstup a výstup jsou galvanicky oddělené
+
+<iframe
+  src="https://tomaschovanec.github.io/ELZ/files/trafo_applet.html"
+  width="100%" height="620"
+  style="border:0; max-width:900px;"
+  loading="lazy"
+  title="Simulace ideálního transformátoru">
+  </iframe>
+
 
 ## Elektromagnetická indukce
 
@@ -107,35 +137,6 @@ Indukované napětí je **derivací toku**, takže je oproti toku **posunuté o 
 <img width="800"  alt="image" src="https://github.com/user-attachments/assets/7463cbc2-b387-4ae7-8715-50b014ffa5a4" />
 
 
-## Převod transformátoru
-
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/fbc75d53-6866-4a5c-9a10-d0adf7235559" />
-
-Tok $$\Phi$$ je v obou vinutích stejný, liší se jen počet závitů. Po dosazení do vzorce pro $$U$$ a vydělení obou rovnic dostaneme převod:
-
-$$
-\large \boxed{p = \frac{N_1}{N_2} = \frac{U_1}{U_2}}
-$$
-
-U ideálního transformátoru se výkon nemění ($$U_1 \cdot I_1 = U_2 \cdot I_2$$), proto pro proudy platí opačný poměr:
-
-$$
-\large \boxed{p = \frac{N_1}{N_2} = \frac{U_1}{U_2} = \frac{I_2}{I_1}}
-$$
-
-Podle převodu rozlišujeme tři druhy transformátorů:
-
-- p > 1: snižující transformátor, U₂ < U₁ a I₂ > I₁
-- p < 1: zvyšující transformátor, U₂ > U₁ a I₂ < I₁
-- p = 1: oddělovací transformátor, napětí se nemění, ale vstup a výstup jsou galvanicky oddělené
-
-<iframe
-  src="https://tomaschovanec.github.io/ELZ/files/trafo_applet.html"
-  width="100%" height="620"
-  style="border:0; max-width:900px;"
-  loading="lazy"
-  title="Simulace ideálního transformátoru">
-  </iframe>
 
 ## Videa
 
