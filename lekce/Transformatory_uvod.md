@@ -83,7 +83,13 @@ $$
 \large \boxed{U_ief  = 4{,}44 \cdot f \cdot N \cdot \Phi_{max}}
 $$
 
-Konstanta 4,44 vychází z $$2\pi/\sqrt{2}$$. Vzorec platí pro primární i sekundární vinutí.
+kde:
+
+- $$U_{i\mathrm{ef}}$$ je efektivní hodnota indukovaného napětí ve vinutí [V],
+- $$f$$ je frekvence střídavého napájení [Hz],
+- $$N$$ je počet závitů vinutí [-],
+- $$\Phi_{max}$$ je amplituda magnetického toku v jádru, jednotka weber [Wb].
+- Konstanta 4,44 je bezrozměrná, vychází z $$2\pi/\sqrt{2}$$.
 
 Indukované napětí je derivací toku, takže je oproti toku posunuté o 90°. Když má tok maximum, je jeho změna nulová, a tedy i napětí je nulové. Když tok prochází nulou, mění se nejrychleji, a napětí je proto největší.
 
