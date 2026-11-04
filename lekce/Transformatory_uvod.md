@@ -75,7 +75,7 @@ $$
 Efektivní hodnotu dostaneme dělením $$\sqrt{2}$$:
 
 $$
-\large {U_ief = \frac{U_imax}{{\sqrt{2}}}}
+\large {U_ief = \frac{U_imax}{\sqrt{2}}}
 $$
 
 $$
@@ -142,7 +142,7 @@ Podle převodu rozlišujeme tři druhy transformátorů:
 
 <details>
 <summary>Zobrazit odpověď</summary>
-<p>Na velikosti změny magnetického pole (toku) a na rychlosti této změny. Čím rychleji se tok mění, tím větší napětí se indukuje.</p>
+<p>Na velikosti změny magnetického pole (toku). Čím více se tok mění, tím větší napětí se indukuje.</p>
 </details>
 
 ---
