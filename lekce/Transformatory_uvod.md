@@ -202,6 +202,8 @@ Podle převodu rozlišujeme tři druhy transformátorů:
 <details>
 <summary>Zobrazit odpověď</summary>
 <p>Přenášený výkon je P = U · I, takže při stejném výkonu znamená vyšší napětí menší proud. Ztráty na vedení jsou úměrné druhé mocnině proudu (ΔP = R · I²), a proto malý proud ztráty výrazně sníží. Napětí se pak u spotřebitele transformuje zpět na bezpečnou hodnotu.</p>
+<img width="700"  alt="image" src="https://github.com/user-attachments/assets/9d75244c-b2e7-498e-83c5-003b5dacb503" />
+
 </details>
 
 ---
