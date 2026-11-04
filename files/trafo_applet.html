@@ -39,12 +39,6 @@ input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;bac
 .meters b{font-size:.9rem;font-variant-numeric:tabular-nums}
 svg{width:100%;height:auto;display:block;margin-top:4px}
 svg text{font-family:inherit;fill:var(--text)}
-.mode{text-align:center;font-weight:600;font-size:.85rem}
-h2{font-size:1rem;margin:22px 0 6px}
-ul.q{margin:0;padding-left:22px}
-details{margin:6px 0 0 22px;color:var(--muted);font-size:.92rem}
-summary{cursor:pointer;color:var(--text)}
-.note{color:var(--muted);font-size:.8rem;margin-top:16px}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
 </style>
 </head>
@@ -55,31 +49,32 @@ summary{cursor:pointer;color:var(--text)}
 
   <div class="card">
     <div class="left">
-      <div class="formula" aria-label="Vs lomeno Vp se rovná Ns lomeno Np">
-        <span class="frac"><span>V<sub>s</sub></span><span>V<sub>p</sub></span></span>
+      <div class="formula" aria-label="p se rovná U1 lomeno U2 se rovná N1 lomeno N2">
+        <span>p&nbsp;=</span>
+        <span class="frac"><span>U<sub>1</sub></span><span>U<sub>2</sub></span></span>
         <span>=</span>
-        <span class="frac"><span>N<sub>s</sub></span><span>N<sub>p</sub></span></span>
+        <span class="frac"><span>N<sub>1</sub></span><span>N<sub>2</sub></span></span>
       </div>
       <div>
-        <label class="ctrl"><span>Primární napětí</span><output id="oVp"></output><input id="vp" type="range" min="10" max="400" step="1" value="230"></label>
-        <label class="ctrl"><span>Poměr závitů</span><output id="oN"></output><input id="n" type="range" min="0.1" max="5" step="0.05" value="2.0"></label>
+        <label class="ctrl"><span>Primární napětí U<sub>1</sub></span><output id="oU1"></output><input id="u1" type="range" min="10" max="400" step="1" value="230"></label>
+        <label class="ctrl"><span>Převod p</span><output id="oN"></output><input id="n" type="range" min="0.1" max="5" step="0.05" value="0.5"></label>
       </div>
     </div>
 
     <div class="right">
       <div class="meters">
-        <div><small><i style="background:var(--pri)"></i>V<sub>p</sub> (RMS)</small><b id="mVp"></b></div>
+        <div><small><i style="background:var(--pri)"></i>U<sub>1</sub> (RMS)</small><b id="mU1"></b></div>
         <div><small><i style="background:var(--pow)"></i>Výkon</small><b id="mP"></b></div>
-        <div><small><i style="background:var(--sec)"></i>V<sub>s</sub> (RMS)</small><b id="mVs"></b></div>
+        <div><small><i style="background:var(--sec)"></i>U<sub>2</sub> (RMS)</small><b id="mU2"></b></div>
       </div>
 
       <svg viewBox="0 0 460 300" role="img" aria-label="Schéma transformátoru">
-        <text x="147" y="44" text-anchor="middle" font-size="12" fill="var(--pri)" style="fill:var(--pri)">N<tspan font-size="9" dy="3">p</tspan></text>
-        <text x="313" y="44" text-anchor="middle" font-size="12" style="fill:var(--sec)">N<tspan font-size="9" dy="3">s</tspan></text>
+        <text x="147" y="44" text-anchor="middle" font-size="12" style="fill:var(--pri)">N<tspan font-size="9" dy="3">1</tspan></text>
+        <text x="313" y="44" text-anchor="middle" font-size="12" style="fill:var(--sec)">N<tspan font-size="9" dy="3">2</tspan></text>
 
         <!-- wires -->
-        <path id="loopP" d="M147 85 H50 V205 H147" fill="none" stroke="var(--pri)" stroke-width="3" stroke-linejoin="round"/>
-        <path id="loopS" d="M313 85 H410 V205 H313" fill="none" stroke="var(--sec)" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M147 85 H50 V205 H147" fill="none" stroke="var(--pri)" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M313 85 H410 V205 H313" fill="none" stroke="var(--sec)" stroke-width="3" stroke-linejoin="round"/>
         <path id="flowP" d="M147 85 H50 V205 H147" fill="none" stroke="var(--bg)" stroke-opacity=".75" stroke-width="3" stroke-dasharray="3 13" stroke-linecap="round"/>
         <path id="flowS" d="M313 85 H410 V205 H313" fill="none" stroke="var(--bg)" stroke-opacity=".75" stroke-width="3" stroke-dasharray="3 13" stroke-linecap="round"/>
 
@@ -89,12 +84,12 @@ summary{cursor:pointer;color:var(--text)}
 
         <!-- load -->
         <rect x="396" y="110" width="28" height="70" fill="var(--bg)"/>
-        <path d="M410 110 v6 l-10 6 l20 12 l-20 12 l20 12 l-10 6 v6" transform="translate(0,0)" fill="none" stroke="var(--sec)" stroke-width="2.5" stroke-linejoin="round"/>
+        <path d="M410 110 v6 l-10 6 l20 12 l-20 12 l20 12 l-10 6 v6" fill="none" stroke="var(--sec)" stroke-width="2.5" stroke-linejoin="round"/>
 
         <!-- core -->
-        <path fill-rule="evenodd" fill="var(--core)" d="M150 60H310a22 22 0 0 1 22 22V208a22 22 0 0 1-22 22H150a22 22 0 0 1-22-22V82a22 22 0 0 1 22-22ZM178 95H282a12 12 0 0 1 12 12V183a12 12 0 0 1-12 12H178a12 12 0 0 1-12-12V107a12 12 0 0 1 12-12Z" transform="translate(0,0)"/>
+        <path fill-rule="evenodd" fill="var(--core)" d="M150 60H310a22 22 0 0 1 22 22V208a22 22 0 0 1-22 22H150a22 22 0 0 1-22-22V82a22 22 0 0 1 22-22ZM178 95H282a12 12 0 0 1 12 12V183a12 12 0 0 1-12 12H178a12 12 0 0 1-12-12V107a12 12 0 0 1 12-12Z"/>
         <rect x="153" y="82" width="154" height="126" rx="14" fill="none" stroke="var(--coreline)" stroke-width="1.5" stroke-dasharray="5 4" opacity=".7"/>
-        <text x="230" y="140" text-anchor="middle" font-size="11" font-weight="600">N<tspan font-size="8" dy="2">s</tspan><tspan dy="-2"> : N</tspan><tspan font-size="8" dy="2">p</tspan></text>
+        <text x="230" y="140" text-anchor="middle" font-size="11" font-weight="600">N<tspan font-size="8" dy="2">1</tspan><tspan dy="-2"> : N</tspan><tspan font-size="8" dy="2">2</tspan></text>
         <text id="ratioTxt" x="230" y="158" text-anchor="middle" font-size="12" font-weight="700"></text>
 
         <!-- coils -->
@@ -102,9 +97,8 @@ summary{cursor:pointer;color:var(--text)}
         <path id="coilS" fill="none" stroke="var(--sec)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 
         <!-- labels -->
-        <text id="iP" x="48" y="72" font-size="12" font-weight="700" style="fill:var(--pri)"></text>
-        <text id="iS" x="412" y="72" font-size="12" font-weight="700" text-anchor="end" style="fill:var(--sec)"></text>
-        <text id="rL" x="428" y="148" font-size="11" style="fill:var(--sec)"></text>
+        <text id="i1" x="48" y="72" font-size="12" font-weight="700" style="fill:var(--pri)"></text>
+        <text id="i2" x="412" y="72" font-size="12" font-weight="700" text-anchor="end" style="fill:var(--sec)"></text>
         <text x="230" y="262" text-anchor="middle" font-size="12" id="modeTxt" font-weight="600"></text>
       </svg>
     </div>
@@ -123,39 +117,38 @@ summary{cursor:pointer;color:var(--text)}
     }
     return pts.join(' ');
   };
-  const NP = 8;
-  let speedP = 0, speedS = 0, offP = 0, offS = 0;
+  const N1 = 8;
+  let speed1 = 0, speed2 = 0, off1 = 0, off2 = 0;
 
   function update(){
     const P = 1000; // konstantní výkon (W)
-    const vp = +$('vp').value, n = +$('n').value;
-    const vs = vp*n, is = P/vs, ip = P/vp;
+    const u1 = +$('u1').value, p = +$('n').value;
+    const u2 = u1/p;           // p = U1/U2
+    const i1 = P/u1, i2 = P/u2; // p = I2/I1
 
-    $('oVp').textContent = fmt(vp,0)+' V';
-    $('oN').textContent = fmt(n);
-    $('mVp').textContent = fmt(vp,0)+' V';
-    $('mVs').textContent = fmt(vs,vs<100?1:0)+' V';
+    $('oU1').textContent = fmt(u1,0)+' V';
+    $('oN').textContent = fmt(p);
+    $('mU1').textContent = fmt(u1,0)+' V';
+    $('mU2').textContent = fmt(u2,u2<100?1:0)+' V';
     $('mP').textContent = fmt(P,1)+' W';
-    $('iP').textContent = 'Iₚ '+fmt(ip)+' A RMS';
-    $('iS').textContent = 'Iₛ '+fmt(is)+' A RMS';
-    $('rL').textContent = '';
-    $('ratioTxt').textContent = fmt(n)+' : 1';
-    $('modeTxt').textContent = Math.abs(n-1)<0.025 ? 'Oddělovací (1 : 1)' : (n>1 ? 'Zvyšující' : 'Snižující');
+    $('i1').textContent = 'I₁ '+fmt(i1)+' A RMS';
+    $('i2').textContent = 'I₂ '+fmt(i2)+' A RMS';
+    $('ratioTxt').textContent = 'p = '+fmt(p);
+    $('modeTxt').textContent = Math.abs(p-1)<0.025 ? 'Oddělovací (p = 1)' : (p<1 ? 'Zvyšující (U₂ > U₁)' : 'Snižující (U₂ < U₁)');
 
-    const ns = Math.max(2, Math.round(NP*n));
-    $('coilP').setAttribute('d', coilPath(147,85,120,NP,10));
-    $('coilS').setAttribute('d', coilPath(313,85,120,Math.min(ns,40),10));
+    const n2 = Math.max(2, Math.round(N1/p)); // N2 = N1/p
+    $('coilP').setAttribute('d', coilPath(147,85,120,N1,10));
+    $('coilS').setAttribute('d', coilPath(313,85,120,Math.min(n2,40),10));
 
-    speedP = Math.min(ip/3,12); speedS = Math.min(is/3,12);
+    speed1 = Math.min(i1/3,12); speed2 = Math.min(i2/3,12);
   }
-  ['vp','n'].forEach(id => $(id).addEventListener('input', update));
+  ['u1','n'].forEach(id => $(id).addEventListener('input', update));
 
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   function tick(){
-    // proud teče v sekundáru opačným směrem než by naznačovala orientace smyčky → vinutí jsou proti sobě
-    offP -= speedP*0.25; offS += speedS*0.25;
-    $('flowP').style.strokeDashoffset = offP;
-    $('flowS').style.strokeDashoffset = offS;
+    off1 -= speed1*0.25; off2 += speed2*0.25;
+    $('flowP').style.strokeDashoffset = off1;
+    $('flowS').style.strokeDashoffset = off2;
     requestAnimationFrame(tick);
   }
   update();
