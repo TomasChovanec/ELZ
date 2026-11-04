@@ -2,13 +2,15 @@
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> 
 </script> 
 
+
 # Transformátor
+
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/0ae56e65-800d-4184-9ab1-5f791869f5f1" />
 
 Transformátor je elektrický, netočivý stroj. Pomocí elektromagnetické indukce mění elektrickou energii  na elektrickou energii jiných parametrů - těmito parametry je napětí a proud, frekvence se nemění. Výkon se také nemění, jen se zmenší o ztráty transformátoru.
 
 Používají se nejčastěji pro změnu velikosti střídavého napětí nebo na galvanické oddělení obvodů.
 
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/0ae56e65-800d-4184-9ab1-5f791869f5f1" />
 
 ## Princip činnosti
 
