@@ -113,7 +113,7 @@ Podle převodu rozlišujeme tři druhy transformátorů:
 
 ## Videa
 
-[![FS-4.6. Transformátor | Fyzika SŠ](https://img.youtube.com/vi/Id1grnHkHeY/hqdefault.jpg)](https://www.youtube.com/watch?v=Id1grnHkHeY)
+[![FS-4.6. Transformátor - Fyzika SŠ](https://img.youtube.com/vi/Id1grnHkHeY/hqdefault.jpg)](https://www.youtube.com/watch?v=Id1grnHkHeY)
 
 [![Pokusničení – Jak funguje transformátor?](https://img.youtube.com/vi/vdDFAl66rNg/hqdefault.jpg)](https://www.youtube.com/watch?v=vdDFAl66rNg)
 
