@@ -18,7 +18,7 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 - [Jističe](/lekce/Jistice.md)
 - [Jističe - samostatná práce](/lekce/Jistice_sam_prac.md)
 - [Proudový chránič](/lekce/Proudovy_chranic.md)
-- 
+
 ## Elektrické přístroje pro vysoké napětí
 - [Spínací přístroje pro vysoké napětí](/lekce/Spinani_vysokeho_napeti.md)
 - [Svodiče přepětí pro vysoké napětí](/lekce/Svodice_prepeti.md)
