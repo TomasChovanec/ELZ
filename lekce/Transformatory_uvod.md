@@ -25,13 +25,13 @@ Jev byl objeven roku 1831 Michaelem Faradayem.
 Velikost indukovaného napětí závisí na velikosti **změny** magnetického pole a **rychlosti** této změny.
 
 $$
-U_i = - \frac{d\Phi}{dt}
+\Large U_i = - \frac{d\Phi}{dt}
 $$
 
 Pro cívku s N závity pak:
 
 $$
-U_i = -N \cdot \frac{d\Phi}{dt}
+\Large U_i = -N \cdot \frac{d\Phi}{dt}
 $$
 
 ### Simulace elektromagnetické indukce
