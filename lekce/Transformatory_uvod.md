@@ -121,7 +121,7 @@ Podle převodu rozlišujeme tři druhy transformátorů:
 
 ### Teorie
 
-**1. Která veličina se při transformaci nemění?**
+**Která veličina se při transformaci nemění?**
 
 - A) napětí
 - B) proud
@@ -135,7 +135,7 @@ Podle převodu rozlišujeme tři druhy transformátorů:
 
 ---
 
-**2. Na čem závisí velikost indukovaného napětí?**
+**Na čem závisí velikost indukovaného napětí?**
 
 <details>
 <summary>Zobrazit odpověď</summary>
@@ -144,7 +144,7 @@ Podle převodu rozlišujeme tři druhy transformátorů:
 
 ---
 
-**3. Jaké je napětí ve chvíli, kdy má magnetický tok maximum? Proč?**
+**Jaké je napětí ve chvíli, kdy má magnetický tok maximum? Proč?**
 
 <details>
 <summary>Zobrazit odpověď</summary>
@@ -153,7 +153,7 @@ Podle převodu rozlišujeme tři druhy transformátorů:
 
 ---
 
-**4. Odkud se ve vzorci Ui = 4,44 · f · N · Φmax bere konstanta 4,44?**
+**Odkud se ve vzorci Ui = 4,44 · f · N · Φmax bere konstanta 4,44?**
 
 <details>
 <summary>Zobrazit odpověď</summary>
@@ -162,7 +162,7 @@ Podle převodu rozlišujeme tři druhy transformátorů:
 
 ---
 
-**5. Jaké tři druhy transformátorů rozlišujeme podle převodu?**
+**Jaké tři druhy transformátorů rozlišujeme podle převodu?**
 
 <details>
 <summary>Zobrazit odpověď</summary>
@@ -171,7 +171,7 @@ Podle převodu rozlišujeme tři druhy transformátorů:
 
 ---
 
-**6. Proč má snižující transformátor na sekundární straně větší proud než na primární?**
+**Proč má snižující transformátor na sekundární straně větší proud než na primární?**
 
 <details>
 <summary>Zobrazit odpověď</summary>
@@ -180,9 +180,7 @@ Podle převodu rozlišujeme tři druhy transformátorů:
 
 ---
 
-### Výpočty
-
-**7. Transformátor má N₁ = 500 závitů a N₂ = 50 závitů. Primární vinutí je připojeno na U₁ = 230 V. Urči převod p a sekundární napětí U₂.**
+**Transformátor má N₁ = 500 závitů a N₂ = 50 závitů. Primární vinutí je připojeno na U₁ = 230 V. Urči převod p a sekundární napětí U₂.**
 
 <details>
 <summary>Zobrazit odpověď</summary>
@@ -193,7 +191,7 @@ Jde o snižující transformátor.</p>
 
 ---
 
-**8. Zvyšující transformátor má N₁ = 200 závitů a N₂ = 1000 závitů. Na primár přivedeme U₁ = 24 V. Urči převod a napětí U₂.**
+**Zvyšující transformátor má N₁ = 200 závitů a N₂ = 1000 závitů. Na primár přivedeme U₁ = 24 V. Urči převod a napětí U₂.**
 
 <details>
 <summary>Zobrazit odpověď</summary>
@@ -203,7 +201,7 @@ U₂ = U₁ / p = 24 / 0,2 = <b>120 V</b></p>
 
 ---
 
-**9. Ideální transformátor má převod p = 5 a sekundárním vinutím protéká proud I₂ = 2 A. Jaký proud teče primárním vinutím?**
+**Ideální transformátor má převod p = 5 a sekundárním vinutím protéká proud I₂ = 2 A. Jaký proud teče primárním vinutím?**
 
 <details>
 <summary>Zobrazit odpověď</summary>
@@ -212,7 +210,7 @@ U₂ = U₁ / p = 24 / 0,2 = <b>120 V</b></p>
 
 ---
 
-**10. Ideální transformátor 230 V / 23 V odebírá z primáru proud 0,5 A. Jaký výkon přenáší a jaký proud poteče spotřebičem na sekundáru?**
+**Ideální transformátor 230 V / 23 V odebírá z primáru proud 0,5 A. Jaký výkon přenáší a jaký proud poteče spotřebičem na sekundáru?**
 
 <details>
 <summary>Zobrazit odpověď</summary>
