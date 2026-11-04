@@ -2,11 +2,6 @@
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> 
 </script> 
 
-
-$$
-U_i = -N \cdot \frac{d\Phi}{dt}
-$$
-
 # Transformátor
 
 Transformátor je elektrický, netočivý stroj. Pomocí elektromagnetické indukce mění elektrickou energii jedněch parametrů na el. energii druhých parametrů - těmito parametry je napětí a proud, frekvence se nemění. Výkon se také nemění, jen se zmenší o ztráty transformátoru.
@@ -28,6 +23,18 @@ Elektromagnetická indukce je jev, při kterém ve vodiči dochází ke vzniku i
 Jev byl objeven roku 1831 Michaelem Faradayem.
 
 Velikost indukovaného napětí závisí na velikosti **změny** magnetického pole a **rychlosti** této změny.
+
+$$
+U_i = - \frac{d\Phi}{dt}
+$$
+
+Pro cívku s N závity pak:
+
+$$
+U_i = -N \cdot \frac{d\Phi}{dt}
+$$
+
+### Simulace elektromagnetické indukce
 
 [![Faradayův zákon – PhET](https://phet.colorado.edu/sims/html/faradays-law/latest/faradays-law-600.png)](https://phet.colorado.edu/sims/html/faradays-law/latest/faradays-law_all.html)
 
