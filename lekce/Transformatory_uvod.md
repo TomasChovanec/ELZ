@@ -23,7 +23,9 @@ Elektromagnetická indukce je jev, při kterém ve vodiči dochází ke vzniku i
 Jev byl objeven roku 1831 Michaelem Faradayem.
 
 ### Faradayův zákon
-Hodnota indukovaného napětí je rovna časové změně magnetického toku, který prochází elektrickým obvodem, což se zapisuje ve tvaru:
+Hodnota indukovaného napětí je rovna časové změně magnetického toku, který prochází elektrickým obvodem. 
+
+Znaménko minus ve Faradayově zákoně vyjadřuje **Lenzův zákon**: Směr indukovaného napětí a proudu je takový, že jejich magnetické pole působí proti změně magnetického toku, která je vyvolala.
 
 $$
 \large u_i = - \frac{d\Phi}{dt}
