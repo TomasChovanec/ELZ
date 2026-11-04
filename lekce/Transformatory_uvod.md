@@ -17,11 +17,10 @@ Používají se nejčastěji pro změnu velikosti střídavého napětí nebo na
 Transformátor má dvě cívky (vinutí) na společném železném jádru. Primární vinutí s N₁ závity se připojí ke střídavému napětí U₁. Protéká jím magnetizační proud, který v jádru vytvoří střídavý magnetický tok Φ. Tento tok prochází i sekundárním vinutím s N₂ závity a 
 indukuje v něm napětí U₂.
 
-<img width="700"  alt="image" src="https://github.com/user-attachments/assets/efcce84d-c4b0-4982-a488-c34e140abd88" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/fbc75d53-6866-4a5c-9a10-d0adf7235559" />
 
 ## Převod transformátoru
 
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/fbc75d53-6866-4a5c-9a10-d0adf7235559" />
 
 Tok $$\Phi$$ je v obou vinutích stejný, liší se jen počet závitů. Po dosazení do vzorce pro $$U$$ a vydělení obou rovnic dostaneme převod:
 
