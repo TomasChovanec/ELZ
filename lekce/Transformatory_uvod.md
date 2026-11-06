@@ -19,36 +19,6 @@ indukuje v něm napětí U₂.
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/fbc75d53-6866-4a5c-9a10-d0adf7235559" />
 
-## Převod transformátoru
-
-
-Tok $$\Phi$$ je v obou vinutích stejný, liší se jen počet závitů. Po dosazení do vzorce pro $$U$$ a vydělení obou rovnic dostaneme převod:
-
-$$
-\large \boxed{p = \frac{N_1}{N_2} = \frac{U_1}{U_2}}
-$$
-
-U ideálního transformátoru se výkon nemění ($$U_1 \cdot I_1 = U_2 \cdot I_2$$), proto pro proudy platí opačný poměr:
-
-$$
-\large \boxed{p = \frac{N_1}{N_2} = \frac{U_1}{U_2} = \frac{I_2}{I_1}}
-$$
-
-Podle převodu rozlišujeme tři druhy transformátorů:
-
-- p > 1: snižující transformátor, U₂ < U₁ a I₂ > I₁
-- p < 1: zvyšující transformátor, U₂ > U₁ a I₂ < I₁
-- p = 1: oddělovací transformátor, napětí se nemění, ale vstup a výstup jsou galvanicky oddělené
-
-<iframe
-  src="https://tomaschovanec.github.io/ELZ/files/trafo_applet.html"
-  width="100%" height="620"
-  style="border:0; max-width:900px;"
-  loading="lazy"
-  title="Simulace ideálního transformátoru">
-  </iframe>
-
-
 ## Elektromagnetická indukce
 
 Elektromagnetická indukce je jev, při kterém ve vodiči dochází ke vzniku indukovaného elektromotorického napětí Ui a v důsledku časové změny magnetického indukčního toku, tj. důsledkem umístění vodiče v měnícím se magnetickém poli.
@@ -134,6 +104,56 @@ kde:
 Indukované napětí je **derivací toku**, takže je oproti toku **posunuté o 90°**. Když má tok maximum, je jeho změna nulová, a tedy i napětí je nulové. Když tok prochází nulou, mění se nejrychleji, a napětí je proto největší.
 
 <img width="800"  alt="image" src="https://github.com/user-attachments/assets/7463cbc2-b387-4ae7-8715-50b014ffa5a4" />
+
+
+## Převod transformátoru
+## Princip a odvození převodu
+
+Střídavý proud v primárním vinutí vytváří v jádře proměnný magnetický tok $\Phi$. Podle Faradayova indukčního zákona se v cívce o $N$ závitech indukuje napětí
+
+$$
+U = -N \frac{d\Phi}{dt}
+$$
+
+Pro sinusový tok o amplitudě $\Phi_m$ a frekvenci $f$ vychází efektivní hodnota
+
+$$
+U = 4{,}44 \cdot f \cdot N \cdot \Phi_m
+$$
+
+Pro primární a sekundární vinutí tedy platí:
+
+$$
+U_1 = 4{,}44 \cdot f \cdot N_1 \cdot \Phi_m
+\qquad
+U_2 = 4{,}44 \cdot f \cdot N_2 \cdot \Phi_m
+$$
+
+Tok $\Phi$ je v obou vinutích stejný, liší se jen počet závitů. Po dosazení do vzorce pro $U$ a vydělení obou rovnic se zkrátí $4{,}44$, $f$ i $\Phi_m$ a dostaneme převod:
+
+$$
+\large \boxed{p = \frac{N_1}{N_2} = \frac{U_1}{U_2}}
+$$
+
+U ideálního transformátoru se výkon nemění ($U_1 \cdot I_1 = U_2 \cdot I_2$), proto pro proudy platí opačný poměr:
+
+$$
+\large \boxed{p = \frac{N_1}{N_2} = \frac{U_1}{U_2} = \frac{I_2}{I_1}}
+$$
+Podle převodu rozlišujeme tři druhy transformátorů:
+
+- p > 1: snižující transformátor, U₂ < U₁ a I₂ > I₁
+- p < 1: zvyšující transformátor, U₂ > U₁ a I₂ < I₁
+- p = 1: oddělovací transformátor, napětí se nemění, ale vstup a výstup jsou galvanicky oddělené
+
+<iframe
+  src="https://tomaschovanec.github.io/ELZ/files/trafo_applet.html"
+  width="100%" height="620"
+  style="border:0; max-width:900px;"
+  loading="lazy"
+  title="Simulace ideálního transformátoru">
+  </iframe>
+
 
 
 
