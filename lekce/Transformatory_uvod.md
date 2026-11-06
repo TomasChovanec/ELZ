@@ -108,7 +108,7 @@ Indukované napětí je **derivací toku**, takže je oproti toku **posunuté o 
 
 ## Převod transformátoru
 
-Střídavý proud v primárním vinutí vytváří v jádře proměnný magnetický tok $\Phi$. Podle Faradayova indukčního zákona se v cívce o $N$ závitech indukuje napětí
+Střídavý proud v primárním vinutí vytváří v jádře proměnný magnetický tok $$\Phi$$. Podle Faradayova indukčního zákona se v cívce o $$N$$ závitech indukuje napětí
 
 $$
 \large U = -N \frac{d\Phi}{dt}
@@ -128,7 +128,7 @@ $$
 U_2 = 4{,}44 \cdot f \cdot N_2 \cdot \Phi_m
 $$
 
-Tok $\Phi$ je v obou vinutích stejný, liší se jen počet závitů. Po dosazení do vzorce pro $U$ a vydělení obou rovnic se vykrátí $4{,}44$, $f$ i $\Phi_m$ a dostaneme převod:
+Tok $$\Phi$$ je v obou vinutích stejný, liší se jen počet závitů. Po dosazení do vzorce pro $$U$$ a vydělení obou rovnic se vykrátí $$4{,}44$$, $$f$$ i $$\Phi_m$$ a dostaneme převod:
 
 $$
 \large \frac{U_1}{U_2}
@@ -141,7 +141,7 @@ $$
 \large \boxed{p = \frac{U_1}{U_2} = \frac{N_1}{N_2}}
 $$
 
-U ideálního transformátoru se výkon nemění ($U_1 \cdot I_1 = U_2 \cdot I_2$), proto pro proudy platí opačný poměr:
+U ideálního transformátoru se výkon nemění ($$U_1 \cdot I_1 = U_2 \cdot I_2$$), proto pro proudy platí opačný poměr:
 
 $$
 \large \boxed {p = \frac{N_1}{N_2} = \frac{U_1}{U_2} = \frac{I_2}{I_1}}
