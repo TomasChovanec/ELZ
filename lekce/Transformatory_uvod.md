@@ -107,29 +107,28 @@ Indukované napětí je **derivací toku**, takže je oproti toku **posunuté o 
 
 
 ## Převod transformátoru
-## Princip a odvození převodu
 
 Střídavý proud v primárním vinutí vytváří v jádře proměnný magnetický tok $\Phi$. Podle Faradayova indukčního zákona se v cívce o $N$ závitech indukuje napětí
 
 $$
-U = -N \frac{d\Phi}{dt}
+\large U = -N \frac{d\Phi}{dt}
 $$
 
 Pro sinusový tok o amplitudě $\Phi_m$ a frekvenci $f$ vychází efektivní hodnota
 
 $$
-U = 4{,}44 \cdot f \cdot N \cdot \Phi_m
+\large U = 4{,}44 \cdot f \cdot N \cdot \Phi_m
 $$
 
 Pro primární a sekundární vinutí tedy platí:
 
 $$
-U_1 = 4{,}44 \cdot f \cdot N_1 \cdot \Phi_m
+\large U_1 = 4{,}44 \cdot f \cdot N_1 \cdot \Phi_m
 \qquad
 U_2 = 4{,}44 \cdot f \cdot N_2 \cdot \Phi_m
 $$
 
-Tok $\Phi$ je v obou vinutích stejný, liší se jen počet závitů. Po dosazení do vzorce pro $U$ a vydělení obou rovnic se zkrátí $4{,}44$, $f$ i $\Phi_m$ a dostaneme převod:
+Tok $\Phi$ je v obou vinutích stejný, liší se jen počet závitů. Po dosazení do vzorce pro $U$ a vydělení obou rovnic se vykrátí $4{,}44$, $f$ i $\Phi_m$ a dostaneme převod:
 
 $$
 \large \boxed{p = \frac{N_1}{N_2} = \frac{U_1}{U_2}}
