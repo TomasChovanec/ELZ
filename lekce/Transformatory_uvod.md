@@ -131,13 +131,20 @@ $$
 Tok $\Phi$ je v obou vinutích stejný, liší se jen počet závitů. Po dosazení do vzorce pro $U$ a vydělení obou rovnic se vykrátí $4{,}44$, $f$ i $\Phi_m$ a dostaneme převod:
 
 $$
+\large \frac{U_1}{U_2}
+= \frac{4{,}44 \cdot f \cdot N_1 \cdot \Phi_m}{4{,}44 \cdot f \cdot N_2 \cdot \Phi_m}
+= \frac{\cancel{4{,}44} \cdot \cancel{f} \cdot N_1 \cdot \cancel{\Phi_m}}{\cancel{4{,}44} \cdot \cancel{f} \cdot N_2 \cdot \cancel{\Phi_m}}
+= \frac{N_1}{N_2}
+$$
+
+$$
 \large \boxed{p = \frac{U_1}{U_2} = \frac{N_1}{N_2}}
 $$
 
 U ideálního transformátoru se výkon nemění ($U_1 \cdot I_1 = U_2 \cdot I_2$), proto pro proudy platí opačný poměr:
 
 $$
-\boxed \large {p = \frac{N_1}{N_2} = \frac{U_1}{U_2} = \frac{I_2}{I_1}}
+\large \boxed {p = \frac{N_1}{N_2} = \frac{U_1}{U_2} = \frac{I_2}{I_1}}
 $$
 
 Podle převodu rozlišujeme tři druhy transformátorů:
