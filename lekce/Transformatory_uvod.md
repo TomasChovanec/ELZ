@@ -111,13 +111,13 @@ Indukované napětí je **derivací toku**, takže je oproti toku **posunuté o 
 Střídavý proud v primárním vinutí vytváří v jádře proměnný magnetický tok $$\Phi$$. Podle Faradayova indukčního zákona se v cívce o $$N$$ závitech indukuje napětí
 
 $$
-\large U = -N \frac{d\Phi}{dt}
+\large U_i = -N \frac{d\Phi}{dt}
 $$
 
 Pro sinusový tok o amplitudě $\Phi_m$ a frekvenci $f$ vychází efektivní hodnota
 
 $$
-\large U = 4{,}44 \cdot f \cdot N \cdot \Phi_m
+\large U_i = 4{,}44 \cdot f \cdot N \cdot \Phi_m
 $$
 
 Pro primární a sekundární vinutí tedy platí:
