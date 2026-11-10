@@ -44,11 +44,11 @@ Mezerami mezi kotouči proudí chladicí olej, který odvádí teplo.
 
 ## Zapojení cívek třífázového transformátoru
 
-**Vinutí spojená do hvězdy** – značí se **Y**, cívky všech tří fází jsou spojeny paralelně. Vyvedením středního vodiče ze společného uzlu získáváme soustavu dvou napětí – sdružené (mezi fázemi) a fázové (mezi fázovým a středním vodičem)
+**Vinutí spojená do hvězdy** – značí se **Y**, začátky (nebo konce) všech tří cívek jsou spojeny do společného uzlu. Vyvedením středního vodiče ze společného uzlu získáváme soustavu dvou napětí – sdružené (mezi fázemi) a fázové (mezi fázovým a středním vodičem)
 
-**Vinutí spojená do trojúhelníku** – značí se **D**, cívky všech tří fází jsou spojeny do série – získáváme pouze sdružené napětí.
+**Vinutí spojená do trojúhelníku** – značí se **D**, cívky všech tří fází jsou spojeny do uzavřeného trojúhelníku – získáváme pouze sdružené napětí.
 
-**Vinutí spojená do lomené hvězdy** – značí se **Z**. Cívky každé fáze jsou rozděleny na polovinu a jedna polovina je posunuta na následující sloupek magnetického obvodu. Používá se pouze na výstupní straně transformátoru pro vyrovnání nerovnoměrného zatížení jednotlivých fází.
+**Vinutí spojená do lomené hvězdy** – značí se **Z**. Cívky každé fáze jsou rozděleny na polovinu a jedna polovina je posunuta na následující sloupek magnetického obvodu. Používá se typicky na straně nízkého napětí distribučního transformátoru pro vyrovnání nerovnoměrného zatížení jednotlivých fází.
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/c6ff1724-e243-44e7-a7c6-cee6e2e4201d" />
 
