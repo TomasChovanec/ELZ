@@ -47,16 +47,16 @@ Relativní permeabilita většiny látek je velmi blízko hodnoty 1, což odpov�
 
 Na základě velikosti relativní permeability se materiály rozdělují do tří základních skupin:
 
-- **Diamagnetické** ($\mu_r < 1$, $\chi_m < 0$, přibližně konstantní)
+- **Diamagnetické** ( $$\mu_r < 1$$, $$\chi_m < 0$$, přibližně konstantní)
   - Magnetické pole mírně zeslabují, jsou z něj vytlačovány.
   - Např. kovy 11. a 12. skupiny (Cu, Ag, Au, Hg), dále inertní plyny a většina organických látek.
   - Supravodiče mohou za určitých podmínek zcela zamezit vnikání magnetického pole do svého objemu (Meissnerův jev). V ideálním případě je jejich relativní permeabilita $\mu_r = 0$.
 
-- **Paramagnetické** ($\mu_r > 1$, $\chi_m > 0$, přibližně konstantní)
+- **Paramagnetické** ($$\mu_r > 1$$, $$\chi_m > 0$$, přibližně konstantní)
   - Magnetické pole mírně zesilují, jsou do něj vtahovány.
   - Např. z kovů Al, Mn, Cr, Pt, z nekovů například O (kyslík).
 
-- **Feromagnetické** ($\mu_r \gg 1$, závisí na intenzitě magnetického pole)
+- **Feromagnetické** ($$\mu_r \gg 1$$, závisí na intenzitě magnetického pole)
   - Magnetické pole výrazně zesilují, jsou silně přitahovány.
   - Např. Fe (železo), Co (kobalt), Ni (nikl) a jejich slitiny.
 
