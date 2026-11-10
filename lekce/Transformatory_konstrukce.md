@@ -9,16 +9,16 @@ Podle tvaru transformátorových plechů a uspořádání cívek se transformát
 V jádře transformátoru se neustále mění magnetické pole, vytvořené primární cívkou. Kdyby bylo jádro z masivního kusu železa, vznikaly by v takovém jádře silné vířivé proudy, jádro by se zahřívalo a elektrická energie by se místo přenosu z primární na sekundární cívku bez užitku měnila na teplo. V jádru z izolovaných plechů je vznik vířivých proudů silně omezený, tepelné ztráty jsou nepatrné a účinnost velkých energetických transformátorů může dosáhnout až 98%.
 
 ### Plášťový transformátor
-<img width="408"  alt="image" src="https://github.com/user-attachments/assets/f6c35d84-c965-45b2-b841-8d2514ddf9c6" />
+<img width="300"  alt="image" src="https://github.com/user-attachments/assets/f6c35d84-c965-45b2-b841-8d2514ddf9c6" />
 
 ### Jádrový transformátor
-<img width="346" alt="image" src="https://github.com/user-attachments/assets/3bcf5204-3747-4d81-9a24-99833c04d105" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/3bcf5204-3747-4d81-9a24-99833c04d105" />
 
 ### Jádrový třífázový
-<img width="400" height="421" alt="image" src="https://github.com/user-attachments/assets/7ea7dde7-98a2-465c-ae2c-7ad6c46994a7" />
+<img width="300" height="421" alt="image" src="https://github.com/user-attachments/assets/7ea7dde7-98a2-465c-ae2c-7ad6c46994a7" />
 
 ### Toroidní transformátor
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/dbddf1bc-d6b1-4970-93bf-ebbf99617b21" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/dbddf1bc-d6b1-4970-93bf-ebbf99617b21" />
 
 
 ### Permeabilita
@@ -72,7 +72,6 @@ Na základě velikosti relativní permeability se materiály rozdělují do tř�
 
 
 
-
 ## Elektrický obvod
 
 Elektrický obvod tvoří primární a sekundární vinutí.
@@ -83,7 +82,6 @@ Používají se dráty
 • izolované smaltem,
 • izolované smaltem a opletením hedvábím,
 • izolované opletením papírovým páskem. 
-
 
 
 ### Zapojení cívek třífázového transformátoru
