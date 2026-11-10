@@ -35,6 +35,50 @@ spojkami. U transformátorů velkých výkonů je magnetický obvod odstupňová
 vyplnil prostor kruhové cívky. Jednofázové transformátory mají magnetické obvody složené
 z plechů tvaru E – I, M, L, nebo je magnetický obvod vinutý – toroid, C – jádro.
 
+### Permeabilita
+Permeabilita je v elektrotechnice fyzikální veličina, která vyjadřuje vliv určitého materiálu na účinky magnetického pole. Některé materiály tyto účinky zesilují, jiná je zeslabují a existují také prostředí bez tohoto vlivu.
+
+Jako **relativní permeabilita** se označuje podíl permeability daného materiálu a permeability vakua:
+
+$$
+\mu_r = \frac{\mu}{\mu_0}
+$$
+
+kde:
+- $\mu_r$ – relativní permeabilita (bezrozměrná veličina)
+- $\mu$ – absolutní permeabilita materiálu [H/m]
+- $\mu_0$ – permeabilita vakua [H/m]
+
+Relativní permeabilita většiny látek je velmi blízko hodnoty 1, což odpovídá slabé reakci na magnetické pole.
+
+Na základě velikosti relativní permeability se materiály rozdělují do tří základních skupin:
+
+- **Diamagnetické** ($\mu_r < 1$, $\chi_m < 0$, přibližně konstantní)
+  - Magnetické pole mírně zeslabují, jsou z něj vytlačovány.
+  - Např. kovy 11. a 12. skupiny (Cu, Ag, Au, Hg), dále inertní plyny a většina organických látek.
+  - Supravodiče mohou za určitých podmínek zcela zamezit vnikání magnetického pole do svého objemu (Meissnerův jev). V ideálním případě je jejich relativní permeabilita $\mu_r = 0$.
+
+- **Paramagnetické** ($\mu_r > 1$, $\chi_m > 0$, přibližně konstantní)
+  - Magnetické pole mírně zesilují, jsou do něj vtahovány.
+  - Např. z kovů Al, Mn, Cr, Pt, z nekovů například O (kyslík).
+
+- **Feromagnetické** ($\mu_r \gg 1$, závisí na intenzitě magnetického pole)
+  - Magnetické pole výrazně zesilují, jsou silně přitahovány.
+  - Např. Fe (železo), Co (kobalt), Ni (nikl) a jejich slitiny.
+
+| Materiál | Relativní permeabilita μᵣ |
+|:---|---:|
+| Dusík | 0,999 999 993 |
+| Měď | 0,999 991 |
+| Voda | 0,999 991 |
+| Hliník | 1,000 023 |
+| Platina | 1,000 27 |
+| Vzduch | 1,000 000 35 |
+| Kobalt | 80 až 200 |
+| Nikl | až 1 120 |
+| Železo | 300–10 000 |
+| Permalloy | 50 000–140 000 |
+
 ## EI plechy
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/4106507d-0ef1-41b3-9723-f239b2b546ba" />
 
