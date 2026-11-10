@@ -1,8 +1,14 @@
-# Náhradní schéma a fázorový diagram transformátoru
+# Zatěžovací charakteristika transformátoru
 
-Náhradní schéma transformátoru je poskládáno z podélné větve složené z činných odporů
-primárního a sekundárního vinutí (R1 a R2) a induktivních reaktancí obou cívek procházených
-rozptylovým tokem (X1σ, X2σ) a z příčné větve složené z magnetického odporu magnetického
+<img width="800"  alt="image" src="https://github.com/user-attachments/assets/7c62c8bc-c3db-45cb-85f8-18cc9db32214" />
+
+
+## Náhradní schéma a fázorový diagram transformátoru
+Elektrické vlastnosti transformátoru lze znázornit náhradním schematem a popsat rovnicemi  pomocí Kirchhoffových zákonů. Z těchto pak můžeme kreslit fázorové diagramy. Sekundárním vinutím neprotéká žádný proud, primární proud I1  = I 0 
+
+
+
+Náhradní schéma transformátoru je poskládáno z podélné větve složené z činných odporů primárního a sekundárního vinutí (R1 a R2) a induktivních reaktancí obou cívek procházených rozptylovým tokem (X1σ, X2σ) a z příčné větve složené z magnetického odporu magnetického
 obvodu (RFe) a reaktance magnetického obvodu (Xμ).
 
 <img width="1355" alt="image" src="https://github.com/user-attachments/assets/679827c1-8158-47c6-9d60-152af97b9a1f" />
@@ -31,5 +37,11 @@ Transformátor ve stavu nakrátko má sekundární svorky propojeny bezodporovou
 být odpojen. Při měření stavu nakrátko jsou výstupní svorky také spojeny do krátka a proto musíme snížit napětí na primární cívce tak, aby sekundárním vinutím procházel právě jmenovitý proud, který nezpůsobí zničení transformátoru. Sníženému primárnímu napětí říkáme napětí nakrátko a často jej vyjadřujeme
 v procentech jmenovitého napětí.
 
-Náhradní schéma transformátoru ve stavu nakrátko kreslíme bez paralelní větve RFe, X, neboť impedance zkratu je mnohonásobně menší a tedy téměř celý proud bude procházet zkratem. Měřením nakrátko (měříme napětí U1K, proud I1K a výkon P1K na primární straně) jsme zjistili
-parametry....
+Zjišťování hodnot nakrátko proto nelze provádět při jmenovitém napětí, nýbrž při napětí sníženém.
+Názývá se napětí nakrátko UK a je definováno při:
+     - sekundáru spojeném nakrátko
+     - primárním vinutím protéká právě jmenovitý 
+       proud I1N
+     - je to snížené napětí
+                               UK  =  ZT  . I1N
+Na štítku trafa bývá uváděné procentní napětí nakrátko.
