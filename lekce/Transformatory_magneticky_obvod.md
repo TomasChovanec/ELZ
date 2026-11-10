@@ -100,4 +100,8 @@ Použití: permanentní magnety (Alnico, neodymové a samarium-kobaltové magnet
 
 <img width="449" alt="image" src="https://github.com/user-attachments/assets/810755ab-1adf-47dc-b16b-e9ec87e37ca8" />
 
+## Videa
 
+[![Video na YouTube](https://img.youtube.com/vi/96Vekm8Ws4U/hqdefault.jpg)](https://www.youtube.com/watch?v=96Vekm8Ws4U)
+
+### [Zpět na obsah](../README.md)
