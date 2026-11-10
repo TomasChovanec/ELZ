@@ -105,9 +105,8 @@ Díky přídavku křemíku má ocel výhodnější vlastnosti:
 - Nižší hysterezní ztráty: užší hysterezní smyčka, snadnější přemagnetování.
 - Vysoká relativní permeabilita 
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/4106507d-0ef1-41b3-9723-f239b2b546ba" />
-
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/810755ab-1adf-47dc-b16b-e9ec87e37ca8" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/4106507d-0ef1-41b3-9723-f239b2b546ba" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/810755ab-1adf-47dc-b16b-e9ec87e37ca8" />
 
 <img width="300"  alt="image" src="https://github.com/user-attachments/assets/f6c35d84-c965-45b2-b841-8d2514ddf9c6" />
 
