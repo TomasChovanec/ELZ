@@ -4,21 +4,34 @@ Základ transformátoru tvoří magnetický a elektrický obvod.
 Základem transformátoru jsou dvě cívky (primární a sekundární), nasazené na uzavřeném železném jádře. Vinutí primární cívky se připojuje ke zdroji střídavého proudu, k vinutí sekundární cívky se připojuje spotřebič. Jádro transformátoru je složeno z navzájem izolovaných plechů například z křemíkové oceli. 
 
 
-## Magnetický obvod
+## Magnetický obvod transformátoru
 Podle tvaru transformátorových plechů a uspořádání cívek se transformátory dělí na jádrové, plášťové a toroidní. Podle počtu fází mohou být jednofázové, trojfázové nebo vícefázové.
 V jádře transformátoru se neustále mění magnetické pole, vytvořené primární cívkou. Kdyby bylo jádro z masivního kusu železa, vznikaly by v takovém jádře silné vířivé proudy, jádro by se zahřívalo a elektrická energie by se místo přenosu z primární na sekundární cívku bez užitku měnila na teplo. V jádru z izolovaných plechů je vznik vířivých proudů silně omezený, tepelné ztráty jsou nepatrné a účinnost velkých energetických transformátorů může dosáhnout až 98%.
 
-### Plášťový transformátor
 <img width="300"  alt="image" src="https://github.com/user-attachments/assets/f6c35d84-c965-45b2-b841-8d2514ddf9c6" />
 
-### Jádrový transformátor
+**Plášťový transformátor**
+
+---
+
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/3bcf5204-3747-4d81-9a24-99833c04d105" />
 
-### Jádrový třífázový
+**Jádrový transformátor**
+
+---
+
 <img width="300" height="421" alt="image" src="https://github.com/user-attachments/assets/7ea7dde7-98a2-465c-ae2c-7ad6c46994a7" />
 
-### Toroidní transformátor
+**Jádrový třífázový**
+
+---
+
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/dbddf1bc-d6b1-4970-93bf-ebbf99617b21" />
+
+**Toroidní transformátor**
+
+---
+
 
 
 ### Permeabilita
@@ -72,16 +85,16 @@ Na základě velikosti relativní permeability se materiály rozdělují do tř�
 
 
 
-## Elektrický obvod
+## Elektrický obvod transformátoru - vinutí
 
 Elektrický obvod tvoří primární a sekundární vinutí.
 
-U třífázových transformátorů je strana nižšího napětí umístěna blíže k jádru, strana vyššího napětí je vně. Cívky vinutí bývají válcové nebo kotoučové, vzájemně propojené do hvězdy – Y, trojúhelníka – D, nebo lomené hvězdy – Z. Začátky a konce vinutí jsou vyvedeny na víko transformátoru, kde jsou připojeny k izolátorům. Regulaci napětí zajišťuje přepínač nebo přepojovač odboček. Oba obvody, jak elektrický, tak magnetický, bývají uloženy v nádobě a zality transformátorovým olejem. Ten zajišťuje chlazení transformátoru a zlepšuje izolační pevnost. Pro zlepšení odvodu tepla – zvětšení povrchu, bývá nádoba opatřena trubkami nebo radiátory, u velkých výkonů ofukovanými ventilátory. V horní části nádoby bývá zásobník oleje s olejoznakem. Používají se rovněž vzduchem chlazené třífázové transformátory.
+Cívky vinutí bývají válcové nebo kotoučové, vzájemně propojené do hvězdy – Y, trojúhelníka – D, nebo lomené hvězdy – Z. Začátky a konce vinutí jsou vyvedeny na víko transformátoru, kde jsou připojeny k izolátorům. 
 
 Používají se dráty
-• izolované smaltem,
-• izolované smaltem a opletením hedvábím,
-• izolované opletením papírovým páskem. 
+- izolované smaltem,
+- izolované smaltem a opletením hedvábím,
+- izolované opletením papírovým páskem. 
 
 
 ### Zapojení cívek třífázového transformátoru
