@@ -3,6 +3,10 @@ Magnetický obvod je část transformátoru, která vede magnetický tok vytvoř
 
 Podle tvaru transformátorových plechů a uspořádání cívek se transformátory dělí na jádrové, plášťové a toroidní. Podle počtu fází mohou být jednofázové, trojfázové nebo vícefázové.
 
+Na obrázku níže je jednofázový plášťový, jednofázový jádrový a třífázový jádrový transformátor.
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/86cec193-b1de-4e15-bdcc-01eff7978027" />
+
 **Plášťový transformátor**
 
 ---
