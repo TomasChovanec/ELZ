@@ -1,3 +1,8 @@
+<script type="text/javascript" id="MathJax-script" async 
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> 
+</script> 
+
+
 # Magnetický obvod transformátoru
 Magnetický obvod je část transformátoru, která vede magnetický tok vytvořený primárním vinutím a zajišťuje jeho přenos do vinutí sekundárního. Tvoří ho jádro z magneticky měkkého materiálu s vysokou permeabilitou.
 
