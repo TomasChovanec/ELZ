@@ -10,6 +10,8 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 ## Úvod do předmětu
 - [Rozdělení elektrických strojů a přístrojů](/lekce/Stroje_a_pristroje.md)
 
+# Elektrické přístroje
+
 ## Elektrické přístroje pro nízké napětí
 - [Elektrický oblouk](/lekce/Oblouk.md)
 - [Stykače](/lekce/Stykace.md)
@@ -23,8 +25,10 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 - [Spínací přístroje pro vysoké napětí](/lekce/Spinani_vysokeho_napeti.md)
 - [Svodiče přepětí pro vysoké napětí](/lekce/Svodice_prepeti.md)
 
-## Elektrické stroje - transformátory
-- [Transformátory - princip funkce](/lekce/Transformatory_uvod.md)
+# Elektrické stroje
+
+## Transformátory
+- [Princip funkce](/lekce/Transformatory_uvod.md)
 - [Magnetický obvod transformátoru](/lekce/Transformatory_magneticky_obvod.md)
 - [Vinutí transformátoru](/lekce/Transformatory_elektricky_obvod.md)
 
