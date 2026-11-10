@@ -1,8 +1,18 @@
-# Elektrický obvod transformátoru - vinutí
+# Vinutí transformátoru
 
-Elektrický obvod tvoří primární a sekundární vinutí.
+Vinutí transformátoru je tvořeno měděnými nebo hliníkovými cívkami namotanými na izolační kostře kolem magnetického jádra. Slouží k přenosu elektrické energie mezi obvody prostřednictvím elektromagnetické indukce.
 
-Cívky vinutí bývají válcové nebo kotoučové, vzájemně propojené do hvězdy – Y, trojúhelníka – D, nebo lomené hvězdy – Z. Začátky a konce vinutí jsou vyvedeny na víko transformátoru, kde jsou připojeny k izolátorům. 
+## Hlavní části a princip
+
+• Primární vinutí: Přivádí se do něj vstupní střídavé napětí, přičemž protékající proud vytváří střídavý magnetický tok v jádře.
+• Sekundární vinutí: V něm se díky měnícímu se magnetickému toku indukuje (vytváří) výstupní střídavé napětí (podle Faradayova zákona elektromagnetické indukci).
+• Stínící vinutí: U bezpečnostních transformátorů se umisťuje mezi primární a sekundární vinutí pro omezení rušení a zvýšení bezpečnosti.
+
+## Materiály a provedení
+
+- Materiál vodičů: Nejčastěji se používá měď (lepší vodivost, menší rozměry) nebo hliník (nižší cena a hmotnost).
+- Izolace: Závity jsou od sebe a od jádra odděleny lakem, papírem, fóliemi nebo speciálními pryskyřicemi, aby nedošlo k mezizávitovému zkratu.
+- Zapojení vinutí: V třífázových soustavách se nejčastěji zapojují do hvězdy (Y/Yn) nebo do trojúhelníku (D), případně jejich kombinacemi.
 
 Používají se dráty
 - izolované smaltem,
