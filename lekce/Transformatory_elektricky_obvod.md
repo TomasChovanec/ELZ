@@ -55,11 +55,16 @@ U₂ / U₁ = N₂ / N₁
 
 **Více výstupních napětí:** u malých transformátorů bývají odbočky na sekundáru (např. 6 / 9 / 12 V).
 
+**Symetrické napětí:** odbočka přesně uprostřed vinutí (střední vývod) umožňuje získat dvě stejná napětí vůči společnému bodu, např. 2 × 9 V .
+
 **Jak odbočka mění převod**
+
+<img width="371" alt="image" src="https://github.com/user-attachments/assets/a6a2650c-0952-450a-b8ce-a1e97d3c159a" />
 
 Při regulaci na primární straně platí: více primárních závitů znamená nižší sekundární napětí (a naopak).
 
 Příklad: Transformátor 22 kV / 400 V má odbočky ±2 × 2,5 %. Pokud je napětí v síti trvale vyšší (např. 22,55 kV, tedy +2,5 %), přepne se na odbočku s více závity (+2,5 %) a sekundární napětí zůstane na 400 V.
+
 ### Způsoby přepínání
 
 | Typ | Zkratka | Princip | Použití |
