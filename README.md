@@ -36,7 +36,7 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 <!---
 - Náhradní schéma, nakrátko, naprázdno
 - Spojování traf, hodinový úhel, regulace
-- Energetická bilance, chlazení
+- Účinnost, ztráty chlazení, 
 
 --->
 
