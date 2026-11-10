@@ -25,7 +25,7 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 
 ## Elektrické stroje - transformátory
 - [Transformátory - princip funkce](/lekce/Transformatory_uvod.md)
-- [Konstrukce transformátorů](/lekce/Transformatory_konstrukce.md)
+- [Konstrukce transformátorů](/lekce/Transformatory_magneticky_obvod.md)
 
 <!---
 - Náhradní schéma, nakrátko, naprázdno
