@@ -16,7 +16,11 @@ Vinutí transformátoru je tvořeno měděnými nebo hliníkovými cívkami navi
 Používají se vodiče:
 - izolované smaltem,
 - izolované smaltem a opletením hedvábím,
-- izolované opletením papírovým páskem. 
+- izolované opletením papírovým páskem.
+  
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/779ab976-601d-4ebc-a342-8740423fd880" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/3bb98809-f4ae-41cc-a6ad-aa5306b388da" />
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/aef36cf6-d620-4470-9fd2-8c8d3ba0b03d" />
 
 ## Tvar cívek
 
