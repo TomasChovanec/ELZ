@@ -1,6 +1,6 @@
 # Vinutí transformátoru
 
-Vinutí transformátoru je tvořeno měděnými nebo hliníkovými cívkami namotanými na izolační kostře kolem magnetického jádra. Slouží k přenosu elektrické energie mezi obvody prostřednictvím elektromagnetické indukce.
+Vinutí transformátoru je tvořeno měděnými nebo hliníkovými cívkami navinutými na izolační kostře kolem magnetického jádra. Slouží k přenosu elektrické energie mezi obvody prostřednictvím elektromagnetické indukce.
 
 ## Hlavní části a princip
 
