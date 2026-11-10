@@ -13,7 +13,7 @@ Vinutí transformátoru je tvořeno měděnými nebo hliníkovými cívkami navi
 - Izolace: Závity jsou od sebe a od jádra odděleny lakem, papírem, fóliemi nebo speciálními pryskyřicemi, aby nedošlo k mezizávitovému zkratu.
 - Zapojení vinutí: V třífázových soustavách se nejčastěji zapojují do hvězdy (Y/Yn) nebo do trojúhelníku (D), případně jejich kombinacemi.
 
-Používají se dráty
+Používají se vodiče:
 - izolované smaltem,
 - izolované smaltem a opletením hedvábím,
 - izolované opletením papírovým páskem. 
