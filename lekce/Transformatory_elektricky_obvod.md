@@ -66,3 +66,9 @@ Příklad: Transformátor 22 kV / 400 V má odbočky ±2 × 2,5 %. Pokud je nap�
 |---|---|---|---|
 | Přepínání **bez zatížení** | PBZ | Transformátor se odpojí od sítě a odbočka se přepne ručně (nebo pohonem) | distribuční transformátory, regulace se mění jen zřídka (sezónně) |
 | Přepínání **pod zatížením** | PPZ | Přepínač mění odbočky za provozu, aniž by se přerušil proud (používá přechodové odpory nebo tlumivky, aby nevzniklo zkratování závitů) | velké výkonové a regulační transformátory v rozvodnách |
+
+## Videa
+
+[![Video na YouTube](https://img.youtube.com/vi/NUk6wb1kZow/hqdefault.jpg)](https://www.youtube.com/shorts/NUk6wb1kZow)
+
+### [Zpět na obsah](../README.md)
