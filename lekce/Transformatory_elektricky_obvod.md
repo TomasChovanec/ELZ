@@ -43,7 +43,14 @@ Mezerami mezi kotouči proudí chladicí olej, který odvádí teplo.
 [![Video na YouTube](https://img.youtube.com/vi/_yRu-a9HjXI/hqdefault.jpg)](https://youtu.be/_yRu-a9HjXI)
 
 ## Zapojení cívek třífázového transformátoru
-<img width="501" alt="image" src="https://github.com/user-attachments/assets/2498fb00-eacf-49de-ab6d-797fd8496dfe" />
+
+**Vinutí spojená do hvězdy** – značí se **Y**, cívky všech tří fází jsou spojeny paralelně. Vyvedením středního vodiče ze společného uzlu získáváme soustavu dvou napětí – sdružené (mezi fázemi) a fázové (mezi fázovým a středním vodičem)
+
+**Vinutí spojená do trojúhelníku** – značí se **D**, cívky všech tří fází jsou spojeny do série – získáváme pouze sdružené napětí.
+
+**Vinutí spojená do lomené hvězdy** – značí se **Z**. Cívky každé fáze jsou rozděleny na polovinu a jedna polovina je posunuta na následující sloupek magnetického obvodu. Používá se pouze na výstupní straně transformátoru pro vyrovnání nerovnoměrného zatížení jednotlivých fází.
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/c6ff1724-e243-44e7-a7c6-cee6e2e4201d" />
 
 ### Třífázový transformátor zapojený do trojúhelníka
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/255413fe-f2bf-47e4-b63b-b1efed56a17b" />
