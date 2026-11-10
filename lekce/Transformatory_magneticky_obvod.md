@@ -78,28 +78,25 @@ Na základě velikosti relativní permeability se materiály rozdělují do tř�
 | Železo | 300–10 000 |
 | Permalloy | 50 000–140 000 |
 
+
+## Magnetizační křivka
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/de796452-d9b8-4f5e-ae26-e028466392e5" />
+
+a) Úzká smyčka
+Malá remanence B_r i malá koercitivita H_c
+Malá plocha uvnitř smyčky
+Materiál se snadno zmagnetuje i odmagnetuje: magneticky měkký materiál
+Použití: jádra transformátorů, cívek, motorů a generátorů (křemíková ocel, permalloy, ferity)
+b) Široká smyčka
+Velká remanence B_r i velká koercitivita H_c
+Velká plocha uvnitř smyčky
+Materiál si magnetizaci drží a těžko se odmagnetovává: magneticky tvrdý materiál
+Použití: permanentní magnety (Alnico, neodymové a samarium-kobaltové magnety, tvrdé ferity)
+
 ## EI plechy
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/4106507d-0ef1-41b3-9723-f239b2b546ba" />
 
 <img width="449" alt="image" src="https://github.com/user-attachments/assets/810755ab-1adf-47dc-b16b-e9ec87e37ca8" />
 
 
-
-## Elektrický obvod transformátoru - vinutí
-
-Elektrický obvod tvoří primární a sekundární vinutí.
-
-Cívky vinutí bývají válcové nebo kotoučové, vzájemně propojené do hvězdy – Y, trojúhelníka – D, nebo lomené hvězdy – Z. Začátky a konce vinutí jsou vyvedeny na víko transformátoru, kde jsou připojeny k izolátorům. 
-
-Používají se dráty
-- izolované smaltem,
-- izolované smaltem a opletením hedvábím,
-- izolované opletením papírovým páskem. 
-
-
-### Zapojení cívek třífázového transformátoru
-<img width="501" height="265" alt="image" src="https://github.com/user-attachments/assets/2498fb00-eacf-49de-ab6d-797fd8496dfe" />
-
-
-### Třífázový transformátor zapojený do trojúhelníka
-<img width="2560" height="1707" alt="image" src="https://github.com/user-attachments/assets/255413fe-f2bf-47e4-b63b-b1efed56a17b" />
