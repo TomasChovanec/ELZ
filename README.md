@@ -27,6 +27,8 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 - [Transformátory - princip funkce](/lekce/Transformatory_uvod.md)
 - [Magnetický obvod transformátoru](/lekce/Transformatory_magneticky_obvod.md)
 - [Vinutí transformátoru](/lekce/Transformatory_elektricky_obvod.md)
+
+
 <!---
 - Náhradní schéma, nakrátko, naprázdno
 - Spojování traf, hodinový úhel, regulace
