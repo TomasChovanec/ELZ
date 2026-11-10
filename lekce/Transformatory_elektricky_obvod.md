@@ -28,3 +28,27 @@ Používají se dráty
 
 ### Třífázový transformátor zapojený do trojúhelníka
 <img width="2560" height="1707" alt="image" src="https://github.com/user-attachments/assets/255413fe-f2bf-47e4-b63b-b1efed56a17b" />
+
+## Odbočky transformátoru
+Odbočka je vývod z vinutí vyvedený z určitého místa mezi začátkem a koncem. Umožňuje použít jen část vinutí, tedy změnit počet závitů a tím i převod transformátoru:
+
+U₂ / U₁ = N₂ / N₁
+
+## Proč se odbočky dělají
+**Regulace napětí:** napětí v síti kolísá a při zatížení vzniká na vinutích úbytek. Odbočkami se sekundární napětí dorovná na požadovanou hodnotu.
+
+**Přizpůsobení různým sítím:** jeden transformátor lze použít pro různá vstupní napětí (např. 220 / 230 / 240 V).
+
+**Více výstupních napětí:** u malých transformátorů bývají odbočky na sekundáru (např. 6 / 9 / 12 V).
+
+**Jak odbočka mění převod**
+
+Při regulaci na primární straně platí: více primárních závitů znamená nižší sekundární napětí (a naopak).
+
+Příklad: Transformátor 22 kV / 400 V má odbočky ±2 × 2,5 %. Pokud je napětí v síti trvale vyšší (např. 22,55 kV, tedy +2,5 %), přepne se na odbočku s více závity (+2,5 %) a sekundární napětí zůstane na 400 V.
+### Způsoby přepínání
+
+| Typ | Zkratka | Princip | Použití |
+|---|---|---|---|
+| Přepínání **bez zatížení** | PBZ | Transformátor se odpojí od sítě a odbočka se přepne ručně (nebo pohonem) | distribuční transformátory, regulace se mění jen zřídka (sezónně) |
+| Přepínání **pod zatížením** | PPZ | Přepínač mění odbočky za provozu, aniž by se přerušil proud (používá přechodové odpory nebo tlumivky, aby nevzniklo zkratování závitů) | velké výkonové a regulační transformátory v rozvodnách |
