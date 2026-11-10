@@ -53,7 +53,8 @@ Odbočka je vývod z vinutí vyvedený z určitého místa mezi začátkem a kon
 
 U₂ / U₁ = N₂ / N₁
 
-## Proč se odbočky dělají
+Odbočky umožňují:
+
 **Regulace napětí:** napětí v síti kolísá a při zatížení vzniká na vinutích úbytek. Odbočkami se sekundární napětí dorovná na požadovanou hodnotu.
 
 **Přizpůsobení různým sítím:** jeden transformátor lze použít pro různá vstupní napětí (např. 220 / 230 / 240 V).
@@ -61,8 +62,6 @@ U₂ / U₁ = N₂ / N₁
 **Více výstupních napětí:** u malých transformátorů bývají odbočky na sekundáru (např. 6 / 9 / 12 V).
 
 **Symetrické napětí:** odbočka přesně uprostřed vinutí (střední vývod) umožňuje získat dvě stejná napětí vůči společnému bodu, např. 2 × 9 V .
-
-**Jak odbočka mění převod**
 
 <img width="371" alt="image" src="https://github.com/user-attachments/assets/a6a2650c-0952-450a-b8ce-a1e97d3c159a" />
 
