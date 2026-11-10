@@ -40,11 +40,13 @@ Mezerami mezi kotouči proudí chladicí olej, který odvádí teplo.
 
 <img width="449"  alt="image" src="https://github.com/user-attachments/assets/f38a7ab2-44d3-4f5d-a0df-0e751f8aa922" />
 
-### Zapojení cívek třífázového transformátoru
-<img width="501" height="265" alt="image" src="https://github.com/user-attachments/assets/2498fb00-eacf-49de-ab6d-797fd8496dfe" />
+[![Video na YouTube](https://img.youtube.com/vi/_yRu-a9HjXI/hqdefault.jpg)](https://youtu.be/_yRu-a9HjXI)
+
+## Zapojení cívek třífázového transformátoru
+<img width="501" alt="image" src="https://github.com/user-attachments/assets/2498fb00-eacf-49de-ab6d-797fd8496dfe" />
 
 ### Třífázový transformátor zapojený do trojúhelníka
-<img width="2560" height="1707" alt="image" src="https://github.com/user-attachments/assets/255413fe-f2bf-47e4-b63b-b1efed56a17b" />
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/255413fe-f2bf-47e4-b63b-b1efed56a17b" />
 
 ## Odbočky transformátoru
 Odbočka je vývod z vinutí vyvedený z určitého místa mezi začátkem a koncem. Umožňuje použít jen část vinutí, tedy změnit počet závitů a tím i převod transformátoru:
@@ -75,7 +77,6 @@ Příklad: Transformátor 22 kV / 400 V má odbočky ±2 × 2,5 %. Pokud je nap�
 | Přepínání **bez zatížení** | PBZ | Transformátor se odpojí od sítě a odbočka se přepne ručně (nebo pohonem) | distribuční transformátory, regulace se mění jen zřídka (sezónně) |
 | Přepínání **pod zatížením** | PPZ | Přepínač mění odbočky za provozu, aniž by se přerušil proud (používá přechodové odpory nebo tlumivky, aby nevzniklo zkratování závitů) | velké výkonové a regulační transformátory v rozvodnách |
 
-## Videa
-[![Video na YouTube](https://img.youtube.com/vi/_yRu-a9HjXI/hqdefault.jpg)](https://youtu.be/_yRu-a9HjXI)
+
 
 ### [Zpět na obsah](../README.md)
