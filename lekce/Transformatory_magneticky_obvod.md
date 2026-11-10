@@ -52,12 +52,12 @@ Relativní permeabilita většiny látek je velmi blízko hodnoty 1, což odpov�
 
 Na základě velikosti relativní permeability se materiály rozdělují do tří základních skupin:
 
-- **Diamagnetické** ( $$\mu_r < 1$$, $$\chi_m < 0$$, přibližně konstantní)
+- **Diamagnetické** ( $$\mu_r < 1$$, přibližně konstantní)
   - Magnetické pole mírně zeslabují, jsou z něj vytlačovány.
   - Např. kovy 11. a 12. skupiny (Cu, Ag, Au, Hg), dále inertní plyny a většina organických látek.
   - Supravodiče mohou za určitých podmínek zcela zamezit vnikání magnetického pole do svého objemu (Meissnerův jev). V ideálním případě je jejich relativní permeabilita $$\mu_r = 0$$.
 
-- **Paramagnetické** ($$\mu_r > 1$$, $$\chi_m > 0$$, přibližně konstantní)
+- **Paramagnetické** ($$\mu_r > 1$$, přibližně konstantní)
   - Magnetické pole mírně zesilují, jsou do něj vtahovány.
   - Např. z kovů Al, Mn, Cr, Pt, z nekovů například O (kyslík).
 
@@ -105,9 +105,9 @@ Díky přídavku křemíku má ocel výhodnější vlastnosti:
 - Nižší hysterezní ztráty: užší hysterezní smyčka, snadnější přemagnetování.
 - Vysoká relativní permeabilita 
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/4106507d-0ef1-41b3-9723-f239b2b546ba" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/4106507d-0ef1-41b3-9723-f239b2b546ba" />
 
-<img width="449" alt="image" src="https://github.com/user-attachments/assets/810755ab-1adf-47dc-b16b-e9ec87e37ca8" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/810755ab-1adf-47dc-b16b-e9ec87e37ca8" />
 
 <img width="300"  alt="image" src="https://github.com/user-attachments/assets/f6c35d84-c965-45b2-b841-8d2514ddf9c6" />
 
