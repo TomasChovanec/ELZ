@@ -94,6 +94,12 @@ Použití: permanentní magnety (neodymové a samarium-kobaltové magnety, tvrd�
 ## EI plechy
 V jádře transformátoru se neustále mění magnetické pole, vytvořené primární cívkou. Kdyby bylo jádro z masivního kusu železa, vznikaly by v takovém jádře silné vířivé proudy, jádro by se zahřívalo a elektrická energie by se místo přenosu z primární na sekundární cívku bez užitku měnila na teplo. V jádru z izolovaných plechů je vznik vířivých proudů silně omezený, tepelné ztráty jsou nepatrné a účinnost velkých energetických transformátorů může dosáhnout až 98%.
 
+Transformátorové plechy se vyrábějí z křemíkové oceli (elektrotechnické oceli), tedy železa legovaného křemíkem, typicky přibližně 1–4,5 % Si (nejčastěji kolem 3 %).
+Díky přídavku křemíku má ocel výhodnější vlastnosti:
+- Vyšší rezistivita (měrný odpor): omezuje vířivé proudy, a tím ztráty.
+- Nižší hysterezní ztráty: užší hysterezní smyčka, snadnější přemagnetování.
+- Vysoká relativní permeabilita 
+
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/4106507d-0ef1-41b3-9723-f239b2b546ba" />
 
 <img width="449" alt="image" src="https://github.com/user-attachments/assets/810755ab-1adf-47dc-b16b-e9ec87e37ca8" />
