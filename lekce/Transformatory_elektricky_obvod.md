@@ -4,9 +4,8 @@ Vinutí transformátoru je tvořeno měděnými nebo hliníkovými cívkami namo
 
 ## Hlavní části a princip
 
-• Primární vinutí: Přivádí se do něj vstupní střídavé napětí, přičemž protékající proud vytváří střídavý magnetický tok v jádře.
-• Sekundární vinutí: V něm se díky měnícímu se magnetickému toku indukuje (vytváří) výstupní střídavé napětí (podle Faradayova zákona elektromagnetické indukci).
-• Stínící vinutí: U bezpečnostních transformátorů se umisťuje mezi primární a sekundární vinutí pro omezení rušení a zvýšení bezpečnosti.
+- Primární vinutí: Přivádí se do něj vstupní střídavé napětí, přičemž protékající proud vytváří střídavý magnetický tok v jádře.
+- Sekundární vinutí: V něm se díky měnícímu se magnetickému toku indukuje (vytváří) výstupní střídavé napětí (podle Faradayova zákona elektromagnetické indukci).
 
 ## Materiály a provedení
 
@@ -18,6 +17,9 @@ Používají se dráty
 - izolované smaltem,
 - izolované smaltem a opletením hedvábím,
 - izolované opletením papírovým páskem. 
+
+## Tvar cívek
+<img width="449" height="211" alt="image" src="https://github.com/user-attachments/assets/f38a7ab2-44d3-4f5d-a0df-0e751f8aa922" />
 
 
 ### Zapojení cívek třífázového transformátoru
