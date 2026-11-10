@@ -39,9 +39,9 @@ $$
 $$
 
 kde:
-- $\mu_r$ – relativní permeabilita (bezrozměrná veličina)
-- $\mu$ – absolutní permeabilita materiálu [H/m]
-- $\mu_0$ – permeabilita vakua [H/m]
+- $$\mu_r$$ – relativní permeabilita (bezrozměrná veličina)
+- $$\mu$$ – absolutní permeabilita materiálu [H/m]
+- $$\mu_0$$ – permeabilita vakua [H/m]
 
 Relativní permeabilita většiny látek je velmi blízko hodnoty 1, což odpovídá slabé reakci na magnetické pole.
 
@@ -79,16 +79,16 @@ Na základě velikosti relativní permeability se materiály rozdělují do tř�
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/de796452-d9b8-4f5e-ae26-e028466392e5" />
 
 **a) Úzká smyčka**
-Malá remanence B_r i malá koercitivita H_c
+Malá remanence 
 Malá plocha uvnitř smyčky
 Materiál se snadno zmagnetuje i odmagnetuje: magneticky měkký materiál
 Použití: jádra transformátorů, cívek, motorů a generátorů (křemíková ocel, permalloy, ferity)
 
 **b) Široká smyčka**
-Velká remanence B_r i velká koercitivita H_c
+Velká remanence
 Velká plocha uvnitř smyčky
 Materiál si magnetizaci drží a těžko se odmagnetovává: magneticky tvrdý materiál
-Použití: permanentní magnety (Alnico, neodymové a samarium-kobaltové magnety, tvrdé ferity)
+Použití: permanentní magnety (neodymové a samarium-kobaltové magnety, tvrdé ferity)
 
 
 ## EI plechy
