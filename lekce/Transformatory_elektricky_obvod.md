@@ -68,6 +68,7 @@ Příklad: Transformátor 22 kV / 400 V má odbočky ±2 × 2,5 %. Pokud je nap�
 | Přepínání **pod zatížením** | PPZ | Přepínač mění odbočky za provozu, aniž by se přerušil proud (používá přechodové odpory nebo tlumivky, aby nevzniklo zkratování závitů) | velké výkonové a regulační transformátory v rozvodnách |
 
 ## Videa
+[![Video na YouTube](https://img.youtube.com/vi/_yRu-a9HjXI/hqdefault.jpg)](https://youtu.be/_yRu-a9HjXI)
 
 [![Video na YouTube](https://img.youtube.com/vi/NUk6wb1kZow/hqdefault.jpg)](https://www.youtube.com/shorts/NUk6wb1kZow)
 
