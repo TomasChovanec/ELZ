@@ -39,7 +39,6 @@ Mezerami mezi kotouči proudí chladicí olej, který odvádí teplo.
 ### Zapojení cívek třífázového transformátoru
 <img width="501" height="265" alt="image" src="https://github.com/user-attachments/assets/2498fb00-eacf-49de-ab6d-797fd8496dfe" />
 
-
 ### Třífázový transformátor zapojený do trojúhelníka
 <img width="2560" height="1707" alt="image" src="https://github.com/user-attachments/assets/255413fe-f2bf-47e4-b63b-b1efed56a17b" />
 
@@ -74,7 +73,5 @@ Příklad: Transformátor 22 kV / 400 V má odbočky ±2 × 2,5 %. Pokud je nap�
 
 ## Videa
 [![Video na YouTube](https://img.youtube.com/vi/_yRu-a9HjXI/hqdefault.jpg)](https://youtu.be/_yRu-a9HjXI)
-
-[![Video na YouTube](https://img.youtube.com/vi/NUk6wb1kZow/hqdefault.jpg)](https://www.youtube.com/shorts/NUk6wb1kZow)
 
 ### [Zpět na obsah](../README.md)
