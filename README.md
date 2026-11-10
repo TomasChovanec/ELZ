@@ -25,10 +25,10 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 
 ## Elektrické stroje - transformátory
 - [Transformátory - princip funkce](/lekce/Transformatory_uvod.md)
-
+- [Konstrukce transformátorů](/lekce/Transformatory_konstrukce.md)
 <!---
 
-- Konstrukce transformátorů, magnetický obvod
+
 - Náhradní schéma, nakrátko, naprázdno
 - Spojování traf, hodinový úhel, regulace
 - Energetická bilance, chlazení
