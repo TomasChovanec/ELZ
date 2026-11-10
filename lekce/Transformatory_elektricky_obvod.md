@@ -19,8 +19,22 @@ Používají se dráty
 - izolované opletením papírovým páskem. 
 
 ## Tvar cívek
-<img width="449" height="211" alt="image" src="https://github.com/user-attachments/assets/f38a7ab2-44d3-4f5d-a0df-0e751f8aa922" />
 
+Tvar cívek závisí na způsobu chlazení transformátoru.
+
+### Válcová cívka
+Vinutí je navinuto ve vrstvách do válce, vinutí nn a vn jsou soustředná a leží ve válcích kolem sloupku jádra.
+Používá se u suchých transformátorů.
+Cívky se zalévají do pryskyřice (epoxid), která je izoluje a chrání.
+Chlazení vzduchem.
+
+### Kotoučová cívka
+Vinutí je rozděleno na ploché kotouče (sekce) naskládané nad sebou, často se střídají kotouče nn a vn.
+Mezi kotouči jsou mezery
+Používá se u transformátorů s olejovým chlazením.
+Mezerami mezi kotouči proudí chladicí olej, který odvádí teplo.
+
+<img width="449"  alt="image" src="https://github.com/user-attachments/assets/f38a7ab2-44d3-4f5d-a0df-0e751f8aa922" />
 
 ### Zapojení cívek třífázového transformátoru
 <img width="501" height="265" alt="image" src="https://github.com/user-attachments/assets/2498fb00-eacf-49de-ab6d-797fd8496dfe" />
