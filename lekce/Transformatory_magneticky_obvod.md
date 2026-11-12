@@ -10,9 +10,7 @@ Podle tvaru transformátorových plechů a uspořádání cívek se transformát
 
 Na obrázku níže je jednofázový plášťový, jednofázový jádrový a třífázový jádrový transformátor.
 
-<img width="700" alt="image" src="https://github.com/user-attachments/assets/86cec193-b1de-4e15-bdcc-01eff7978027" />
-
-**Plášťový transformátor**
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/86cec193-b1de-4e15-bdcc-01eff7978027" />z
 
 ---
 
