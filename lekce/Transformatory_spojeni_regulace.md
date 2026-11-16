@@ -3,13 +3,13 @@
 </script> 
 
 
-# Skupina spojení, hodinový úhel, paralelní chod a regulace napětí
+# Zapojení vinutí, hodinový úhel, paralelní chod a regulace napětí
 
 Třífázový transformátor má na každé straně tři vinutí a ta můžeme zapojit různými způsoby. Zapojení určuje, jaká napětí transformátor nabízí, jak snáší nesymetrickou zátěž a také o kolik je výstupní napětí **fázově posunuté** proti vstupnímu. Tento posun vyjadřuje **hodinový úhel**, který musíme znát, když chceme transformátory spojovat paralelně.
 
-## Značení skupiny spojení
+## Značení zapojení transformátoru
 
-Způsoby zapojení vinutí (hvězda, trojúhelník, lomená hvězda) jsou popsané v kapitole [Vinutí transformátoru](Transformatory_elektricky_obvod.md). Pro celý transformátor je zapisujeme zkratkou, které se říká **skupina spojení**, například **Dyn1**:
+Způsoby zapojení vinutí (hvězda, trojúhelník, lomená hvězda) jsou popsané v kapitole [Vinutí transformátoru](Transformatory_elektricky_obvod.md). Zapojení obou stran transformátoru spolu s hodinovým úhlem zapisujeme zkratkou, například **Dyn1**:
 
 | Část | Význam | V příkladu Dyn1 |
 |---|---|---|
@@ -37,11 +37,11 @@ $$
 \large \text{fázový posun} = \text{hodinový úhel} \times 30°
 $$
 
-<img width="900" alt="Hodinový úhel pro skupiny Yyn0, Dyn1, Dyn5 a Yd11" src="../files/trafo_hodinovy_uhel.svg" />
+<img width="900" alt="Hodinový úhel pro zapojení Yyn0, Dyn1, Dyn5 a Yd11" src="../files/trafo_hodinovy_uhel.svg" />
 
-### Nejčastější skupiny spojení
+### Nejčastější zapojení transformátorů
 
-| Skupina | Posun | Kde se používá a proč |
+| Zapojení | Posun | Kde se používá a proč |
 |---|---|---|
 | **Yyn0** | 0° | malé distribuční transformátory. Nesymetrickou zátěž ale snáší špatně: proud nulového vodiče nemá na straně VN odpovídající protiproud a napětí jednotlivých fází se rozladí |
 | **Yzn1**, **Yzn11** | 30°, 330° | menší distribuční transformátory. Lomená hvězda rozdělí zátěž jedné fáze na dva sloupky, takže dobře snáší nesymetrii |
@@ -129,7 +129,7 @@ Při paralelním chodu transformátorů s přepínači odboček musí být oba t
 
 ## Kontrolní otázky
 
-1. Co znamená skupina spojení Dyn1? Popište význam každého znaku.
+1. Co znamená označení Dyn1? Popište význam každého znaku.
 2. Proč vzniká u zapojení Dy fázový posun 30°?
 3. Co je hodinový úhel a jak ho znázorníme pomocí hodin?
 4. Jaký fázový posun má transformátor Yd11? A Dyn5?
