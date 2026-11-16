@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 640" width="920" height="640" font-family="Segoe UI, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest">
+<rect width="920" height="640" fill="#ffffff"/>
+<defs><marker id="aV" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a78d6"/></marker><marker id="aI" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#eb6834"/></marker><marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1c1f26"/></marker><marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1baf7a"/></marker></defs>
+<text x="460" y="30" font-size="16" fill="#1c1f26" text-anchor="middle" font-weight="bold">Hodinový úhel: o kolik × 30° je napětí strany NN zpožděné za stranou VN</text>
+<rect x="20" y="60" width="430" height="260" rx="12" fill="none" stroke="#e1e0d9" stroke-width="1.5"/>
+<text x="36" y="88" font-size="20" fill="#1c1f26" text-anchor="start" font-weight="bold">Yyn0</text>
+<text x="36" y="108" font-size="13" fill="#555" text-anchor="start" font-weight="normal">0 × 30° = 0°</text>
+<line x1="105.0" y1="210.0" x2="105.0" y2="152.0" stroke="#2a78d6" stroke-width="2.5" marker-end="url(#aV)"/>
+<line x1="105.0" y1="210.0" x2="155.2" y2="239.0" stroke="#2a78d6" stroke-width="2.5" marker-end="url(#aV)"/>
+<line x1="105.0" y1="210.0" x2="54.8" y2="239.0" stroke="#2a78d6" stroke-width="2.5" marker-end="url(#aV)"/>
+<circle cx="105" cy="210" r="3" fill="#2a78d6"/>
+<text x="105.0" y="141.0" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="bold">A</text>
+<text x="169.08587988004848" y="252.0" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="bold">B</text>
+<text x="40.91412011995156" y="252.00000000000003" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="bold">C</text>
+<text x="105" y="308" font-size="13" fill="#2a78d6" text-anchor="middle" font-weight="bold">VN</text>
+<line x1="235.0" y1="210.0" x2="235.0" y2="168.0" stroke="#1baf7a" stroke-width="2.5" marker-end="url(#aG)"/>
+<line x1="235.0" y1="210.0" x2="271.4" y2="231.0" stroke="#1baf7a" stroke-width="2.5" marker-end="url(#aG)"/>
+<line x1="235.0" y1="210.0" x2="198.6" y2="231.0" stroke="#1baf7a" stroke-width="2.5" marker-end="url(#aG)"/>
+<circle cx="235" cy="210" r="3" fill="#1baf7a"/>
+<text x="235.0" y="157.0" font-size="14" fill="#1baf7a" text-anchor="middle" font-weight="bold">a</text>
+<text x="285.2294734194974" y="244.0" font-size="14" fill="#1baf7a" text-anchor="middle" font-weight="bold">b</text>
+<text x="184.77052658050258" y="244.00000000000003" font-size="14" fill="#1baf7a" text-anchor="middle" font-weight="bold">c</text>
+<text x="235" y="308" font-size="13" fill="#1baf7a" text-anchor="middle" font-weight="bold">NN</text>
+<circle cx="370" cy="200" r="62" fill="#fafafa" stroke="#c3c2b7" stroke-width="2"/>
+<line x1="370.0" y1="144.0" x2="370.0" y2="138.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="370.0" y="159.0" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">12</text>
+<line x1="398.0" y1="151.5" x2="401.0" y2="146.3" stroke="#c3c2b7" stroke-width="2"/>
+<text x="392.5" y="165.02885682970026" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">1</text>
+<line x1="418.5" y1="172.0" x2="423.7" y2="169.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="408.97114317029974" y="181.5" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">2</text>
+<line x1="426.0" y1="200.0" x2="432.0" y2="200.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="415.0" y="204.0" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">3</text>
+<line x1="418.5" y1="228.0" x2="423.7" y2="231.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="408.97114317029974" y="226.5" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">4</text>
+<line x1="398.0" y1="248.5" x2="401.0" y2="253.7" stroke="#c3c2b7" stroke-width="2"/>
+<text x="392.5" y="242.97114317029974" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">5</text>
+<line x1="370.0" y1="256.0" x2="370.0" y2="262.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="370.0" y="249.0" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">6</text>
+<line x1="342.0" y1="248.5" x2="339.0" y2="253.7" stroke="#c3c2b7" stroke-width="2"/>
+<text x="347.5" y="242.97114317029974" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">7</text>
+<line x1="321.5" y1="228.0" x2="316.3" y2="231.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="331.02885682970026" y="226.50000000000003" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">8</text>
+<line x1="314.0" y1="200.0" x2="308.0" y2="200.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="325.0" y="204.0" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">9</text>
+<line x1="321.5" y1="172.0" x2="316.3" y2="169.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="331.02885682970026" y="181.5" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">10</text>
+<line x1="342.0" y1="151.5" x2="339.0" y2="146.3" stroke="#c3c2b7" stroke-width="2"/>
+<text x="347.5" y="165.02885682970026" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">11</text>
+<line x1="370" y1="200" x2="370.0" y2="150.0" stroke="#2a78d6" stroke-width="3" stroke-linecap="round"/>
+<line x1="370" y1="200" x2="370.0" y2="168.0" stroke="#1baf7a" stroke-width="5" stroke-linecap="round"/>
+<circle cx="370" cy="200" r="4" fill="#1c1f26"/>
+<rect x="470" y="60" width="430" height="260" rx="12" fill="none" stroke="#e1e0d9" stroke-width="1.5"/>
+<text x="486" y="88" font-size="20" fill="#1c1f26" text-anchor="start" font-weight="bold">Dyn1</text>
+<text x="486" y="108" font-size="13" fill="#555" text-anchor="start" font-weight="normal">1 × 30° = 30°</text>
+<polygon points="555.0,152.0 605.2,239.0 504.8,239.0" fill="none" stroke="#2a78d6" stroke-width="2.5"/>
+<line x1="555" y1="210" x2="555.0" y2="152.0" stroke="#2a78d6" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="555" cy="210" r="2.5" fill="#2a78d6"/>
+<text x="555.0" y="141.0" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="bold">A</text>
+<text x="619.0858798800484" y="252.0" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="bold">B</text>
+<text x="490.9141201199516" y="252.00000000000003" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="bold">C</text>
+<text x="555" y="308" font-size="13" fill="#2a78d6" text-anchor="middle" font-weight="bold">VN</text>
+<line x1="685.0" y1="210.0" x2="706.0" y2="173.6" stroke="#1baf7a" stroke-width="2.5" marker-end="url(#aG)"/>
+<line x1="685.0" y1="210.0" x2="706.0" y2="246.4" stroke="#1baf7a" stroke-width="2.5" marker-end="url(#aG)"/>
+<line x1="685.0" y1="210.0" x2="643.0" y2="210.0" stroke="#1baf7a" stroke-width="2.5" marker-end="url(#aG)"/>
+<circle cx="685" cy="210" r="3" fill="#1baf7a"/>
+<text x="714.0" y="164.77052658050255" font-size="14" fill="#1baf7a" text-anchor="middle" font-weight="bold">a</text>
+<text x="714.0" y="265.2294734194974" font-size="14" fill="#1baf7a" text-anchor="middle" font-weight="bold">b</text>
+<text x="627.0" y="215.0" font-size="14" fill="#1baf7a" text-anchor="middle" font-weight="bold">c</text>
+<text x="685" y="308" font-size="13" fill="#1baf7a" text-anchor="middle" font-weight="bold">NN</text>
+<circle cx="820" cy="200" r="62" fill="#fafafa" stroke="#c3c2b7" stroke-width="2"/>
+<line x1="820.0" y1="144.0" x2="820.0" y2="138.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="820.0" y="159.0" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">12</text>
+<line x1="848.0" y1="151.5" x2="851.0" y2="146.3" stroke="#c3c2b7" stroke-width="2"/>
+<text x="842.5" y="165.02885682970026" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">1</text>
+<line x1="868.5" y1="172.0" x2="873.7" y2="169.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="858.9711431702997" y="181.5" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">2</text>
+<line x1="876.0" y1="200.0" x2="882.0" y2="200.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="865.0" y="204.0" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">3</text>
+<line x1="868.5" y1="228.0" x2="873.7" y2="231.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="858.9711431702997" y="226.5" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">4</text>
+<line x1="848.0" y1="248.5" x2="851.0" y2="253.7" stroke="#c3c2b7" stroke-width="2"/>
+<text x="842.5" y="242.97114317029974" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">5</text>
+<line x1="820.0" y1="256.0" x2="820.0" y2="262.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="820.0" y="249.0" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">6</text>
+<line x1="792.0" y1="248.5" x2="789.0" y2="253.7" stroke="#c3c2b7" stroke-width="2"/>
+<text x="797.5" y="242.97114317029974" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">7</text>
+<line x1="771.5" y1="228.0" x2="766.3" y2="231.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="781.0288568297003" y="226.50000000000003" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">8</text>
+<line x1="764.0" y1="200.0" x2="758.0" y2="200.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="775.0" y="204.0" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">9</text>
+<line x1="771.5" y1="172.0" x2="766.3" y2="169.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="781.0288568297003" y="181.5" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">10</text>
+<line x1="792.0" y1="151.5" x2="789.0" y2="146.3" stroke="#c3c2b7" stroke-width="2"/>
+<text x="797.5" y="165.02885682970026" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">11</text>
+<line x1="820" y1="200" x2="820.0" y2="150.0" stroke="#2a78d6" stroke-width="3" stroke-linecap="round"/>
+<line x1="820" y1="200" x2="836.0" y2="172.3" stroke="#1baf7a" stroke-width="5" stroke-linecap="round"/>
+<circle cx="820" cy="200" r="4" fill="#1c1f26"/>
+<rect x="20" y="340" width="430" height="260" rx="12" fill="none" stroke="#e1e0d9" stroke-width="1.5"/>
+<text x="36" y="368" font-size="20" fill="#1c1f26" text-anchor="start" font-weight="bold">Dyn5</text>
+<text x="36" y="388" font-size="13" fill="#555" text-anchor="start" font-weight="normal">5 × 30° = 150°</text>
+<polygon points="105.0,432.0 155.2,519.0 54.8,519.0" fill="none" stroke="#2a78d6" stroke-width="2.5"/>
+<line x1="105" y1="490" x2="105.0" y2="432.0" stroke="#2a78d6" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="105" cy="490" r="2.5" fill="#2a78d6"/>
+<text x="105.0" y="421.0" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="bold">A</text>
+<text x="169.08587988004848" y="532.0" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="bold">B</text>
+<text x="40.91412011995156" y="532.0" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="bold">C</text>
+<text x="105" y="588" font-size="13" fill="#2a78d6" text-anchor="middle" font-weight="bold">VN</text>
+<line x1="235.0" y1="490.0" x2="256.0" y2="526.4" stroke="#1baf7a" stroke-width="2.5" marker-end="url(#aG)"/>
+<line x1="235.0" y1="490.0" x2="193.0" y2="490.0" stroke="#1baf7a" stroke-width="2.5" marker-end="url(#aG)"/>
+<line x1="235.0" y1="490.0" x2="256.0" y2="453.6" stroke="#1baf7a" stroke-width="2.5" marker-end="url(#aG)"/>
+<circle cx="235" cy="490" r="3" fill="#1baf7a"/>
+<text x="264.0" y="545.2294734194975" font-size="14" fill="#1baf7a" text-anchor="middle" font-weight="bold">a</text>
+<text x="177.0" y="495.0" font-size="14" fill="#1baf7a" text-anchor="middle" font-weight="bold">b</text>
+<text x="264.0" y="444.7705265805026" font-size="14" fill="#1baf7a" text-anchor="middle" font-weight="bold">c</text>
+<text x="235" y="588" font-size="13" fill="#1baf7a" text-anchor="middle" font-weight="bold">NN</text>
+<circle cx="370" cy="480" r="62" fill="#fafafa" stroke="#c3c2b7" stroke-width="2"/>
+<line x1="370.0" y1="424.0" x2="370.0" y2="418.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="370.0" y="439.0" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">12</text>
+<line x1="398.0" y1="431.5" x2="401.0" y2="426.3" stroke="#c3c2b7" stroke-width="2"/>
+<text x="392.5" y="445.02885682970026" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">1</text>
+<line x1="418.5" y1="452.0" x2="423.7" y2="449.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="408.97114317029974" y="461.5" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">2</text>
+<line x1="426.0" y1="480.0" x2="432.0" y2="480.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="415.0" y="484.0" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">3</text>
+<line x1="418.5" y1="508.0" x2="423.7" y2="511.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="408.97114317029974" y="506.5" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">4</text>
+<line x1="398.0" y1="528.5" x2="401.0" y2="533.7" stroke="#c3c2b7" stroke-width="2"/>
+<text x="392.5" y="522.9711431702997" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">5</text>
+<line x1="370.0" y1="536.0" x2="370.0" y2="542.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="370.0" y="529.0" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">6</text>
+<line x1="342.0" y1="528.5" x2="339.0" y2="533.7" stroke="#c3c2b7" stroke-width="2"/>
+<text x="347.5" y="522.9711431702997" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">7</text>
+<line x1="321.5" y1="508.0" x2="316.3" y2="511.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="331.02885682970026" y="506.5" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">8</text>
+<line x1="314.0" y1="480.0" x2="308.0" y2="480.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="325.0" y="484.0" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">9</text>
+<line x1="321.5" y1="452.0" x2="316.3" y2="449.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="331.02885682970026" y="461.5" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">10</text>
+<line x1="342.0" y1="431.5" x2="339.0" y2="426.3" stroke="#c3c2b7" stroke-width="2"/>
+<text x="347.5" y="445.02885682970026" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">11</text>
+<line x1="370" y1="480" x2="370.0" y2="430.0" stroke="#2a78d6" stroke-width="3" stroke-linecap="round"/>
+<line x1="370" y1="480" x2="386.0" y2="507.7" stroke="#1baf7a" stroke-width="5" stroke-linecap="round"/>
+<circle cx="370" cy="480" r="4" fill="#1c1f26"/>
+<rect x="470" y="340" width="430" height="260" rx="12" fill="none" stroke="#e1e0d9" stroke-width="1.5"/>
+<text x="486" y="368" font-size="20" fill="#1c1f26" text-anchor="start" font-weight="bold">Yd11</text>
+<text x="486" y="388" font-size="13" fill="#555" text-anchor="start" font-weight="normal">11 × 30° = 330°</text>
+<line x1="555.0" y1="490.0" x2="555.0" y2="432.0" stroke="#2a78d6" stroke-width="2.5" marker-end="url(#aV)"/>
+<line x1="555.0" y1="490.0" x2="605.2" y2="519.0" stroke="#2a78d6" stroke-width="2.5" marker-end="url(#aV)"/>
+<line x1="555.0" y1="490.0" x2="504.8" y2="519.0" stroke="#2a78d6" stroke-width="2.5" marker-end="url(#aV)"/>
+<circle cx="555" cy="490" r="3" fill="#2a78d6"/>
+<text x="555.0" y="421.0" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="bold">A</text>
+<text x="619.0858798800484" y="532.0" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="bold">B</text>
+<text x="490.9141201199516" y="532.0" font-size="14" fill="#2a78d6" text-anchor="middle" font-weight="bold">C</text>
+<text x="555" y="588" font-size="13" fill="#2a78d6" text-anchor="middle" font-weight="bold">VN</text>
+<polygon points="664.0,453.6 727.0,490.0 664.0,526.4" fill="none" stroke="#1baf7a" stroke-width="2.5"/>
+<line x1="685" y1="490" x2="664.0" y2="453.6" stroke="#1baf7a" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="685" cy="490" r="2.5" fill="#1baf7a"/>
+<text x="656.0" y="444.7705265805026" font-size="14" fill="#1baf7a" text-anchor="middle" font-weight="bold">a</text>
+<text x="743.0" y="495.0" font-size="14" fill="#1baf7a" text-anchor="middle" font-weight="bold">b</text>
+<text x="656.0" y="545.2294734194975" font-size="14" fill="#1baf7a" text-anchor="middle" font-weight="bold">c</text>
+<text x="685" y="588" font-size="13" fill="#1baf7a" text-anchor="middle" font-weight="bold">NN</text>
+<circle cx="820" cy="480" r="62" fill="#fafafa" stroke="#c3c2b7" stroke-width="2"/>
+<line x1="820.0" y1="424.0" x2="820.0" y2="418.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="820.0" y="439.0" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">12</text>
+<line x1="848.0" y1="431.5" x2="851.0" y2="426.3" stroke="#c3c2b7" stroke-width="2"/>
+<text x="842.5" y="445.02885682970026" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">1</text>
+<line x1="868.5" y1="452.0" x2="873.7" y2="449.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="858.9711431702997" y="461.5" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">2</text>
+<line x1="876.0" y1="480.0" x2="882.0" y2="480.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="865.0" y="484.0" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">3</text>
+<line x1="868.5" y1="508.0" x2="873.7" y2="511.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="858.9711431702997" y="506.5" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">4</text>
+<line x1="848.0" y1="528.5" x2="851.0" y2="533.7" stroke="#c3c2b7" stroke-width="2"/>
+<text x="842.5" y="522.9711431702997" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">5</text>
+<line x1="820.0" y1="536.0" x2="820.0" y2="542.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="820.0" y="529.0" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">6</text>
+<line x1="792.0" y1="528.5" x2="789.0" y2="533.7" stroke="#c3c2b7" stroke-width="2"/>
+<text x="797.5" y="522.9711431702997" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">7</text>
+<line x1="771.5" y1="508.0" x2="766.3" y2="511.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="781.0288568297003" y="506.5" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">8</text>
+<line x1="764.0" y1="480.0" x2="758.0" y2="480.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="775.0" y="484.0" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">9</text>
+<line x1="771.5" y1="452.0" x2="766.3" y2="449.0" stroke="#c3c2b7" stroke-width="2"/>
+<text x="781.0288568297003" y="461.5" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">10</text>
+<line x1="792.0" y1="431.5" x2="789.0" y2="426.3" stroke="#c3c2b7" stroke-width="2"/>
+<text x="797.5" y="445.02885682970026" font-size="11" fill="#555" text-anchor="middle" font-weight="normal">11</text>
+<line x1="820" y1="480" x2="820.0" y2="430.0" stroke="#2a78d6" stroke-width="3" stroke-linecap="round"/>
+<line x1="820" y1="480" x2="804.0" y2="452.3" stroke="#1baf7a" stroke-width="5" stroke-linecap="round"/>
+<circle cx="820" cy="480" r="4" fill="#1c1f26"/>
+<line x1="60" y1="620" x2="90" y2="620" stroke="#2a78d6" stroke-width="3"/>
+<text x="96" y="625" font-size="13" fill="#1c1f26" text-anchor="start" font-weight="normal">velká ručička = fázor VN (vždy na 12)</text>
+<line x1="400" y1="620" x2="430" y2="620" stroke="#1baf7a" stroke-width="5"/>
+<text x="436" y="625" font-size="13" fill="#1c1f26" text-anchor="start" font-weight="normal">malá ručička = odpovídající fázor NN → ukazuje hodinový úhel</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTplOTkxYTc1OC03ODI2LTQyZWYtYTRiMi05YThjYmQ5NTI4ZGIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaLvQhDPLu6ro5BTD18eO4O8AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpiNWU4Y2YwZi1iOWJlLTQ3YmMtYWVjMi02OTU3YmQ5NzZmOGZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo5GXEcIChevn3u6Vn9UItigAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggGxtydI9KEt7n2RRbYs735CDa+pgj3/0ouA10v+UL3jCkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaOGHSQ40egjyGc65ZvESYqsAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIJ/46uL3ywCyYpN9J42Y9AgdpK7GiFoRLpwt8Ct9VmCeZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GU7GZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmU5OTFhNzU4LTc4MjYtNDJlZi1hNGIyLTlhOGNiZDk1MjhkYi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjk4YjRkNzcyLWNmNGMtNGVjMS1iYzAxLWRhOTFjNjdiNGYwMnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAbG3J0j0oS3ufZFFtizvfkINr6mCPf/Si4DXS/5QveMKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg7P5+5Hmwa7K1puivOQ0HM5jGboWzxbxgWdfpRdU5wQyiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggx0A6amKEPiWO8IV4aDVcnlF3lxQ8ZLn7nGSAwSY8MEx0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQJKq9R0iR14oLbJCqouvSeYTctdLCwkqrEsAKWQBWuUazeb+yYYQfRHrOdpUbRHzQRBrw1tn3Mm8Aeka9hgG7QM=</c2pa:manifest></metadata></svg>
