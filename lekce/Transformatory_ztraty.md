@@ -131,7 +131,6 @@ Olej při ohřátí zvětšuje objem. Podle toho, jak se s tím transformátor v
 1. Čím se snižují ztráty hysterezí a čím ztráty vířivými proudy?
 1. Proč je jádro složené z tenkých izolovaných plechů?
 1. Jak se změní ztráty ve vinutí, když zatížení klesne na polovinu?
-1. Při jakém zatížení má transformátor největší účinnost? Odvoďte vzorec.
 1. Transformátor 630 kVA má P₀ = 600 W a Pₖ = 6000 W. Vypočítejte účinnost při jmenovitém zatížení a cos φ = 0,9 a zatížení, při kterém je účinnost největší.
 1. Proč se u distribučních transformátorů klade důraz hlavně na malé ztráty naprázdno?
 1. Jaké dvě funkce má olej v transformátoru?
