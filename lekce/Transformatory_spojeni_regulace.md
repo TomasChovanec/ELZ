@@ -60,7 +60,6 @@ Pokud se applet nezobrazí, otevřete ho [v samostatném okně](https://tomascho
 | **Yyn0** | 0° | malé distribuční transformátory. Nesymetrickou zátěž ale snáší špatně: proud nulového vodiče nemá na straně VN odpovídající protiproud a napětí jednotlivých fází se rozladí |
 | **Yzn1**, **Yzn11** | 30°, 330° | menší distribuční transformátory. Lomená hvězda rozdělí zátěž jedné fáze na dva sloupky, takže dobře snáší nesymetrii |
 | **Dyn1** | 30° | distribuční transformátory 22/0,4 kV v ČR. Trojúhelník na straně VN vyrovnává nesymetrické zatížení fází na straně NN |
-| **Dyn5**, **Dyn11** | 150°, 330° | distribuční transformátory v jiných zemích (např. Německo, Francie) |
 | **YNd1**, **YNd11** | 30°, 330° | blokové transformátory v elektrárnách: generátor je připojený na trojúhelník, uzel VN je vyvedený a uzemněný |
 
 Na štítcích skutečných transformátorů najdeme například: olejový distribuční transformátor **630 kVA, 22/0,4 kV, Dyn1** (výrobce BEZ) nebo **630 kVA, 10/0,42 kV, Dyn1, ONAN, uₖ = 4 %** (ELIN, vyrobeno v ČR). Naproti tomu v nabídkách ze zahraničí se objevuje **500 kVA, 10/0,4 kV, Dyn5** (France Transfo) nebo **1000 kVA, 20/0,4 kV, Dy11** (Siemens).
