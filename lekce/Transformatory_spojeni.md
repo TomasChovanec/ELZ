@@ -75,26 +75,6 @@ Když výkon jednoho transformátoru nestačí nebo když chceme zajistit, aby p
 | 3. **stejný sled fází** a správné propojení svorek | zkrat mezi fázemi |
 | 4. **přibližně stejné napětí nakrátko** uₖ (rozdíl nejvýše asi 10 %) | transformátor s menším uₖ se přetěžuje, druhý zůstává nevyužitý |
 
-**Proč na hodinovém úhlu tolik záleží:** sekundární napětí dvou transformátorů posunutá o úhel Δα se liší o napětí $$\Delta U = 2 \cdot U \cdot \sin(\Delta\alpha / 2)$$. Toto rozdílové napětí žene proud přes impedance nakrátko obou transformátorů. Už při rozdílu jedné hodiny (30°) je $$\Delta U \approx 0{,}52 \cdot U$$, tedy přes polovinu napětí:
-
-$$
-\large I_{vyr} \approx \frac{\Delta u}{u_{k1} + u_{k2}} \cdot I_N = \frac{52\ \%}{4\ \% + 4\ \%} \cdot I_N \approx 6{,}5 \cdot I_N
-$$
-
-<img width="820" alt="Vyrovnávací proud podle rozdílu hodinových úhlů" src="../files/trafo_paralelni_vyrovnavaci_proud.svg" />
-
-Takový proud by tekl i bez jakékoli zátěže a ochrany by transformátory okamžitě odpojily. Transformátory **Dyn1 a Dyn5 proto nikdy nespojíme paralelně**, přestože mají stejné napětí i výkon.
-
-**Příklad – rozdílný převod:** transformátor 22/0,4 kV paralelně s transformátorem 22/0,41 kV (rozdíl 2,5 %), oba s uₖ = 4 %:
-
-$$
-\large I_{vyr} \approx \frac{2{,}5\ \%}{4\ \% + 4\ \%} \cdot I_N \approx 0{,}31 \cdot I_N
-$$
-
-Mezi transformátory tak naprázdno teče asi třetina jmenovitého proudu. Způsobuje zbytečné ztráty a ubírá z výkonu, který zbývá pro zátěž.
-
-**Příklad – rozdílné uₖ:** dva transformátory 630 kVA, jeden s uₖ = 4 %, druhý s uₖ = 6 %, se zatížením dělí v obráceném poměru napětí nakrátko, tedy 60 % : 40 %. Transformátor se 4 % dosáhne jmenovitého výkonu už při celkovém zatížení 1050 kVA, takže z dvojice o celkovém výkonu 1260 kVA lze bez přetížení využít jen asi 83 %.
-
 
 ## Kontrolní otázky
 
@@ -104,7 +84,6 @@ Mezi transformátory tak naprázdno teče asi třetina jmenovitého proudu. Způ
 4. Jaký fázový posun má transformátor Yd11? A Dyn5?
 5. Proč se distribuční transformátory zapojují nejčastěji Dyn? Proč se nehodí Yyn pro nesymetrickou zátěž?
 6. Vyjmenujte podmínky paralelního chodu transformátorů.
-7. Co se stane, když paralelně spojíme transformátory Dyn1 a Dyn11? Odhadněte vyrovnávací proud pro uₖ = 6 %.
 
 
 ## Zdroje příkladů
