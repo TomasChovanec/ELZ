@@ -18,6 +18,8 @@ Způsoby zapojení vinutí (hvězda, trojúhelník, lomená hvězda) jsou popsan
 | malé písmeno | zapojení vinutí **nižšího napětí** (NN): **y**, **d**, **z** | **y**: NN do hvězdy |
 | **N** / **n** | uzel hvězdy je vyvedený na svorku (lze připojit nulový vodič) | **n**: vyvedený uzel na straně NN |
 | číslo | **hodinový úhel** | **1**: NN je zpožděné o 1 × 30° = 30° |
+
+
 ## Proč vzniká fázový posun mezi vstupním a výstupním vinutím
 
 U zapojení **Yy** je každá cívka NN navinutá na stejném sloupku jako cívka VN a napětí na ní je ve fázi s fázovým napětím VN. Fáze se nemění, posun je 0°.
