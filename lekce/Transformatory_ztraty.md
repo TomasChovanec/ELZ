@@ -71,11 +71,6 @@ $$
 \large \eta = \frac{P_2}{P_1} = \frac{P_2}{P_2 + \Delta P_{Fe} + \Delta P_{Cu}}
 $$
 
-Výkon do zátěže při zatížení β a účiníku cos φ je $$P_2 = \beta \cdot S_N \cdot \cos\varphi$$. Po dosazení dostaneme účinnost pro libovolné zatížení:
-
-$$
-\large \boxed{\eta = \frac{\beta \cdot S_N \cdot \cos\varphi}{\beta \cdot S_N \cdot \cos\varphi + P_0 + \beta^2 \cdot P_k}}
-$$
 
 Účinnost transformátoru **neměříme přímo** (rozdíl $$P_1 - P_2$$ by byl menší než chyba měřicích přístrojů). Počítáme ji ze ztrát změřených naprázdno a nakrátko.
 
