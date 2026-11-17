@@ -3,7 +3,7 @@
 </script> 
 
 
-# Zapojení vinutí, hodinový úhel, paralelní chod a regulace napětí
+# Zapojení vinutí, hodinový úhel, paralelní chod transformátorů
 
 Třífázový transformátor má na každé straně tři vinutí a ta můžeme zapojit různými způsoby. Zapojení určuje, jaká napětí transformátor poskytuje (u hvězdy fázové i sdružené, u trojúhelníku jen sdružené), jak snáší nesymetrickou zátěž a také o kolik je výstupní napětí **fázově posunuté** proti vstupnímu. Tento posun vyjadřuje **hodinový úhel**, který musíme znát, když chceme transformátory spojovat paralelně.
 
