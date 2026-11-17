@@ -71,14 +71,6 @@ a musí splnit jedinou podmínku: **výkony a ztráty se přepočtem nesmí změ
 | reaktance | $$X_{2\sigma}' = p^2 \cdot X_{2\sigma}$$ | stejný jalový výkon |
 | impedance zátěže | $$Z_z' = p^2 \cdot Z_z$$ | stejně jako odpor: $$Z = U/I$$, tedy $$p \cdot p$$ |
 
-Ověření, že se ztráty opravdu nemění:
-
-$$
-\large R_2' \cdot I_2'^2 = p^2 R_2 \cdot \left(\frac{I_2}{p}\right)^2 = \cancel{p^2} R_2 \cdot \frac{I_2^2}{\cancel{p^2}} = R_2 \cdot I_2^2
-$$
-
-**Příklad:** Transformátor 1000 V / 100 V má převod $$p = 10$$. Odpor sekundárního vinutí je $$R_2 = 0{,}01\ \Omega$$. Na primární stranu přepočteme $$R_2' = 10^2 \cdot 0{,}01 = 1\ \Omega$$. Sekundární napětí 100 V odpovídá $$U_2' = 1000\ \text{V}$$ a sekundární proud 100 A odpovídá $$I_2' = 10\ \text{A}$$.
-
 Po přepočtu má celé schéma jednu napěťovou hladinu a obě strany můžeme spojit. Výsledky na skutečném sekundáru získáme zpětným přepočtem: $$U_2 = U_2' / p$$ a $$I_2 = p \cdot I_2'$$.
 
 ### Rovnice náhradního schématu
