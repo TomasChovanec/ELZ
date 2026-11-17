@@ -9,7 +9,7 @@ Většina transformátorů v síti slouží k jedinému účelu: změnit napět�
 
 ## Oddělovací transformátory
 
-<img width="1849" height="783" alt="image" src="https://github.com/user-attachments/assets/94910ea6-e366-443e-b632-7489144bf6b3" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/94910ea6-e366-443e-b632-7489144bf6b3" />
 
 Oddělovací transformátor **galvanicky odděluje** spotřebič od napájecí sítě. Mezi primárním a sekundárním vinutím není žádné vodivé spojení a energie se přenáší jen magnetickým tokem. Převod bývá **1 : 1** (např. 230 V / 230 V), protože nejde o změnu napětí, ale o oddělení.
 

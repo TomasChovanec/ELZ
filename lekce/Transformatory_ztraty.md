@@ -97,11 +97,6 @@ $$
 \large \eta = \frac{P_2}{P_1} = \frac{P_2}{P_2 + \Delta P_{Fe} + \Delta P_{Cu}}
 $$
 
-Výkon do zátěže při zatížení β a účiníku cos φ je $$P_2 = \beta \cdot S_N \cdot \cos\varphi$$. Po dosazení dostaneme účinnost pro libovolné zatížení:
-
-$$
-\large \boxed{\eta = \frac{\beta \cdot S_N \cdot \cos\varphi}{\beta \cdot S_N \cdot \cos\varphi + P_0 + \beta^2 \cdot P_k}}
-$$
 
 Účinnost transformátoru **neměříme přímo** (rozdíl $$P_1 - P_2$$ by byl menší než chyba měřicích přístrojů). Počítáme ji ze ztrát změřených naprázdno a nakrátko.
 
@@ -155,30 +150,6 @@ Olej při ohřátí zvětšuje objem. Podle toho, jak se s tím transformátor v
 
 - **transformátory s konzervátorem**: nad nádobou je vyrovnávací nádržka (konzervátor), do které olej při ohřátí vytéká. V potrubí mezi nádobou a konzervátorem bývá **plynové (Buchholzovo) relé**, které zachytí plyny vznikající při vnitřní poruše a transformátor odpojí,
 - **hermetické transformátory**: nádoba je zcela uzavřená a má zvlněné (vlnovcové) stěny, které se při změně objemu oleje pruží. Olej nepřichází do styku se vzduchem, a proto méně stárne. Dnes se tak vyrábí většina distribučních transformátorů.
-
-### Značení způsobu chlazení
-
-Způsob chlazení olejových transformátorů se označuje **čtyřmi písmeny**:
-
-| Pozice | Význam | Písmena |
-|---|---|---|
-| 1. | chladivo uvnitř (ve styku s vinutím) | **O** minerální olej, **K** nehořlavá kapalina, **L** kapalina bez měřitelného bodu hoření |
-| 2. | oběh vnitřního chladiva | **N** přirozený, **F** nucený (čerpadlem), **D** nucený a řízený přímo do vinutí |
-| 3. | chladivo vně | **A** vzduch (air), **W** voda (water) |
-| 4. | oběh vnějšího chladiva | **N** přirozený, **F** nucený (ventilátory, čerpadlem) |
-
-Nejčastější způsoby chlazení:
-
-| Označení | Popis | Použití |
-|---|---|---|
-| **ONAN** | olej i vzduch proudí přirozeně | distribuční transformátory, menší výkony |
-| **ONAF** | olej proudí přirozeně, na radiátory fouká vzduch z ventilátorů | střední a velké transformátory |
-| **OFAF** | olej žene čerpadlo přes chladiče, vzduch fouká ventilátory | velké síťové transformátory |
-| **ODAF** | olej je čerpadlem směrován přímo do kanálků ve vinutí | největší transformátory |
-| **OFWF** | olej předává teplo vodě ve výměníku | elektrárny, podzemní stanice |
-| **AN**, **AF** | suchý transformátor, vzduch přirozeně / nuceně (ventilátory) | suché transformátory v budovách |
-
-Velké transformátory mají často **dva stupně chlazení**, například **ONAN/ONAF**: při menším zatížení stačí přirozené chlazení a při velkém zatížení se automaticky zapnou ventilátory. Na štítku jsou pak uvedené dva jmenovité výkony, pro každý způsob chlazení jeden.
 
 ## Kontrolní otázky
 
