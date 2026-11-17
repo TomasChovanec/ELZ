@@ -14,8 +14,8 @@ Náhradní schéma je **model**: obvod složený jen z rezistorů a reaktancí (
 Výhody náhradního schématu:
 
 - transformátor můžeme řešit běžnými metodami (Ohmův zákon, Kirchhoffovy zákony),
-- každá součástka odpovídá jednomu **fyzikálnímu jevu**, takže je vidět, co se v transformátoru děje,
-- hodnoty součástek zjistíme dvěma jednoduchými měřeními: **naprázdno** a **nakrátko**,
+- každá součástka odpovídá jednomu **fyzikálnímu jevu**, 
+- hodnoty součástek v náhradním schématu můžeme zjistit dvěma jednoduchými měřeními: **naprázdno** a **nakrátko**,
 - z modelu můžeme předem spočítat úbytek napětí, ztráty, účinnost nebo zkratový proud.
 
 Náhradní schéma se kreslí pro **jednu fázi**. U třífázového transformátoru počítáme s fázovými hodnotami napětí a proudu.
@@ -38,7 +38,7 @@ Představme si nejprve **ideální transformátor**: vinutí bez odporu, vešker
 | **R_Fe** | ztráty v železe jádra, tj. **hysterezní ztráty** a **ztráty vířivými proudy** | **ztráty v železe** $$\Delta P_{Fe}$$, které závisí na napětí (toku), ne na zatížení |
 | **X_μ** | **magnetování jádra**: proud I_μ, který v jádru vytváří hlavní magnetický tok Φ | odběr **jalového (magnetizačního) výkonu** ze sítě |
 
-Písmeno σ (sigma) značí *rozptyl*, μ (mí) *magnetování* a Fe *železo*.
+Písmeno σ (sigma) značí *rozptyl*, μ (mí) *magnetizaci* a Fe *železo* (magnetický obvod).
 
 Napětí **Uᵢ** na příčné větvi je napětí indukované hlavním magnetickým tokem (viz kapitola [Princip funkce](Transformatory_uvod.md)). Proud naprázdno se skládá ze dvou složek:
 
