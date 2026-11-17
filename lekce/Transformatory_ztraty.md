@@ -28,6 +28,15 @@ Ztráty dělíme na dvě skupiny, které přesně odpovídají prvkům [náhradn
 | jak je změříme | měřením **naprázdno**: $$P_0 \approx \Delta P_{Fe}$$ | měřením **nakrátko**: $$P_k \approx \Delta P_{Cu}$$ |
 | na štítku / v katalogu | ztráty naprázdno $$P_0$$ | ztráty nakrátko (při zatížení) $$P_k$$ |
 
+## Účinnost
+
+Účinnost je poměr výkonu a příkonu:
+
+$$
+\large \eta = \frac{P_2}{P_1} = \frac{P_2}{P_2 + \Delta P_{Fe} + \Delta P_{Cu}}
+$$
+
+
 ## Ztráty v železe
 
 Ztráty v železe vznikají ve střídavém magnetickém poli jádra. Mají dvě složky:
@@ -88,36 +97,6 @@ $$
 <img width="820" alt="Ztráty v závislosti na zatížení" src="../files/trafo_ztraty_zatizeni.svg" />
 
 Graf platí pro skutečný olejový distribuční transformátor **160 kVA, 22/0,4 kV** (P₀ = 180 W, Pₖ = 1397 W). Při malém zatížení převažují ztráty v železe, při velkém ztráty ve vinutí. Při polovičním zatížení jsou ztráty ve vinutí jen čtvrtinové: $$0{,}5^2 \cdot 1397 \approx 349\ \text{W}$$.
-
-## Účinnost
-
-Účinnost je poměr výkonu a příkonu:
-
-$$
-\large \eta = \frac{P_2}{P_1} = \frac{P_2}{P_2 + \Delta P_{Fe} + \Delta P_{Cu}}
-$$
-
-
-Účinnost transformátoru **neměříme přímo** (rozdíl $$P_1 - P_2$$ by byl menší než chyba měřicích přístrojů). Počítáme ji ze ztrát změřených naprázdno a nakrátko.
-
-<img width="820" alt="Účinnost v závislosti na zatížení" src="../files/trafo_ucinnost.svg" />
-
-### Maximální účinnost
-
-Účinnost je největší, když jsou **proměnné ztráty rovny stálým**:
-
-$$
-\large \beta^2 \cdot P_k = P_0 \quad \Rightarrow \quad \boxed{\beta_{opt} = \sqrt{\frac{P_0}{P_k}}}
-$$
-
-Distribuční transformátory bývají v průměru zatížené jen částečně. Proto se navrhují s **malými ztrátami naprázdno** a maximum účinnosti mají kolem 30 až 50 % jmenovitého zatížení.
-
-**Příklad:** Transformátor 160 kVA, 22/0,4 kV, P₀ = 180 W, Pₖ = 1397 W.
-
-- jmenovité zatížení, cos φ = 1: $$P_2 = 160\ \text{kW}$$, $$\Delta P = 180 + 1397 = 1577\ \text{W}$$, $$\eta = \dfrac{160\,000}{161\,577} \approx 99{,}02\ \%$$
-- jmenovité zatížení, cos φ = 0,8: $$P_2 = 128\ \text{kW}$$, $$\eta = \dfrac{128\,000}{129\,577} \approx 98{,}78\ \%$$
-- optimální zatížení: $$\beta_{opt} = \sqrt{180/1397} \approx 0{,}36$$, tedy asi 58 kVA. Při cos φ = 1 je $$\eta_{max} \approx 99{,}38\ \%$$
-- naprázdno: $$P_2 = 0$$, takže $$\eta = 0$$, ale transformátor stále odebírá 180 W
 
 ### Roční ztráty energie
 
