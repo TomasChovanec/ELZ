@@ -99,45 +99,6 @@ Mezi transformátory tak naprázdno teče asi třetina jmenovitého proudu. Způ
 
 **Příklad – rozdílné uₖ:** dva transformátory 630 kVA, jeden s uₖ = 4 %, druhý s uₖ = 6 %, se zatížením dělí v obráceném poměru napětí nakrátko, tedy 60 % : 40 %. Transformátor se 4 % dosáhne jmenovitého výkonu už při celkovém zatížení 1050 kVA, takže z dvojice o celkovém výkonu 1260 kVA lze bez přetížení využít jen asi 83 %.
 
-## Regulace napětí
-
-Napětí v síti kolísá podle toho, kolik odběratelé zrovna odebírají. Při zatížení navíc vzniká úbytek napětí na samotném transformátoru (viz [náhradní schéma](Transformatory_nahradni_schema.md)) i na vedení. Odběratel ale potřebuje napětí v předepsaných mezích. Napětí proto regulujeme **změnou převodu**, tedy změnou počtu závitů pomocí **odboček** (princip odboček viz [Vinutí transformátoru](Transformatory_elektricky_obvod.md)):
-
-$$
-\large U_2 = U_1 \cdot \frac{N_2}{N_1}
-$$
-
-Odbočky bývají na **vinutí VN**, protože:
-
-- teče jím menší proud, takže přepínač i kontakty mohou být menší,
-- má více závitů, takže jeden závit představuje menší část napětí a regulace může být jemnější.
-
-Na straně VN platí: **více závitů primáru znamená nižší sekundární napětí**. Když je napětí v síti vysoké, přepneme na odbočku s více závity, a naopak.
-
-### Přepínání bez zatížení (PBZ)
-
-Používá se u **distribučních transformátorů 22/0,4 kV**. Transformátor se musí odpojit od sítě, pak se odbočka přepne ručně přepínačem na víku nádoby. Přepíná se zřídka, například při uvedení do provozu nebo po změně poměrů v síti. Typický rozsah je **±2 × 2,5 %**: transformátor 22 ± 2 × 2,5 % / 0,4 kV má pět poloh od −5 % do +5 %.
-
-**Příklad:** Napětí sítě VN v místě transformátoru je trvale 23 kV a transformátor 22/0,4 kV je na střední odbočce. Pak
-
-$$
-\large U_2 = 23\,000 \cdot \frac{0{,}4}{22} \approx 418\ \text{V}
-$$
-
-Po přepnutí na odbočku +5 % (převod 23,1/0,4 kV) bude $$U_2 = 23\,000 \cdot 0{,}4 / 23{,}1 \approx 398\ \text{V}$$.
-
-### Přepínání pod zatížením (PPZ)
-
-Používá se u **velkých transformátorů v rozvodnách**, například 110/22 kV. Přepínač mění odbočky **za provozu, bez přerušení proudu**. Skládá se ze dvou částí:
-
-- **volič odboček** předem vybere následující odbočku (bez proudu),
-- **zatěžovací přepínač** rychle přepne proud na novou odbočku. Při přepnutí jsou na okamžik spojené dvě odbočky a zkrat mezi nimi omezují **přechodové odpory** (nebo tlumivky).
-
-Přepínač ovládá **automatický regulátor napětí**, který měří napětí na straně 22 kV a při odchylce přepne o jeden stupeň. Transformátory 110/22 kV mají typicky převod **110 ± 8 × 2 % / 23 kV**, tedy 17 poloh po 2 %. Distributor tím udržuje napětí v síti 22 kV přibližně v rozmezí 22,8 až 23,8 kV, aby nepřekročilo 24 kV.
-
-> Napětí naprázdno sekundáru bývá o něco vyšší než jmenovité napětí sítě (23 kV místo 22 kV, 0,42 kV místo 0,4 kV). Tím se předem vyrovná úbytek napětí, který vznikne při zatížení.
-
-Při paralelním chodu transformátorů s přepínači odboček musí být oba transformátory vždy **na odpovídajících odbočkách**, jinak mezi nimi teče vyrovnávací proud (viz podmínka č. 1).
 
 ## Kontrolní otázky
 
@@ -148,9 +109,7 @@ Při paralelním chodu transformátorů s přepínači odboček musí být oba t
 5. Proč se distribuční transformátory zapojují nejčastěji Dyn? Proč se nehodí Yyn pro nesymetrickou zátěž?
 6. Vyjmenujte podmínky paralelního chodu transformátorů.
 7. Co se stane, když paralelně spojíme transformátory Dyn1 a Dyn11? Odhadněte vyrovnávací proud pro uₖ = 6 %.
-8. Proč se odbočky pro regulaci napětí umisťují na vinutí VN?
-9. Napětí v síti je trvale 21,5 kV. Na kterou odbočku přepneme transformátor 22 ± 2 × 2,5 % / 0,4 kV, aby sekundární napětí bylo co nejblíže 400 V?
-10. Jaký je rozdíl mezi přepínáním odboček bez zatížení a pod zatížením? Kde se které používá?
+
 
 ## Zdroje příkladů
 
