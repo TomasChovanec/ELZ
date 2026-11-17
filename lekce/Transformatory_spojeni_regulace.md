@@ -75,11 +75,10 @@ Když výkon jednoho transformátoru nestačí nebo když chceme zajistit, aby p
 
 | Podmínka | Co se stane, když není splněna |
 |---|---|
-| 1. **stejná jmenovitá napětí** (stejný převod, i na odbočkách) | sekundární napětí se liší a mezi transformátory teče **vyrovnávací proud** už naprázdno |
+| 1. **stejná jmenovitá napětí** (stejný převod) | sekundární napětí se liší a mezi transformátory teče **vyrovnávací proud** už naprázdno |
 | 2. **stejný hodinový úhel** | sekundární napětí jsou fázově posunutá, vyrovnávací proud je **jako při zkratu** |
 | 3. **stejný sled fází** a správné propojení svorek | zkrat mezi fázemi |
 | 4. **přibližně stejné napětí nakrátko** uₖ (rozdíl nejvýše asi 10 %) | transformátor s menším uₖ se přetěžuje, druhý zůstává nevyužitý |
-| 5. **poměr výkonů nejvýše asi 1 : 3** | velmi rozdílné transformátory mají různé poměry R/X a zatížení se dělí nepříznivě |
 
 **Proč na hodinovém úhlu tolik záleží:** sekundární napětí dvou transformátorů posunutá o úhel Δα se liší o napětí $$\Delta U = 2 \cdot U \cdot \sin(\Delta\alpha / 2)$$. Toto rozdílové napětí žene proud přes impedance nakrátko obou transformátorů. Už při rozdílu jedné hodiny (30°) je $$\Delta U \approx 0{,}52 \cdot U$$, tedy přes polovinu napětí:
 
