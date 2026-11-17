@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hodinový úhel transformátoru</title>
+<style>
+:root{
+  --bg:#ffffff; --panel:#ffffff; --text:#1c1f26; --muted:#6b7280; --line:#e5e7eb; --danger:#b42318;
+  --hv:#534AB7; --lv:#0F6E56; --rev:#D85A30; --grey:#888780; --k1:#534AB7; --k2:#BA7517; --k3:#D4537E;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#15171c; --panel:#1b1e25; --text:#eceef2; --muted:#9aa1ad; --line:#2c303a; --danger:#f97066;
+    --hv:#AFA9EC; --lv:#5DCAA5; --rev:#F0997B; --grey:#888780; --k1:#AFA9EC; --k2:#EF9F27; --k3:#ED93B1; }
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--text);font-family:"Segoe UI",system-ui,-apple-system,Roboto,sans-serif;line-height:1.5;padding:24px 16px 48px}
+main{max-width:900px;margin:0 auto}
+h1{font-size:1.5rem;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 20px}
+.card{border:1px solid var(--line);border-radius:16px;background:var(--panel);padding:18px 20px}
+.ctl{display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center;margin:0 0 12px;font-size:.95rem;color:var(--muted)}
+.ctl label{display:flex;align-items:center;gap:6px;color:var(--text)}
+select,button{font:inherit;color:var(--text);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:5px 10px;cursor:pointer}
+button:hover,select:hover{border-color:var(--muted)}
+input[type=checkbox]{width:18px;height:18px;accent-color:var(--rev);cursor:pointer}
+svg{width:100%;height:auto;display:block;margin-top:4px}
+svg text{fill:var(--text);font-size:14px;font-family:inherit}
+svg .mut{fill:var(--muted);font-size:12px}
+.res{font-size:1rem;margin:8px 0 0;min-height:52px}
+.big{font-size:1.5rem;font-weight:600;margin-right:6px}
+.err{color:var(--danger)}
+.tasks{margin:22px 0 0;color:var(--muted);font-size:.95rem}
+.tasks ol{margin:6px 0 0;padding-left:22px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Hodinový úhel transformátoru</h1>
+  <p class="sub">Zvolte zapojení vinutí a vyzkoušejte, co udělá otočení cívek na straně NN. Cívky VN a NN na stejném sloupku jádra mají stejnou barvu i číslo.</p>
+  <div class="card">
+    <div class="ctl">
+      <label>Vinutí VN
+        <select id="hv">
+          <option value="Y">hvězda Y</option>
+          <option value="D11">trojúhelník D (cívky A–B, B–C, C–A)</option>
+          <option value="D1">trojúhelník D (cívky A–C, B–A, C–B)</option>
+        </select>
+      </label>
+      <label>Vinutí NN
+        <select id="lv">
+          <option value="y">hvězda y</option>
+          <option value="d">trojúhelník d</option>
+        </select>
+      </label>
+    </div>
+    <div class="ctl">
+      <span>Otočit cívku NN (prohodit začátek a konec):</span>
+      <label><input type="checkbox" id="s0"> sloupek 1</label>
+      <label><input type="checkbox" id="s1"> sloupek 2</label>
+      <label><input type="checkbox" id="s2"> sloupek 3</label>
+      <button id="all" type="button">Otočit všechny</button>
+    </div>
+    <svg id="pic" viewBox="0 0 680 290" role="img" aria-label="Fázory VN s napětími cívek, fázory NN a hodiny"></svg>
+    <div class="res" id="res" aria-live="polite"></div>
+  </div>
+  <div class="tasks">
+    <b>Úlohy</b>
+    <ol>
+      <li>Najděte nastavení, které dá Dy5. Kolika různými způsoby ho lze získat?</li>
+      <li>Nastavte Yy0 a otočte všechny cívky NN. Jak se změnil hodinový úhel? Platí to i pro ostatní zapojení?</li>
+      <li>Otočte jen jednu cívku, nejdřív při zapojení NN do hvězdy, pak do trojúhelníku. Proč je výsledek v každém případě jiný?</li>
+      <li>Proč se při přepnutí varianty trojúhelníku VN nezmění napětí na svorkách A, B, C, ale změní se strana NN?</li>
+    </ol>
+  </div>
+</main>
+<script>
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const ph=d=>({x:Math.sin(d*Math.PI/180),y:Math.cos(d*Math.PI/180)});
+const add=(a,b)=>({x:a.x+b.x,y:a.y+b.y}),sub=(a,b)=>({x:a.x-b.x,y:a.y-b.y}),mul=(a,k)=>({x:a.x*k,y:a.y*k});
+const mag=a=>Math.hypot(a.x,a.y),ang=a=>((Math.atan2(a.x,a.y)*180/Math.PI)+360)%360;
+const $=id=>document.getElementById(id);
+const X=(cx,p,s)=>cx+p.x*s,Y=(cy,p,s)=>cy-p.y*s;
+function seg(x1,y1,x2,y2,col,w){
+  const L=Math.hypot(x2-x1,y2-y1);if(L<2)return '';
+  const ux=(x2-x1)/L,uy=(y2-y1)/L,h=11,bx=x2-ux*h,by=y2-uy*h;
+  return `<line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${bx.toFixed(1)}" y2="${by.toFixed(1)}" stroke="${col}" stroke-width="${w}"/><polygon points="${x2.toFixed(1)},${y2.toFixed(1)} ${(bx-uy*5).toFixed(1)},${(by+ux*5).toFixed(1)} ${(bx+uy*5).toFixed(1)},${(by-ux*5).toFixed(1)}" fill="${col}"/>`;
+}
+function lbl(x,y,t,col){return `<text x="${x.toFixed(1)}" y="${(y+5).toFixed(1)}" text-anchor="middle" style="fill:${col};font-weight:600">${t}</text>`}
+function badge(x,y,n,col){return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="10" fill="${col}"/><text x="${x.toFixed(1)}" y="${(y+4).toFixed(1)}" text-anchor="middle" style="fill:${css('--panel')};font-size:12px;font-weight:600">${n}</text>`}
+function clock(cx,cy,r,h,C){
+  let o=`<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${C.grey}" stroke-width="1"/>`;
+  for(let k=0;k<12;k++){const p=ph(k*30);o+=`<text class="mut" x="${X(cx,p,r-14).toFixed(1)}" y="${(Y(cy,p,r-14)+4).toFixed(1)}" text-anchor="middle">${k||12}</text>`}
+  o+=`<line x1="${cx}" y1="${cy}" x2="${cx}" y2="${cy-r+24}" stroke="${C.hv}" stroke-width="3" stroke-linecap="round"/>`;
+  if(h!==null){const p=ph(h*30);o+=`<line x1="${cx}" y1="${cy}" x2="${X(cx,p,r-40).toFixed(1)}" y2="${Y(cy,p,r-40).toFixed(1)}" stroke="${C.lv}" stroke-width="6" stroke-linecap="round"/>`}
+  return o+`<circle cx="${cx}" cy="${cy}" r="4" fill="${C.grey}"/>`;
+}
+function draw(){
+  const C={hv:css('--hv'),lv:css('--lv'),rev:css('--rev'),grey:css('--grey')},K=[css('--k1'),css('--k2'),css('--k3')];
+  const hv=$('hv').value,lv=$('lv').value,s=[0,1,2].map(i=>$('s'+i).checked?-1:1);
+  const V=[ph(0),ph(120),ph(240)],N=['A','B','C'];
+  const pair=hv==='Y'?null:(hv==='D11'?[[1,0],[2,1],[0,2]]:[[2,0],[0,1],[1,2]]);
+  let c=hv==='Y'?V.slice():pair.map(([f,t])=>sub(V[t],V[f]));
+  const nn=mag(c[0]);c=c.map(x=>mul(x,1/nn));
+  const v=c.map((x,i)=>mul(x,s[i]));
+  const cx1=105,cy=150,S1=80,cx2=330,S2=62;
+  let o='<text x="105" y="20" text-anchor="middle">strana VN</text><text x="330" y="20" text-anchor="middle">strana NN</text><text x="565" y="20" text-anchor="middle">hodiny</text>';
+  if(hv==='Y'){
+    V.forEach((p,i)=>{o+=seg(cx1,cy,X(cx1,p,S1),Y(cy,p,S1),K[i],2.5);o+=lbl(X(cx1,p,S1+16),Y(cy,p,S1+16),N[i],C.hv);o+=badge(X(cx1,p,S1*0.5)+12,Y(cy,p,S1*0.5),i+1,K[i])});
+  }else{
+    const q=V.map(p=>`${X(cx1,p,S1).toFixed(1)},${Y(cy,p,S1).toFixed(1)}`).join(' ');
+    o+=`<polygon points="${q}" fill="none" stroke="${C.grey}" stroke-width="1" stroke-dasharray="3 3"/>`;
+    pair.forEach(([f,t],i)=>{
+      const a=V[f],b=V[t];
+      o+=seg(X(cx1,a,S1),Y(cy,a,S1),X(cx1,b,S1),Y(cy,b,S1),K[i],2.5);
+      const m=mul(add(a,b),0.5),out=mul(m,1/mag(m));
+      o+=badge(X(cx1,m,S1)+out.x*16,Y(cy,m,S1)-out.y*16,i+1,K[i]);
+    });
+    V.forEach((p,i)=>{o+=lbl(X(cx1,p,S1+16),Y(cy,p,S1+16),N[i],C.hv)});
+  }
+  let msg='',h=null;
+  if(lv==='y'){
+    v.forEach((p,i)=>{const col=s[i]<0?C.rev:K[i];o+=seg(cx2,cy,X(cx2,p,S2),Y(cy,p,S2),col,2.5);o+=lbl(X(cx2,p,S2+16),Y(cy,p,S2+16),['a','b','c'][i],C.lv);o+=badge(X(cx2,p,S2*0.5)+12,Y(cy,p,S2*0.5),i+1,col)});
+    const L=[mag(sub(v[0],v[1])),mag(sub(v[1],v[2])),mag(sub(v[2],v[0]))].map(x=>Math.round(x/Math.sqrt(3)*100));
+    if(L.every(x=>x===100))h=Math.round(ang(v[0])/30)%12;
+    else msg=`<span class="err">Napětí jsou rozladěná. Sdružená napětí U<sub>ab</sub>, U<sub>bc</sub>, U<sub>ca</sub> = ${L.join(' %, ')} % jmenovité hodnoty (u sítě 400 V to je ${L.map(x=>Math.round(x*4)).join(' V, ')} V).</span>`;
+  }else{
+    const sum=add(add(v[0],v[1]),v[2]);
+    if(mag(sum)>0.01){
+      msg=`<span class="err">Zkrat v trojúhelníku: napětí cívek se ve smyčce nevyruší, výsledné napětí smyčky je ${Math.round(mag(sum)*100)} % napětí cívky.</span>`;
+      v.forEach((p,i)=>{const col=s[i]<0?C.rev:K[i];o+=seg(cx2,cy,X(cx2,p,S2),Y(cy,p,S2),col,2.5);o+=badge(X(cx2,p,S2*0.5)+12,Y(cy,p,S2*0.5),i+1,col)});
+      o+=`<text class="mut" x="330" y="262" text-anchor="middle">napětí jednotlivých cívek</text>`;
+    }else{
+      const a=mul(sub(v[0],v[2]),1/3),b=mul(sub(v[1],v[0]),1/3),cc=mul(sub(v[2],v[1]),1/3);
+      const m=mag(a),P2=[a,b,cc].map(x=>mul(x,1/m));
+      [[1,0],[2,1],[0,2]].forEach(([f,t],i)=>{
+        const A2=P2[f],B2=P2[t],col=s[i]<0?C.rev:K[i];
+        o+=seg(X(cx2,A2,S2),Y(cy,A2,S2),X(cx2,B2,S2),Y(cy,B2,S2),col,2.5);
+        const mm=mul(add(A2,B2),0.5),out=mul(mm,1/mag(mm));
+        o+=badge(X(cx2,mm,S2)+out.x*16,Y(cy,mm,S2)-out.y*16,i+1,col);
+      });
+      P2.forEach((p,i)=>{o+=lbl(X(cx2,p,S2+16),Y(cy,p,S2+16),['a','b','c'][i],C.lv)});
+      o+=`<line x1="${cx2}" y1="${cy}" x2="${X(cx2,P2[0],S2).toFixed(1)}" y2="${Y(cy,P2[0],S2).toFixed(1)}" stroke="${C.lv}" stroke-width="1.5" stroke-dasharray="4 3"/>`;
+      h=Math.round(ang(P2[0])/30)%12;
+    }
+  }
+  o+=`<text class="mut" x="220" y="284" text-anchor="middle">čísla v kroužcích = sloupek jádra · červeně = otočená cívka</text>`;
+  o+=clock(565,cy,95,h,C);
+  $('pic').innerHTML=o;
+  if(h!==null){
+    const name=(hv==='Y'?'Y':'D')+lv+h;
+    $('res').innerHTML=`<span class="big">${name}</span><span>napětí NN je zpožděné o ${h} × 30° = ${h*30}° za napětím VN</span>`;
+  }else $('res').innerHTML=msg;
+}
+['hv','lv','s0','s1','s2'].forEach(id=>$(id).addEventListener('change',draw));
+$('all').addEventListener('click',()=>{const t=![0,1,2].every(i=>$('s'+i).checked);[0,1,2].forEach(i=>$('s'+i).checked=t);draw()});
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change',draw);
+draw();
+</script>
+</body>
+</html>

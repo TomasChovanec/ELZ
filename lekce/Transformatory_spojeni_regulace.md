@@ -39,6 +39,20 @@ $$
 
 <img width="900" alt="Hodinový úhel pro zapojení Yyn0, Dyn1, Dyn5 a Yd11" src="../files/trafo_hodinovy_uhel.svg" />
 
+### Vyzkoušejte si: jak zapojení a otočení cívek mění hodinový úhel
+
+V appletu zvolte zapojení vinutí VN a NN a zkuste otočit (prohodit začátek a konec) jednu nebo všechny cívky na straně NN. Cívky na stejném sloupku jádra mají stejnou barvu a číslo.
+
+<iframe
+  src="https://tomaschovanec.github.io/ELZ/files/hodinovy_uhel_applet.html"
+  width="100%" height="900"
+  style="border:0; max-width:900px;"
+  loading="lazy"
+  title="Hodinový úhel transformátoru">
+  </iframe>
+
+Pokud se applet nezobrazí, otevřete ho [v samostatném okně](https://tomaschovanec.github.io/ELZ/files/hodinovy_uhel_applet.html).
+
 ### Nejčastější zapojení transformátorů
 
 | Zapojení | Posun | Kde se používá a proč |
