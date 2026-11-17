@@ -154,15 +154,14 @@ Olej při ohřátí zvětšuje objem. Podle toho, jak se s tím transformátor v
 ## Kontrolní otázky
 
 1. Jaké dvě skupiny ztrát v transformátoru rozlišujeme? Na čem závisí každá z nich?
-2. Čím se snižují ztráty hysterezí a čím ztráty vířivými proudy?
-3. Proč je jádro složené z tenkých izolovaných plechů?
-4. Jak se změní ztráty ve vinutí, když zatížení klesne na polovinu?
-5. Při jakém zatížení má transformátor největší účinnost? Odvoďte vzorec.
-6. Transformátor 630 kVA má P₀ = 600 W a Pₖ = 6000 W. Vypočítejte účinnost při jmenovitém zatížení a cos φ = 0,9 a zatížení, při kterém je účinnost největší.
-7. Proč se u distribučních transformátorů klade důraz hlavně na malé ztráty naprázdno?
-8. Jaké dvě funkce má olej v transformátoru?
-9. Co znamená označení ONAF? Čím se liší od ONAN?
-10. K čemu slouží plynové (Buchholzovo) relé?
+1. Čím se snižují ztráty hysterezí a čím ztráty vířivými proudy?
+1. Proč je jádro složené z tenkých izolovaných plechů?
+1. Jak se změní ztráty ve vinutí, když zatížení klesne na polovinu?
+1. Při jakém zatížení má transformátor největší účinnost? Odvoďte vzorec.
+1. Transformátor 630 kVA má P₀ = 600 W a Pₖ = 6000 W. Vypočítejte účinnost při jmenovitém zatížení a cos φ = 0,9 a zatížení, při kterém je účinnost největší.
+1. Proč se u distribučních transformátorů klade důraz hlavně na malé ztráty naprázdno?
+1. Jaké dvě funkce má olej v transformátoru?
+1. K čemu slouží plynové (Buchholzovo) relé?
 
 ## Zdroje příkladů
 
