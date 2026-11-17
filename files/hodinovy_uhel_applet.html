@@ -62,7 +62,7 @@ svg .mut{fill:var(--muted);font-size:12px}
       <label><input type="checkbox" id="s2"> sloupek 3</label>
       <button id="all" type="button">Otočit všechny</button>
     </div>
-    <svg id="pic" viewBox="0 0 680 290" role="img" aria-label="Fázory VN s napětími cívek, fázory NN a hodiny"></svg>
+    <svg id="pic" viewBox="0 0 680 300" role="img" aria-label="Fázory VN s napětími cívek, fázory NN a hodiny"></svg>
     <div class="res" id="res" aria-live="polite"></div>
   </div>
   <div class="tasks">
@@ -118,6 +118,10 @@ function draw(){
       o+=badge(X(cx1,m,S1)+out.x*16,Y(cy,m,S1)-out.y*16,i+1,K[i]);
     });
     V.forEach((p,i)=>{o+=lbl(X(cx1,p,S1+16),Y(cy,p,S1+16),N[i],C.hv)});
+    o+=`<line x1="${cx1}" y1="${cy}" x2="${cx1}" y2="${Y(cy,V[0],S1-12).toFixed(1)}" stroke="${C.hv}" stroke-width="2" stroke-dasharray="5 4"/>`;
+    o+=`<polygon points="${cx1},${Y(cy,V[0],S1-2).toFixed(1)} ${cx1-5},${Y(cy,V[0],S1-13).toFixed(1)} ${cx1+5},${Y(cy,V[0],S1-13).toFixed(1)}" fill="${C.hv}"/>`;
+    o+=`<circle cx="${cx1}" cy="${cy}" r="3" fill="${C.hv}"/>`;
+    o+=`<text class="mut" x="${cx1}" y="${cy+105}" text-anchor="middle">čárkovaně = fázové napětí A</text>`;
   }
   let msg='',h=null;
   if(lv==='y'){
@@ -145,7 +149,7 @@ function draw(){
       h=Math.round(ang(P2[0])/30)%12;
     }
   }
-  o+=`<text class="mut" x="220" y="284" text-anchor="middle">čísla v kroužcích = sloupek jádra · červeně = otočená cívka</text>`;
+  o+=`<text class="mut" x="220" y="295" text-anchor="middle">čísla v kroužcích = sloupek jádra · červeně = otočená cívka</text>`;
   o+=clock(565,cy,95,h,C);
   $('pic').innerHTML=o;
   if(h!==null){
