@@ -7,18 +7,8 @@
 
 Třífázový transformátor má na každé straně tři vinutí a ta můžeme zapojit různými způsoby. Zapojení určuje, jaká napětí transformátor poskytuje (u hvězdy fázové i sdružené, u trojúhelníku jen sdružené), jak snáší nesymetrickou zátěž a také o kolik je výstupní napětí **fázově posunuté** proti vstupnímu. Tento posun vyjadřuje **hodinový úhel**, který musíme znát, když chceme transformátory spojovat paralelně.
 
-## Značení zapojení transformátoru
 
-Způsoby zapojení vinutí (hvězda, trojúhelník, lomená hvězda) jsou popsané v kapitole [Vinutí transformátoru](Transformatory_elektricky_obvod.md). Zapojení obou stran transformátoru spolu s hodinovým úhlem zapisujeme zkratkou, například **Dyn1**:
-
-| Část | Význam | V příkladu Dyn1 |
-|---|---|---|
-| velké písmeno | zapojení vinutí **vyššího napětí** (VN): **Y** hvězda, **D** trojúhelník, **Z** lomená hvězda | **D**: VN do trojúhelníku |
-| malé písmeno | zapojení vinutí **nižšího napětí** (NN): **y**, **d**, **z** | **y**: NN do hvězdy |
-| **N** / **n** | uzel hvězdy je vyvedený na svorku (lze připojit nulový vodič) | **n**: vyvedený uzel na straně NN |
-| číslo | **hodinový úhel** | **1**: NN je zpožděné o 1 × 30° = 30° |
-
-## Proč vzniká fázový posun
+## Proč vzniká fázový posun mezi vstupním a výstupním vinutím
 
 U zapojení **Yy** je každá cívka NN navinutá na stejném sloupku jako cívka VN a napětí na ní je ve fázi s fázovým napětím VN. Fáze se nemění, posun je 0°.
 
@@ -39,10 +29,6 @@ $$
 
 <img width="900" alt="Hodinový úhel pro zapojení Yyn0, Dyn1, Dyn5 a Yd11" src="../files/trafo_hodinovy_uhel.svg" />
 
-### Vyzkoušejte si: jak zapojení a otočení cívek mění hodinový úhel
-
-V appletu zvolte zapojení vinutí VN a NN a zkuste otočit (prohodit začátek a konec) jednu nebo všechny cívky na straně NN. Cívky na stejném sloupku jádra mají stejnou barvu a číslo.
-
 <iframe
   src="https://tomaschovanec.github.io/ELZ/files/hodinovy_uhel_applet.html"
   width="100%" height="900"
@@ -51,7 +37,18 @@ V appletu zvolte zapojení vinutí VN a NN a zkuste otočit (prohodit začátek 
   title="Hodinový úhel transformátoru">
   </iframe>
 
-Pokud se applet nezobrazí, otevřete ho [v samostatném okně](https://tomaschovanec.github.io/ELZ/files/hodinovy_uhel_applet.html).
+
+## Značení zapojení transformátoru
+
+Způsoby zapojení vinutí (hvězda, trojúhelník, lomená hvězda) jsou popsané v kapitole [Vinutí transformátoru](Transformatory_elektricky_obvod.md). Zapojení obou stran transformátoru spolu s hodinovým úhlem zapisujeme zkratkou, například **Dyn1**:
+
+| Část | Význam | V příkladu Dyn1 |
+|---|---|---|
+| velké písmeno | zapojení vinutí **vyššího napětí** (VN): **Y** hvězda, **D** trojúhelník, **Z** lomená hvězda | **D**: VN do trojúhelníku |
+| malé písmeno | zapojení vinutí **nižšího napětí** (NN): **y**, **d**, **z** | **y**: NN do hvězdy |
+| **N** / **n** | uzel hvězdy je vyvedený na svorku (lze připojit nulový vodič) | **n**: vyvedený uzel na straně NN |
+| číslo | **hodinový úhel** | **1**: NN je zpožděné o 1 × 30° = 30° |
+
 
 ### Nejčastější zapojení transformátorů
 
