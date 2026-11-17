@@ -31,12 +31,14 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 - [Princip funkce](/lekce/Transformatory_uvod.md)
 - [Magnetický obvod transformátoru](/lekce/Transformatory_magneticky_obvod.md)
 - [Vinutí transformátoru](/lekce/Transformatory_elektricky_obvod.md)
+- [Náhradní schéma, stav naprázdno, nakrátko a při zatížení](/lekce/Transformatory_nahradni_schema.md)
+- [Ztráty, účinnost a chlazení](/lekce/Transformatory_ztraty.md)
+- [Zapojení vinutí, hodinový úhel, paralelní chod a regulace napětí](/lekce/Transformatory_spojeni_regulace.md)
+- [Speciální transformátory](/lekce/Transformatory_specialni.md)
 
 
 <!---
-- Náhradní schéma, nakrátko, naprázdno
-- Spojování traf, hodinový úhel, regulace
-- Účinnost, ztráty chlazení, 
+
 
 --->
 
