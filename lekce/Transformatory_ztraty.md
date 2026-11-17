@@ -46,8 +46,6 @@ Ztráty v železe vznikají ve střídavém magnetickém poli jádra. Mají dvě
 
 Obě složky rostou přibližně s druhou mocninou magnetické indukce, tedy i napětí. Při jmenovitém napětí jsou ztráty v železe **stálé**, ať transformátor zatížíme jakkoli.
 
-> **Zajímavost:** nejnižší ztráty naprázdno mají transformátory s jádrem z **amorfní oceli**. Je to slitina, která nemá krystalickou strukturu, a proto se velmi snadno přemagnetovává. Je ale dražší a hůře se zpracovává.
-
 ## Ztráty ve vinutí
 
 Ztráty ve vinutí (často se jim říká ztráty v mědi, i když vinutí může být hliníkové) jsou **Jouleovy ztráty** v odporu vodičů:
