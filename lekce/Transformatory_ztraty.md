@@ -76,13 +76,10 @@ $$
 \large R_k = \frac{P_k}{I_{1N}^2}
 $$
 
+Protože odpor vodičů roste s teplotou, udávají se ztráty nakrátko vždy při **referenční teplotě**, u olejových transformátorů 75 °C.
+
 **Příklad:** Transformátor 1000 V / 100 V ($$p = 10$$) má $$R_1 = 1\ \Omega$$ a $$R_2 = 0{,}01\ \Omega$$. Pak $$R_k = 1 + 10^2 \cdot 0{,}01 = 2\ \Omega$$. Při jmenovitém proudu $$I_{1N} = 10\ \text{A}$$ jsou ztráty ve vinutí $$\Delta P_{Cu} = 2 \cdot 10^2 = 200\ \text{W}$$, což je přesně příkon naměřený při zkoušce nakrátko.
 
-### Přídavné ztráty a teplota
-
-K Jouleovým ztrátám se přidávají menší **přídavné ztráty**: vířivé proudy ve vodičích vinutí a v kovových částech (nádoba, svorníky), které vyvolává rozptylový tok.
-
-Protože odpor vodičů roste s teplotou, udávají se ztráty nakrátko vždy při **referenční teplotě**, u olejových transformátorů 75 °C.
 
 ### Ztráty v závislosti na zatížení
 
