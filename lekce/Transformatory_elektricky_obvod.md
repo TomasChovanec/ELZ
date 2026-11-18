@@ -86,7 +86,7 @@ Odbočky bývají na **vinutí VN**, protože:
 
 Na straně VN platí: **více závitů primáru znamená nižší sekundární napětí**. Když je napětí v síti vysoké, přepneme na odbočku s více závity, a naopak.
 
-<iframe src="../files/regulace-odbockami.html" width="100%" height="640" style="border:0"></iframe>
+<iframe src="https://tomaschovanec.github.io/ELZ/files/regulace-odbockami.html" width="100%" height="640" style="border:0"></iframe>
 
 ### Přepínání bez zatížení (PBZ)
 
