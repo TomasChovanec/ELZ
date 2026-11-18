@@ -86,6 +86,8 @@ Odbočky bývají na **vinutí VN**, protože:
 
 Na straně VN platí: **více závitů primáru znamená nižší sekundární napětí**. Když je napětí v síti vysoké, přepneme na odbočku s více závity, a naopak.
 
+<iframe src="applety/regulace-odbockami.html" width="100%" height="640" style="border:0"></iframe>
+
 ### Přepínání bez zatížení (PBZ)
 
 Používá se u **distribučních transformátorů 22/0,4 kV**. Transformátor se musí odpojit od sítě, pak se odbočka přepne ručně přepínačem na víku nádoby. Přepíná se zřídka, například při uvedení do provozu nebo po změně poměrů v síti. Typický rozsah je **±2 × 2,5 %**: transformátor 22 ± 2 × 2,5 % / 0,4 kV má pět poloh od −5 % do +5 %.
