@@ -1,3 +1,7 @@
+<script type="text/javascript" id="MathJax-script" async 
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> 
+</script> 
+
 # Vinutí transformátoru
 
 Vinutí transformátoru je tvořeno měděnými nebo hliníkovými cívkami navinutými na izolační kostře kolem magnetického jádra. Slouží k přenosu elektrické energie mezi obvody prostřednictvím elektromagnetické indukce.
