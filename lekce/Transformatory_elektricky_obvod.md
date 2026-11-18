@@ -17,7 +17,13 @@ Podle tvaru dělíme vodiče na:
 - **Kruhový** vodič (drát) se používá u malých transformátorů a u vinutí vn s malým proudem.
 - **Profilový** (plochý) vodič lépe vyplní prostor cívky. Je nejběžnější u distribučních a výkonových transformátorů.
 
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/fa854ec8-5078-4e2d-9348-3bb8921b9e29" />
+
+
 Při velkých proudech se vodič dělí na více tenčích paralelních vodičů, protože masivní vodič by měl velké ztráty vířivými proudy. U velkých transformátorů se používá transponovaný vícesvazkový vodič (CTC). Je to svazek tenkých izolovaných vodičů, které se průběžně překřižují, aby se proud rozdělil rovnoměrně.
+
+<img width="300"  alt="image" src="https://github.com/user-attachments/assets/11e5077b-143a-48f7-b45b-a74a9b9295cb" />
+
 
 ### Izolace
 Závity jsou od sebe a od jádra odděleny lakem, papírem, fóliemi nebo speciálními pryskyřicemi, aby nedošlo k mezizávitovému zkratu.
