@@ -121,7 +121,7 @@ Po přepnutí na odbočku +5 % (převod 23,1/0,4 kV) bude $$U_2 = 23\,000 \cdot 
 Používá se u **velkých transformátorů v rozvodnách**, například 110/22 kV. Přepínač mění odbočky **za provozu, bez přerušení proudu**. Skládá se ze dvou částí:
 
 - **volič odboček** předem vybere následující odbočku (bez proudu),
-- **zatěžovací přepínač** rychle přepne proud na novou odbočku. Při přepnutí jsou na okamžik spojené dvě odbočky a zkrat mezi nimi omezují **přechodové odpory** (nebo tlumivky).
+- **zatěžovací přepínač** rychle přepne proud na novou odbočku. Při přepnutí jsou na okamžik spojené dvě odbočky a zkrat mezi nimi omezují **přechodové rezistory** (nebo tlumivky).
 
 Přepínač ovládá **automatický regulátor napětí**, který měří napětí na straně 22 kV a při odchylce přepne o jeden stupeň. Transformátory 110/22 kV mají typicky převod **110 ± 8 × 2 % / 23 kV**, tedy 17 poloh po 2 %. Distributor tím udržuje napětí v síti 22 kV přibližně v rozmezí 22,8 až 23,8 kV, aby nepřekročilo 24 kV.
 
