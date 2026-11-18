@@ -119,7 +119,6 @@ Při paralelním chodu transformátorů s přepínači odboček musí být oba t
 
 ## Kontrolní otázky
 1. Proč se odbočky pro regulaci napětí umisťují na vinutí VN?
-1. Napětí v síti je trvale 21,5 kV. Na kterou odbočku přepneme transformátor 22 ± 2 × 2,5 % / 0,4 kV, aby sekundární napětí bylo co nejblíže 400 V?
 1. Jaký je rozdíl mezi přepínáním odboček bez zatížení a pod zatížením? Kde se které používá?
 
 
