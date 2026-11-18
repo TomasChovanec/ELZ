@@ -65,7 +65,7 @@ Kotoučové (někdy označováno deskové) vinutí je rozděleno na ploché koto
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/c6ff1724-e243-44e7-a7c6-cee6e2e4201d" />
 
-### Třífázový transformátor zapojený do trojúhelníka
+### Třífázový transformátor s VN vinutím zapojeným do trojúhelníka
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/255413fe-f2bf-47e4-b63b-b1efed56a17b" />
 
 ## Odbočky transformátoru
