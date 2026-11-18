@@ -12,10 +12,10 @@ Vinutí transformátoru je tvořeno měděnými nebo hliníkovými cívkami navi
 ### Vodiče
 Nejčastěji se používá měď (lepší vodivost, menší rozměry) nebo hliník (nižší cena a hmotnost).
 
-**Tvar vodiče**
+Podle tvaru dělíme vodiče na:
 
-- Kruhový vodič (drát) se používá u malých transformátorů a u vinutí vn s malým proudem.
-- Profilový (plochý) vodič lépe vyplní prostor cívky. Je nejběžnější u distribučních a výkonových transformátorů.
+- **Kruhový** vodič (drát) se používá u malých transformátorů a u vinutí vn s malým proudem.
+- **Profilový** (plochý) vodič lépe vyplní prostor cívky. Je nejběžnější u distribučních a výkonových transformátorů.
 
 Při velkých proudech se vodič dělí na více tenčích paralelních vodičů, protože masivní vodič by měl velké ztráty vířivými proudy. U velkých transformátorů se používá transponovaný vícesvazkový vodič (CTC). Je to svazek tenkých izolovaných vodičů, které se průběžně překřižují, aby se proud rozdělil rovnoměrně.
 
