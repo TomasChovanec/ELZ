@@ -34,12 +34,10 @@ Závity jsou od sebe a od jádra odděleny lakem, papírem, fóliemi nebo speci�
 
 Používají se vodiče:
 - izolované smaltem,
-- izolované smaltem a opletením hedvábím,
 - izolované opletením papírovým páskem.
   
-<img width="270" alt="image" src="https://github.com/user-attachments/assets/779ab976-601d-4ebc-a342-8740423fd880" />
-<img width="210" alt="image" src="https://github.com/user-attachments/assets/aef36cf6-d620-4470-9fd2-8c8d3ba0b03d" />
-<img width="280" alt="image" src="https://github.com/user-attachments/assets/3bb98809-f4ae-41cc-a6ad-aa5306b388da" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/779ab976-601d-4ebc-a342-8740423fd880" />
+<img width="430" alt="image" src="https://github.com/user-attachments/assets/3bb98809-f4ae-41cc-a6ad-aa5306b388da" />
 
 
 ## Tvar cívek
