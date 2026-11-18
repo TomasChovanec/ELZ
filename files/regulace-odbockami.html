@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Regulace napětí odbočkami transformátoru</title>
+<style>
+  :root {
+    --p: #1f1e1d; --s: #5f5e5a; --m: #b4b2a9;
+    --bg: #ffffff; --panel: #f1efe8; --border: #d3d1c7;
+    --acc: #ba7517; --accbg: #faeeda; --acctext: #633806;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --p: #ecebe6; --s: #b4b2a9; --m: #6b6a65;
+      --bg: #1f1e1d; --panel: #2c2c2a; --border: #444441;
+      --accbg: #412402; --acctext: #fac775;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 16px; background: var(--bg); color: var(--p);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  .app { max-width: 720px; margin: 0 auto; }
+  svg { width: 100%; height: auto; display: block; }
+  svg text { font-family: inherit; }
+  .t  { font-size: 14px; fill: var(--p); font-weight: 500; }
+  .ts { font-size: 12px; fill: var(--s); }
+  .row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 10px; font-size: 14px; color: var(--s); }
+  .row .lbl { min-width: 100px; }
+  input[type=range] { flex: 1; min-width: 160px; accent-color: var(--acc); }
+  .tb {
+    font: inherit; font-size: 14px; padding: 5px 12px; cursor: pointer;
+    border: 1px solid var(--border); border-radius: 8px; background: transparent; color: var(--p);
+  }
+  .tb.on { background: var(--accbg); color: var(--acctext); border-color: var(--acc); }
+  .legend { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13px; color: var(--s); margin-top: 4px; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .box { margin-top: 14px; padding: 12px 14px; border-radius: 8px; background: var(--panel); font-size: 15px; line-height: 1.7; }
+  #f3 { color: var(--s); }
+</style>
+</head>
+<body>
+<div class="app">
+  <svg viewBox="0 0 680 370" role="img" aria-labelledby="ttl dsc">
+    <title id="ttl">Regulace napětí odbočkami na primární straně</title>
+    <desc id="dsc">Transformátor 22 kV / 400 V s odbočkami −5 % až +5 % na primárním vinutí.</desc>
+    <defs>
+      <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </marker>
+    </defs>
+
+    <text class="ts" x="306" y="40" text-anchor="middle">jádro</text>
+    <line x1="300" y1="50" x2="300" y2="310" stroke="var(--s)" stroke-width="2"/>
+    <line x1="312" y1="50" x2="312" y2="310" stroke="var(--s)" stroke-width="2"/>
+
+    <path id="used" fill="none" stroke="var(--p)" stroke-width="1.6"/>
+    <path id="unused" fill="none" stroke="var(--p)" stroke-width="1.6"/>
+
+    <path id="sec" fill="none" stroke="var(--p)" stroke-width="1.6"/>
+
+    <line x1="64" y1="60" x2="232" y2="60" stroke="var(--s)"/>
+    <circle cx="60" cy="60" r="4" fill="none" stroke="var(--s)"/>
+    <line x1="64" y1="320" x2="100" y2="320" stroke="var(--s)"/>
+    <circle cx="60" cy="320" r="4" fill="none" stroke="var(--s)"/>
+    <line x1="60" y1="72" x2="60" y2="306" stroke="var(--s)" stroke-width="1.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <text class="t" id="u1t" x="72" y="186">22,55 kV</text>
+    <text class="ts" x="72" y="204">síť (U₁)</text>
+
+    <g id="taps"></g>
+
+    <line id="arm" x1="100" y1="320" x2="170" y2="252" stroke="var(--acc)" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="100" cy="320" r="4" fill="var(--acc)"/>
+
+    <line x1="380" y1="110" x2="516" y2="110" stroke="var(--s)"/>
+    <line x1="380" y1="254" x2="516" y2="254" stroke="var(--s)"/>
+    <circle cx="520" cy="110" r="4" fill="none" stroke="var(--s)"/>
+    <circle cx="520" cy="254" r="4" fill="none" stroke="var(--s)"/>
+    <line x1="520" y1="122" x2="520" y2="242" stroke="var(--s)" stroke-width="1.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <text class="t" id="u2t" x="532" y="178">400 V</text>
+    <text class="ts" x="532" y="196">zátěž (U₂)</text>
+
+    <text class="ts" x="386" y="282" text-anchor="middle">sekundár (nn)</text>
+    <text class="ts" x="200" y="352" text-anchor="middle">primár (vn) s odbočkami</text>
+  </svg>
+
+  <div class="row">
+    <span class="lbl">Napětí sítě</span>
+    <input type="range" id="sl" min="20.9" max="23.1" step="0.055" value="22.55" aria-label="Napětí sítě">
+    <span id="slv" style="min-width:72px;text-align:right;color:var(--p)">22,55 kV</span>
+  </div>
+  <div class="row">
+    <span class="lbl">Odbočka</span>
+    <span id="btns" style="display:flex;gap:6px;flex-wrap:wrap"></span>
+  </div>
+
+  <div class="box">
+    <div id="f1"></div>
+    <div id="f2"></div>
+    <div id="f3"></div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var TAPS = [5, 2.5, 0, -2.5, -5];
+  var Y = { "5": 300, "2.5": 276, "0": 252, "-2.5": 228, "-5": 204 };
+  var TOP = 60, BOTTOM = 300, STEP = 12;
+  var tap = 0;
+  var sl = document.getElementById("sl");
+  var NS = "http://www.w3.org/2000/svg";
+
+  function f(n, d) { return n.toFixed(d).replace(".", ","); }
+  function lab(t) {
+    var s = t > 0 ? "+" : t < 0 ? "−" : "";
+    return s + f(Math.abs(t), 1).replace(",0", "") + " %";
+  }
+  function bumps(n, sweep) { return new Array(n + 1).join(" a6 6 0 0 " + sweep + " 0 " + STEP); }
+  function el(name, attrs, text) {
+    var e = document.createElementNS(NS, name);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (text) e.textContent = text;
+    return e;
+  }
+
+  document.getElementById("sec").setAttribute("d", "M380 110" + bumps(12, 0));
+
+  var g = document.getElementById("taps");
+  TAPS.forEach(function (t) {
+    var y = Y[String(t)];
+    g.appendChild(el("line", { id: "w" + t, x1: 174, y1: y, x2: 232, y2: y, stroke: "var(--s)" }));
+    g.appendChild(el("circle", { id: "d" + t, cx: 170, cy: y, r: 4, fill: "none", stroke: "var(--s)" }));
+    g.appendChild(el("text", { "class": "ts", x: 203, y: y - 5, "text-anchor": "middle" }, lab(t)));
+  });
+
+  var btns = document.getElementById("btns");
+  TAPS.slice().reverse().forEach(function (t) {
+    var b = document.createElement("button");
+    b.className = "tb"; b.textContent = lab(t); b.dataset.t = t;
+    b.addEventListener("click", function () { tap = t; update(); });
+    btns.appendChild(b);
+  });
+  sl.addEventListener("input", update);
+
+  function update() {
+    var u1 = parseFloat(sl.value), k = 1 + tap / 100;
+    var u2 = u1 * 1000 * 400 / (22000 * k), dev = (u2 / 400 - 1) * 100;
+    var y = Y[String(tap)];
+
+    document.getElementById("slv").textContent = f(u1, 2) + " kV";
+    document.getElementById("u1t").textContent = f(u1, 2) + " kV";
+    document.getElementById("u2t").textContent = f(u2, 0) + " V";
+
+    document.getElementById("used").setAttribute("d", "M232 " + TOP + bumps((y - TOP) / STEP, 1));
+    var nUnused = (BOTTOM - y) / STEP;
+    document.getElementById("unused").setAttribute("d", nUnused ? "M232 " + y + bumps(nUnused, 1) : "");
+
+    TAPS.forEach(function (t) {
+      var on = t === tap, c = on ? "var(--acc)" : "var(--s)";
+      var w = document.getElementById("w" + t), d = document.getElementById("d" + t);
+      w.setAttribute("stroke", c); w.setAttribute("stroke-width", on ? 2 : 1);
+      d.setAttribute("fill", on ? "var(--acc)" : "none"); d.setAttribute("stroke", c);
+    });
+    document.getElementById("arm").setAttribute("y2", y);
+    Array.prototype.forEach.call(btns.children, function (b) {
+      b.classList.toggle("on", parseFloat(b.dataset.t) === tap);
+    });
+
+    var best = TAPS.reduce(function (a, t) {
+      return Math.abs(u1 / (1 + t / 100) - 22) < Math.abs(u1 / (1 + a / 100) - 22) ? t : a;
+    }, 0);
+
+    document.getElementById("f1").textContent =
+      "Primár používá " + f(100 * k, 1) + " % závitů → převod " + f(22 * k, 2) + " kV : 400 V";
+    document.getElementById("f2").textContent =
+      "U₂ = " + f(u1, 2) + " kV × 400 V / " + f(22 * k, 2) + " kV = " + f(u2, 1) + " V  (" +
+      (dev >= 0 ? "+" : "−") + f(Math.abs(dev), 1) + " %)";
+    document.getElementById("f3").textContent = best === tap
+      ? "Tahle odbočka je pro dané napětí sítě nejlepší."
+      : "Nejblíž 400 V by byla odbočka " + lab(best) + ".";
+  }
+
+  update();
+})();
+</script>
+</body>
+</html>
