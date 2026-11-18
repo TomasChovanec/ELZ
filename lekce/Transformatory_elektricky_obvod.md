@@ -50,6 +50,9 @@ Kotoučové vinutí je rozděleno na ploché kotouče naskládané nad sebou. Po
 
 <img width="449"  alt="image" src="https://github.com/user-attachments/assets/f38a7ab2-44d3-4f5d-a0df-0e751f8aa922" />
 
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/5ab8929d-eb6e-4f6c-becf-30e504db24a9" />
+
+
 [![Video na YouTube](https://img.youtube.com/vi/_yRu-a9HjXI/hqdefault.jpg)](https://youtu.be/_yRu-a9HjXI)
 
 ## Zapojení cívek třífázového transformátoru
@@ -132,5 +135,8 @@ Při paralelním chodu transformátorů s přepínači odboček musí být oba t
 1. Proč se odbočky pro regulaci napětí umisťují na vinutí VN?
 1. Jaký je rozdíl mezi přepínáním odboček bez zatížení a pod zatížením? Kde se které používá?
 
+## Video
+
+[![Video na YouTube](https://img.youtube.com/vi/96Vekm8Ws4U/hqdefault.jpg)](https://www.youtube.com/watch?v=96Vekm8Ws4U)
 
 ### [Zpět na obsah](../README.md)
