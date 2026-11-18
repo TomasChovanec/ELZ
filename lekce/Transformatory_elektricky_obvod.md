@@ -25,19 +25,13 @@ Používají se vodiče:
 
 ## Tvar cívek
 
-Tvar cívek závisí na způsobu chlazení transformátoru.
+Tvar a typ vinutí závisí hlavně na napětí, proudu a výkonu transformátoru, částečně i na způsobu chlazení.
 
-### Válcová cívka
-Vinutí je navinuto ve vrstvách do válce, vinutí nn a vn jsou soustředná a leží ve válcích kolem sloupku jádra.
-Používá se u suchých transformátorů.
-Cívky se zalévají do pryskyřice (epoxid), která je izoluje a chrání.
-Chlazení vzduchem.
+### Válcové vinutí
+Válcové (vrstvové) vinutí je navinuto ve vrstvách do válce. Vinutí nn a vn jsou soustředná kolem sloupku jádra. Používá se u menších a středních transformátorů, suchých i olejových, často pro nn. U suchých transformátorů se vinutí může zalévat do epoxidové pryskyřice. Chlazení zajišťují mezery mezi vrstvami.
 
-### Kotoučová cívka
-Vinutí je rozděleno na ploché kotouče (sekce) naskládané nad sebou, často se střídají kotouče nn a vn.
-Mezi kotouči jsou mezery
-Používá se u transformátorů s olejovým chlazením.
-Mezerami mezi kotouči proudí chladicí olej, který odvádí teplo.
+### Kotoučové vinutí
+Kotoučové vinutí je rozděleno na ploché kotouče naskládané nad sebou. Používá se hlavně pro vn u větších olejových transformátorů. Mezerami mezi kotouči proudí olej a odvádí teplo. Kotouče také dobře snášejí vysoké napětí a zkratové síly.
 
 <img width="449"  alt="image" src="https://github.com/user-attachments/assets/f38a7ab2-44d3-4f5d-a0df-0e751f8aa922" />
 
