@@ -53,8 +53,6 @@ Kotoučové vinutí je rozděleno na ploché kotouče naskládané nad sebou. Po
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/5ab8929d-eb6e-4f6c-becf-30e504db24a9" />
 
 
-[![Video na YouTube](https://img.youtube.com/vi/_yRu-a9HjXI/hqdefault.jpg)](https://youtu.be/_yRu-a9HjXI)
-
 ## Zapojení cívek třífázového transformátoru
 
 **Vinutí spojená do hvězdy** – značí se **Y**, začátky (nebo konce) všech tří cívek jsou spojeny do společného uzlu. Vyvedením středního vodiče ze společného uzlu získáváme soustavu dvou napětí – sdružené (mezi fázemi) a fázové (mezi fázovým a středním vodičem)
