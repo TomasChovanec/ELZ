@@ -50,7 +50,7 @@ Tvar a typ vinutí závisí hlavně na napětí, proudu a výkonu transformátor
 Válcové (vrstvové) vinutí je navinuto ve vrstvách do válce. Vinutí nn a vn jsou soustředná kolem sloupku jádra. Používá se u menších a středních transformátorů, suchých i olejových, často pro nn. U suchých transformátorů se vinutí může zalévat do epoxidové pryskyřice. Chlazení zajišťují mezery mezi vrstvami.
 
 ### Kotoučové vinutí
-Kotoučové vinutí je rozděleno na ploché kotouče naskládané nad sebou. Používá se hlavně pro vn u větších olejových transformátorů. Mezerami mezi kotouči proudí olej a odvádí teplo. Kotouče také dobře snášejí vysoké napětí a zkratové síly.
+Kotoučové (někdy označováno deskové) vinutí je rozděleno na ploché kotouče naskládané nad sebou. Používá se hlavně pro vn u větších olejových transformátorů. Mezerami mezi kotouči proudí olej a odvádí teplo. Kotouče také dobře snášejí vysoké napětí a zkratové síly.
 
 <img width="449"  alt="image" src="https://github.com/user-attachments/assets/f38a7ab2-44d3-4f5d-a0df-0e751f8aa922" />
 
