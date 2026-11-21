@@ -52,32 +52,6 @@ $$
 \large \Delta P_{Cu} = R_1 \cdot I_1^2 + R_2 \cdot I_2^2 = R_k \cdot I_1^2
 $$
 
-### Co je odpor nakrátko Rₖ
-
-**Rₖ** je **odpor nakrátko**: celkový odpor obou vinutí, přepočtený na primární stranu. Je to součet odporu primárního vinutí a přepočteného odporu sekundárního vinutí (viz [přepočet sekundáru na primár](Transformatory_nahradni_schema.md)):
-
-$$
-\large R_k = R_1 + R_2' = R_1 + p^2 \cdot R_2
-$$
-
-Proč stačí jediný odpor a jediný proud? Při zatížení je proud naprázdno I₀ proti proudu zátěže malý, takže $$I_1 \approx I_2' = I_2 / p$$. Ztráty v sekundárním vinutí pak můžeme zapsat pomocí primárního proudu:
-
-$$
-\large R_2 \cdot I_2^2 = R_2 \cdot (p \cdot I_1)^2 = p^2 R_2 \cdot I_1^2 = R_2' \cdot I_1^2
-$$
-
-Oba odpory tedy protéká stejný proud I₁ a můžeme je sečíst. V [zjednodušeném náhradním schématu](Transformatory_nahradni_schema.md) je Rₖ jeden rezistor v podélné větvi.
-
-Rₖ nemusíme počítat z odporů jednotlivých vinutí. Získáme ho přímo z **měření nakrátko**: při jmenovitém proudu změříme příkon Pₖ, který odpovídá ztrátám ve vinutí, a
-
-$$
-\large R_k = \frac{P_k}{I_{1N}^2}
-$$
-
-Protože odpor vodičů roste s teplotou, udávají se ztráty nakrátko vždy při **referenční teplotě**, u olejových transformátorů 75 °C.
-
-**Příklad:** Transformátor 1000 V / 100 V ($$p = 10$$) má $$R_1 = 1\ \Omega$$ a $$R_2 = 0{,}01\ \Omega$$. Pak $$R_k = 1 + 10^2 \cdot 0{,}01 = 2\ \Omega$$. Při jmenovitém proudu $$I_{1N} = 10\ \text{A}$$ jsou ztráty ve vinutí $$\Delta P_{Cu} = 2 \cdot 10^2 = 200\ \text{W}$$, což je přesně příkon naměřený při zkoušce nakrátko.
-
 
 ### Ztráty v závislosti na zatížení
 
