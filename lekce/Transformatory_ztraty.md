@@ -56,28 +56,6 @@ $$
 $$
 
 
-### Ztráty v závislosti na zatížení
-
-Označíme-li poměrné zatížení $$\beta = I / I_N$$ (β = 1 je jmenovité zatížení, β = 0,5 poloviční), pak:
-
-$$
-\large \boxed{\Delta P = P_0 + \beta^2 \cdot P_k}
-$$
-
-<img width="820" alt="Ztráty v závislosti na zatížení" src="../files/trafo_ztraty_zatizeni.svg" />
-
-Graf platí pro skutečný olejový distribuční transformátor **160 kVA, 22/0,4 kV** (P₀ = 180 W, Pₖ = 1397 W). Při malém zatížení převažují ztráty v železe, při velkém ztráty ve vinutí. Při polovičním zatížení jsou ztráty ve vinutí jen čtvrtinové: $$0{,}5^2 \cdot 1397 \approx 349\ \text{W}$$.
-
-### Roční ztráty energie
-
-Ztráty naprázdno vznikají po celou dobu, kdy je transformátor připojený k síti:
-
-$$
-\large W_0 = P_0 \cdot 8760\ \text{h} = 180\ \text{W} \cdot 8760\ \text{h} \approx 1577\ \text{kWh za rok}
-$$
-
-To je zhruba roční spotřeba elektřiny menšího bytu, a to jen za jeden transformátor, který nic nenapájí. Proto Evropská unie nařízením o **ekodesignu** (nařízení Komise 2019/1783, druhá etapa „Tier 2“ platná od 1. 7. 2021) stanovuje maximální povolené ztráty naprázdno i nakrátko pro nově prodávané transformátory. Transformátor 160 kVA z našeho příkladu je navržený právě podle těchto požadavků.
-
 ## Chlazení transformátoru
 
 Všechny ztráty se mění v teplo. Kdyby se neodvádělo, teplota vinutí by rostla a **izolace by rychle stárla**. Životnost izolace je silně závislá na teplotě: podle často uváděného pravidla zvýšení trvalé teploty zhruba o 6 až 8 K zkrátí její životnost přibližně na polovinu. Teplota je proto hlavní veličina, která omezuje výkon transformátoru. Transformátor stejné velikosti s lepším chlazením může přenášet větší výkon.
