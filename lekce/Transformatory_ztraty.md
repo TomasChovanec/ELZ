@@ -40,6 +40,9 @@ $$
 Ztráty v železe vznikají ve střídavém magnetickém poli jádra. Mají dvě složky:
 
 - **Hysterezní ztráty:** při každé periodě se magnetické domény v plechu přemagnetují tam a zpět. Spotřebovaná energie odpovídá ploše hysterezní smyčky a ztráty rostou úměrně frekvenci. Snižují se použitím **magneticky měkké** oceli s úzkou hysterezní smyčkou (křemíková ocel, orientované plechy).
+
+<img width="258" height="243" alt="image" src="https://github.com/user-attachments/assets/d5939b01-c5ef-48ad-87e8-92b2a6b4f75f" />
+
 - **Ztráty vířivými proudy:** proměnný tok indukuje přímo v železe jádra napětí, které v něm vyvolá vířivé proudy, a ty jádro zahřívají. Ztráty rostou s druhou mocninou frekvence i tloušťky plechu. Snižují se tím, že je jádro **složené z tenkých plechů** (asi 0,23 až 0,35 mm) navzájem izolovaných, a přidáním křemíku, který zvyšuje měrný odpor oceli. Podrobněji viz kapitola [Magnetický obvod transformátoru](Transformatory_magneticky_obvod.md).
 
 Obě složky rostou přibližně s druhou mocninou magnetické indukce, tedy i napětí. Při jmenovitém napětí jsou ztráty v železe **stálé**, ať transformátor zatížíme jakkoli.
