@@ -133,9 +133,4 @@ Olej při ohřátí zvětšuje objem. Podle toho, jak se s tím transformátor v
 1. Jaké dvě funkce má olej v transformátoru?
 1. K čemu slouží plynové (Buchholzovo) relé?
 
-## Zdroje příkladů
-
-- Transformátor 160 kVA, 22/0,4 kV, P₀ = 180 W, Pₖ = 1397 W: [ZČU – projekt ENVITRAFOL](https://envitrafol.zcu.cz/trafo_envitrafol.pdf)
-- Nařízení o ekodesignu transformátorů: [Siemens Energy – Ecodesign leaflet](https://assets.siemens-energy.com/dam/ae1397f8-02a9-453c-b640-b0580096a0fd/EcodesignLeaflet-pdf_Original%20file.pdf)
-
 ### [Zpět na obsah](../README.md)
