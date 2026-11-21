@@ -52,7 +52,7 @@ Obě složky rostou přibližně s druhou mocninou magnetické indukce, tedy i n
 Ztráty ve vinutí (často se jim říká ztráty v mědi, i když vinutí může být hliníkové) jsou **Jouleovy ztráty** v odporu vodičů:
 
 $$
-\large \Delta P_{Cu} = R_1 \cdot I_1^2 + R_2 \cdot I_2^2 = R_k \cdot I_1^2
+\large \Delta P_{Cu} = R_1 \cdot I_1^2 + R_2 \cdot I_2^2
 $$
 
 
