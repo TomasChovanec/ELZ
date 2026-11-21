@@ -23,7 +23,7 @@ Ztráty dělíme na dvě skupiny, které přesně odpovídají prvkům [náhradn
 |---|---|---|
 | kde vznikají | v magnetickém obvodu (jádře) | ve vodičích primárního a sekundárního vinutí |
 | na čem závisí | na **napětí** (magnetickém toku) a frekvenci | na **proudu**, tedy na zatížení ($$\sim I^2$$) |
-| při provozu | **stálé**: jsou stejné naprázdno i při plném zatížení | **proměnné**: rostou s druhou mocninou zatížení |
+| při provozu | **stálé**: jsou stejné naprázdno i při plném zatížení | **proměnné**: rostou s druhou mocninou proudu |
 | jak je změříme | měřením **naprázdno**: $$P_0 \approx \Delta P_{Fe}$$ | měřením **nakrátko**: $$P_k \approx \Delta P_{Cu}$$ |
 | na štítku / v katalogu | ztráty naprázdno $$P_0$$ | ztráty nakrátko (při zatížení) $$P_k$$ |
 
