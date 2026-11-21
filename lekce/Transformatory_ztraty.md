@@ -22,7 +22,6 @@ Ztráty dělíme na dvě skupiny, které přesně odpovídají prvkům [náhradn
 | | Ztráty v železe $$\Delta P_{Fe}$$ | Ztráty ve vinutí $$\Delta P_{Cu}$$ |
 |---|---|---|
 | kde vznikají | v magnetickém obvodu (jádře) | ve vodičích primárního a sekundárního vinutí |
-| prvek náhradního schématu | $$R_{Fe}$$ | $$R_1$$, $$R_2'$$ |
 | na čem závisí | na **napětí** (magnetickém toku) a frekvenci | na **proudu**, tedy na zatížení ($$\sim I^2$$) |
 | při provozu | **stálé**: jsou stejné naprázdno i při plném zatížení | **proměnné**: rostou s druhou mocninou zatížení |
 | jak je změříme | měřením **naprázdno**: $$P_0 \approx \Delta P_{Fe}$$ | měřením **nakrátko**: $$P_k \approx \Delta P_{Cu}$$ |
