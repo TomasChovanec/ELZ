@@ -9,7 +9,7 @@ Transformátor patří k nejúčinnějším strojům vůbec. Velké transformát
 
 ## Energetická bilance
 
-<img width="820" alt="Energetická bilance transformátoru" src="../files/trafo_energeticka_bilance.svg" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/5ca57863-4430-4ec1-aa22-ad552b481f9f" />
 
 Příkon $$P_1$$, který transformátor odebírá ze sítě, se rozdělí na výkon do zátěže $$P_2$$ a na ztráty:
 
