@@ -24,12 +24,6 @@ Aby ochrana fungovala, musí platit:
 
 Použití: napájení ručního nářadí ve stísněných kovových prostorách (kotle, nádrže), servis a opravy elektrických zařízení, zásuvky pro holicí strojky v koupelnách, zdravotnické prostory.
 
-### Bezpečnostní transformátor
-
-Bezpečnostní transformátor je oddělovací transformátor, který navíc **snižuje napětí na bezpečnou hodnotu**, tzv. malé napětí (zpravidla 12, 24 nebo 42 V střídavých). Takový obvod je chráněný dvakrát: oddělením i malým napětím. Používá se pro hračky, zvonky, osvětlení v bazénech a koupelnách, pracovní lampy nebo napájení na staveništích.
-
-Malé zvonkové a hračkové transformátory bývají **zkratuvzdorné**: mají tak velké napětí nakrátko (velkou impedanci vinutí), že je ani trvalý zkrat na výstupu nepřehřeje.
-
 ## Svařovací transformátory
 
 Svařovací transformátor napájí **elektrický oblouk**, který taví kov svařovaných dílů a elektrody. Požadavky na něj jsou úplně jiné než u síťového transformátoru:
