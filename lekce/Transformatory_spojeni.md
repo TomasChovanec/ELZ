@@ -22,7 +22,7 @@ Způsoby zapojení vinutí (hvězda, trojúhelník, lomená hvězda) jsou popsan
 
 ## Proč vzniká fázový posun mezi vstupním a výstupním vinutím
 
-<img width="900" alt="Trojsloupkové jádro s cívkami primáru a sekundáru na sloupcích U, V, W a totéž ve schématu" src="../files/trafo_civky_na_sloupcich.svg" />
+<img width="800" alt="Trojsloupkové jádro s cívkami primáru a sekundáru na sloupcích U, V, W a totéž ve schématu" src="../files/trafo_civky_na_sloupcich.svg" />
 
 U zapojení **Yy** je každá cívka NN navinutá na stejném sloupku jako cívka VN a napětí na ní je ve fázi s fázovým napětím VN. Fáze se nemění, posun je 0°.
 
@@ -41,7 +41,7 @@ $$
 \large \text{fázový posun} = \text{hodinový úhel} \times 30°
 $$
 
-<img width="900" alt="Hodinový úhel pro zapojení Yyn0, Dyn1, Dyn5 a Yd11" src="../files/trafo_hodinovy_uhel.svg" />
+<img width="800" alt="Hodinový úhel pro zapojení Yyn0, Dyn1, Dyn5 a Yd11" src="../files/trafo_hodinovy_uhel.svg" />
 
 <iframe
   src="https://tomaschovanec.github.io/ELZ/files/hodinovy_uhel_applet.html"

@@ -41,7 +41,7 @@ Svařovací transformátor napájí **elektrický oblouk**, který taví kov sva
 
 Toho se dosahuje záměrně **velkým rozptylem** magnetického toku: vinutí jsou na jádře od sebe vzdálená, nebo je mezi nimi **magnetický bočník**. Velká rozptylová reaktance $$X_k$$ (viz [náhradní schéma](Transformatory_nahradni_schema.md)) způsobí, že napětí se zatížením prudce klesá. Transformátor má **strmou (klesající) zatěžovací charakteristiku**, a proud nakrátko je proto omezený jen na málo vyšší hodnotu než svařovací proud.
 
-<img width="820" alt="Zatěžovací charakteristika svařovacího transformátoru" src="../files/trafo_svarovaci_charakteristika.svg" />
+<img width="800" alt="Zatěžovací charakteristika svařovacího transformátoru" src="../files/trafo_svarovaci_charakteristika.svg" />
 
 Pracovní bod leží v průsečíku charakteristiky transformátoru a charakteristiky oblouku. Když se délka oblouku trochu změní (svářeči se pohne ruka), napětí oblouku se změní, ale díky strmé charakteristice se **proud změní jen málo** a oblouk hoří stabilně. U běžného transformátoru s plochou charakteristikou by zkrat elektrody znamenal obrovský proud.
 
@@ -104,7 +104,7 @@ V sítích vysokého napětí nelze připojit voltmetr nebo ampérmetr přímo: 
 - **převádějí** napětí a proud na **normalizované hodnoty** (1 A nebo 5 A, 100 V), takže lze používat stejné přístroje pro jakoukoli síť,
 - umožňují, aby přístroje byly v rozvaděči daleko od vysokého napětí.
 
-<img width="1000" alt="Zapojení měřicích transformátorů proudu a napětí" src="../files/trafo_merici.svg" />
+<img width="800" alt="Zapojení měřicích transformátorů proudu a napětí" src="../files/trafo_merici.svg" />
 
 ### Transformátor proudu (MTP)
 

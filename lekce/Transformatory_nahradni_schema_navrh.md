@@ -17,7 +17,7 @@ Náhradní schéma je **model**: obvod složený jen z rezistorů a reaktancí (
 
 Náhradní schéma se kreslí pro **jednu fázi**.
 
-<img width="900" alt="Úplné náhradní schéma transformátoru (T-článek)" src="../files/trafo_nahradni_schema_T.svg" />
+<img width="800" alt="Úplné náhradní schéma transformátoru (T-článek)" src="../files/trafo_nahradni_schema_T.svg" />
 
 Schéma má tvar písmene **T**, a proto se mu říká *T-článek*:
 
@@ -99,7 +99,7 @@ Tyto čtyři rovnice platí vždy. V jednotlivých provozních stavech jsou něk
 
 ## Stav naprázdno
 
-<img width="900" alt="Náhradní schéma ve stavu naprázdno" src="../files/trafo_naprazdno_schema.svg" />
+<img width="800" alt="Náhradní schéma ve stavu naprázdno" src="../files/trafo_naprazdno_schema.svg" />
 
 Na primár je připojeno **jmenovité napětí** a sekundár je **rozpojený**.
 
@@ -159,7 +159,7 @@ Ztráty v železe vznikají stále, kdykoli je transformátor připojený k sít
 
 ## Stav nakrátko
 
-<img width="900" alt="Náhradní schéma ve stavu nakrátko" src="../files/trafo_nakratko_schema.svg" />
+<img width="800" alt="Náhradní schéma ve stavu nakrátko" src="../files/trafo_nakratko_schema.svg" />
 
 Sekundární svorky jsou **spojené nakrátko**. Rozlišujeme:
 
@@ -225,7 +225,7 @@ Na sekundár je připojena **zátěž** a platí všechny čtyři rovnice náhra
 
 Proud naprázdno $$\overline{I}_0$$ je proti proudu zátěže malý. Příčnou větev proto **přesuneme na vstupní svorky** a podélné prvky obou vinutí spojíme do $$R_k$$ a $$X_k$$, tedy do stejných prvků jako při měření nakrátko.
 
-<img width="900" alt="Zjednodušené náhradní schéma" src="../files/trafo_zjednodusene_schema.svg" />
+<img width="800" alt="Zjednodušené náhradní schéma" src="../files/trafo_zjednodusene_schema.svg" />
 
 $$
 \large \overline{I}_1 \approx \overline{I}_2'

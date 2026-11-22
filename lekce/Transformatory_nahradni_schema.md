@@ -20,7 +20,7 @@ Výhody náhradního schématu:
 
 Náhradní schéma se kreslí pro **jednu fázi**. U třífázového transformátoru počítáme s fázovými hodnotami napětí a proudu.
 
-<img width="900" alt="Úplné náhradní schéma transformátoru (T-článek)" src="../files/trafo_nahradni_schema_T.svg" />
+<img width="800" alt="Úplné náhradní schéma transformátoru (T-článek)" src="../files/trafo_nahradni_schema_T.svg" />
 
 Schéma má tvar písmene **T**, a proto se mu říká *T-článek*. Skládá se z:
 
@@ -95,7 +95,7 @@ Poslední rovnice říká, že primární proud je součtem proudu naprázdno (p
 
 ## Stav naprázdno
 
-<img width="900" alt="Náhradní schéma ve stavu naprázdno" src="../files/trafo_naprazdno_schema.svg" />
+<img width="800" alt="Náhradní schéma ve stavu naprázdno" src="../files/trafo_naprazdno_schema.svg" />
 
 Ve stavu naprázdno je na primár připojeno **jmenovité napětí U₁ₙ** a sekundární svorky jsou **rozpojené** (žádná zátěž):
 
@@ -140,7 +140,7 @@ Na primár připojíme jmenovité napětí a měříme U₁, I₀, P₀ (wattmet
 
 ## Stav nakrátko
 
-<img width="900" alt="Náhradní schéma ve stavu nakrátko" src="../files/trafo_nakratko_schema.svg" />
+<img width="800" alt="Náhradní schéma ve stavu nakrátko" src="../files/trafo_nakratko_schema.svg" />
 
 Ve stavu nakrátko jsou sekundární svorky **spojené** vodičem bez odporu, takže $$U_2 = 0$$. Je třeba rozlišit dvě situace:
 
@@ -212,7 +212,7 @@ Při zatížení je na sekundár připojena impedance zátěže $$Z_z$$ (ve sch�
 
 Protože I₀ je malý, můžeme pro výpočty při zatížení **přesunout příčnou větev na vstupní svorky**. Podélné prvky obou vinutí pak leží za sebou a sečteme je do $$R_k$$ a $$X_k$$, tedy právě do hodnot, které jsme získali měřením nakrátko.
 
-<img width="900" alt="Zjednodušené náhradní schéma" src="../files/trafo_zjednodusene_schema.svg" />
+<img width="800" alt="Zjednodušené náhradní schéma" src="../files/trafo_zjednodusene_schema.svg" />
 
 $$
 \large \mathbf{U_1} = \mathbf{U_2'} + (R_k + jX_k) \cdot \mathbf{I_2'}

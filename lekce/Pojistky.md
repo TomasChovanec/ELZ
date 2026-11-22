@@ -1,6 +1,6 @@
 # Pojistky
 
-<img width="981" height="352" alt="image" src="https://github.com/user-attachments/assets/a2aa5c7f-09d8-4aa7-9013-08a4d370583c" />
+<img width="800" height="287" alt="image" src="https://github.com/user-attachments/assets/a2aa5c7f-09d8-4aa7-9013-08a4d370583c" />
 
 Pojistky jsou přístroje sloužící k jištění elektrického obvodu tím, že tepelným účinkem nadproudu nebo zkratového proudu přetaví tavný drátek ve vložce a tak přeruší elektrický obvod. Pro opětovné uvedení do provozu se musí pojistka vyměnit za novou.
 
