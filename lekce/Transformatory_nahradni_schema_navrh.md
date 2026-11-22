@@ -290,7 +290,7 @@ $$
 | | Naprázdno | Nakrátko (měření) | Při zatížení |
 |---|---|---|---|
 | sekundár | rozpojený | zkratovaný | připojena zátěž |
-| co je nulové | $$\overline{I}_2' = 0$$ | $$\overline{U}_2' = 0$$, $$\overline{I}_0 \approx 0$$ | nic |
+| co je nulové | $$\overline{I}_2' = 0$$ | $$\overline{U}_2' = 0$$ | nic |
 | co zanedbáme | úbytky na primáru | příčnou větev (jádro) | příčnou větev přesuneme na vstup |
 | rovnice | $$\overline{I}_1 = \overline{I}_0$$, $$\overline{U}_2' = \overline{U}_i$$ | $$\Delta\overline{U}_{Rk} + \Delta\overline{U}_{Xk} = \overline{U}_k$$ | $$\Delta\overline{U}_{Rk} + \Delta\overline{U}_{Xk} + \overline{U}_2' = \overline{U}_1$$ |
 | příkon | $$P_0 \approx \Delta P_{Fe}$$ | $$P_k \approx \Delta P_{Cu}$$ | $$P_1 = P_2 + \Delta P_{Fe} + \Delta P_{Cu}$$ |
