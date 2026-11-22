@@ -22,6 +22,8 @@ Způsoby zapojení vinutí (hvězda, trojúhelník, lomená hvězda) jsou popsan
 
 ## Proč vzniká fázový posun mezi vstupním a výstupním vinutím
 
+<img width="900" alt="Trojsloupkové jádro s cívkami primáru a sekundáru na sloupcích U, V, W a totéž ve schématu" src="../files/trafo_civky_na_sloupcich.svg" />
+
 U zapojení **Yy** je každá cívka NN navinutá na stejném sloupku jako cívka VN a napětí na ní je ve fázi s fázovým napětím VN. Fáze se nemění, posun je 0°.
 
 U zapojení **Dy** je cívka VN na sloupku připojená mezi dva vodiče, tedy na **sdružené napětí** (například mezi A a B). Napětí cívky NN na stejném sloupku je s tímto sdruženým napětím ve fázi. Sdružené napětí je ale vůči fázovému napětí posunuté o **30°**. Proto má výstupní fázové napětí vůči vstupnímu fázovému posun 30°. Na tom, jestli trojúhelník uzavřeme jako A–B nebo A–C, závisí, zda posun bude +30°, nebo −30°.
