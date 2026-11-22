@@ -37,11 +37,25 @@ Písmeno σ (sigma) značí *rozptyl*, μ (mí) *magnetizaci* a Fe *železo*.
 
 > **Tip k zapamatování:** podélná větev = **vinutí** (proud zátěže), příčná větev = **jádro** (napětí a tok).
 
-## Přepočet sekundáru na primár
+## Přepočet sekundární strany na primární
 
-Primár a sekundár mají různá napětí (např. 22 000 V a 400 V) a nejsou galvanicky spojené. Abychom je mohli ve schématu spojit, **přepočítáme sekundární veličiny na primární stranu**, jako by sekundár měl stejný počet závitů jako primár. Přepočtené veličiny značíme **čárkou**: $$\overline{U}_2'$$, $$\overline{I}_2'$$, $$R_2'$$…
+Primár a sekundár skutečného transformátoru nejsou **galvanicky spojené** a pracují s různými napětími, např. 22 000 V a 400 V. Kdybychom je ve schématu jen spojili drátem, byla by to chyba. Proto **sekundární veličiny přepočítáme na primární stranu**, jako by měl sekundár stejný počet závitů jako primár ($$N_2' = N_1$$). Přepočtené veličiny značíme **čárkou**: $$U_2'$$, $$I_2'$$, $$R_2'$$...
 
-Přepočet transformátor fyzikálně nemění, výkony i ztráty zůstanou stejné. Jen ho „přeměříme“ na jednu napěťovou hladinu.
+Přepočet využívá převod transformátoru
+
+$$
+\large p = \frac{N_1}{N_2} = \frac{U_1}{U_2}
+$$
+
+a musí splnit jedinou podmínku: **výkony a ztráty se přepočtem nesmí změnit**. Transformátor přepočtem jen „přeměříme", fyzikálně zůstává stejný.
+
+| Veličina | Přepočet | Proč |
+|---|---|---|
+| napětí | $$U_2' = p \cdot U_2$$ | napětí se transformuje jako počet závitů |
+| proud | $$I_2' = \dfrac{I_2}{p}$$ | aby zůstal stejný výkon $$U_2' I_2' = U_2 I_2$$ |
+| odpor | $$R_2' = p^2 \cdot R_2$$ | aby zůstaly stejné ztráty $$R_2' I_2'^2 = R_2 I_2^2$$ |
+| reaktance | $$X_{2\sigma}' = p^2 \cdot X_{2\sigma}$$ | stejný jalový výkon |
+| impedance zátěže | $$Z_z' = p^2 \cdot Z_z$$ | stejně jako odpor: $$Z = U/I$$, tedy $$p \cdot p$$ |
 
 ## Fázory a jejich značení
 
