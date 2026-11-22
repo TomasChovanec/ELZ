@@ -251,53 +251,6 @@ Pro úplné náhradní schéma platí všechny čtyři rovnice. Diagram kreslím
 
 Z diagramu je vidět, že napětí postupně „ubývá“ od zdroje k zátěži: $$\overline{U}_1$$ je delší než $$\overline{U}_i$$ a to je delší než $$\overline{U}_2'$$. Proud $$\overline{I}_0$$ je proti proudu zátěže malý, proto je $$\overline{I}_1$$ skoro stejný jako $$\overline{I}_2'$$. Toho využívá zjednodušené schéma.
 
-### Zjednodušené náhradní schéma
-
-Proud naprázdno $$\overline{I}_0$$ je proti proudu zátěže malý. Příčnou větev proto **přesuneme na vstupní svorky** a podélné prvky obou vinutí spojíme do $$R_k$$ a $$X_k$$, tedy do stejných prvků jako při měření nakrátko.
-
-<img width="800" alt="Zjednodušené náhradní schéma" src="../files/trafo_zjednodusene_schema.svg" />
-
-$$
-\large \overline{I}_1 \approx \overline{I}_2'
-$$
-
-$$
-\large \Delta\overline{U}_{Rk} + \Delta\overline{U}_{Xk} + \overline{U}_2' = \overline{U}_1
-$$
-
-Napětí zdroje se rozdělí na **výstupní napětí** a **úbytek napětí uvnitř transformátoru**.
-
-### Fázorový diagram při induktivní zátěži – postup kreslení
-
-1. Fázor výstupního napětí $$\overline{U}_2'$$ nakreslíme vodorovně.
-2. Proud $$\overline{I}_2'$$ je u induktivní zátěže **zpožděný** o úhel φ₂ (míří šikmo dolů).
-3. Na konec $$\overline{U}_2'$$ navážeme $$\Delta\overline{U}_{Rk}$$ **rovnoběžně s proudem**.
-4. Na něj navážeme $$\Delta\overline{U}_{Xk}$$ **kolmo na proud** (o 90° napřed).
-5. $$\overline{U}_1$$ vede od počátku ke konci posledního úbytku.
-
-Úbytky tvoří **trojúhelník nakrátko**, jen je natočený podle proudu zátěže.
-
-<img width="600" alt="Fázorový diagram při induktivní zátěži" src="../files/trafo_fazor_zatizeni.svg" />
-
-Co z diagramu vyčteme:
-
-- **odporová zátěž** (proud ve fázi s napětím): trojúhelník leží „naplocho“, $$\overline{U}_1$$ je jen o málo delší než $$\overline{U}_2'$$. Napětí při zatížení klesne málo.
-- **induktivní zátěž** (proud zpožděný): trojúhelník se natočí tak, že úbytek míří skoro ve směru $$\overline{U}_2'$$. Napětí klesne **nejvíc**.
-- **kapacitní zátěž** (proud předbíhá): $$\Delta\overline{U}_{Xk}$$ míří dozadu a $$\overline{U}_2'$$ může být **delší** než $$\overline{U}_1$$. Výstupní napětí se při zatížení **zvýší**.
-
-<img width="800" alt="Zatěžovací charakteristika transformátoru" src="../files/trafo_zatezovaci_charakteristika.svg" />
-
-### Ztráty při zatížení
-
-Při zatížení vznikají obě složky ztrát:
-
-- **ztráty v železe** $$\Delta P_{Fe}$$ jsou **stálé**, stejné jako naprázdno,
-- **ztráty ve vinutí** $$\Delta P_{Cu}$$ **rostou se zatížením**, s druhou mocninou proudu.
-
-$$
-\large P_1 = P_2 + \Delta P_{Fe} + \Delta P_{Cu}
-$$
-
 ---
 
 ## Shrnutí tří stavů
