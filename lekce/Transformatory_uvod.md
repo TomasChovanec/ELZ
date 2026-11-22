@@ -114,7 +114,7 @@ $$
 \large U_i = -N \frac{d\Phi}{dt}
 $$
 
-Pro sinusový tok o amplitudě $\Phi_m$ a frekvenci $f$ vychází efektivní hodnota
+Pro sinusový tok o amplitudě $$\Phi_m$$ a frekvenci $$f$$ vychází efektivní hodnota
 
 $$
 \large U_i = 4{,}44 \cdot f \cdot N \cdot \Phi_m
