@@ -140,15 +140,14 @@ Přesnost platí jen tehdy, když připojené přístroje nepřekročí **jmenov
 ## Kontrolní otázky
 
 1. Proč oddělovací transformátor chrání před úrazem? Proč se jeho sekundár nesmí uzemnit?
-2. Proč se k oddělovacímu transformátoru připojuje jen jeden spotřebič?
-3. Čím se liší bezpečnostní transformátor od oddělovacího?
-4. Proč musí mít svařovací transformátor strmou zatěžovací charakteristiku? Jak se jí dosáhne?
-5. Jakými způsoby se nastavuje svařovací proud?
-6. Proč je transformátor v invertorové svářečce mnohem menší než u klasické svářečky?
-7. Jaký je rozdíl mezi průchozím a typovým výkonem autotransformátoru? Vypočítejte typový výkon autotransformátoru 230/200 V, 5 kVA.
-8. Proč se autotransformátor nesmí použít jako bezpečnostní transformátor?
-9. Proč se nesmí rozpojit sekundár transformátoru proudu? Co se musí udělat před odpojením ampérmetru?
-10. Proč se nesmí zkratovat sekundár transformátoru napětí a čím se chrání?
-11. Co znamená třída přesnosti 0,5 a co označení 5P20?
+1. Proč se k oddělovacímu transformátoru připojuje jen jeden spotřebič?
+1. Proč musí mít svařovací transformátor strmou zatěžovací charakteristiku? Jak se jí dosáhne?
+1. Jakými způsoby se nastavuje svařovací proud?
+1. Proč je transformátor v invertorové svářečce mnohem menší než u klasické svářečky?
+1. Jaký je rozdíl mezi průchozím a typovým výkonem autotransformátoru? Vypočítejte typový výkon autotransformátoru 230/200 V, 5 kVA.
+1. Proč se autotransformátor nesmí použít jako bezpečnostní transformátor?
+1. Proč se nesmí rozpojit sekundár transformátoru proudu? Co se musí udělat před odpojením ampérmetru?
+1. Proč se nesmí zkratovat sekundár transformátoru napětí a čím se chrání?
+1. Co znamená třída přesnosti 0,5 a co označení 5P20?
 
 ### [Zpět na obsah](../README.md)
