@@ -265,14 +265,14 @@ Z diagramu je vidět, že napětí postupně „ubývá“ od zdroje k zátěži
 ## Kontrolní otázky
 
 1. Co je náhradní schéma a proč ho používáme?
-2. Které součástky tvoří podélnou a které příčnou větev? Jaký fyzikální jev představuje každá z nich?
-3. Proč musíme sekundární veličiny přepočítat na primár?
-4. Jakým směrem kreslíme ve fázorovém diagramu úbytek napětí na rezistoru a jakým na reaktanci?
-5. Napište rovnice podle II. Kirchhoffova zákona pro primární a sekundární smyčku.
-6. Která veličina je nulová ve stavu naprázdno? Jak se tím zjednoduší rovnice?
-7. Proč při měření naprázdno považujeme celý příkon za ztráty v železe?
-8. Proč nemůžeme měřit nakrátko při jmenovitém napětí? Co je napětí nakrátko?
-9. Co je trojúhelník nakrátko a kde ho najdeme ve fázorovém diagramu při zatížení?
-10. Proč při induktivní zátěži klesá výstupní napětí víc než při odporové? Co se může stát při kapacitní zátěži?
+1. Které součástky tvoří podélnou a které příčnou větev? Jaký fyzikální jev představuje každá z nich?
+1. Proč musíme sekundární veličiny přepočítat na primár?
+1. Jakým směrem kreslíme ve fázorovém diagramu úbytek napětí na rezistoru a jakým na reaktanci?
+1. Napište rovnice podle II. Kirchhoffova zákona pro primární a sekundární smyčku.
+1. Která veličina je nulová ve stavu naprázdno? Jak se tím zjednoduší rovnice?
+1. Proč při měření naprázdno považujeme celý příkon za ztráty v železe?
+1. Proč nemůžeme měřit nakrátko při jmenovitém napětí? Co je napětí nakrátko?
+1. Co je trojúhelník nakrátko a kde ho najdeme ve fázorovém diagramu při zatížení?
+1. Proč při induktivní zátěži klesá výstupní napětí víc než při odporové? Co se může stát při kapacitní zátěži?
 
 ### [Zpět na obsah](../README.md)
