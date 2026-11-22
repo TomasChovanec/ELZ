@@ -5,91 +5,95 @@
 
 # Náhradní schéma transformátoru
 
-Skutečný transformátor je z hlediska výpočtů složité zařízení: dvě vinutí, která jsou spolu spojená jen magneticky přes železné jádro, rozptylové toky, ztráty ve vinutí i v železe. Abychom mohli jeho chování v různých podmínkách lépe **počítat** s použitím Ohmova zákona, Kirchhofových rovnic atd., nahrazujeme ho jednoduchým elektrickým obvodem, tedy **náhradním schématem**.
+Skutečný transformátor je složité zařízení: dvě vinutí spojená jen magneticky přes železné jádro, rozptylové toky, ztráty ve vinutí i v železe. Abychom jeho chování snadno **pochopili a popsali**, nahrazujeme ho jednoduchým elektrickým obvodem, tedy **náhradním schématem**. Na něj pak můžeme použít Kirchhoffovy zákony a nakreslit fázorový diagram.
 
 ## Co je náhradní schéma
 
-Náhradní schéma je **model**: obvod složený jen z rezistorů a reaktancí (cívek), který se na svých svorkách chová stejně jako skutečný transformátor. Při stejném napětí U₁ z něj vychází stejné proudy, stejná výstupní napětí i stejné ztráty.
+Náhradní schéma je **model**: obvod složený jen z rezistorů a reaktancí (cívek), který se na svých svorkách chová stejně jako skutečný transformátor.
 
-Výhody náhradního schématu:
+- každá součástka odpovídá jednomu **fyzikálnímu jevu**,
+- z modelu vidíme, kde vznikají ztráty a proč se mění výstupní napětí,
+- hodnoty součástek zjistíme dvěma měřeními: **naprázdno** a **nakrátko**.
 
-- transformátor můžeme řešit běžnými metodami (Ohmův zákon, Kirchhoffovy zákony),
-- každá součástka odpovídá jednomu **fyzikálnímu jevu**, 
-- hodnoty součástek v náhradním schématu můžeme zjistit dvěma jednoduchými měřeními: **naprázdno** a **nakrátko**,
-- z modelu můžeme předem spočítat úbytek napětí, ztráty, účinnost nebo zkratový proud.
-
-Náhradní schéma se kreslí pro **jednu fázi**. U třífázového transformátoru počítáme s fázovými hodnotami napětí a proudu.
+Náhradní schéma se kreslí pro **jednu fázi**.
 
 <img width="800" alt="Úplné náhradní schéma transformátoru (T-článek)" src="../files/trafo_nahradni_schema_T.svg" />
 
-Schéma má tvar písmene **T**, a proto se mu říká *T-článek*. Skládá se z:
+Schéma má tvar písmene **T**, a proto se mu říká *T-článek*:
 
-- **podélné větve** (vodorovné prvky): odpory a rozptylové reaktance vinutí, kterými prochází proud zátěže,
-- **příčné větve** (svislé prvky uprostřed): popisuje magnetický obvod (jádro). Prochází jí proud naprázdno I₀.
+- **podélná větev** (vodorovné prvky) představuje **vinutí**, prochází jí proud zátěže,
+- **příčná větev** (svislé prvky uprostřed) představuje **jádro**, prochází jí proud naprázdno $$\overline{I}_0$$.
 
 ## Co představují jednotlivé součástky
 
-Představme si nejprve **ideální transformátor**: vinutí bez odporu, veškerý tok prochází oběma vinutími a jádro nemá žádné ztráty a nepotřebuje žádný proud na magnetování. Skutečný transformátor se od ideálního liší ve čtyřech věcech a každou z nich ve schématu vyjadřuje jedna dvojice součástek:
-
 | Součástka | Fyzikální jev | Co způsobuje |
 |---|---|---|
-| **R₁**, **R₂′** | činný odpor vodičů primárního a sekundárního vinutí (měď, hliník) | **ztráty ve vinutí** (Jouleovo teplo $$R \cdot I^2$$), tzv. ztráty v mědi $$\Delta P_{Cu}$$, které rostou s druhou mocninou proudu |
-| **X₁σ**, **X₂σ′** | **rozptylový magnetický tok**: část toku se uzavírá vzduchem kolem jednoho vinutí a neprochází druhým | **úbytek napětí** při zatížení, omezuje zkratový proud. Nevznikají na nich ztráty, jen jalový výkon |
-| **R_Fe** | ztráty v železe jádra, tj. **hysterezní ztráty** a **ztráty vířivými proudy** | **ztráty v železe** $$\Delta P_{Fe}$$, které závisí na napětí (toku), ne na zatížení |
-| **X_μ** | **magnetování jádra**: proud I_μ, který v jádru vytváří hlavní magnetický tok Φ | odběr **jalového (magnetizačního) výkonu** ze sítě |
+| **R₁**, **R₂′** | odpor vodičů primárního a sekundárního vinutí | **ztráty ve vinutí** (v mědi) $$\Delta P_{Cu}$$, rostou se zatížením |
+| **X₁σ**, **X₂σ′** | **rozptylový tok**: část toku se uzavírá vzduchem kolem jednoho vinutí a neprochází druhým | **úbytek napětí** při zatížení, omezuje zkratový proud |
+| **R_Fe** | hysterezní ztráty a ztráty vířivými proudy v jádře | **ztráty v železe** $$\Delta P_{Fe}$$, nezávisí na zatížení |
+| **X_μ** | **magnetování jádra**, vytváří hlavní tok Φ | odběr magnetizačního (jalového) proudu |
 
-Písmeno σ (sigma) značí *rozptyl*, μ (mí) *magnetizaci* a Fe *železo* (magnetický obvod).
-
-Napětí **Uᵢ** na příčné větvi je napětí indukované hlavním magnetickým tokem (viz kapitola [Princip funkce](Transformatory_uvod.md)). Proud naprázdno se skládá ze dvou složek:
-
-$$
-\large \mathbf{I_0} = \mathbf{I_{Fe}} + \mathbf{I_\mu}
-$$
-
-- $$I_{Fe}$$ je činná složka (ve fázi s napětím), která kryje ztráty v železe,
-- $$I_\mu$$ je magnetizační (jalová) složka, která je za napětím zpožděná o 90° a vytváří tok.
+Písmeno σ (sigma) značí *rozptyl*, μ (mí) *magnetizaci* a Fe *železo*.
 
 > **Tip k zapamatování:** podélná větev = **vinutí** (proud zátěže), příčná větev = **jádro** (napětí a tok).
 
-## Přepočet sekundární strany na primární
+## Přepočet sekundáru na primár
 
-Primár a sekundár skutečného transformátoru nejsou **galvanicky spojené** a pracují s různými napětími, např. 22 000 V a 400 V. Kdybychom je ve schématu jen spojili drátem, byla by to chyba. Proto **sekundární veličiny přepočítáme na primární stranu**, jako by měl sekundár stejný počet závitů jako primár ($$N_2' = N_1$$). Přepočtené veličiny značíme **čárkou**: $$U_2'$$, $$I_2'$$, $$R_2'$$...
+Primár a sekundár mají různá napětí (např. 22 000 V a 400 V) a nejsou galvanicky spojené. Abychom je mohli ve schématu spojit, **přepočítáme sekundární veličiny na primární stranu**, jako by sekundár měl stejný počet závitů jako primár. Přepočtené veličiny značíme **čárkou**: $$\overline{U}_2'$$, $$\overline{I}_2'$$, $$R_2'$$…
 
-Přepočet využívá převod transformátoru
+Přepočet transformátor fyzikálně nemění, výkony i ztráty zůstanou stejné. Jen ho „přeměříme“ na jednu napěťovou hladinu.
 
-$$
-\large p = \frac{N_1}{N_2} = \frac{U_1}{U_2}
-$$
+## Fázory a jejich značení
 
-a musí splnit jedinou podmínku: **výkony a ztráty se přepočtem nesmí změnit**. Transformátor přepočtem jen „přeměříme", fyzikálně zůstává stejný.
+Napětí a proudy kreslíme jako **fázory**: šipky, jejichž délka je efektivní hodnota a úhel je fázový posun. Fázor označujeme **pruhem nad písmenem**, např. $$\overline{U}_1$$, $$\overline{I}_0$$.
 
-| Veličina | Přepočet | Proč |
+Na každé součástce vzniká **úbytek napětí** $$\Delta\overline{U}$$. Pro kreslení diagramů stačí znát dvě pravidla:
+
+| Součástka | Úbytek napětí | Směr fázoru úbytku |
 |---|---|---|
-| napětí | $$U_2' = p \cdot U_2$$ | napětí se transformuje jako počet závitů |
-| proud | $$I_2' = \dfrac{I_2}{p}$$ | aby zůstal stejný výkon $$U_2' I_2' = U_2 I_2$$ |
-| odpor | $$R_2' = p^2 \cdot R_2$$ | aby zůstaly stejné ztráty $$R_2' I_2'^2 = R_2 I_2^2$$ |
-| reaktance | $$X_{2\sigma}' = p^2 \cdot X_{2\sigma}$$ | stejný jalový výkon |
-| impedance zátěže | $$Z_z' = p^2 \cdot Z_z$$ | stejně jako odpor: $$Z = U/I$$, tedy $$p \cdot p$$ |
+| rezistor R | $$\Delta\overline{U}_R$$ | **ve fázi s proudem** (rovnoběžně s fázorem proudu) |
+| reaktance X (cívka) | $$\Delta\overline{U}_X$$ | **o 90° před proudem** (kolmo na proud, otočený proti směru hodinových ručiček) |
 
-Po přepočtu má celé schéma jednu napěťovou hladinu a obě strany můžeme spojit. Výsledky na skutečném sekundáru získáme zpětným přepočtem: $$U_2 = U_2' / p$$ a $$I_2 = p \cdot I_2'$$.
+Stejně tak v příčné větvi: proud $$\overline{I}_{Fe}$$ je **ve fázi** s napětím $$\overline{U}_i$$ a proud $$\overline{I}_\mu$$ je za napětím **o 90° zpožděný**.
 
-### Rovnice náhradního schématu
+## Rovnice náhradního schématu
 
-Podle Kirchhoffových zákonů platí (fázory, tučně):
+Pro náhradní schéma napíšeme Kirchhoffovy zákony. Úbytky napětí sčítáme jako fázory, tedy jako šipky.
 
-$$
-\large \mathbf{U_1} = (R_1 + jX_{1\sigma}) \cdot \mathbf{I_1} + \mathbf{U_i}
-$$
+**II. Kirchhoffův zákon (smyčky):**
+
+a) primární smyčka: napětí zdroje se rozdělí na úbytky na primárním vinutí a indukované napětí
 
 $$
-\large \mathbf{U_i} = (R_2' + jX_{2\sigma}') \cdot \mathbf{I_2'} + \mathbf{U_2'}
+\large \Delta\overline{U}_{R1} + \Delta\overline{U}_{X\sigma1} + \overline{U}_i = \overline{U}_1
 $$
 
+b) sekundární smyčka: indukované napětí se rozdělí na úbytky na sekundárním vinutí a výstupní napětí
+
 $$
-\large \mathbf{I_1} = \mathbf{I_0} + \mathbf{I_2'}
+\large \Delta\overline{U}_{R2}' + \Delta\overline{U}_{X\sigma2}' + \overline{U}_2' = \overline{U}_i
 $$
 
-Poslední rovnice říká, že primární proud je součtem proudu naprázdno (pro jádro) a přepočteného proudu zátěže.
+**I. Kirchhoffův zákon (uzly):**
+
+A) uzel, kde se primární proud dělí na proud jádrem a proud do sekundáru
+
+$$
+\large \overline{I}_1 = \overline{I}_0 + \overline{I}_2'
+$$
+
+B) uzel v příčné větvi, kde se proud naprázdno dělí na činnou a magnetizační složku
+
+$$
+\large \overline{I}_0 = \overline{I}_\mu + \overline{I}_{Fe}
+$$
+
+Tyto čtyři rovnice platí vždy. V jednotlivých provozních stavech jsou některé veličiny nulové, a rovnice se proto zjednoduší. U každého stavu postupujeme stejně:
+
+1. Napíšeme, **co je nulové** (proud, nebo napětí).
+2. **Škrtneme úbytky**, které tím zmizí.
+3. Napíšeme **zbylé rovnice**.
+4. Podle nich nakreslíme **fázorový diagram**.
 
 ---
 
@@ -97,44 +101,59 @@ Poslední rovnice říká, že primární proud je součtem proudu naprázdno (p
 
 <img width="800" alt="Náhradní schéma ve stavu naprázdno" src="../files/trafo_naprazdno_schema.svg" />
 
-Ve stavu naprázdno je na primár připojeno **jmenovité napětí U₁ₙ** a sekundární svorky jsou **rozpojené** (žádná zátěž):
+Na primár je připojeno **jmenovité napětí** a sekundár je **rozpojený**.
 
-- $$I_2 = 0$$, sekundárním vinutím neteče proud,
-- primárem teče jen malý **proud naprázdno I₀**, typicky 0,5 až 10 % jmenovitého proudu (čím větší transformátor, tím menší procento),
-- protože je I₀ malý, úbytky napětí i ztráty na R₁ a X₁σ jsou zanedbatelné a platí $$U_1 \approx U_i$$,
-- na výstupu naměříme napětí naprázdno $$U_{20}$$.
+**1. Co je nulové:** sekundárem neteče proud
 
-**Důležitý závěr:** příkon naprázdno P₀ připadá prakticky celý na **ztráty v železe**:
+$$
+\large \overline{I}_2' = 0
+$$
+
+**2. Co zmizí:** bez proudu nejsou na sekundárním vinutí úbytky
+
+$$
+\large \Delta\overline{U}_{R2}' = 0, \qquad \Delta\overline{U}_{X\sigma2}' = 0
+$$
+
+**3. Zbylé rovnice:**
+
+$$
+\large \Rightarrow \quad \overline{I}_1 = \overline{I}_0, \qquad \overline{U}_2' = \overline{U}_i
+$$
+
+$$
+\large \Delta\overline{U}_{R1} + \Delta\overline{U}_{X\sigma1} + \overline{U}_i = \overline{U}_1
+$$
+
+$$
+\large \overline{I}_0 = \overline{I}_\mu + \overline{I}_{Fe}
+$$
+
+Proud naprázdno je malý (0,5 až 10 % jmenovitého proudu), proto jsou malé i úbytky na primáru a platí $$\overline{U}_1 \approx \overline{U}_i$$.
+
+**4. Fázorový diagram – postup kreslení:**
+
+1. Fázor $$\overline{U}_i$$ nakreslíme vodorovně (do reálné osy).
+2. $$\overline{I}_{Fe}$$ kreslíme **ve fázi** s $$\overline{U}_i$$ (vodorovně, krátký).
+3. $$\overline{I}_\mu$$ kreslíme **o 90° zpožděný** za $$\overline{U}_i$$ (svisle dolů).
+4. $$\overline{I}_0$$ je jejich součet (úhlopříčka obdélníku).
+5. Na konec $$\overline{U}_i$$ navážeme $$\Delta\overline{U}_{R1}$$ **rovnoběžně s** $$\overline{I}_0$$.
+6. Na něj navážeme $$\Delta\overline{U}_{X\sigma1}$$ **kolmo na** $$\overline{I}_0$$ (o 90° napřed).
+7. Fázor $$\overline{U}_1$$ vede od počátku ke konci posledního úbytku.
+
+Úbytky se v diagramu kreslí **zvětšené**, aby byly vidět. Ve skutečnosti je $$\overline{U}_1$$ téměř stejné jako $$\overline{U}_i$$.
+
+<img width="600" alt="Fázorový diagram naprázdno" src="../files/trafo_fazor_naprazdno.svg" />
+
+Z diagramu je vidět, že proud $$\overline{I}_0$$ je skoro celý magnetizační: **účiník naprázdno je malý**.
+
+**Co nám dá měření naprázdno:** převod transformátoru ($$p = U_1 / U_{20}$$) a hlavně **ztráty v železe**. Celý příkon naprázdno se spotřebuje v jádře:
 
 $$
 \large P_0 \approx \Delta P_{Fe}
 $$
 
-Ztráty v železe závisí na napětí a frekvenci, **ne na zatížení**. Transformátor připojený k síti je má stále, i když nic nenapájí.
-
-<img width="480" alt="Fázorový diagram naprázdno" src="../files/trafo_fazor_naprazdno.svg" />
-
-Proud I₀ je téměř celý magnetizační (jalový), proto je **účiník naprázdno malý** (φ₀ je blízko 90°).
-
-### Měření naprázdno a co z něj zjistíme
-
-Na primár připojíme jmenovité napětí a měříme U₁, I₀, P₀ (wattmetr) a U₂₀ (voltmetr na sekundáru).
-
-| Výpočet | Vzorec |
-|---|---|
-| převod | $$p = \dfrac{U_1}{U_{20}}$$ |
-| účiník naprázdno | $$\cos\varphi_0 = \dfrac{P_0}{U_1 \cdot I_0}$$ |
-| činná a jalová složka proudu | $$I_{Fe} = I_0 \cos\varphi_0, \qquad I_\mu = I_0 \sin\varphi_0$$ |
-| prvky příčné větve | $$R_{Fe} = \dfrac{U_1}{I_{Fe}} = \dfrac{U_1^2}{P_0}, \qquad X_\mu = \dfrac{U_1}{I_\mu}$$ |
-| proud naprázdno v % | $$i_0 = \dfrac{I_0}{I_{1N}} \cdot 100\ \%$$ |
-
-**Příklad:** Jednofázový transformátor 10 kVA, 1000 V / 100 V ($$I_{1N} = 10\ \text{A}$$). Při měření naprázdno: $$U_1 = 1000\ \text{V}$$, $$I_0 = 0{,}4\ \text{A}$$, $$P_0 = 80\ \text{W}$$, $$U_{20} = 100\ \text{V}$$.
-
-- $$p = 1000 / 100 = 10$$
-- $$\cos\varphi_0 = 80 / (1000 \cdot 0{,}4) = 0{,}2$$
-- $$I_{Fe} = 0{,}4 \cdot 0{,}2 = 0{,}08\ \text{A}$$, $$I_\mu = 0{,}4 \cdot 0{,}98 = 0{,}39\ \text{A}$$
-- $$R_{Fe} = 1000^2 / 80 = 12\,500\ \Omega$$, $$X_\mu = 1000 / 0{,}392 \approx 2\,550\ \Omega$$
-- $$i_0 = 0{,}4 / 10 \cdot 100 = 4\ \%$$, ztráty v železe $$\Delta P_{Fe} \approx 80\ \text{W}$$
+Ztráty v železe vznikají stále, kdykoli je transformátor připojený k síti, i když nic nenapájí.
 
 ---
 
@@ -142,117 +161,113 @@ Na primár připojíme jmenovité napětí a měříme U₁, I₀, P₀ (wattmet
 
 <img width="800" alt="Náhradní schéma ve stavu nakrátko" src="../files/trafo_nakratko_schema.svg" />
 
-Ve stavu nakrátko jsou sekundární svorky **spojené** vodičem bez odporu, takže $$U_2 = 0$$. Je třeba rozlišit dvě situace:
+Sekundární svorky jsou **spojené nakrátko**. Rozlišujeme:
 
-1. **Provozní zkrat** (porucha): na primáru je plné jmenovité napětí a vinutím teče **zkratový proud**, mnohonásobně větší než jmenovitý. Transformátor se rychle přehřívá a působí na něj velké elektrodynamické síly. Musí ho odpojit ochrany.
-2. **Měření nakrátko** (zkouška): napětí na primáru zvyšujeme od nuly jen tak, aby vinutím tekl právě **jmenovitý proud** $$I_{1N}$$. Toto snížené napětí se nazývá **napětí nakrátko Uₖ**.
+1. **Provozní zkrat** (porucha): na primáru je plné napětí a teče **zkratový proud**, mnohonásobně větší než jmenovitý. Transformátor musí odpojit ochrany.
+2. **Měření nakrátko** (zkouška): napětí zvyšujeme od nuly jen tak, aby tekl **jmenovitý proud**. Toto malé napětí je **napětí nakrátko** $$\overline{U}_k$$.
 
-Při měření nakrátko je napětí malé (jen několik procent U₁ₙ), proto je v jádru malý tok a malý proud I₀. **Příčnou větev zanedbáme** a zbudou jen podélné prvky obou vinutí. Proto:
+**1. Co je nulové:** výstupní napětí
+
+$$
+\large \overline{U}_2' = 0
+$$
+
+Napětí $$\overline{U}_k$$ je malé, proto je malé i $$\overline{U}_i$$ a proud jádrem je zanedbatelný:
+
+$$
+\large \overline{I}_0 \approx 0 \quad \Rightarrow \quad \overline{I}_1 = \overline{I}_2' = \overline{I}_k
+$$
+
+**2. Co zmizí:** příčnou větev můžeme vynechat. Zbudou jen podélné prvky obou vinutí, kterými teče stejný proud.
+
+**3. Zbylé rovnice:** dosadíme rovnici b) do a). Úbytky obou vinutí se sečtou:
+
+$$
+\large \Delta\overline{U}_{R1} + \Delta\overline{U}_{X\sigma1} + \Delta\overline{U}_{R2}' + \Delta\overline{U}_{X\sigma2}' = \overline{U}_k
+$$
+
+Úbytky na odporech i na reaktancích obou vinutí můžeme spojit do dvou:
+
+$$
+\large \Delta\overline{U}_{Rk} + \Delta\overline{U}_{Xk} = \overline{U}_k
+$$
+
+**4. Fázorový diagram – postup kreslení:**
+
+1. Fázor proudu $$\overline{I}_k$$ nakreslíme vodorovně.
+2. $$\Delta\overline{U}_{Rk}$$ kreslíme **ve fázi** s proudem (vodorovně).
+3. Na jeho konec navážeme $$\Delta\overline{U}_{Xk}$$ **kolmo nahoru** (o 90° napřed).
+4. $$\overline{U}_k$$ vede od počátku ke konci, je to **přepona pravoúhlého trojúhelníku**.
+
+<img width="560" alt="Fázorový diagram nakrátko – trojúhelník nakrátko" src="../files/trafo_fazor_nakratko.svg" />
+
+Tomuto trojúhelníku se říká **trojúhelník nakrátko**. Uvidíme ho znovu ve stavu při zatížení.
+
+**Co nám dá měření nakrátko:** příkon se spotřebuje ve vinutí, protože jádro je při malém napětí skoro bez ztrát:
 
 $$
 \large P_k \approx \Delta P_{Cu}
 $$
 
-Příkon nakrátko odpovídá **ztrátám ve vinutí při jmenovitém proudu**.
-
-### Napětí nakrátko
-
-Napětí nakrátko se udává v procentech jmenovitého napětí a je uvedeno na **štítku** transformátoru:
+Napětí nakrátko se udává v procentech jmenovitého napětí a je na **štítku** transformátoru:
 
 $$
 \large u_k = \frac{U_k}{U_{1N}} \cdot 100\ \%
 $$
 
-Typicky $$u_k = 4$$ až $$6\ \%$$ u distribučních transformátorů a 10 až 15 % u velkých síťových transformátorů. Napětí nakrátko je důležité, protože:
-
-- určuje velikost **ustáleného zkratového proudu** při jmenovitém napětí:
-
-$$
-\large I_k = I_N \cdot \frac{100}{u_k}
-$$
-
-  Například při $$u_k = 5\ \%$$ je $$I_k = 20 \cdot I_N$$.
-- určuje, jak moc klesá napětí při zatížení (malé uₖ znamená „tvrdý" zdroj s malým úbytkem, ale velký zkratový proud),
-- při **paralelním chodu** musí mít transformátory přibližně stejné uₖ.
-
-### Měření nakrátko a co z něj zjistíme
-
-Měříme Uₖ, I₁ₙ a Pₖ (wattmetr). Prvky podélné větve sečteme do **impedance nakrátko**:
-
-| Výpočet | Vzorec |
-|---|---|
-| impedance nakrátko | $$Z_k = \dfrac{U_k}{I_{1N}}$$ |
-| odpor nakrátko | $$R_k = \dfrac{P_k}{I_{1N}^2} = R_1 + R_2'$$ |
-| reaktance nakrátko | $$X_k = \sqrt{Z_k^2 - R_k^2} = X_{1\sigma} + X_{2\sigma}'$$ |
-| účiník nakrátko | $$\cos\varphi_k = \dfrac{P_k}{U_k \cdot I_{1N}}$$ |
-
-Pokud potřebujeme jednotlivé prvky, obvykle se počítá s rozdělením napůl: $$R_1 \approx R_2' \approx R_k/2$$, $$X_{1\sigma} \approx X_{2\sigma}' \approx X_k/2$$.
-
-**Příklad (pokračování):** Transformátor 10 kVA, 1000 V / 100 V. Při měření nakrátko: $$U_k = 50\ \text{V}$$, $$I_{1N} = 10\ \text{A}$$, $$P_k = 200\ \text{W}$$.
-
-- $$u_k = 50 / 1000 \cdot 100 = 5\ \%$$
-- $$Z_k = 50 / 10 = 5\ \Omega$$, $$R_k = 200 / 10^2 = 2\ \Omega$$, $$X_k = \sqrt{5^2 - 2^2} \approx 4{,}58\ \Omega$$
-- zkratový proud při jmenovitém napětí: $$I_{1k} = 10 \cdot 100/5 = 200\ \text{A}$$, na sekundáru $$I_{2k} = 2000\ \text{A}$$
-- ztráty ve vinutí při jmenovitém proudu: $$\Delta P_{Cu} \approx 200\ \text{W}$$
-
-Výsledek $$R_k = 2\ \Omega$$ odpovídá např. $$R_1 = 1\ \Omega$$ a $$R_2' = 1\ \Omega$$, tedy hodnotě z příkladu přepočtu.
+Typicky je $$u_k$$ 4 až 6 % u distribučních transformátorů. Napětí nakrátko říká, kolikrát je zkratový proud větší než jmenovitý: při $$u_k = 5\ \%$$ je zkratový proud **20× větší** než jmenovitý. Malé $$u_k$$ znamená malý úbytek napětí při zatížení, ale velký zkratový proud.
 
 ---
 
 ## Stav při zatížení
 
-Při zatížení je na sekundár připojena impedance zátěže $$Z_z$$ (ve schématu přepočtená $$Z_z'$$). Platí úplné náhradní schéma (T-článek) a všechny jeho rovnice:
-
-- sekundárem teče proud $$I_2$$ daný zátěží, primárem $$\mathbf{I_1} = \mathbf{I_0} + \mathbf{I_2'}$$,
-- protože $$I_0$$ je proti jmenovitému proudu malý, platí přibližně $$I_1 \approx I_2' = I_2/p$$,
-- na podélné větvi vzniká **úbytek napětí**, takže výstupní napětí se se zatížením mění,
-- vznikají ztráty v železe (stálé) i ztráty ve vinutí (podle zatížení).
+Na sekundár je připojena **zátěž** a platí všechny čtyři rovnice náhradního schématu.
 
 ### Zjednodušené náhradní schéma
 
-Protože I₀ je malý, můžeme pro výpočty při zatížení **přesunout příčnou větev na vstupní svorky**. Podélné prvky obou vinutí pak leží za sebou a sečteme je do $$R_k$$ a $$X_k$$, tedy právě do hodnot, které jsme získali měřením nakrátko.
+Proud naprázdno $$\overline{I}_0$$ je proti proudu zátěže malý. Příčnou větev proto **přesuneme na vstupní svorky** a podélné prvky obou vinutí spojíme do $$R_k$$ a $$X_k$$, tedy do stejných prvků jako při měření nakrátko.
 
 <img width="800" alt="Zjednodušené náhradní schéma" src="../files/trafo_zjednodusene_schema.svg" />
 
 $$
-\large \mathbf{U_1} = \mathbf{U_2'} + (R_k + jX_k) \cdot \mathbf{I_2'}
+\large \overline{I}_1 \approx \overline{I}_2'
 $$
 
-### Úbytek napětí a fázorový diagram
-
-<img width="560" alt="Fázorový diagram při induktivní zátěži" src="../files/trafo_fazor_zatizeni.svg" />
-
-Úbytek napětí na Rₖ je ve fázi s proudem, úbytek na Xₖ je o 90° napřed. Velikost úbytku napětí přibližně spočítáme:
-
 $$
-\large \Delta U \approx I_2' \cdot (R_k \cos\varphi_2 + X_k \sin\varphi_2)
+\large \Delta\overline{U}_{Rk} + \Delta\overline{U}_{Xk} + \overline{U}_2' = \overline{U}_1
 $$
 
-kde φ₂ je fázový posun zátěže. U kapacitní zátěže je $$\sin\varphi_2$$ záporný.
+Napětí zdroje se rozdělí na **výstupní napětí** a **úbytek napětí uvnitř transformátoru**.
 
-- **odporová zátěž** (cos φ = 1): malý úbytek, jen na Rₖ,
-- **induktivní zátěž** (motory, nejčastější případ): největší úbytek, napětí klesá výrazně,
-- **kapacitní zátěž**: úbytek na Xₖ působí opačně a výstupní napětí může být **vyšší** než naprázdno.
+### Fázorový diagram při induktivní zátěži – postup kreslení
+
+1. Fázor výstupního napětí $$\overline{U}_2'$$ nakreslíme vodorovně.
+2. Proud $$\overline{I}_2'$$ je u induktivní zátěže **zpožděný** o úhel φ₂ (míří šikmo dolů).
+3. Na konec $$\overline{U}_2'$$ navážeme $$\Delta\overline{U}_{Rk}$$ **rovnoběžně s proudem**.
+4. Na něj navážeme $$\Delta\overline{U}_{Xk}$$ **kolmo na proud** (o 90° napřed).
+5. $$\overline{U}_1$$ vede od počátku ke konci posledního úbytku.
+
+Úbytky tvoří **trojúhelník nakrátko**, jen je natočený podle proudu zátěže.
+
+<img width="600" alt="Fázorový diagram při induktivní zátěži" src="../files/trafo_fazor_zatizeni.svg" />
+
+Co z diagramu vyčteme:
+
+- **odporová zátěž** (proud ve fázi s napětím): trojúhelník leží „naplocho“, $$\overline{U}_1$$ je jen o málo delší než $$\overline{U}_2'$$. Napětí při zatížení klesne málo.
+- **induktivní zátěž** (proud zpožděný): trojúhelník se natočí tak, že úbytek míří skoro ve směru $$\overline{U}_2'$$. Napětí klesne **nejvíc**.
+- **kapacitní zátěž** (proud předbíhá): $$\Delta\overline{U}_{Xk}$$ míří dozadu a $$\overline{U}_2'$$ může být **delší** než $$\overline{U}_1$$. Výstupní napětí se při zatížení **zvýší**.
 
 <img width="800" alt="Zatěžovací charakteristika transformátoru" src="../files/trafo_zatezovaci_charakteristika.svg" />
 
-**Příklad (pokračování):** Transformátor zatížíme jmenovitým proudem $$I_2' = 10\ \text{A}$$ při $$\cos\varphi_2 = 0{,}8$$ induktivně ($$\sin\varphi_2 = 0{,}6$$):
-
-- $$\Delta U \approx 10 \cdot (2 \cdot 0{,}8 + 4{,}58 \cdot 0{,}6) = 10 \cdot 4{,}35 \approx 43{,}5\ \text{V}$$ (4,35 %)
-- $$U_2' \approx 1000 - 43{,}5 = 956{,}5\ \text{V}$$, tedy na skutečném sekundáru $$U_2 = 956{,}5 / 10 \approx 95{,}7\ \text{V}$$
-
 ### Ztráty při zatížení
 
-Z obou měření známe obě složky ztrát. Ztráty ve vinutí rostou s druhou mocninou zatížení. Označíme-li poměrné zatížení $$\beta = I / I_N$$, platí:
+Při zatížení vznikají obě složky ztrát:
+
+- **ztráty v železe** $$\Delta P_{Fe}$$ jsou **stálé**, stejné jako naprázdno,
+- **ztráty ve vinutí** $$\Delta P_{Cu}$$ **rostou se zatížením**, s druhou mocninou proudu.
 
 $$
-\large \Delta P = \Delta P_{Fe} + \beta^2 \cdot \Delta P_{Cu} \approx P_0 + \beta^2 \cdot P_k
-$$
-
-V našem příkladu při jmenovitém zatížení ($$\beta = 1$$) a výkonu $$P_2 = 10\,000 \cdot 0{,}8 = 8000\ \text{W}$$:
-
-$$
-\large \Delta P = 80 + 1^2 \cdot 200 = 280\ \text{W}, \qquad \eta = \frac{P_2}{P_2 + \Delta P} = \frac{8000}{8280} \approx 96{,}6\ \%
+\large P_1 = P_2 + \Delta P_{Fe} + \Delta P_{Cu}
 $$
 
 ---
@@ -261,23 +276,24 @@ $$
 
 | | Naprázdno | Nakrátko (měření) | Při zatížení |
 |---|---|---|---|
-| sekundár | rozpojený, $$I_2 = 0$$ | zkratovaný, $$U_2 = 0$$ | připojena zátěž $$Z_z$$ |
-| napětí na primáru | jmenovité $$U_{1N}$$ | snížené $$U_k$$ (několik %) | jmenovité $$U_{1N}$$ |
-| proud primáru | malý $$I_0$$ (0,5 až 10 % $$I_N$$) | jmenovitý $$I_{1N}$$ | podle zátěže, $$I_1 \approx I_2/p$$ |
-| co zanedbáme | podélnou větev ($$R_1, X_{1\sigma}$$) | příčnou větev ($$R_{Fe}, X_\mu$$) | (v zjednodušeném schématu přesuneme příčnou větev na vstup) |
-| naměřený příkon | $$P_0 \approx \Delta P_{Fe}$$ | $$P_k \approx \Delta P_{Cu}$$ | $$P_1 = P_2 + \Delta P_{Fe} + \beta^2 \Delta P_{Cu}$$ |
-| co zjistíme | $$p,\ i_0,\ R_{Fe},\ X_\mu$$ | $$u_k,\ R_k,\ X_k,\ I_k$$ | úbytek napětí, účinnost |
+| sekundár | rozpojený | zkratovaný | připojena zátěž |
+| co je nulové | $$\overline{I}_2' = 0$$ | $$\overline{U}_2' = 0$$, $$\overline{I}_0 \approx 0$$ | nic |
+| co zanedbáme | úbytky na primáru | příčnou větev (jádro) | příčnou větev přesuneme na vstup |
+| rovnice | $$\overline{I}_1 = \overline{I}_0$$, $$\overline{U}_2' = \overline{U}_i$$ | $$\Delta\overline{U}_{Rk} + \Delta\overline{U}_{Xk} = \overline{U}_k$$ | $$\Delta\overline{U}_{Rk} + \Delta\overline{U}_{Xk} + \overline{U}_2' = \overline{U}_1$$ |
+| příkon | $$P_0 \approx \Delta P_{Fe}$$ | $$P_k \approx \Delta P_{Cu}$$ | $$P_1 = P_2 + \Delta P_{Fe} + \Delta P_{Cu}$$ |
+| co zjistíme | převod, ztráty v železe | $$u_k$$, ztráty ve vinutí | úbytek napětí, účinnost |
 
 ## Kontrolní otázky
 
 1. Co je náhradní schéma a proč ho používáme?
 2. Které součástky tvoří podélnou a které příčnou větev? Jaký fyzikální jev představuje každá z nich?
-3. Proč musíme sekundární veličiny přepočítat na primár? Jak se přepočítá napětí, proud a odpor?
-4. Proč se odpor přepočítává s druhou mocninou převodu?
-5. Proč při měření naprázdno považujeme celý příkon za ztráty v železe?
-6. Proč nemůžeme měřit nakrátko při jmenovitém napětí? Co je napětí nakrátko?
-7. Transformátor má $$u_k = 6\ \%$$ a $$I_N = 100\ \text{A}$$. Jaký je zkratový proud?
-8. Proč při induktivní zátěži klesá výstupní napětí víc než při odporové? Co se může stát při kapacitní zátěži?
-9. Transformátor 1000 V / 100 V má $$R_2 = 0{,}02\ \Omega$$. Jaký je přepočtený odpor $$R_2'$$?
+3. Proč musíme sekundární veličiny přepočítat na primár?
+4. Jakým směrem kreslíme ve fázorovém diagramu úbytek napětí na rezistoru a jakým na reaktanci?
+5. Napište rovnice podle II. Kirchhoffova zákona pro primární a sekundární smyčku.
+6. Která veličina je nulová ve stavu naprázdno? Jak se tím zjednoduší rovnice?
+7. Proč při měření naprázdno považujeme celý příkon za ztráty v železe?
+8. Proč nemůžeme měřit nakrátko při jmenovitém napětí? Co je napětí nakrátko?
+9. Co je trojúhelník nakrátko a kde ho najdeme ve fázorovém diagramu při zatížení?
+10. Proč při induktivní zátěži klesá výstupní napětí víc než při odporové? Co se může stát při kapacitní zátěži?
 
 ### [Zpět na obsah](../README.md)
