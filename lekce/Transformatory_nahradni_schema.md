@@ -260,7 +260,6 @@ Z diagramu je vidět, že napětí postupně „ubývá“ od zdroje k zátěži
 | sekundár | rozpojený | zkratovaný | připojena zátěž |
 | co je nulové | $$\overline{I}_2' = 0$$ | $$\overline{U}_2' = 0$$, $$\overline{I}_0 \approx 0$$ | nic |
 | co zanedbáme | úbytky na primáru | příčnou větev (jádro) | příčnou větev přesuneme na vstup |
-| rovnice | $$\overline{I}_1 = \overline{I}_0$$, $$\overline{U}_2' = \overline{U}_i$$ | $$\Delta\overline{U}_{Rk} + \Delta\overline{U}_{Xk} = \overline{U}_k$$ | $$\Delta\overline{U}_{Rk} + \Delta\overline{U}_{Xk} + \overline{U}_2' = \overline{U}_1$$ |
 | co zjistíme | převod, ztráty v železe | $$u_k$$, ztráty ve vinutí | úbytek napětí, účinnost |
 
 ## Kontrolní otázky
