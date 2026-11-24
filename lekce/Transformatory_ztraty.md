@@ -19,7 +19,7 @@ $$
 
 Ztráty dělíme na dvě skupiny, které přesně odpovídají prvkům [náhradního schématu](Transformatory_nahradni_schema.md):
 
-| | Ztráty v železe $$\Delta P_{Fe}$$ | Ztráty ve vinutí $$\Delta P_{Cu}$$ |
+| | Ztráty v železe $$\Delta P_{Fe}$$ | Ztráty v mědi $$\Delta P_{Cu}$$ |
 |---|---|---|
 | kde vznikají | v magnetickém obvodu (jádře) | ve vodičích primárního a sekundárního vinutí |
 | na čem závisí | na **napětí** (magnetickém toku) a frekvenci | na **proudu**, tedy na zatížení ($$\sim I^2$$) |
