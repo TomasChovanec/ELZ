@@ -66,9 +66,7 @@ Teplo vzniká v jádře a ve vinutí. Odtud ho **chladivo** (vzduch nebo olej) p
 
 Vinutí je zalité v pryskyřici nebo izolované lakem a chladí se přímo **vzduchem**. Používají se tam, kde by olej představoval riziko požáru nebo úniku: v budovách, nemocnicích, obchodních centrech, metru. Izolace snese vyšší teploty než olejová (běžně teplotní třída F, tj. 155 °C, nebo H, tj. 180 °C), ale chlazení vzduchem je méně účinné. Proto jsou suché transformátory větší a dražší.
 
-<img width="400" alt="Suchý transformátor s vinutím zalitým v pryskyřici, 10 kV, 630 kVA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/MS_Trafo_10kV_1.jpg/960px-MS_Trafo_10kV_1.jpg" />
-
-*Suchý transformátor 10 kV, 630 kVA s vinutím zalitým v pryskyřici (červené válce). Foto: Pedalito, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:MS_Trafo_10kV_1.jpg), CC0.*
+<img width="460" alt="image" src="https://github.com/user-attachments/assets/67568571-c76a-4c46-8cb3-b0197cb389c7" />
 
 ### Olejové transformátory
 
