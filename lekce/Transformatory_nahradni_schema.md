@@ -5,7 +5,7 @@
 
 # Náhradní schéma transformátoru
 
-Skutečný transformátor je složité zařízení: dvě vinutí spojená jen magneticky přes železné jádro, rozptylové toky, ztráty ve vinutí i v železe. Abychom jeho chování snadno **pochopili a popsali**, nahrazujeme ho jednoduchým elektrickým obvodem, tedy **náhradním schématem**. Na něj pak můžeme použít Kirchhoffovy zákony a nakreslit fázorový diagram.
+Nejprve jsme se zabývali ideálním transformátorem, kde pokud uvažujeme ideální materiály a nulové ztráty, jsou výpočty jednoduché. Skutečný transformátor je ale složité zařízení: dvě vinutí spojená jen magneticky přes železné jádro, rozptylové toky, ztráty ve vinutí i v železe. Abychom jeho chování snadno **pochopili a popsali**, nahrazujeme ho jednoduchým elektrickým obvodem, tedy **náhradním schématem**. Na něj pak můžeme použít Kirchhoffovy zákony a nakreslit fázorový diagram.
 
 ## Co je náhradní schéma
 
