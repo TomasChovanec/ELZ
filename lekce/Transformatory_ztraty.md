@@ -84,6 +84,10 @@ Olej při ohřátí zvětšuje objem. Podle toho, jak se s tím transformátor v
 
 *Olejový distribuční transformátor 20 kV v trafostanici. Nádoba má chladicí žebra, vlevo nahoře je vyrovnávací nádržka (konzervátor). Foto: MdE, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Netzstation_Trafo.jpg), CC BY-SA 3.0.*
 
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/54892066-7e64-4d7c-a7d3-f03a12c968bd" />
+
+*Požár olejového transformátoru. Zdroj: https://www.pozary.cz/clanek/11929-pozar-transformatoru-na-rakovnicku/*
+
 ## Kontrolní otázky
 
 1. Jaké dvě skupiny ztrát v transformátoru rozlišujeme? Na čem závisí každá z nich?
