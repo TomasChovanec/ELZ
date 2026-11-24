@@ -14,7 +14,7 @@ Transformátor patří k nejúčinnějším strojům vůbec. Velké transformát
 Příkon $$P_1$$, který transformátor odebírá ze sítě, se rozdělí na výkon do zátěže $$P_2$$ a na ztráty:
 
 $$
-\large P_1 = P_2 + \Delta P_{Fe} + \Delta P_{Cu}
+\large P_2 = P_1 - \Delta P_{Fe} - \Delta P_{Cu}
 $$
 
 Ztráty dělíme na dvě skupiny, které přesně odpovídají prvkům [náhradního schématu](Transformatory_nahradni_schema.md):
@@ -31,7 +31,7 @@ Ztráty dělíme na dvě skupiny, které přesně odpovídají prvkům [náhradn
 Účinnost je poměr výkonu a příkonu:
 
 $$
-\large \eta = \frac{P_2}{P_1} = \frac{P_2}{P_2 + \Delta P_{Fe} + \Delta P_{Cu}}
+\large \eta = \frac{P_2}{P_1} = \frac{P_1 - \Delta P_{Fe} - \Delta P_{Cu}} {P_1}
 $$
 
 
