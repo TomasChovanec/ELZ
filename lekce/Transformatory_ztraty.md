@@ -97,5 +97,7 @@ Olej při ohřátí zvětšuje objem. Podle toho, jak se s tím transformátor v
 1. Proč se u distribučních transformátorů klade důraz hlavně na malé ztráty naprázdno?
 1. Jaké dvě funkce má olej v transformátoru?
 1. K čemu slouží plynové (Buchholzovo) relé?
+1. Jaké jsou výhody a nevýhody transformátorů chlazených olejem?
+1. 2. Jaké jsou výhody a nevýhody suchých transformátorů?
 
 ### [Zpět na obsah](../README.md)
