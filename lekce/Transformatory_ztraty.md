@@ -66,6 +66,10 @@ Teplo vzniká v jádře a ve vinutí. Odtud ho **chladivo** (vzduch nebo olej) p
 
 Vinutí je zalité v pryskyřici nebo izolované lakem a chladí se přímo **vzduchem**. Používají se tam, kde by olej představoval riziko požáru nebo úniku: v budovách, nemocnicích, obchodních centrech, metru. Izolace snese vyšší teploty než olejová (běžně teplotní třída F, tj. 155 °C, nebo H, tj. 180 °C), ale chlazení vzduchem je méně účinné. Proto jsou suché transformátory větší a dražší.
 
+<img width="400" alt="Suchý transformátor s vinutím zalitým v pryskyřici, 10 kV, 630 kVA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/MS_Trafo_10kV_1.jpg/960px-MS_Trafo_10kV_1.jpg" />
+
+*Suchý transformátor 10 kV, 630 kVA s vinutím zalitým v pryskyřici (červené válce). Foto: Pedalito, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:MS_Trafo_10kV_1.jpg), CC0.*
+
 ### Olejové transformátory
 
 Jádro a vinutí jsou ponořené v nádobě s **transformátorovým olejem**, který má dvě funkce:
@@ -77,6 +81,10 @@ Olej při ohřátí zvětšuje objem. Podle toho, jak se s tím transformátor v
 
 - **transformátory s konzervátorem**: nad nádobou je vyrovnávací nádržka (konzervátor), do které olej při ohřátí vytéká. V potrubí mezi nádobou a konzervátorem bývá **plynové (Buchholzovo) relé**, které zachytí plyny vznikající při vnitřní poruše a transformátor odpojí,
 - **hermetické transformátory**: nádoba je zcela uzavřená a má zvlněné (vlnovcové) stěny, které se při změně objemu oleje pruží. Olej nepřichází do styku se vzduchem, a proto méně stárne. Dnes se tak vyrábí většina distribučních transformátorů.
+
+<img width="400" alt="Olejový distribuční transformátor 20 kV s konzervátorem v trafostanici" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Netzstation_Trafo.jpg/960px-Netzstation_Trafo.jpg" />
+
+*Olejový distribuční transformátor 20 kV v trafostanici. Nádoba má chladicí žebra, vlevo nahoře je vyrovnávací nádržka (konzervátor). Foto: MdE, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Netzstation_Trafo.jpg), CC BY-SA 3.0.*
 
 ## Kontrolní otázky
 
