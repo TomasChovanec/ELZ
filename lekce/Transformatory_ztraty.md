@@ -91,8 +91,7 @@ Vinutí je zalité v pryskyřici nebo izolované lakem a chladí se přímo **vz
 
 
 ## Video
-
-<iframe width="800" height="450" src="https://www.youtube.com/embed/iBqboGk4H_U" title="NÁZEV VIDEA" frameborder="0" allowfullscreen></iframe>
+[![Video na YouTube](https://img.youtube.com/vi/iBqboGk4H_U/hqdefault.jpg)](https://www.youtube.com/watch?v=iBqboGk4H_U)
 
 ## Kontrolní otázky
 
