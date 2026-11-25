@@ -14,12 +14,12 @@ Transformátor patří k nejúčinnějším strojům vůbec. Velké transformát
 Příkon $$P_1$$, který transformátor odebírá ze sítě, se rozdělí na výkon do zátěže $$P_2$$ a na ztráty:
 
 $$
-\large P_1 = P_2 + \Delta P_{Fe} + \Delta P_{Cu}
+\large P_2 = P_1 - \Delta P_{Fe} - \Delta P_{Cu}
 $$
 
 Ztráty dělíme na dvě skupiny, které přesně odpovídají prvkům [náhradního schématu](Transformatory_nahradni_schema.md):
 
-| | Ztráty v železe $$\Delta P_{Fe}$$ | Ztráty ve vinutí $$\Delta P_{Cu}$$ |
+| | Ztráty v železe $$\Delta P_{Fe}$$ | Ztráty v mědi $$\Delta P_{Cu}$$ |
 |---|---|---|
 | kde vznikají | v magnetickém obvodu (jádře) | ve vodičích primárního a sekundárního vinutí |
 | na čem závisí | na **napětí** (magnetickém toku) a frekvenci | na **proudu**, tedy na zatížení ($$\sim I^2$$) |
@@ -31,7 +31,7 @@ Ztráty dělíme na dvě skupiny, které přesně odpovídají prvkům [náhradn
 Účinnost je poměr výkonu a příkonu:
 
 $$
-\large \eta = \frac{P_2}{P_1} = \frac{P_2}{P_2 + \Delta P_{Fe} + \Delta P_{Cu}}
+\large \eta = \frac{P_2}{P_1} = \frac{P_1 - \Delta P_{Fe} - \Delta P_{Cu}} {P_1}
 $$
 
 
@@ -62,14 +62,6 @@ Všechny ztráty se mění v teplo. Kdyby se neodvádělo, teplota vinutí by ro
 
 Teplo vzniká v jádře a ve vinutí. Odtud ho **chladivo** (vzduch nebo olej) přenáší na povrch transformátoru a z povrchu do okolního vzduchu (nebo vody).
 
-### Suché transformátory
-
-Vinutí je zalité v pryskyřici nebo izolované lakem a chladí se přímo **vzduchem**. Používají se tam, kde by olej představoval riziko požáru nebo úniku: v budovách, nemocnicích, obchodních centrech, metru. Izolace snese vyšší teploty než olejová (běžně teplotní třída F, tj. 155 °C, nebo H, tj. 180 °C), ale chlazení vzduchem je méně účinné. Proto jsou suché transformátory větší a dražší.
-
-<img width="400" alt="Suchý transformátor s vinutím zalitým v pryskyřici, 10 kV, 630 kVA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/MS_Trafo_10kV_1.jpg/960px-MS_Trafo_10kV_1.jpg" />
-
-*Suchý transformátor 10 kV, 630 kVA s vinutím zalitým v pryskyřici (červené válce). Foto: Pedalito, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:MS_Trafo_10kV_1.jpg), CC0.*
-
 ### Olejové transformátory
 
 Jádro a vinutí jsou ponořené v nádobě s **transformátorovým olejem**, který má dvě funkce:
@@ -86,6 +78,17 @@ Olej při ohřátí zvětšuje objem. Podle toho, jak se s tím transformátor v
 
 *Olejový distribuční transformátor 20 kV v trafostanici. Nádoba má chladicí žebra, vlevo nahoře je vyrovnávací nádržka (konzervátor). Foto: MdE, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Netzstation_Trafo.jpg), CC BY-SA 3.0.*
 
+<img width="480" alt="image" src="https://github.com/user-attachments/assets/54892066-7e64-4d7c-a7d3-f03a12c968bd" />
+
+*Požár olejového transformátoru. Zdroj: https://www.pozary.cz/clanek/11929-pozar-transformatoru-na-rakovnicku/*
+
+
+### Suché transformátory
+
+Vinutí je zalité v pryskyřici nebo izolované lakem a chladí se přímo **vzduchem**. Používají se tam, kde by olej představoval riziko požáru nebo úniku: v budovách, nemocnicích, obchodních centrech, metru. Izolace snese vyšší teploty než olejová (běžně teplotní třída F, tj. 155 °C, nebo H, tj. 180 °C), ale chlazení vzduchem je méně účinné. Proto jsou suché transformátory větší a dražší.
+
+<img width="460" alt="image" src="https://github.com/user-attachments/assets/67568571-c76a-4c46-8cb3-b0197cb389c7" />
+
 ## Kontrolní otázky
 
 1. Jaké dvě skupiny ztrát v transformátoru rozlišujeme? Na čem závisí každá z nich?
@@ -95,5 +98,7 @@ Olej při ohřátí zvětšuje objem. Podle toho, jak se s tím transformátor v
 1. Proč se u distribučních transformátorů klade důraz hlavně na malé ztráty naprázdno?
 1. Jaké dvě funkce má olej v transformátoru?
 1. K čemu slouží plynové (Buchholzovo) relé?
+1. Jaké jsou výhody a nevýhody transformátorů chlazených olejem?
+1. 2. Jaké jsou výhody a nevýhody suchých transformátorů?
 
 ### [Zpět na obsah](../README.md)
