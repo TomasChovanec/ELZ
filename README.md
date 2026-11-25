@@ -26,7 +26,7 @@ S jakýmikoli dotazy mě prosím kontaktujte na mailu [tomas.chovanec@frengp.cz]
 - [Svodiče přepětí pro vysoké napětí](/lekce/Svodice_prepeti.md)
 
 # Elektrické stroje
-
+- [Rychlé otázky](/lekce/Rychle_otazky.md)
 ## Transformátory
 - [Princip funkce](/lekce/Transformatory_uvod.md)
 - [Magnetický obvod transformátoru](/lekce/Transformatory_magneticky_obvod.md)
