@@ -89,6 +89,11 @@ Vinutí je zalité v pryskyřici nebo izolované lakem a chladí se přímo **vz
 
 <img width="460" alt="image" src="https://github.com/user-attachments/assets/67568571-c76a-4c46-8cb3-b0197cb389c7" />
 
+
+## Video
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/iBqboGk4H_U" title="NÁZEV VIDEA" frameborder="0" allowfullscreen></iframe>
+
 ## Kontrolní otázky
 
 1. Jaké dvě skupiny ztrát v transformátoru rozlišujeme? Na čem závisí každá z nich?
