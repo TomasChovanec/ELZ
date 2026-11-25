@@ -1,6 +1,8 @@
 # Rychlé otázky
 
-**Šablona odpovědi:** 1. co to je (jedna věta), 2. jak to funguje nebo proč (jedna až dvě věty), 3. příklad nebo důsledek (nepovinné).
+Rychlé otázky slouží k tomu, abyste si natrénovali odpovídat **ústně**: krátce, souvisle a celými větami, a přitom používat správnou **technickou terminologii**. Maturitní zkouška z odborných předmětů je ústní, a proto je potřeba látku nejen pochopit, ale také ji umět srozumitelně vysvětlit nahlas.
+
+Uvedené odpovědi jsou jen **vzor**, co by odpověď měla obsahovat. **Smyslem není naučit se je nazpaměť.** Naopak je vítané, když látku vysvětlíte **vlastními slovy**, jen při tom používejte odborné pojmy.
 
 ## Transformátor – princip funkce
 
