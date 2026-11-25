@@ -30,9 +30,6 @@ Uvedené odpovědi jsou jen **vzor**, co by odpověď měla obsahovat. **Smyslem
 8. **Proč se elektřina přenáší na vysokém napětí?**
 
    Při stejném výkonu znamená vyšší napětí menší proud. Ztráty ve vedení rostou s druhou mocninou proudu, takže malý proud je výrazně sníží. U spotřebitele se napětí transformátorem zase sníží.
-9. **Jaké je indukované napětí ve chvíli, kdy má tok maximum?**
-
-   Nulové. Napětí závisí na tom, jak rychle se tok mění, a v maximu se tok na okamžik nemění. Největší je napětí, když tok prochází nulou, napětí je tedy proti toku posunuté o 90°.
 
 ## Magnetický obvod transformátoru
 
@@ -45,9 +42,7 @@ Uvedené odpovědi jsou jen **vzor**, co by odpověď měla obsahovat. **Smyslem
 3. **Co je permeabilita?**
 
    Permeabilita vyjadřuje, jak materiál ovlivňuje magnetické pole. Relativní permeabilita μr udává, kolikrát materiál pole zesílí oproti vakuu. U železa jsou to stovky až tisíce.
-4. **Jak dělíme materiály podle permeability?**
 
-   Diamagnetické mají μr trochu menší než 1 a pole mírně zeslabují, například měď. Paramagnetické mají μr trochu větší než 1, například hliník. Feromagnetické mají μr mnohem větší než 1 a pole výrazně zesilují: železo, nikl, kobalt.
 5. **Jaký je rozdíl mezi magneticky měkkým a tvrdým materiálem?**
 
    Měkký materiál má úzkou hysterezní smyčku a snadno se zmagnetuje i odmagnetuje. Používá se na jádra transformátorů a motorů. Tvrdý materiál má širokou smyčku a magnetizaci si drží, používá se na permanentní magnety.
@@ -62,10 +57,10 @@ Uvedené odpovědi jsou jen **vzor**, co by odpověď měla obsahovat. **Smyslem
 
 1. **Z jakého materiálu je vinutí a jaké vodiče se používají?**
 
-   Vinutí je z mědi, která lépe vede, nebo z hliníku, který je levnější a lehčí. U malých transformátorů se používá kruhový drát, u velkých plochý profilový vodič. Ten lépe vyplní prostor cívky.
+   Vinutí je z mědi, která má vyšší vodivost, nebo z hliníku, který je levnější a lehčí. U malých transformátorů se používá vodič s kruhovým průřezem, u velkých plochý profilový vodič. Ten lépe vyplní prostor cívky.
 2. **Proč se při velkých proudech vodič dělí na více tenčích?**
 
-   V masivním vodiči by vznikaly velké ztráty vířivými proudy. Proto se používá více tenčích izolovaných vodičů paralelně. U velkých transformátorů se ještě překřižují, aby se proud rozdělil rovnoměrně.
+   V masivním vodiči by vznikaly ztráty vířivými proudy. Proto se používá více tenčích izolovaných vodičů paralelně. 
 3. **Jaký je rozdíl mezi válcovým a kotoučovým vinutím?**
 
    Válcové vinutí je navinuté ve vrstvách do válce a používá se u menších transformátorů, často pro nn. Kotoučové vinutí se skládá z plochých kotoučů nad sebou a používá se pro vn u velkých olejových transformátorů. Mezerami mezi kotouči proudí olej a chladí je.
