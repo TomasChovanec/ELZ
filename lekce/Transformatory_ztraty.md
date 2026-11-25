@@ -62,12 +62,6 @@ Všechny ztráty se mění v teplo. Kdyby se neodvádělo, teplota vinutí by ro
 
 Teplo vzniká v jádře a ve vinutí. Odtud ho **chladivo** (vzduch nebo olej) přenáší na povrch transformátoru a z povrchu do okolního vzduchu (nebo vody).
 
-### Suché transformátory
-
-Vinutí je zalité v pryskyřici nebo izolované lakem a chladí se přímo **vzduchem**. Používají se tam, kde by olej představoval riziko požáru nebo úniku: v budovách, nemocnicích, obchodních centrech, metru. Izolace snese vyšší teploty než olejová (běžně teplotní třída F, tj. 155 °C, nebo H, tj. 180 °C), ale chlazení vzduchem je méně účinné. Proto jsou suché transformátory větší a dražší.
-
-<img width="460" alt="image" src="https://github.com/user-attachments/assets/67568571-c76a-4c46-8cb3-b0197cb389c7" />
-
 ### Olejové transformátory
 
 Jádro a vinutí jsou ponořené v nádobě s **transformátorovým olejem**, který má dvě funkce:
@@ -87,6 +81,13 @@ Olej při ohřátí zvětšuje objem. Podle toho, jak se s tím transformátor v
 <img width="480" alt="image" src="https://github.com/user-attachments/assets/54892066-7e64-4d7c-a7d3-f03a12c968bd" />
 
 *Požár olejového transformátoru. Zdroj: https://www.pozary.cz/clanek/11929-pozar-transformatoru-na-rakovnicku/*
+
+
+### Suché transformátory
+
+Vinutí je zalité v pryskyřici nebo izolované lakem a chladí se přímo **vzduchem**. Používají se tam, kde by olej představoval riziko požáru nebo úniku: v budovách, nemocnicích, obchodních centrech, metru. Izolace snese vyšší teploty než olejová (běžně teplotní třída F, tj. 155 °C, nebo H, tj. 180 °C), ale chlazení vzduchem je méně účinné. Proto jsou suché transformátory větší a dražší.
+
+<img width="460" alt="image" src="https://github.com/user-attachments/assets/67568571-c76a-4c46-8cb3-b0197cb389c7" />
 
 ## Kontrolní otázky
 
