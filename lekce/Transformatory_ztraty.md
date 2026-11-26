@@ -19,13 +19,6 @@ $$
 
 Ztráty dělíme na dvě skupiny, které přesně odpovídají prvkům [náhradního schématu](Transformatory_nahradni_schema.md):
 
-| | Ztráty v železe $$\Delta P_{Fe}$$ | Ztráty v mědi $$\Delta P_{Cu}$$ |
-|---|---|---|
-| kde vznikají | v magnetickém obvodu (jádře) | ve vodičích primárního a sekundárního vinutí |
-| na čem závisí | na **napětí** (magnetickém toku) a frekvenci | na **proudu**, tedy na zatížení ($$\sim I^2$$) |
-| při provozu | **stálé**: jsou stejné naprázdno i při plném zatížení | **proměnné**: rostou s druhou mocninou proudu |
-| jak je změříme | měřením **naprázdno**: $$P_0 \approx \Delta P_{Fe}$$ | měřením **nakrátko**: $$P_k \approx \Delta P_{Cu}$$ |
-
 ## Účinnost
 
 Účinnost je poměr výkonu a příkonu:
@@ -54,6 +47,14 @@ Ztráty ve vinutí (často se jim říká ztráty v mědi, i když vinutí můž
 $$
 \large \Delta P_{Cu} = R_1 \cdot I_1^2 + R_2 \cdot I_2^2
 $$
+
+
+| | Ztráty v železe $$\Delta P_{Fe}$$ | Ztráty v mědi $$\Delta P_{Cu}$$ |
+|---|---|---|
+| kde vznikají | v magnetickém obvodu (jádře) | ve vodičích primárního a sekundárního vinutí |
+| na čem závisí | na **napětí** (magnetickém toku) a frekvenci | na **proudu**, tedy na zatížení ($$\sim I^2$$) |
+| při provozu | **stálé**: jsou stejné naprázdno i při plném zatížení | **proměnné**: rostou s druhou mocninou proudu |
+| jak je změříme | měřením **naprázdno**: $$P_0 \approx \Delta P_{Fe}$$ | měřením **nakrátko**: $$P_k \approx \Delta P_{Cu}$$ |
 
 
 ## Chlazení transformátoru
