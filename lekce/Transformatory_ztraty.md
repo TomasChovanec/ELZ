@@ -104,6 +104,6 @@ Vinutí je zalité v pryskyřici nebo izolované lakem a chladí se přímo **vz
 1. Jaké dvě funkce má olej v transformátoru?
 1. K čemu slouží plynové (Buchholzovo) relé?
 1. Jaké jsou výhody a nevýhody transformátorů chlazených olejem?
-1. 2. Jaké jsou výhody a nevýhody suchých transformátorů?
+1. Jaké jsou výhody a nevýhody suchých transformátorů?
 
 ### [Zpět na obsah](../README.md)
