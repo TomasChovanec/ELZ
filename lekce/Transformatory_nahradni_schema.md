@@ -41,13 +41,7 @@ Písmeno σ (sigma) značí *rozptyl*, μ (mí) *magnetizaci* a Fe *železo*.
 
 Primár a sekundár skutečného transformátoru nejsou **galvanicky spojené** a pracují s různými napětími, např. 22 000 V a 400 V. Kdybychom je ve schématu jen spojili drátem, byla by to chyba. Proto **sekundární veličiny přepočítáme na primární stranu**, jako by měl sekundár stejný počet závitů jako primár ($$N_2' = N_1$$). Přepočtené veličiny značíme **čárkou**: $$U_2'$$, $$I_2'$$, $$R_2'$$...
 
-Přepočet využívá převod transformátoru
-
-$$
-\large p = \frac{N_1}{N_2} = \frac{U_1}{U_2}
-$$
-
-a musí splnit jedinou podmínku: **výkony a ztráty se přepočtem nesmí změnit**. Transformátor přepočtem jen „přeměříme", fyzikálně zůstává stejný.
+Přepočet využívá převod transformátoru a musí splnit jedinou podmínku: **výkony a ztráty se přepočtem nesmí změnit**.
 
 | Veličina | Přepočet | Proč |
 |---|---|---|
