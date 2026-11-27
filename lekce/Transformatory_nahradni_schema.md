@@ -233,25 +233,6 @@ Typicky je $$u_k$$ 4 až 6 % u distribučních transformátorů. Napětí nakrá
 
 ---
 
-## Stav při zatížení
-
-Na sekundár je připojena **zátěž** a platí všechny čtyři rovnice náhradního schématu.
-
-### Úplný fázorový diagram
-
-Pro úplné náhradní schéma platí všechny čtyři rovnice. Diagram kreslíme od zátěže směrem ke zdroji:
-
-1. Nakreslíme výstupní napětí $$\overline{U}_2'$$ a proud $$\overline{I}_2'$$, který je u induktivní zátěže **zpožděný** o úhel φ₂.
-2. Na konec $$\overline{U}_2'$$ navážeme $$\Delta\overline{U}_{R2}'$$ (**rovnoběžně** s $$\overline{I}_2'$$) a $$\Delta\overline{U}_{X\sigma2}'$$ (**kolmo**, o 90° napřed). Dostaneme indukované napětí $$\overline{U}_i$$ (rovnice b).
-3. Magnetický tok $$\overline{\Phi}$$ je o 90° **za** napětím $$\overline{U}_i$$. Ve směru toku kreslíme $$\overline{I}_\mu$$, ve směru $$\overline{U}_i$$ kreslíme $$\overline{I}_{Fe}$$ a jejich součtem je $$\overline{I}_0$$ (uzel B).
-4. Primární proud je součet $$\overline{I}_1 = \overline{I}_0 + \overline{I}_2'$$ (uzel A). Na konec $$\overline{I}_0$$ přiložíme $$\overline{I}_2'$$ (čárkovaně).
-5. Na konec $$\overline{U}_i$$ navážeme $$\Delta\overline{U}_{R1}$$ (**rovnoběžně** s $$\overline{I}_1$$) a $$\Delta\overline{U}_{X\sigma1}$$ (**kolmo**, o 90° napřed). Výsledkem je napětí zdroje $$\overline{U}_1$$ (rovnice a).
-
-<img width="700" alt="Úplný fázorový diagram transformátoru při induktivní zátěži" src="../files/trafo_fazor_zatizeni_uplny.svg" />
-
-Z diagramu je vidět, že napětí postupně „ubývá“ od zdroje k zátěži: $$\overline{U}_1$$ je delší než $$\overline{U}_i$$ a to je delší než $$\overline{U}_2'$$. Proud $$\overline{I}_0$$ je proti proudu zátěže malý, proto je $$\overline{I}_1$$ skoro stejný jako $$\overline{I}_2'$$. Toho využívá zjednodušené schéma.
-
----
 
 ## Shrnutí tří stavů
 
