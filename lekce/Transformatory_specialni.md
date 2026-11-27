@@ -5,7 +5,7 @@
 
 # Speciální transformátory
 
-Většina transformátorů v síti slouží k jedinému účelu: změnit napětí s co nejmenšími ztrátami. Některé transformátory se ale navrhují pro jiný hlavní úkol: **ochranu před úrazem**, **svařování**, **úsporu materiálu** nebo **měření**. Princip zůstává stejný (dvě vinutí, společný magnetický tok, převod $$p = N_1/N_2$$), ale konstrukce se přizpůsobí tomu, co od transformátoru chceme.
+Většina transformátorů v síti slouží k jedinému účelu: změnit napětí s co nejmenšími ztrátami. Některé transformátory se ale navrhují pro jiný hlavní úkol: **ochranu před úrazem**, **svařování** nebo **měření**. Princip zůstává stejný (dvě vinutí, společný magnetický tok, převod $$p = N_1/N_2$$), ale konstrukce se přizpůsobí tomu, co od transformátoru chceme.
 
 ## Oddělovací transformátory
 
@@ -23,29 +23,6 @@ Aby ochrana fungovala, musí platit:
 - sekundární obvod má být krátký a dobře izolovaný, aby měl malou kapacitu vůči zemi.
 
 Použití: napájení ručního nářadí ve stísněných kovových prostorách (kotle, nádrže), servis a opravy elektrických zařízení, zásuvky pro holicí strojky v koupelnách, zdravotnické prostory.
-
-## Svařovací transformátory
-
-Svařovací transformátor napájí **elektrický oblouk**, který taví kov svařovaných dílů a elektrody. Požadavky na něj jsou úplně jiné než u síťového transformátoru:
-
-- **malé napětí naprázdno** (asi 50 až 80 V): stačí k zapálení oblouku a je bezpečné pro svářeče,
-- **velký proud** (desítky až stovky ampér),
-- **zkrat je běžný provozní stav**: při zapalování oblouku se elektroda dotkne materiálu, tedy výstup se zkratuje,
-- svařovací proud se musí dát **nastavit** a oblouk musí hořet stabilně.
-
-Toho se dosahuje záměrně **velkým rozptylem** magnetického toku: vinutí jsou na jádře od sebe vzdálená, nebo je mezi nimi **magnetický bočník**. Velká rozptylová reaktance $$X_k$$ (viz [náhradní schéma](Transformatory_nahradni_schema.md)) způsobí, že napětí se zatížením prudce klesá. Transformátor má **strmou (klesající) zatěžovací charakteristiku**, a proud nakrátko je proto omezený jen na málo vyšší hodnotu než svařovací proud.
-
-<img width="800" alt="Zatěžovací charakteristika svařovacího transformátoru" src="../files/trafo_svarovaci_charakteristika.svg" />
-
-Pracovní bod leží v průsečíku charakteristiky transformátoru a charakteristiky oblouku. Když se délka oblouku trochu změní (svářeči se pohne ruka), napětí oblouku se změní, ale díky strmé charakteristice se **proud změní jen málo** a oblouk hoří stabilně. U běžného transformátoru s plochou charakteristikou by zkrat elektrody znamenal obrovský proud.
-
-**Nastavení svařovacího proudu** (změnou rozptylu nebo převodu):
-
-- posuvným **magnetickým bočníkem** mezi vinutími: zasunutý bočník odvede více toku mimo sekundár, takže rozptyl roste a proud klesá,
-- změnou **vzdálenosti cívek** (pohyblivá cívka),
-- **odbočkami** na vinutí.
-
-Klasický svařovací transformátor je těžký, protože pracuje na síťové frekvenci 50 Hz. Dnes se většinou používají **invertorové svářečky**: síťové napětí se usměrní a měnič z něj vytvoří střídavé napětí o frekvenci desítek kHz. Transformátor pak může být mnohonásobně menší a lehčí, protože při vyšší frekvenci stačí k indukování stejného napětí menší magnetický tok ($$U = 4{,}44 \cdot f \cdot N \cdot \Phi_{max}$$). Proud nastavuje elektronika.
 
 ## Autotransformátory
 
@@ -122,32 +99,14 @@ Na stejném principu pracují **klešťové ampérmetry**: rozevírací jádro s
 
 U obou měřicích transformátorů musí být **jeden vývod sekundárního vinutí uzemněný**. Kdyby se izolace mezi vinutími prorazila, vysoké napětí se tak svede do země a neohrozí obsluhu ani přístroje.
 
-### Přesnost měřicích transformátorů
-
-Měřicí transformátor se má co nejvíce blížit ideálnímu transformátoru: přesný převod a nulový fázový posun. Chyby vznikají kvůli proudu naprázdno a úbytkům na vinutí. Přesnost vyjadřuje **třída přesnosti**:
-
-- **pro měření** a fakturační elektroměry: třídy **0,2**, **0,5**, **1** (dovolená chyba převodu v procentech),
-- **pro ochrany**: např. **5P20**. P znamená ochranný (protection), 5 je dovolená chyba v % a 20 je násobek jmenovitého proudu, do kterého musí být chyba dodržena. Ochrany musí správně „vidět“ i velké zkratové proudy, ne jen proudy při běžném provozu.
-
-Přesnost platí jen tehdy, když připojené přístroje nepřekročí **jmenovitou zátěž** transformátoru (udává se ve VA, např. 10 VA).
-
-**Příklady:**
-
-- Transformátor proudu 400/5 A, ampérmetr ukazuje 3,2 A. Primární proud: $$I_1 = 3{,}2 \cdot 400/5 = 3{,}2 \cdot 80 = 256\ \text{A}$$
-- Transformátor napětí 22 000 / 100 V, voltmetr ukazuje 104 V. Napětí sítě: $$U_1 = 104 \cdot 220 = 22\,880\ \text{V}$$
-- Elektroměr připojený přes transformátory proudu 200/5 A a napětí 22 000/100 V naměřil 1,5 kWh. Skutečně odebraná energie: $$1{,}5 \cdot 40 \cdot 220 = 13\,200\ \text{kWh}$$
-
 ## Kontrolní otázky
 
 1. Proč oddělovací transformátor chrání před úrazem? Proč se jeho sekundár nesmí uzemnit?
 1. Proč se k oddělovacímu transformátoru připojuje jen jeden spotřebič?
-1. Proč musí mít svařovací transformátor strmou zatěžovací charakteristiku? Jak se jí dosáhne?
-1. Jakými způsoby se nastavuje svařovací proud?
-1. Proč je transformátor v invertorové svářečce mnohem menší než u klasické svářečky?
 1. Jaký je rozdíl mezi průchozím a typovým výkonem autotransformátoru? Vypočítejte typový výkon autotransformátoru 230/200 V, 5 kVA.
 1. Proč se autotransformátor nesmí použít jako bezpečnostní transformátor?
 1. Proč se nesmí rozpojit sekundár transformátoru proudu? Co se musí udělat před odpojením ampérmetru?
 1. Proč se nesmí zkratovat sekundár transformátoru napětí a čím se chrání?
-1. Co znamená třída přesnosti 0,5 a co označení 5P20?
+
 
 ### [Zpět na obsah](../README.md)
