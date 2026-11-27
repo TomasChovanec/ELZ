@@ -224,6 +224,5 @@ Typicky je $$u_k$$ 4 až 6 % u distribučních transformátorů. Napětí nakrá
 1. Která veličina je nulová ve stavu naprázdno? Jak se tím zjednoduší rovnice?
 1. Proč při měření naprázdno považujeme celý příkon za ztráty v železe?
 1. Proč nemůžeme měřit nakrátko při jmenovitém napětí? Co je napětí nakrátko?
-1. Co je trojúhelník nakrátko a kde ho najdeme ve fázorovém diagramu při zatížení?
 
 ### [Zpět na obsah](../README.md)
