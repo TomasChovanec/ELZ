@@ -194,18 +194,6 @@ $$
 
 **2. Co zmizí:** příčnou větev můžeme vynechat. Zbudou jen podélné prvky obou vinutí, kterými teče stejný proud.
 
-**3. Zbylé rovnice:** dosadíme rovnici b) do a). Úbytky obou vinutí se sečtou:
-
-$$
-\large \Delta\overline{U}_{R1} + \Delta\overline{U}_{X\sigma1} + \Delta\overline{U}_{R2}' + \Delta\overline{U}_{X\sigma2}' = \overline{U}_k
-$$
-
-Úbytky na odporech i na reaktancích obou vinutí můžeme spojit do dvou:
-
-$$
-\large \Delta\overline{U}_{Rk} + \Delta\overline{U}_{Xk} = \overline{U}_k
-$$
-
 **Co nám dá měření nakrátko:** příkon se spotřebuje ve vinutí, protože jádro je při malém napětí skoro bez ztrát:
 
 $$
