@@ -206,17 +206,6 @@ $$
 \large \Delta\overline{U}_{Rk} + \Delta\overline{U}_{Xk} = \overline{U}_k
 $$
 
-**4. Fázorový diagram – postup kreslení:**
-
-1. Fázor proudu $$\overline{I}_k$$ nakreslíme vodorovně.
-2. $$\Delta\overline{U}_{Rk}$$ kreslíme **ve fázi** s proudem (vodorovně).
-3. Na jeho konec navážeme $$\Delta\overline{U}_{Xk}$$ **kolmo nahoru** (o 90° napřed).
-4. $$\overline{U}_k$$ vede od počátku ke konci, je to **přepona pravoúhlého trojúhelníku**.
-
-<img width="560" alt="Fázorový diagram nakrátko – trojúhelník nakrátko" src="../files/trafo_fazor_nakratko.svg" />
-
-Tomuto trojúhelníku se říká **trojúhelník nakrátko**. Uvidíme ho znovu ve stavu při zatížení.
-
 **Co nám dá měření nakrátko:** příkon se spotřebuje ve vinutí, protože jádro je při malém napětí skoro bez ztrát:
 
 $$
