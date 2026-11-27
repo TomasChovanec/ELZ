@@ -58,7 +58,6 @@ Autotransformátor tedy může mít velikost běžného transformátoru o výkon
 |---|---|
 | menší spotřeba mědi a železa, menší rozměry, hmotnost a cena | **chybí galvanické oddělení**: při přerušení společné části se na výstup dostane plné vstupní napětí |
 | menší ztráty, vyšší účinnost | menší napětí nakrátko, tedy **větší zkratové proudy** |
-| vyplatí se hlavně při převodu blízkém 1 (do asi 1 : 3) | nesmí se použít jako oddělovací ani bezpečnostní transformátor |
 
 **Použití:**
 
