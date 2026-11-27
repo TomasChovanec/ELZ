@@ -240,8 +240,8 @@ Typicky je $$u_k$$ 4 až 6 % u distribučních transformátorů. Napětí nakrá
 |---|---|---|---|
 | sekundár | rozpojený | zkratovaný | připojena zátěž |
 | co je nulové | $$\overline{I}_2' = 0$$ | $$\overline{U}_2' = 0$$, $$\overline{I}_0 \approx 0$$ | nic |
-| co zanedbáme | úbytky na primáru | příčnou větev (jádro) | příčnou větev přesuneme na vstup |
-| co zjistíme | převod, ztráty v železe | $$u_k$$, ztráty ve vinutí | úbytek napětí, účinnost |
+| co zanedbáme | úbytky na primáru | příčnou větev (jádro) | nic |
+| co dokážeme spočítat | převod, ztráty v železe | $$u_k$$, ztráty ve vinutí | úbytek napětí, účinnost |
 
 ## Kontrolní otázky
 
@@ -254,6 +254,5 @@ Typicky je $$u_k$$ 4 až 6 % u distribučních transformátorů. Napětí nakrá
 1. Proč při měření naprázdno považujeme celý příkon za ztráty v železe?
 1. Proč nemůžeme měřit nakrátko při jmenovitém napětí? Co je napětí nakrátko?
 1. Co je trojúhelník nakrátko a kde ho najdeme ve fázorovém diagramu při zatížení?
-1. Proč při induktivní zátěži klesá výstupní napětí víc než při odporové? Co se může stát při kapacitní zátěži?
 
 ### [Zpět na obsah](../README.md)
